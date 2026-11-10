@@ -1,0 +1,168 @@
+{
+ "notebook": "Sepsis_Offline_RL_v4_final_run.ipynb",
+ "theorem_checks": {
+  "values_outside_value_range": 0,
+  "lower_bound_violations_true_rows": 0,
+  "negative_width_true_rows": 0,
+  "negative_width_bench": 0,
+  "nonzero_width_admissible": 0,
+  "width_above_bound": 0,
+  "negative_point_width_bootstrap": 0,
+  "passes": true
+ },
+ "v3_driver": {
+  "status": "run",
+  "code_hash": "7d1999de9fa3ea966bfd5e6eeb20c8934842631ca6fa5cf6dd35c9cd598ed95b",
+  "cells": 6,
+  "draws": 180,
+  "draws_computed": 180,
+  "draws_loaded": 0,
+  "elapsed_s": 7832.486153899983,
+  "rows": 107940,
+  "cell_draws": 180,
+  "policies_per_family": {
+   "garnet": 110,
+   "gumbel": 110
+  },
+  "improper_rows": 1291,
+  "reference_solver_counts": {
+   "vi": 1560
+  },
+  "normalisation_denominator_below_1e-9": 0,
+  "normalisation_denominator_missing": 0,
+  "draws_complete": true,
+  "max_max_slack_vs_optimum": 6.938893903907228e-17,
+  "max_max_slack_vs_admissible_optimum": 4.163336342344337e-17,
+  "max_projection_identity_worst": 1.3211193108899268e-15,
+  "nonconverged_records": 0
+ },
+ "v3_code_hash": "7d1999de9fa3ea96",
+ "part2_code_hash": "8da6dc7927e0350f",
+ "bootstrap_summary": {
+  "status": "run",
+  "code_hash": "ae670f3050f75506c2198a41c93f6fc3a74284b524e8157fa5446a92db862313",
+  "cells": [
+   "gumbel|best|n2000|tau5|eps0.05",
+   "gumbel|best|n10000|tau20|eps0.05",
+   "gumbel|best|n10000|tau20|eps0.05|phys-withhold-vaso",
+   "garnet|h-0.5|eps0.05",
+   "garnet|h0.0|eps0.05",
+   "garnet|h0.5|eps0.05",
+   "garnet|h1.0|eps0.05"
+  ],
+  "draws": 210,
+  "draws_computed": 210,
+  "draws_loaded": 0,
+  "elapsed_s": 2690.142988000007,
+  "rows": 241500,
+  "nonok_rows_by_target": {
+   "bench_mean": 61,
+   "bench_terminate": 61
+  },
+  "fallback_pairs_total": 712,
+  "draws_with_trap_replicate": 21,
+  "max_width_minus_bound": 3.3306690738754696e-16,
+  "max_rule_p_difference": 0.0,
+  "draws_complete": true,
+  "cells_skipped": [],
+  "point_check": {
+   "status": "compared",
+   "rows": 31500,
+   "missing_in_xresults": 0,
+   "max_abs_diff": 0.0,
+   "rows_above_tol": 0,
+   "tolerance": 1e-09,
+   "max_abs_diff_by_target": {
+    "bench_mean": 0.0,
+    "bench_terminate": 0.0,
+    "true": 0.0
+   },
+   "match": true
+  }
+ },
+ "harm_curves_status": {
+  "status": "run",
+  "passes": true,
+  "part1_policies": 73,
+  "part2_policies": 50
+ },
+ "selection_m04": {
+  "evaluations_skipped": 54,
+  "skipped_mean": 27,
+  "skipped_terminate": 27,
+  "skip_reason": [
+   "Singular Bellman system: improper / non-absorbing policy under gamma=1."
+  ],
+  "selected_tables_empty": 2
+ },
+ "revision_gate": {
+  "switches": {
+   "xenv_v3_physicians": true,
+   "xenv_v3_aggregated": true,
+   "xenv_v3_garnet_random": true,
+   "xenv_v3_bootstrap": true,
+   "xenv_v3_icu_harm": true
+  },
+  "result_rows": 107940,
+  "draws_complete": true,
+  "stats_passes": true,
+  "rev_checks": {
+   "REV-1": true,
+   "REV-2": true,
+   "REV-3": true
+  }
+ },
+ "part2_gate": {
+  "switches": {
+   "xenv_theory": true,
+   "xenv_frontiers": true,
+   "xenv_icu": true,
+   "xenv_gumbel": true,
+   "xenv_garnet": true,
+   "xenv_tabular_crosscheck": true,
+   "xenv_v3_physicians": true,
+   "xenv_v3_aggregated": true,
+   "xenv_v3_garnet_random": true,
+   "xenv_v3_bootstrap": true,
+   "xenv_v3_icu_harm": true,
+   "xenv_v4_revision_robust": true,
+   "xenv_v4_confidence": true,
+   "xenv_v4_bootstrap": false,
+   "xenv_v4_sensitivity": true,
+   "xenv_v4_lift": false,
+   "xenv_v4_clean_check": false
+  },
+  "families_run": [
+   "icu",
+   "gumbel",
+   "garnet"
+  ],
+  "propositions_ok": true,
+  "frontiers_ok": true,
+  "icu_adapter_ok": true,
+  "gumbel_exactness_ok": true,
+  "gumbel_provenance": "verified",
+  "result_rows": 313770,
+  "improper_rows": 10252,
+  "draws_complete": true,
+  "xenv_done": true
+ },
+ "icu_fqe_dev_improper": {
+  "rows": 5500,
+  "improper": 5044
+ },
+ "all_structural_checks_passed": true,
+ "compute": {
+  "total_h": 49.14,
+  "sessions": 1,
+  "part1_h": 22.62,
+  "part2_h": 26.52,
+  "v3_draws_h": 2.16,
+  "v3_bootstrap_h": 0.73
+ },
+ "handoff_missing_evidence": false,
+ "prereg_status": [
+  "DRAFT - lock (set status to LOCKED with ",
+  "DRAFT - lock (set status to LOCKED with "
+ ]
+}

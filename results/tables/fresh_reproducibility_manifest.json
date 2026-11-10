@@ -1,0 +1,743 @@
+{
+  "implementation": "revised-audit-complete",
+  "run_mode": "paper",
+  "root": "D:\\user1\\sepsis\\sepsis_clean_run\\paper",
+  "benchmark": {
+    "env_id": "Sepsis/ICU-Sepsis-v2",
+    "icu_sepsis": "2.0.1",
+    "assets_hash": "c65cfbb32db1356a5dbc0e12045328cf42eadd3973c7f637144d58789c24c9cd"
+  },
+  "dataset": "offline_clinician_10000eps_seed2026_max100_3ebfe2f9df.npz",
+  "dataset_content_sha256": "cc47d12527a3dbc89820ef957182e06922cc63645016fd8c1e83e9589f913e4b",
+  "policies_registered": 424,
+  "policy_seed_pairs_evaluated": 1748,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "compute_profile": "full",
+  "run_profile": {
+    "run_mode": "paper",
+    "compute_profile": "full",
+    "main_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "ablation_seeds": [
+      0,
+      1,
+      2
+    ],
+    "replication_dataset_seeds": [
+      2026,
+      2027,
+      2028,
+      2029,
+      2030,
+      2031,
+      2032,
+      2033
+    ],
+    "replication_train_seeds": [
+      0,
+      1
+    ],
+    "min_two_sided_signflip_p_main_seeds": 0.001953125,
+    "min_two_sided_signflip_p_dataset_level": 0.0078125,
+    "paper_scale": true
+  },
+  "compute_logged": {
+    "total_hours": 49.140199656777725,
+    "sessions": 1,
+    "cells_logged": 70,
+    "cells_without_timing": 1,
+    "unparseable_log_lines": 0,
+    "gpus": [
+      "NVIDIA GeForce RTX 4070 Ti SUPER"
+    ],
+    "current_gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "hours_by_part": {
+      "Part I": 22.61819787536106,
+      "Part II": 26.52200178141667
+    },
+    "scope": "cells logged before Section 33 in this ROOT (all sessions, re-runs included)",
+    "part2_draw_compute_h": 8.32816640097221,
+    "part2_draws_with_timing": 500,
+    "part2_v3_draw_compute_h": 2.164004983138794,
+    "part2_v3_draws_with_timing": 180,
+    "part2_v3_bootstrap_draw_compute_h": 0.7337167885554825,
+    "part2_v3_bootstrap_draws_with_timing": 210,
+    "part2_v4_confidence_draw_compute_h": 0.7298920232776921,
+    "part2_v4_confidence_draws_with_timing": 210,
+    "part2_v4_bootstrap_draw_compute_h": 0.0,
+    "part2_v4_bootstrap_draws_with_timing": 0,
+    "part2_v4_sensitivity_draw_compute_h": 13.860731284333273,
+    "part2_v4_sensitivity_draws_with_timing": 510,
+    "part2_v4_lift_draw_compute_h": 0.0,
+    "part2_v4_lift_draws_with_timing": 0,
+    "part2_v4_clean_draw_compute_h": 0.0,
+    "part2_v4_clean_draws_with_timing": 0
+  },
+  "runtime": {
+    "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "matplotlib": "3.10.0",
+    "gymnasium": "1.3.0",
+    "icu_sepsis": "2.0.1",
+    "in_colab": false,
+    "session_start_utc": "2026-11-05T20:35:28+00:00",
+    "run_mode": "paper",
+    "compute_profile": "full"
+  },
+  "experiments": {
+    "legacy_artifact_replay": true,
+    "reproducibility_tests": true,
+    "env_semantics_tests": true,
+    "monte_carlo_crosscheck": true,
+    "main_tabular": true,
+    "main_neural_critics": true,
+    "main_policy_nets": true,
+    "main_diffusion": true,
+    "inference_ablations": true,
+    "critic_stability_ablations": true,
+    "include_discounted_ablation": false,
+    "soft_sensitivity": true,
+    "diffusion_schedule_ablation": true,
+    "support_estimation": true,
+    "selection_protocol": true,
+    "replication": true,
+    "replication_include_neural": true,
+    "data_regimes": true,
+    "mdp_stress_tests": true,
+    "representation_ablation": true,
+    "release_package": true,
+    "xenv_theory": true,
+    "xenv_frontiers": true,
+    "xenv_icu": true,
+    "xenv_gumbel": true,
+    "xenv_garnet": true,
+    "xenv_tabular_crosscheck": true,
+    "xenv_v3_physicians": true,
+    "xenv_v3_aggregated": true,
+    "xenv_v3_garnet_random": true,
+    "xenv_v3_bootstrap": true,
+    "xenv_v3_icu_harm": true,
+    "xenv_v4_revision_robust": true,
+    "xenv_v4_confidence": true,
+    "xenv_v4_bootstrap": false,
+    "xenv_v4_sensitivity": true,
+    "xenv_v4_lift": false,
+    "xenv_v4_clean_check": false
+  },
+  "prereg_hash": "68724ea59579d58bdf32d2512ed019c4fc2d48593386aa8f6988352d1c1d56b5",
+  "checkpoints_written_this_session": 319,
+  "checkpoints_loaded_from_earlier_sessions": 0,
+  "xenv": {
+    "switches": {
+      "xenv_theory": true,
+      "xenv_frontiers": true,
+      "xenv_icu": true,
+      "xenv_gumbel": true,
+      "xenv_garnet": true,
+      "xenv_tabular_crosscheck": true,
+      "xenv_v3_physicians": true,
+      "xenv_v3_aggregated": true,
+      "xenv_v3_garnet_random": true,
+      "xenv_v3_bootstrap": true,
+      "xenv_v3_icu_harm": true,
+      "xenv_v4_revision_robust": true,
+      "xenv_v4_confidence": true,
+      "xenv_v4_bootstrap": false,
+      "xenv_v4_sensitivity": true,
+      "xenv_v4_lift": false,
+      "xenv_v4_clean_check": false
+    },
+    "families_run": [
+      "icu",
+      "gumbel",
+      "garnet"
+    ],
+    "propositions_ok": true,
+    "frontiers_ok": true,
+    "icu_adapter_ok": true,
+    "gumbel_exactness_ok": true,
+    "gumbel_provenance": "verified",
+    "result_rows": 313770,
+    "improper_rows": 10252,
+    "improper_by_family_target": [
+      {
+        "family": "garnet",
+        "target": "bench_mean",
+        "rows": 27120,
+        "improper": 0
+      },
+      {
+        "family": "garnet",
+        "target": "bench_terminate",
+        "rows": 27120,
+        "improper": 0
+      },
+      {
+        "family": "garnet",
+        "target": "fqe_dev",
+        "rows": 26400,
+        "improper": 1833
+      },
+      {
+        "family": "garnet",
+        "target": "true",
+        "rows": 27120,
+        "improper": 0
+      },
+      {
+        "family": "garnet",
+        "target": "true_rows_mean",
+        "rows": 27120,
+        "improper": 0
+      },
+      {
+        "family": "garnet",
+        "target": "true_rows_terminate",
+        "rows": 27120,
+        "improper": 0
+      },
+      {
+        "family": "gumbel",
+        "target": "bench_mean",
+        "rows": 23730,
+        "improper": 0
+      },
+      {
+        "family": "gumbel",
+        "target": "bench_terminate",
+        "rows": 23730,
+        "improper": 0
+      },
+      {
+        "family": "gumbel",
+        "target": "fqe_dev",
+        "rows": 23100,
+        "improper": 3375
+      },
+      {
+        "family": "gumbel",
+        "target": "true",
+        "rows": 23730,
+        "improper": 0
+      },
+      {
+        "family": "gumbel",
+        "target": "true_rows_mean",
+        "rows": 20340,
+        "improper": 0
+      },
+      {
+        "family": "gumbel",
+        "target": "true_rows_terminate",
+        "rows": 20340,
+        "improper": 0
+      },
+      {
+        "family": "icu",
+        "target": "bench_mean",
+        "rows": 5650,
+        "improper": 0
+      },
+      {
+        "family": "icu",
+        "target": "bench_terminate",
+        "rows": 5650,
+        "improper": 0
+      },
+      {
+        "family": "icu",
+        "target": "fqe_dev",
+        "rows": 5500,
+        "improper": 5044
+      }
+    ],
+    "draws_per_cell": [
+      {
+        "family": "garnet",
+        "cell": "garnet|h-0.5|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h-0.5|eps0.3",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h0.0|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h0.0|eps0.3",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h0.5|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h0.5|eps0.3",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h1.0|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "garnet",
+        "cell": "garnet|h1.0|eps0.3",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|best|n10000|tau20|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|best|n10000|tau20|eps0.05|phys-withhold-vaso",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|best|n10000|tau20|eps0.2",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|best|n10000|tau5|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|best|n2000|tau20|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|best|n2000|tau5|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "gumbel",
+        "cell": "gumbel|oracle|n10000|tau20|eps0.05",
+        "draws": 30,
+        "configured_draws": 30
+      },
+      {
+        "family": "icu",
+        "cell": "icu|released",
+        "draws": 50,
+        "configured_draws": 50
+      }
+    ],
+    "draws_complete": true,
+    "xenv_done": true,
+    "config": {
+      "icu_draws": 50,
+      "gumbel_draws": 30,
+      "garnet_draws": 30,
+      "icu_user_episodes": 10000,
+      "gumbel_user_episodes": 5000,
+      "garnet_user_episodes": 2000,
+      "max_steps": 100,
+      "dev_fraction": 0.2,
+      "gumbel_variant": "sim-v2",
+      "gumbel_timeout_hazard": 0.05,
+      "gumbel_cells": [
+        [
+          "best",
+          2000,
+          5,
+          0.05
+        ],
+        [
+          "best",
+          2000,
+          20,
+          0.05
+        ],
+        [
+          "best",
+          10000,
+          5,
+          0.05
+        ],
+        [
+          "best",
+          10000,
+          20,
+          0.05
+        ],
+        [
+          "best",
+          10000,
+          20,
+          0.2
+        ],
+        [
+          "best",
+          10000,
+          20,
+          0.05,
+          "withhold-vaso"
+        ],
+        [
+          "oracle",
+          10000,
+          20,
+          0.05
+        ]
+      ],
+      "gumbel_mc_pairs": 300,
+      "gumbel_mc_draws": 4000,
+      "garnet_states": 150,
+      "garnet_actions": 8,
+      "garnet_branching": 4,
+      "garnet_hazard": [
+        0.05,
+        0.2
+      ],
+      "garnet_harm": [
+        -0.5,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "garnet_behavior_eps": [
+        0.05,
+        0.3
+      ],
+      "garnet_hosp_episodes": 5000,
+      "garnet_tau": 5,
+      "benchmark_empty_rule": "icu",
+      "cql_alpha_grid": [
+        0.3,
+        1.0,
+        3.0
+      ],
+      "cql_alpha_default": 1.0,
+      "cql_steps": 10000,
+      "cql_lr": 0.02,
+      "cql_target_every": 25,
+      "cql_converged_tol": 0.005,
+      "iql_expectile_grid": [
+        0.6,
+        0.7,
+        0.9
+      ],
+      "iql_expectile_default": 0.7,
+      "iql_beta": 3.0,
+      "iql_max_weight": 100.0,
+      "bcq_tau_grid": [
+        0.1,
+        0.3,
+        0.5
+      ],
+      "bcq_tau_default": 0.3,
+      "lcb_c_grid": [
+        0.03,
+        0.1,
+        0.3
+      ],
+      "lcb_c_default": 0.1,
+      "mbsqi_b_grid": [
+        1,
+        5,
+        20
+      ],
+      "mbsqi_b_default": 5,
+      "spibb_n_grid": [
+        5,
+        20,
+        50
+      ],
+      "spibb_n_default": 20,
+      "lagrange_kappa_grid": [
+        0.0,
+        0.01,
+        0.05
+      ],
+      "lagrange_kappa_default": 0.0,
+      "mblp_kappa_grid": [
+        0.0,
+        0.01,
+        0.05
+      ],
+      "mblp_kappa_default": 0.0,
+      "sfbc_alpha_grid": [
+        1.0,
+        3.0,
+        10.0
+      ],
+      "sfbc_alpha_default": 3.0,
+      "diffusion_guidance_grid": [
+        0.5,
+        1.5,
+        3.0
+      ],
+      "diffusion_guidance_default": 1.5,
+      "max_iterations": 20000,
+      "tol": 1e-10,
+      "frontier_kappas": [
+        0.0,
+        0.003,
+        0.01,
+        0.03,
+        0.1,
+        0.3,
+        1.0,
+        null
+      ],
+      "bootstrap": 5000,
+      "equivalence_margin_normalized": 0.05
+    },
+    "prereg_hash": "d012354fffeef4cc386db9088ad58890aad56ec185a95b507a6856afa16f5c66",
+    "code_hash": "8da6dc7927e0350ffa1cf685ed34649e7d34758161a98f8aea9ad344dc5b4b9f",
+    "cells": 16,
+    "cell_draws_evaluated": 500,
+    "xcache_written_this_session": 1613,
+    "xcache_loaded_from_earlier_sessions": 0,
+    "mt_checks": {
+      "MT-1": true,
+      "MT-2": true,
+      "MT-3": true,
+      "MT-4": true,
+      "MT-5": true,
+      "MT-5 components": {
+        "paper_scale_design": true,
+        "primary_pairs_ge_10": true,
+        "replication_datasets_ge_8": true,
+        "part2_draws_complete": true,
+        "all_part2_families_run": true,
+        "all_cells_present": true,
+        "part2_design_as_preregistered": true
+      }
+    },
+    "v3": {
+      "switches": {
+        "xenv_v3_physicians": true,
+        "xenv_v3_aggregated": true,
+        "xenv_v3_garnet_random": true,
+        "xenv_v3_bootstrap": true,
+        "xenv_v3_icu_harm": true
+      },
+      "environment_checks_ok": true,
+      "result_rows": 107940,
+      "code_hash": "7d1999de9fa3ea966bfd5e6eeb20c8934842631ca6fa5cf6dd35c9cd598ed95b",
+      "draws_complete": true,
+      "draws_per_cell": {
+        "gumbel|best|n10000|tau20|eps0.05|phys-confounded": {
+          "draws": 30,
+          "configured_draws": 30
+        },
+        "gumbel|best|n10000|tau20|eps0.05|phys-withhold-abx": {
+          "draws": 30,
+          "configured_draws": 30
+        },
+        "gumbel|agg-obs|n10000|tau20|eps0.05": {
+          "draws": 30,
+          "configured_draws": 30
+        },
+        "gumbel|agg-proj|n10000|tau20|eps0.05": {
+          "draws": 30,
+          "configured_draws": 30
+        },
+        "garnet|hrand|eps0.05": {
+          "draws": 30,
+          "configured_draws": 30
+        },
+        "garnet|hrand|eps0.3": {
+          "draws": 30,
+          "configured_draws": 30
+        }
+      },
+      "improper_rows": 1291,
+      "stats_done": {
+        "cells": true,
+        "bootstrap": true
+      },
+      "theorem_counts": {
+        "values_outside_value_range": 0,
+        "lower_bound_violations_true_rows": 0,
+        "negative_width_true_rows": 0,
+        "negative_width_bench": 0,
+        "nonzero_width_admissible": 0,
+        "width_above_bound": 0,
+        "negative_point_width_bootstrap": 0
+      },
+      "stats_passes": true,
+      "bootstrap": {
+        "status": "run",
+        "cells": [
+          "gumbel|best|n2000|tau5|eps0.05",
+          "gumbel|best|n10000|tau20|eps0.05",
+          "gumbel|best|n10000|tau20|eps0.05|phys-withhold-vaso",
+          "garnet|h-0.5|eps0.05",
+          "garnet|h0.0|eps0.05",
+          "garnet|h0.5|eps0.05",
+          "garnet|h1.0|eps0.05"
+        ],
+        "cells_skipped": [],
+        "draws": 210,
+        "draws_complete": true,
+        "fallback_pairs_total": 712,
+        "draws_with_trap_replicate": 21,
+        "max_width_minus_bound": 3.3306690738754696e-16,
+        "code_hash": "ae670f3050f75506c2198a41c93f6fc3a74284b524e8157fa5446a92db862313"
+      },
+      "bootstrap_policies_match_xresults": true,
+      "icu_harm": {
+        "status": "run",
+        "passes": true,
+        "part1_policies": 73,
+        "part2_policies": 50,
+        "endpoints_part1_vs_RESULTS": {
+          "rows": 146,
+          "missing_reference": 0,
+          "nonok_curve_rows": 0,
+          "max_abs_diff": 0.0,
+          "rows_above_tol": 0,
+          "status": "compared"
+        },
+        "endpoints_part2_vs_XRESULTS": {
+          "rows": 100,
+          "missing_reference": 0,
+          "nonok_curve_rows": 0,
+          "max_abs_diff": 0.0,
+          "rows_above_tol": 0,
+          "status": "compared"
+        }
+      },
+      "rev_checks": {
+        "REV-1": true,
+        "REV-2": true,
+        "REV-3": true
+      }
+    },
+    "v4": {
+      "switches": {
+        "xenv_v4_revision_robust": true,
+        "xenv_v4_confidence": true,
+        "xenv_v4_bootstrap": false,
+        "xenv_v4_sensitivity": true,
+        "xenv_v4_lift": false,
+        "xenv_v4_clean_check": false
+      },
+      "stats_status": "run | switched off: II.9d, II.9f, II.9g",
+      "stats_passes": true,
+      "subsections": {
+        "II.9b": {
+          "enabled": true,
+          "status": "run",
+          "ran": true,
+          "draws_complete": true,
+          "invariants_pass": true,
+          "code_hash": "c830af95f881c078bb456fcb33c6c738234840755bd89c1811495d4bf59bdfa8"
+        },
+        "II.9c": {
+          "enabled": true,
+          "status": "run",
+          "ran": true,
+          "draws_complete": true,
+          "invariants_pass": true,
+          "code_hash": "7710e20ab4b1cf8cbbfd42dafe28f5618d587479cdc85153d3976298231822cb"
+        },
+        "II.9d": {
+          "enabled": false,
+          "status": "switched off (xenv_v4_bootstrap = False)",
+          "ran": false,
+          "draws_complete": null,
+          "invariants_pass": null,
+          "code_hash": null
+        },
+        "II.9e": {
+          "enabled": true,
+          "status": "run",
+          "ran": true,
+          "draws_complete": true,
+          "invariants_pass": true,
+          "code_hash": "8ab0d1697ef3d43368d995125824b47e5ac7263d27eaf8cd096e6142c43c8ad4"
+        },
+        "II.9f": {
+          "enabled": false,
+          "status": "switched off (xenv_v4_lift = False)",
+          "ran": false,
+          "draws_complete": null,
+          "invariants_pass": null,
+          "code_hash": null
+        },
+        "II.9g": {
+          "enabled": false,
+          "status": "switched off (xenv_v4_clean_check = False)",
+          "ran": false,
+          "draws_complete": null,
+          "invariants_pass": null,
+          "code_hash": null
+        }
+      },
+      "clean_check": {
+        "status": "not run (xenv_v4_clean_check off)",
+        "pass": null,
+        "bitwise_identical": null,
+        "criteria": {},
+        "failing_draws_total": null
+      },
+      "stats_code_hash": "4e9c09966cf3e30f6621a998fa215395c6570b33461933709c83a8abbe00a9a8",
+      "rev_checks": {
+        "REV-4": true,
+        "REV-5": true,
+        "REV-6": null,
+        "REV-7": true,
+        "REV-8": null,
+        "REV-9": null
+      }
+    }
+  },
+  "finished_utc": "2026-11-07T21:44:04+00:00"
+}

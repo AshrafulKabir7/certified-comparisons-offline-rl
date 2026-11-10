@@ -1,0 +1,21 @@
+method,family,variants,information_used,mask_use,hyperparameter,grid,default,reference
+BC (stochastic),behaviour,native,"logged (s, a) counts",none,,,,behaviour cloning (empirical MLE)
+BC,behaviour,"native, masked","logged (s, a) counts",extraction (masked),,,,behaviour cloning (empirical MLE)
+Uniform-admissible,behaviour,native,admissible mask only,definition,,,,trivial admissible baseline
+CQL,value,"native, masked","empirical model (counts, P̂, r̂)",extraction (masked),alpha,"0.3, 1.0, 3.0",1.0,Kumar et al. 2020 (NeurIPS)
+IQL,value,"native, masked","empirical model (counts, P̂, r̂)",extraction (masked),expectile,"0.6, 0.7, 0.9",0.7,Kostrikov et al. 2022 (ICLR)
+IQL (AW stochastic),value,native,"empirical model (counts, P̂, r̂)",none,expectile (fixed),,0.7,Kostrikov et al. 2022 (ICLR)
+BCQ,pessimistic,"native, masked","empirical model (counts, P̂, r̂) + behaviour ratio",extraction (masked),tau,"0.1, 0.3, 0.5",0.3,Fujimoto et al. 2019 (discrete BCQ)
+VI-LCB,pessimistic,"native, masked","empirical model (counts, P̂, r̂) + value range",extraction (masked),c,"0.03, 0.1, 0.3",0.1,Rashidinejad et al. 2021 (NeurIPS); Jin et al. 2021 (PEVI)
+MBS-QI,pessimistic,"native, masked","empirical model (counts, P̂, r̂)",extraction (masked),b,"1, 5, 20",5,Liu et al. 2020 (NeurIPS)
+SPIBB,pessimistic,native (stochastic),"empirical model (counts, P̂, r̂) + behaviour policy",none (projected by the driver),N_wedge,"5, 20, 50",20,Laroche et al. 2019 (ICML)
+Lagrangian-MB,constrained,native,"empirical model (counts, P̂, r̂) + pessimistic completion + d̂0 + mask cost",constraint (expected violations),kappa,"0.0, 0.01, 0.05",0.0,"Altman 1999; Le, Voloshin & Yue 2019 (Batch Policy Learning under Constraints, ICML); Tessler et al. 2019 (RCPO)"
+CMDP-LP (model),constrained,native,"empirical model (counts, P̂, r̂) + pessimistic completion + d̂0 + mask cost",constraint (expected violations),kappa,"0.0, 0.01, 0.05",0.0,"Altman 1999; COptiDICE (Lee et al. 2022, ICLR)"
+SfBC (exact),guided-prior,"native, masked","empirical model (counts, P̂, r̂) + behaviour prior",extraction (masked),alpha,"1.0, 3.0, 10.0",3.0,Chen et al. 2023 (ICLR)
+"SfBC (exact, argmax)",guided-prior,native,"empirical model (counts, P̂, r̂) + behaviour prior",none,alpha,"1.0, 3.0, 10.0",3.0,Chen et al. 2023 (ICLR)
+IDQL (exact),guided-prior,"native, masked","empirical model (counts, P̂, r̂) + behaviour prior",extraction (masked),expectile (fixed),,0.7,Hansen-Estruch et al. 2023
+FISOR-tab (exact),constrained,native,"empirical model (counts, P̂, r̂) + behaviour prior + mask",critic support + extraction,alpha,"1.0, 3.0, 10.0",3.0,Zheng et al. 2024 (ICLR)
+"Diffusion (exact, unguided)",diffusion,native,behaviour prior (exact Bayes denoiser),inference (every reverse step),,,,Austin et al. 2021 (D3PM); Part I Section 12
+"Diffusion (exact, guided)",diffusion,native,behaviour prior + IQL critic,inference (every reverse step),guidance g,"0.5, 1.5, 3.0",1.5,Dhariwal & Nichol 2021 (guidance); Part I Section 12
+"Diffusion (exact, final-only)",diffusion,native,behaviour prior + IQL critic,inference (every reverse step); guidance at the final step only,guidance g (fixed),,1.5,Part I Section 12
+"Diffusion (exact, unmasked)",diffusion,native (stochastic),behaviour prior (exact Bayes denoiser),none,,,,Proposition P7 control

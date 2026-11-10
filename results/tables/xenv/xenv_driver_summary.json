@@ -1,0 +1,32 @@
+{
+  "code_hash": "8da6dc7927e0350ffa1cf685ed34649e7d34758161a98f8aea9ad344dc5b4b9f",
+  "cells": 16,
+  "draws": 500,
+  "draws_computed": 500,
+  "draws_loaded": 0,
+  "elapsed_s": 30111.24405050004,
+  "xcache_written": 500,
+  "xcache_loaded": 0,
+  "rows": 313770,
+  "cell_draws": 500,
+  "policies_per_family": {
+    "garnet": 110,
+    "gumbel": 110,
+    "icu": 110
+  },
+  "improper_rows": 10252,
+  "improper_by_family_target": {
+    "garnet|fqe_dev": 1833,
+    "gumbel|fqe_dev": 3375,
+    "icu|fqe_dev": 5044
+  },
+  "reference_solver_counts": {
+    "vi": 4580
+  },
+  "normalisation_denominator_below_1e-9": 8,
+  "normalisation_denominator_missing": 0,
+  "max_max_slack_vs_optimum": 3.885780586188048e-16,
+  "max_max_slack_vs_admissible_optimum": 3.3306690738754696e-16,
+  "max_projection_identity_worst": 1.359528081003482e-15,
+  "nonconverged_records": 186
+}

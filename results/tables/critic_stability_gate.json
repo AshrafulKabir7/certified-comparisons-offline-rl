@@ -1,0 +1,17 @@
+{
+  "primary_critic": "hard_admrows",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "stable_on_all_seeds": false,
+  "criterion": "max|Q_adm| <= 5.0, growth <= 1.5x, TD-objective Bellman RMSE <= 1"
+}

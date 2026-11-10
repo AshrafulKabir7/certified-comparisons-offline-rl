@@ -1,0 +1,289 @@
+seed,a,b,diff,treatment,comparator,rule,dataset
+0,0.7841292773379572,0.7824176282517885,0.0017116490861687206,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2026
+1,0.7849268364523933,0.7846283585457484,0.000298477906644834,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2026
+0,0.7819802388351117,0.7863083693873537,-0.0043281305522420155,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2027
+1,0.7831781206170849,0.7840158035368067,-0.0008376829197217495,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2027
+0,0.7823959532791733,0.7825919620323746,-0.0001960087532012489,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2028
+1,0.7822332382104141,0.7832252448744997,-0.0009920066640856096,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2028
+0,0.7845623916691185,0.7818510101775471,0.002711381491571352,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2029
+1,0.7824546266608573,0.7816620136043781,0.0007926130564791523,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2029
+0,0.78424803536509,0.7826812006209822,0.0015668347441077923,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2030
+1,0.7838157373630006,0.7830124483594364,0.0008032890035641893,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2030
+0,0.783096062005649,0.7810848503570202,0.002011211648628719,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2031
+1,0.7842358384647476,0.7814201187667298,0.00281571969801786,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2031
+0,0.7890666031068174,0.7883870200909461,0.0006795830158713434,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2032
+1,0.787156144055458,0.7884918254535442,-0.0013356813980862636,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2032
+0,0.7837082340164047,0.7845135071697413,-0.0008052731533366719,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2033
+1,0.7798604597217611,0.7803948980916545,-0.0005344383698934196,Diffusion-AM-CQL [primary critic B],Tabular CQL,mean,2033
+0,0.7841292773379572,0.7647931681954205,0.019336109142536695,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2026
+1,0.7849268364523933,0.7638380337094224,0.02108880274297087,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2026
+0,0.7819802388351117,0.7545231564791762,0.02745708235593547,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2027
+1,0.7831781206170849,0.7666368826042409,0.016541238012844017,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2027
+0,0.7823959532791733,0.7574139797754055,0.02498197350376785,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2028
+1,0.7822332382104141,0.7653999182535228,0.0168333199568913,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2028
+0,0.7845623916691185,0.7526814181543328,0.03188097351478569,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2029
+1,0.7824546266608573,0.7562662401733222,0.026188386487535076,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2029
+0,0.78424803536509,0.7600675098823254,0.024180525482764614,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2030
+1,0.7838157373630006,0.7595760309883254,0.024239706374675207,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2030
+0,0.783096062005649,0.756144355860842,0.02695170614480691,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2031
+1,0.7842358384647476,0.7577746114511733,0.02646122701357434,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2031
+0,0.7890666031068174,0.7677929851603782,0.021273617946439227,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2032
+1,0.787156144055458,0.7506350222277662,0.03652112182769174,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2032
+0,0.7837082340164047,0.7504711328667815,0.033237101149623194,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2033
+1,0.7798604597217611,0.7615896293464891,0.018270830375271996,Diffusion-AM-CQL [primary critic B],Tabular CQL,terminate,2033
+0,0.7841292773379572,0.7826635466245334,0.0014657307134238184,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2026
+1,0.7849268364523933,0.785728049116779,-0.0008012126643857087,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2026
+0,0.7819802388351117,0.7867659649467199,-0.004785726111608213,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2027
+1,0.7831781206170849,0.7842234759366155,-0.0010453553195305387,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2027
+0,0.7823959532791733,0.7832248886206599,-0.0008289353414865364,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2028
+1,0.7822332382104141,0.7843269050677805,-0.0020936668573663386,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2028
+0,0.7845623916691185,0.7826287894828585,0.0019336021862599306,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2029
+1,0.7824546266608573,0.7814974506496795,0.0009571760111778405,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2029
+0,0.78424803536509,0.7831949481785248,0.0010530871865652713,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2030
+1,0.7838157373630006,0.7834053879123855,0.00041034945061513284,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2030
+0,0.783096062005649,0.7814320042059857,0.0016640577996632766,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2031
+1,0.7842358384647476,0.7819440414168005,0.0022917970479471306,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2031
+0,0.7890666031068174,0.7878574711650059,0.001209131941811492,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2032
+1,0.787156144055458,0.789839395449965,-0.0026832513945069802,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2032
+0,0.7837082340164047,0.7839053652745678,-0.00019713125816311905,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2033
+1,0.7798604597217611,0.7796639332888019,0.0001965264329591987,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],mean,2033
+0,0.7841292773379572,0.7826635466245334,0.0014657307134238184,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2026
+1,0.7849268364523933,0.785728049116779,-0.0008012126643857087,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2026
+0,0.7819802388351117,0.7867659649467199,-0.004785726111608213,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2027
+1,0.7831781206170849,0.7842234759366155,-0.0010453553195305387,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2027
+0,0.7823959532791733,0.7832248886206599,-0.0008289353414865364,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2028
+1,0.7822332382104141,0.7843269050677805,-0.0020936668573663386,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2028
+0,0.7845623916691185,0.7826287894828585,0.0019336021862599306,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2029
+1,0.7824546266608573,0.7814974506496795,0.0009571760111778405,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2029
+0,0.78424803536509,0.7831949481785248,0.0010530871865652713,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2030
+1,0.7838157373630006,0.7834053879123855,0.00041034945061513284,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2030
+0,0.783096062005649,0.7814320042059857,0.0016640577996632766,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2031
+1,0.7842358384647476,0.7819440414168005,0.0022917970479471306,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2031
+0,0.7890666031068174,0.7878574711650059,0.001209131941811492,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2032
+1,0.787156144055458,0.789839395449965,-0.0026832513945069802,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2032
+0,0.7837082340164047,0.7839053652745678,-0.00019713125816311905,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2033
+1,0.7798604597217611,0.7796639332888019,0.0001965264329591987,Diffusion-AM-CQL [primary critic B],Tabular CQL [masked greedy],terminate,2033
+0,0.7841292773379572,0.7912642321270867,-0.007134954789129511,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2026
+1,0.7849268364523933,0.7904472956170113,-0.0055204591646180745,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2026
+0,0.7819802388351117,0.7946891911826535,-0.012708952347541769,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2027
+1,0.7831781206170849,0.7927212154632668,-0.009543094846181877,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2027
+0,0.7823959532791733,0.7922244427088814,-0.009828489429708043,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2028
+1,0.7822332382104141,0.791653047451002,-0.009419809240587829,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2028
+0,0.7845623916691185,0.7873987263901574,-0.0028363347210389467,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2029
+1,0.7824546266608573,0.7881940272012904,-0.005739400540433093,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2029
+0,0.78424803536509,0.7903806301528918,-0.006132594787801815,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2030
+1,0.7838157373630006,0.7914883288281294,-0.007672591465128775,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2030
+0,0.783096062005649,0.79041176413,-0.0073157021243510645,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2031
+1,0.7842358384647476,0.7890167701652934,-0.004780931700545721,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2031
+0,0.7890666031068174,0.793503205865685,-0.004436602758867592,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2032
+1,0.787156144055458,0.7929915270627834,-0.005835383007325445,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2032
+0,0.7837082340164047,0.7894360451123071,-0.00572781109590248,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2033
+1,0.7798604597217611,0.7882353138354337,-0.008374854113672558,Diffusion-AM-CQL [primary critic B],Tabular IQL,mean,2033
+0,0.7841292773379572,0.7833132285397674,0.0008160487981898612,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2026
+1,0.7849268364523933,0.7807877674267102,0.004139069025683062,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2026
+0,0.7819802388351117,0.7855761481617566,-0.003595909326644886,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2027
+1,0.7831781206170849,0.7816538058662967,0.0015243147507881805,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2027
+0,0.7823959532791733,0.7801611268183054,0.0022348264608679225,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2028
+1,0.7822332382104141,0.7809142830690956,0.001318955141318523,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2028
+0,0.7845623916691185,0.7781071494915376,0.006455242177580867,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2029
+1,0.7824546266608573,0.7776094669087347,0.00484515975212263,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2029
+0,0.78424803536509,0.7815122234504607,0.002735811914629349,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2030
+1,0.7838157373630006,0.7790914311838086,0.0047243061791919505,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2030
+0,0.783096062005649,0.7673486116501673,0.01574745035548164,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2031
+1,0.7842358384647476,0.7715823291310683,0.01265350933367937,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2031
+0,0.7890666031068174,0.780749413838204,0.008317189268613467,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2032
+1,0.787156144055458,0.7799589060461576,0.0071972380093003885,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2032
+0,0.7837082340164047,0.7725098760821154,0.01119835793428925,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2033
+1,0.7798604597217611,0.774148502628518,0.005711957093243125,Diffusion-AM-CQL [primary critic B],Tabular IQL,terminate,2033
+0,0.7841292773379572,0.7914557991945803,-0.0073265218566230805,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2026
+1,0.7849268364523933,0.7910427651440979,-0.006115928691704631,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2026
+0,0.7819802388351117,0.7946046687108809,-0.012624429875769172,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2027
+1,0.7831781206170849,0.7929962281604612,-0.009818107543376309,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2027
+0,0.7823959532791733,0.7927235109548246,-0.0103275576756513,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2028
+1,0.7822332382104141,0.7916414134802691,-0.009408175269854935,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2028
+0,0.7845623916691185,0.7874732014645394,-0.00291080979542091,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2029
+1,0.7824546266608573,0.7883992817099637,-0.005944655049106351,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2029
+0,0.78424803536509,0.7903819004506094,-0.0061338650855193855,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2030
+1,0.7838157373630006,0.7914314382389145,-0.0076157008759139,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2030
+0,0.783096062005649,0.7903025911713683,-0.007206529165719289,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2031
+1,0.7842358384647476,0.7893674131267889,-0.005131574662041283,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2031
+0,0.7890666031068174,0.7936526247443576,-0.004586021637540183,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2032
+1,0.787156144055458,0.7933069285337392,-0.006150784478281213,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2032
+0,0.7837082340164047,0.7891489541349147,-0.005440720118510045,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2033
+1,0.7798604597217611,0.7883654444216766,-0.008504984699915452,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],mean,2033
+0,0.7841292773379572,0.7914557991945803,-0.0073265218566230805,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2026
+1,0.7849268364523933,0.7910427651440979,-0.006115928691704631,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2026
+0,0.7819802388351117,0.7946046687108809,-0.012624429875769172,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2027
+1,0.7831781206170849,0.7929962281604612,-0.009818107543376309,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2027
+0,0.7823959532791733,0.7927235109548246,-0.0103275576756513,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2028
+1,0.7822332382104141,0.7916414134802691,-0.009408175269854935,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2028
+0,0.7845623916691185,0.7874732014645394,-0.00291080979542091,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2029
+1,0.7824546266608573,0.7883992817099637,-0.005944655049106351,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2029
+0,0.78424803536509,0.7903819004506094,-0.0061338650855193855,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2030
+1,0.7838157373630006,0.7914314382389145,-0.0076157008759139,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2030
+0,0.783096062005649,0.7903025911713683,-0.007206529165719289,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2031
+1,0.7842358384647476,0.7893674131267889,-0.005131574662041283,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2031
+0,0.7890666031068174,0.7936526247443576,-0.004586021637540183,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2032
+1,0.787156144055458,0.7933069285337392,-0.006150784478281213,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2032
+0,0.7837082340164047,0.7891489541349147,-0.005440720118510045,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2033
+1,0.7798604597217611,0.7883654444216766,-0.008504984699915452,Diffusion-AM-CQL [primary critic B],Tabular IQL [masked greedy],terminate,2033
+0,0.7841292773379572,0.7912642321270867,-0.007134954789129511,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2026
+1,0.7849268364523933,0.7904472956170113,-0.0055204591646180745,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2026
+0,0.7819802388351117,0.7946891911826535,-0.012708952347541769,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2027
+1,0.7831781206170849,0.7927212154632668,-0.009543094846181877,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2027
+0,0.7823959532791733,0.7922244427088814,-0.009828489429708043,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2028
+1,0.7822332382104141,0.791653047451002,-0.009419809240587829,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2028
+0,0.7845623916691185,0.7873987263901574,-0.0028363347210389467,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2029
+1,0.7824546266608573,0.7881940272012904,-0.005739400540433093,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2029
+0,0.78424803536509,0.7903806301528918,-0.006132594787801815,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2030
+1,0.7838157373630006,0.7914883288281294,-0.007672591465128775,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2030
+0,0.783096062005649,0.79041176413,-0.0073157021243510645,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2031
+1,0.7842358384647476,0.7890167701652934,-0.004780931700545721,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2031
+0,0.7890666031068174,0.793503205865685,-0.004436602758867592,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2032
+1,0.787156144055458,0.7929915270627834,-0.005835383007325445,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2032
+0,0.7837082340164047,0.7894360451123071,-0.00572781109590248,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2033
+1,0.7798604597217611,0.7882353138354337,-0.008374854113672558,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],mean,2033
+0,0.7841292773379572,0.7912642321270867,-0.007134954789129511,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2026
+1,0.7849268364523933,0.7904472956170113,-0.0055204591646180745,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2026
+0,0.7819802388351117,0.7946891911826535,-0.012708952347541769,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2027
+1,0.7831781206170849,0.7927212154632668,-0.009543094846181877,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2027
+0,0.7823959532791733,0.7922244427088814,-0.009828489429708043,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2028
+1,0.7822332382104141,0.791653047451002,-0.009419809240587829,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2028
+0,0.7845623916691185,0.7873987263901574,-0.0028363347210389467,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2029
+1,0.7824546266608573,0.7881940272012904,-0.005739400540433093,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2029
+0,0.78424803536509,0.7903806301528918,-0.006132594787801815,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2030
+1,0.7838157373630006,0.7914883288281294,-0.007672591465128775,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2030
+0,0.783096062005649,0.79041176413,-0.0073157021243510645,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2031
+1,0.7842358384647476,0.7890167701652934,-0.004780931700545721,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2031
+0,0.7890666031068174,0.793503205865685,-0.004436602758867592,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2032
+1,0.787156144055458,0.7929915270627834,-0.005835383007325445,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2032
+0,0.7837082340164047,0.7894360451123071,-0.00572781109590248,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2033
+1,0.7798604597217611,0.7882353138354337,-0.008374854113672558,Diffusion-AM-CQL [primary critic B],Tabular IQL [projected],terminate,2033
+0,0.7841292773379572,0.8040494511063668,-0.0199201737684096,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2026
+1,0.7849268364523933,0.8011383709598277,-0.0162115345074344,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2026
+0,0.7819802388351117,0.8087917261374574,-0.026811487302345727,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2027
+1,0.7831781206170849,0.8024979724888487,-0.01931985187176377,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2027
+0,0.7823959532791733,0.8010561447285198,-0.018660191449346497,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2028
+1,0.7822332382104141,0.8051715759502684,-0.02293833773985432,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2028
+0,0.7845623916691185,0.8065757778309564,-0.0220133861618379,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2029
+1,0.7824546266608573,0.805652531600346,-0.0231979049394887,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2029
+0,0.78424803536509,0.7958295708593747,-0.011581535494284645,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2030
+1,0.7838157373630006,0.8008985762499367,-0.01708283888693607,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2030
+0,0.783096062005649,0.7955834999291628,-0.012487437923513811,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2031
+1,0.7842358384647476,0.8008180000309761,-0.016582161566228493,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2031
+0,0.7890666031068174,0.8035174622228651,-0.01445085911604771,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2032
+1,0.787156144055458,0.8055967018839928,-0.01844055782853482,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2032
+0,0.7837082340164047,0.8042796452147928,-0.020571411198388123,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2033
+1,0.7798604597217611,0.8033028548358795,-0.023442395114118386,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),mean,2033
+0,0.7841292773379572,0.6933541725588505,0.09077510477910677,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2026
+1,0.7849268364523933,0.707091920003991,0.07783491644840224,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2026
+0,0.7819802388351117,0.7014687080079807,0.08051153082713103,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2027
+1,0.7831781206170849,0.7132742819044454,0.0699038387126395,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2027
+0,0.7823959532791733,0.7123802874462478,0.07001566583292551,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2028
+1,0.7822332382104141,0.7098522791090583,0.07238095910135578,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2028
+0,0.7845623916691185,0.7168371727511086,0.06772521891800987,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2029
+1,0.7824546266608573,0.705095873811893,0.07735875284896432,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2029
+0,0.78424803536509,0.6998958617618777,0.08435217360321234,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2030
+1,0.7838157373630006,0.7115473345098768,0.07226840285312375,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2030
+0,0.783096062005649,0.7085446842301766,0.07455137777547238,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2031
+1,0.7842358384647476,0.720141985556499,0.06409385290824865,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2031
+0,0.7890666031068174,0.7375173382107634,0.05154926489605405,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2032
+1,0.787156144055458,0.7280152432208025,0.05914090083465551,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2032
+0,0.7837082340164047,0.73504624371024,0.04866199030616469,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2033
+1,0.7798604597217611,0.7069522351377509,0.07290822458401025,Diffusion-AM-CQL [primary critic B],Tabular BCQ (tau=0.3),terminate,2033
+0,0.7841292773379572,0.7843060308811581,-0.00017675354320090264,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2026
+1,0.7849268364523933,0.7843060308811581,0.0006208055712351168,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2026
+0,0.7819802388351117,0.7851558013336992,-0.0031755624985875253,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2027
+1,0.7831781206170849,0.7851558013336992,-0.001977680716614305,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2027
+0,0.7823959532791733,0.7835974201155264,-0.0012014668363530268,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2028
+1,0.7822332382104141,0.7835974201155264,-0.0013641819051122273,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2028
+0,0.7845623916691185,0.7843526313900301,0.0002097602790883668,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2029
+1,0.7824546266608573,0.7843526313900301,-0.0018980047291727864,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2029
+0,0.78424803536509,0.7838709740277126,0.00037706133737747116,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2030
+1,0.7838157373630006,0.7838709740277126,-5.52366647119662e-05,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2030
+0,0.783096062005649,0.7849202857795949,-0.0018242237739459766,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2031
+1,0.7842358384647476,0.7849202857795949,-0.0006844473148472918,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2031
+0,0.7890666031068174,0.7866906393756526,0.0023759637311647763,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2032
+1,0.787156144055458,0.7866906393756526,0.0004655046798053286,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2032
+0,0.7837082340164047,0.7847881578244622,-0.001079923808057548,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2033
+1,0.7798604597217611,0.7847881578244622,-0.004927698102701106,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],mean,2033
+0,0.7841292773379572,0.7843060308811581,-0.00017675354320090264,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2026
+1,0.7849268364523933,0.7843060308811581,0.0006208055712351168,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2026
+0,0.7819802388351117,0.7851558013336992,-0.0031755624985875253,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2027
+1,0.7831781206170849,0.7851558013336992,-0.001977680716614305,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2027
+0,0.7823959532791733,0.7835974201155264,-0.0012014668363530268,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2028
+1,0.7822332382104141,0.7835974201155264,-0.0013641819051122273,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2028
+0,0.7845623916691185,0.7843526313900301,0.0002097602790883668,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2029
+1,0.7824546266608573,0.7843526313900301,-0.0018980047291727864,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2029
+0,0.78424803536509,0.7838709740277126,0.00037706133737747116,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2030
+1,0.7838157373630006,0.7838709740277126,-5.52366647119662e-05,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2030
+0,0.783096062005649,0.7849202857795949,-0.0018242237739459766,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2031
+1,0.7842358384647476,0.7849202857795949,-0.0006844473148472918,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2031
+0,0.7890666031068174,0.7866906393756526,0.0023759637311647763,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2032
+1,0.787156144055458,0.7866906393756526,0.0004655046798053286,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2032
+0,0.7837082340164047,0.7847881578244622,-0.001079923808057548,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2033
+1,0.7798604597217611,0.7847881578244622,-0.004927698102701106,Diffusion-AM-CQL [primary critic B],Behavior Cloning [masked greedy],terminate,2033
+0,0.7841292773379572,0.7842218671331289,-9.258979517168253e-05,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2026
+1,0.7849268364523933,0.784207733929687,0.0007191025227062386,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2026
+0,0.7819802388351117,0.7830444349846407,-0.0010641961495290175,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2027
+1,0.7831781206170849,0.7824071030093386,0.0007710176077463382,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2027
+0,0.7823959532791733,0.7832528504710519,-0.0008568971918785362,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2028
+1,0.7822332382104141,0.7834792018576598,-0.001245963647245718,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2028
+0,0.7845623916691185,0.783568101099998,0.0009942905691204817,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2029
+1,0.7824546266608573,0.783325210792565,-0.0008705841317077079,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2029
+0,0.78424803536509,0.7845265591832049,-0.00027852381811488414,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2030
+1,0.7838157373630006,0.7851780434578923,-0.001362306094891741,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2030
+0,0.783096062005649,0.7812638197560992,0.0018322422495498092,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2031
+1,0.7842358384647476,0.7834165339866419,0.0008193044781057424,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2031
+0,0.7890666031068174,0.7875234851352529,0.0015431179715644783,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2032
+1,0.787156144055458,0.7895664612332138,-0.0024103171777558607,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2032
+0,0.7837082340164047,0.784006949693383,-0.0002987156769783672,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2033
+1,0.7798604597217611,0.7799146681078718,-5.4208386110699e-05,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],mean,2033
+0,0.7841292773379572,0.7842218671331289,-9.258979517168253e-05,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2026
+1,0.7849268364523933,0.784207733929687,0.0007191025227062386,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2026
+0,0.7819802388351117,0.7830444349846407,-0.0010641961495290175,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2027
+1,0.7831781206170849,0.7824071030093386,0.0007710176077463382,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2027
+0,0.7823959532791733,0.7832528504710519,-0.0008568971918785362,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2028
+1,0.7822332382104141,0.7834792018576598,-0.001245963647245718,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2028
+0,0.7845623916691185,0.783568101099998,0.0009942905691204817,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2029
+1,0.7824546266608573,0.783325210792565,-0.0008705841317077079,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2029
+0,0.78424803536509,0.7845265591832049,-0.00027852381811488414,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2030
+1,0.7838157373630006,0.7851780434578923,-0.001362306094891741,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2030
+0,0.783096062005649,0.7812638197560992,0.0018322422495498092,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2031
+1,0.7842358384647476,0.7834165339866419,0.0008193044781057424,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2031
+0,0.7890666031068174,0.7875234851352529,0.0015431179715644783,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2032
+1,0.787156144055458,0.7895664612332138,-0.0024103171777558607,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2032
+0,0.7837082340164047,0.784006949693383,-0.0002987156769783672,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2033
+1,0.7798604597217611,0.7799146681078718,-5.4208386110699e-05,Diffusion-AM-CQL [primary critic B],Masked critic ensemble [critic B + tabular CQL],terminate,2033
+0,0.7841292773379572,0.781963607911468,0.002165669426489214,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2026
+1,0.7849268364523933,0.7816917237855148,0.0032351126668784813,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2026
+0,0.7819802388351117,0.7855143556792449,-0.003534116844133184,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2027
+1,0.7831781206170849,0.7845304382287949,-0.0013523176117099522,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2027
+0,0.7823959532791733,0.7805179616900012,0.0018779915891721233,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2028
+1,0.7822332382104141,0.781397266503536,0.0008359717068781025,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2028
+0,0.7845623916691185,0.785657924199816,-0.0010955325306974961,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2029
+1,0.7824546266608573,0.7836808577887439,-0.0012262311278865567,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2029
+0,0.78424803536509,0.7843339821774434,-8.594681235341017e-05,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2030
+1,0.7838157373630006,0.7823509511331749,0.0014647862298257097,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2030
+0,0.783096062005649,0.780221723003839,0.00287433900181,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2031
+1,0.7842358384647476,0.7876106261487938,-0.0033747876840461988,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2031
+0,0.7890666031068174,0.7837223352569682,0.005344267849849205,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2032
+1,0.787156144055458,0.7887096572514763,-0.0015535131960183746,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2032
+0,0.7837082340164047,0.7854834519598082,-0.0017752179434035176,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2033
+1,0.7798604597217611,0.7819990815080752,-0.0021386217863140766,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",mean,2033
+0,0.7841292773379572,0.781963607911468,0.002165669426489214,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2026
+1,0.7849268364523933,0.7816917237855148,0.0032351126668784813,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2026
+0,0.7819802388351117,0.7855143556792449,-0.003534116844133184,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2027
+1,0.7831781206170849,0.7845304382287949,-0.0013523176117099522,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2027
+0,0.7823959532791733,0.7805179616900012,0.0018779915891721233,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2028
+1,0.7822332382104141,0.781397266503536,0.0008359717068781025,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2028
+0,0.7845623916691185,0.785657924199816,-0.0010955325306974961,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2029
+1,0.7824546266608573,0.7836808577887439,-0.0012262311278865567,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2029
+0,0.78424803536509,0.7843339821774434,-8.594681235341017e-05,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2030
+1,0.7838157373630006,0.7823509511331749,0.0014647862298257097,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2030
+0,0.783096062005649,0.780221723003839,0.00287433900181,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2031
+1,0.7842358384647476,0.7876106261487938,-0.0033747876840461988,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2031
+0,0.7890666031068174,0.7837223352569682,0.005344267849849205,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2032
+1,0.787156144055458,0.7887096572514763,-0.0015535131960183746,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2032
+0,0.7837082340164047,0.7854834519598082,-0.0017752179434035176,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2033
+1,0.7798604597217611,0.7819990815080752,-0.0021386217863140766,Diffusion-AM-CQL [primary critic B],"AM-CQL (Hard, design B: admissible-row CQL)",terminate,2033

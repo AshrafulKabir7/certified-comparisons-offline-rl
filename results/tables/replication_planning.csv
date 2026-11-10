@@ -1,0 +1,20 @@
+analysis,comparator,rule,pilot_sd_paired_difference,practical_effect,alpha_used,approx_pairs_for_80pct_power_normal,min_pairs_attainable_single_two_sided,min_pairs_attainable_holm_family,unit
+"primary (unadjusted, two-sided)",Tabular IQL [projected],terminate,0.0025122450101802423,0.005,0.050000000000000044,2,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Tabular IQL [masked greedy],mean,0.00245791821416082,0.005,0.005555555555555536,4,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Tabular IQL [masked greedy],terminate,0.00245791821416082,0.005,0.005555555555555536,4,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Behavior Cloning [masked greedy],mean,0.0011090624483639465,0.005,0.005555555555555536,1,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Behavior Cloning [masked greedy],terminate,0.0011090624483639465,0.005,0.005555555555555536,1,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Tabular CQL [masked greedy],mean,0.0018155723501518753,0.005,0.005555555555555536,2,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Tabular CQL [masked greedy],terminate,0.0018155723501518753,0.005,0.005555555555555536,2,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Masked critic ensemble [critic B + tabular CQL],mean,0.0014926281698163246,0.005,0.005555555555555536,2,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Masked critic ensemble [critic B + tabular CQL],terminate,0.0014926281698163246,0.005,0.005555555555555536,2,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Neural BC prior x critic [critic B + tabular CQL],mean,0.0008762216034213081,0.005,0.005555555555555536,1,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Neural BC prior x critic [critic B + tabular CQL],terminate,0.0008762216034213081,0.005,0.005555555555555536,1,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),"AM-CQL (Hard, design B: admissible-row CQL)",mean,0.0021889080105314063,0.005,0.005555555555555536,3,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),"AM-CQL (Hard, design B: admissible-row CQL)",terminate,0.0021889080105314063,0.005,0.005555555555555536,3,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),"AM-CQL (Hard, design A: full-action CQL)",mean,0.0026477188595234796,0.005,0.005555555555555536,4,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),"AM-CQL (Hard, design A: full-action CQL)",terminate,0.0026477188595234796,0.005,0.005555555555555536,4,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Deep CQL [masked greedy],mean,0.00343870171547465,0.005,0.005555555555555536,7,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Deep CQL [masked greedy],terminate,0.00343870171547465,0.005,0.005555555555555536,7,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Diffusion-AM-CQL [legacy critic],mean,0.0027289631268785875,0.005,0.005555555555555536,4,6,9,training seeds on the frozen main dataset
+secondary (Bonferroni bound on the first Holm step),Diffusion-AM-CQL [legacy critic],terminate,0.0027289631268785875,0.005,0.005555555555555536,4,6,9,training seeds on the frozen main dataset

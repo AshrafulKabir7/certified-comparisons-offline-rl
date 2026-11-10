@@ -1,0 +1,112 @@
+policy,states_with_inadmissible_actions,min_margin_admissible_minus_inadmissible,states_inadmissible_ranked_first,states_tied_admissible_vs_inadmissible,states_tied_among_admissible,seed
+Deep CQL,713,-0.6542224884033203,9,0,0,0
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-393533.8515625,709,0,0,0
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.5483589172363281,10,0,0,0
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-20.554941177368164,593,0,0,0
+"AM-CQL (Soft, legacy)",713,2.2159271240234375,0,0,0,0
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,2.121438980102539,0,0,0,0
+Deep CQL,713,-0.5700740814208984,8,0,0,1
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-405972.8671875,711,0,0,1
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.6714401245117188,8,0,0,1
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-13.677265167236328,603,0,0,1
+"AM-CQL (Soft, legacy)",713,1.9585418701171875,0,0,0,1
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.751821517944336,0,0,0,1
+Deep CQL,713,-1.0148048400878906,11,0,0,2
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-330314.515625,711,0,0,2
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.8053569793701172,11,0,0,2
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-13.922307968139648,618,0,0,2
+"AM-CQL (Soft, legacy)",713,1.7763538360595703,0,0,0,2
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.774703025817871,0,0,0,2
+Deep CQL,713,-0.6164569854736328,6,0,0,3
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-379764.6796875,711,0,0,3
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.4650287628173828,8,0,0,3
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-12.547088623046875,587,0,0,3
+"AM-CQL (Soft, legacy)",713,1.9779491424560547,0,0,0,3
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.9660015106201172,0,0,0,3
+Deep CQL,713,-0.43830299377441406,14,0,0,4
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-405893.28125,709,0,0,4
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.6501045227050781,12,0,0,4
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-13.031579971313477,606,0,0,4
+"AM-CQL (Soft, legacy)",713,1.9654960632324219,0,0,0,4
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.9574203491210938,0,0,0,4
+Deep CQL,713,-0.5380058288574219,6,0,0,5
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-332078.2421875,711,0,0,5
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.5682792663574219,6,0,0,5
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-43.9871723651886,583,0,0,5
+"AM-CQL (Soft, legacy)",713,2.0102062225341797,0,0,0,5
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.923614501953125,0,0,0,5
+Deep CQL,713,-0.9408245086669922,7,0,0,6
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-393097.109375,711,0,0,6
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-1.1373233795166016,5,0,0,6
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-30.867446899414062,602,0,0,6
+"AM-CQL (Soft, legacy)",713,1.9488105773925781,0,0,0,6
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.899928092956543,0,0,0,6
+Deep CQL,713,-0.8596954345703125,12,0,0,7
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-380278.1640625,709,0,0,7
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.9367303848266602,10,0,0,7
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-8.998695373535156,589,0,0,7
+"AM-CQL (Soft, legacy)",713,1.9446582794189453,0,0,0,7
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.8292932510375977,0,0,0,7
+Deep CQL,713,-0.9876842498779297,8,0,0,8
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-435739.546875,711,0,0,8
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-1.2842378616333008,8,0,0,8
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-26.867960929870605,615,0,0,8
+"AM-CQL (Soft, legacy)",713,1.5595111846923828,0,0,0,8
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.7116708755493164,0,0,0,8
+Deep CQL,713,-0.806671142578125,7,0,0,9
+"AM-CQL (Hard, legacy) [unmasked greedy]",713,-484772.359375,707,0,0,9
+"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",713,-0.8501443862915039,10,0,0,9
+"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",713,-31.029449462890625,589,0,0,9
+"AM-CQL (Soft, legacy)",713,1.8968582153320312,0,0,0,9
+"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",713,1.9175357818603516,0,0,0,9
+"AM-CQL (Hard, B) [batch-normalised regulariser] [unmasked greedy]",713,-8.475471496582031,598,0,0,0
+"AM-CQL (Hard, B) [TD on admissible-logged rows only] [unmasked greedy]",713,-2.8457868099212646,238,0,0,0
+"AM-CQL (Hard, A) [TD on admissible-logged rows only] [unmasked greedy]",713,-1.2724316120147705,8,0,0,0
+"AM-CQL (Hard, B) [squared TD] [unmasked greedy]",713,-4.735575795173645,597,0,0,0
+"AM-CQL (Hard, A) [squared TD] [unmasked greedy]",713,-1.7716732025146484,27,0,0,0
+"AM-CQL (Hard, B) [alpha=0.3] [unmasked greedy]",713,-5.0178422927856445,593,0,0,0
+"AM-CQL (Hard, B) [alpha=3] [unmasked greedy]",713,-10.007943034172058,508,0,0,0
+"AM-CQL (Hard, legacy) [squared TD] [unmasked greedy]",713,-212.05528259277344,713,0,0,0
+"AM-CQL (Hard, legacy) [TD on admissible-logged rows only] [unmasked greedy]",713,-1222799.125,713,0,0,0
+"AM-CQL (Hard, legacy) [TD target clipped to [0,1]: stabilisation ablation, not a repair] [unmasked greedy]",713,-307498.640625,710,0,0,0
+"AM-CQL (Hard, B-regulariser only: unmasked backup)",713,-9.172306656837463,506,0,0,0
+"AM-CQL (Hard, B) [batch-normalised regulariser] [unmasked greedy]",713,-18.9383544921875,601,0,0,1
+"AM-CQL (Hard, B) [TD on admissible-logged rows only] [unmasked greedy]",713,-1.6992879509925842,237,0,0,1
+"AM-CQL (Hard, A) [TD on admissible-logged rows only] [unmasked greedy]",713,-1.168713092803955,6,0,0,1
+"AM-CQL (Hard, B) [squared TD] [unmasked greedy]",713,-5.9068262577056885,606,0,0,1
+"AM-CQL (Hard, A) [squared TD] [unmasked greedy]",713,-1.7483305931091309,27,0,0,1
+"AM-CQL (Hard, B) [alpha=0.3] [unmasked greedy]",713,-6.252562522888184,598,0,0,1
+"AM-CQL (Hard, B) [alpha=3] [unmasked greedy]",713,-10.781455278396606,518,0,0,1
+"AM-CQL (Hard, legacy) [squared TD] [unmasked greedy]",713,-196.17816162109375,712,0,0,1
+"AM-CQL (Hard, legacy) [TD on admissible-logged rows only] [unmasked greedy]",713,-921033.09375,713,0,0,1
+"AM-CQL (Hard, legacy) [TD target clipped to [0,1]: stabilisation ablation, not a repair] [unmasked greedy]",713,-369659.484375,712,0,0,1
+"AM-CQL (Hard, B-regulariser only: unmasked backup)",713,-9.429006338119507,558,0,0,1
+"AM-CQL (Hard, B) [batch-normalised regulariser] [unmasked greedy]",713,-13.734855651855469,615,0,0,2
+"AM-CQL (Hard, B) [TD on admissible-logged rows only] [unmasked greedy]",713,-2.4028011113405228,249,0,0,2
+"AM-CQL (Hard, A) [TD on admissible-logged rows only] [unmasked greedy]",713,-1.4339807033538818,9,0,0,2
+"AM-CQL (Hard, B) [squared TD] [unmasked greedy]",713,-7.630647540092468,604,0,0,2
+"AM-CQL (Hard, A) [squared TD] [unmasked greedy]",713,-2.555306911468506,26,0,0,2
+"AM-CQL (Hard, B) [alpha=0.3] [unmasked greedy]",713,-13.560357451438904,606,0,0,2
+"AM-CQL (Hard, B) [alpha=3] [unmasked greedy]",713,-6.198159456253052,521,0,0,2
+"AM-CQL (Hard, legacy) [squared TD] [unmasked greedy]",713,-218.17359924316406,713,0,0,2
+"AM-CQL (Hard, legacy) [TD on admissible-logged rows only] [unmasked greedy]",713,-863811.59375,713,0,0,2
+"AM-CQL (Hard, legacy) [TD target clipped to [0,1]: stabilisation ablation, not a repair] [unmasked greedy]",713,-285618.14453125,713,0,0,2
+"AM-CQL (Hard, B-regulariser only: unmasked backup)",713,-8.306334495544434,542,0,0,2
+AM-CQL (Soft) [tolerance eps=0.01],713,1.7187423706054688,0,0,0,0
+AM-CQL (Soft) [tolerance eps=0.01] [aligned greedy: mean critic],713,1.7425994873046875,0,0,0,0
+AM-CQL (Soft) [T_p=0.5],713,1.2853107452392578,0,0,0,0
+AM-CQL (Soft) [T_p=0.5] [aligned greedy: mean critic],713,1.3170509338378906,0,0,0,0
+AM-CQL (Soft) [T_p=2],713,2.947216033935547,0,0,0,0
+AM-CQL (Soft) [T_p=2] [aligned greedy: mean critic],713,3.048649787902832,0,0,0,0
+AM-CQL (Soft) [tolerance eps=0.01],713,1.5138168334960938,0,0,0,1
+AM-CQL (Soft) [tolerance eps=0.01] [aligned greedy: mean critic],713,1.6028060913085938,0,0,0,1
+AM-CQL (Soft) [T_p=0.5],713,0.9509391784667969,0,0,0,1
+AM-CQL (Soft) [T_p=0.5] [aligned greedy: mean critic],713,0.9509658813476562,0,0,0,1
+AM-CQL (Soft) [T_p=2],713,2.477153778076172,0,0,0,1
+AM-CQL (Soft) [T_p=2] [aligned greedy: mean critic],713,2.441122055053711,0,0,0,1
+AM-CQL (Soft) [tolerance eps=0.01],713,1.6807670593261719,0,0,0,2
+AM-CQL (Soft) [tolerance eps=0.01] [aligned greedy: mean critic],713,1.7190971374511719,0,0,0,2
+AM-CQL (Soft) [T_p=0.5],713,1.0908050537109375,0,0,0,2
+AM-CQL (Soft) [T_p=0.5] [aligned greedy: mean critic],713,0.9834499359130859,0,0,0,2
+AM-CQL (Soft) [T_p=2],713,2.751779556274414,0,0,0,2
+AM-CQL (Soft) [T_p=2] [aligned greedy: mean critic],713,2.751708984375,0,0,0,2

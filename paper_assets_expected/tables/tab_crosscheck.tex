@@ -1,0 +1,14 @@
+\begin{tabular}{llrrrrrrr}
+\toprule
+ & & \multicolumn{3}{c}{greedy-action agreement (\%)} & \multicolumn{2}{c}{$|\Delta J|$, mean rule} & \multicolumn{2}{c}{$|\Delta J|$, terminate} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+Method & policy & live & seen & occup. & mean & max & mean & max \\
+\midrule
+IQL & native & 94.5 & 94.5 & 94.4 & 0.0017 & 0.0035 & 0.0026 & 0.0057 \\
+IQL & masked & 94.7 & 94.7 & 94.5 & 0.0016 & 0.0033 & 0.0016 & 0.0033 \\
+CQL & native & 83.3 & 83.3 & 83.1 & 0.0066 & 0.0106 & 0.0297 & 0.0338 \\
+CQL & masked & 85.8 & 85.8 & 84.0 & 0.0068 & 0.0097 & 0.0068 & 0.0097 \\
+BCQ & native & 67.9 & 67.9 & 64.0 & 0.0013 & 0.0035 & 0.0105 & 0.0222 \\
+BCQ & masked & 70.7 & 70.7 & 65.2 & 0.0013 & 0.0035 & 0.0013 & 0.0035 \\
+\bottomrule
+\end{tabular}

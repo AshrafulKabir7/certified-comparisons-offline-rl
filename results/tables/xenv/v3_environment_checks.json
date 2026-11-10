@@ -1,0 +1,16 @@
+{
+  "cells": [
+    "gumbel|best|n10000|tau20|eps0.05|phys-confounded",
+    "gumbel|best|n10000|tau20|eps0.05|phys-withhold-abx",
+    "gumbel|agg-obs|n10000|tau20|eps0.05",
+    "gumbel|agg-proj|n10000|tau20|eps0.05",
+    "garnet|hrand|eps0.05",
+    "garnet|hrand|eps0.3"
+  ],
+  "code_hash": "7d1999de9fa3ea966bfd5e6eeb20c8934842631ca6fa5cf6dd35c9cd598ed95b",
+  "non_ok_statuses": {},
+  "trap_states_terminate_max": 0,
+  "behaviour_aggregation_identity_max_abs_diff": 2.7755575615628914e-16,
+  "seconds": 22.15096449997509,
+  "passes": true
+}

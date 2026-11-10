@@ -1,0 +1,6 @@
+{
+  "batch_rows": 8,
+  "admissible_logged_rows": 4,
+  "legacy_excluded_logged_action_derivative": -0.125,
+  "passed": true
+}

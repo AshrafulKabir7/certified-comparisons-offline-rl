@@ -1,0 +1,219 @@
+{
+  "status": "run | switched off: II.9d, II.9f, II.9g",
+  "code_hash": "4e9c09966cf3e30f6621a998fa215395c6570b33461933709c83a8abbe00a9a8",
+  "passes": true,
+  "invariants_pass": {
+    "II.9b": true,
+    "II.9c": true,
+    "II.9d": null,
+    "II.9e": true,
+    "II.9f": null,
+    "II.9g": null
+  },
+  "order_counts": {
+    "cs_nonfinite_bounds": 0,
+    "cs_lower_above_free_upper": 0,
+    "cs_nhb_above_free_upper": 0,
+    "cs_nhb_not_min_of_free_and_proj": 0
+  },
+  "draws_complete": true,
+  "missing": {},
+  "switched_off": [
+    "II.9d",
+    "II.9f",
+    "II.9g"
+  ],
+  "subsections": {
+    "II.9b": {
+      "switch": "xenv_v4_revision_robust",
+      "enabled": true,
+      "required": true,
+      "summary_source": "memory",
+      "status": "run",
+      "ran": true,
+      "draws_complete": true,
+      "code_hash": "c830af95f881c078bb456fcb33c6c738234840755bd89c1811495d4bf59bdfa8",
+      "elapsed_s": 16.54864870000165,
+      "invariants_pass": true,
+      "invariants": {
+        "theorem_counts": {
+          "values_outside_value_range": 0,
+          "negative_width_true_rows": 0,
+          "width_above_bound_true_rows": 0,
+          "negative_width_bench": 0,
+          "width_above_bound_bench": 0,
+          "lower_bound_violations_true_rows": 0,
+          "nhb_free_upper_violations_true_rows": 0,
+          "nonzero_width_admissible_true_rows": 0,
+          "rule_p_difference_bench": 0,
+          "rule_p_difference_true_rows": 0,
+          "truth_p_difference_true_rows": 0,
+          "bootstrap_replicate_rule_p_difference": 0,
+          "bootstrap_replicate_negative_width": 0,
+          "bootstrap_replicate_width_above_bound": 0,
+          "bootstrap_point_negative_width": 0,
+          "bootstrap_point_free_below_nhb_upper": 0
+        },
+        "identity_counts": {
+          "kappa_endpoint_mismatches": 0,
+          "ii8i_certified_count_mismatches": 0,
+          "published_value_mismatches": 0,
+          "bootstrap_nhb_interval_vs_ii8i": 0
+        }
+      }
+    },
+    "II.9c": {
+      "switch": "xenv_v4_confidence",
+      "enabled": true,
+      "required": true,
+      "summary_source": "memory",
+      "status": "run",
+      "ran": true,
+      "draws_complete": true,
+      "code_hash": "7710e20ab4b1cf8cbbfd42dafe28f5618d587479cdc85153d3976298231822cb",
+      "elapsed_s": 2678.3628608,
+      "invariants_pass": true,
+      "invariants": {
+        "checks": {
+          "policy_rows": 31500,
+          "max_lower_minus_upper": -0.3636376017649905,
+          "max_nhb_minus_free": 0.0,
+          "max_monotone_slack": 6.661338147750939e-16,
+          "min_paired_minus_unpaired": -6.661338147750939e-16,
+          "nonconverged_runs": 0,
+          "nonconverged_policy_rows": 0,
+          "max_iterations": 205,
+          "passes": true,
+          "test_rows": 2940
+        },
+        "selftest_passes": true,
+        "recounted": {
+          "cs_nonfinite_bounds": 0,
+          "cs_lower_above_free_upper": 0,
+          "cs_nhb_above_free_upper": 0,
+          "cs_nhb_not_min_of_free_and_proj": 0
+        },
+        "recount_input": {
+          "source": "XV4_CS_POLICIES",
+          "rows": 31500
+        }
+      }
+    },
+    "II.9d": {
+      "switch": "xenv_v4_bootstrap",
+      "enabled": false,
+      "required": false,
+      "summary_source": "not read (switched off)",
+      "status": "switched off (xenv_v4_bootstrap = False)",
+      "ran": false,
+      "draws_complete": null,
+      "code_hash": null,
+      "elapsed_s": null,
+      "invariants_pass": null,
+      "invariants": {
+        "note": "not evaluated: the subsection did not run"
+      }
+    },
+    "II.9e": {
+      "switch": "xenv_v4_sensitivity",
+      "enabled": true,
+      "required": true,
+      "summary_source": "memory",
+      "status": "run",
+      "ran": true,
+      "draws_complete": true,
+      "code_hash": "8ab0d1697ef3d43368d995125824b47e5ac7263d27eaf8cd096e6142c43c8ad4",
+      "elapsed_s": 50048.08768350002,
+      "invariants_pass": true,
+      "invariants": {
+        "theorem_counts": {
+          "values_outside_value_range": 0,
+          "lower_bound_violations_true_rows": 0,
+          "negative_width_true_rows": 0,
+          "negative_width_bench": 0,
+          "nonzero_width_admissible": 0,
+          "width_above_bound": 0
+        },
+        "selftest_passes": true,
+        "draw_checks": {
+          "max_max_slack_vs_optimum": 2.7755575615628914e-16,
+          "max_max_slack_vs_admissible_optimum": 2.220446049250313e-16,
+          "max_projection_identity_worst": 1.6982188155178941e-15,
+          "nonconverged_records": 18
+        }
+      }
+    },
+    "II.9f": {
+      "switch": "xenv_v4_lift",
+      "enabled": false,
+      "required": false,
+      "summary_source": "not read (switched off)",
+      "status": "switched off (xenv_v4_lift = False)",
+      "ran": false,
+      "draws_complete": null,
+      "code_hash": null,
+      "elapsed_s": null,
+      "invariants_pass": null,
+      "invariants": {
+        "note": "not evaluated: the subsection did not run"
+      }
+    },
+    "II.9g": {
+      "switch": "xenv_v4_clean_check",
+      "enabled": false,
+      "required": false,
+      "summary_source": "not read (switched off)",
+      "status": "switched off (xenv_v4_clean_check = False)",
+      "ran": false,
+      "draws_complete": null,
+      "code_hash": null,
+      "elapsed_s": null,
+      "invariants_pass": null,
+      "invariants": {
+        "note": "not evaluated: the subsection did not run"
+      }
+    }
+  },
+  "inputs": {
+    "summaries": {
+      "II.9b": "memory",
+      "II.9c": "memory",
+      "II.9d": "not read (switched off)",
+      "II.9e": "memory",
+      "II.9f": "not read (switched off)",
+      "II.9g": "not read (switched off)"
+    },
+    "tables": {
+      "cs_table": {
+        "source": "XV4_CS_TABLE",
+        "rows": 140
+      },
+      "cs_policies": {
+        "source": "XV4_CS_POLICIES",
+        "rows": 31500
+      },
+      "boot_coverage": {
+        "source": "not used (subsection not run)",
+        "rows": 0
+      },
+      "boot_intervals": {
+        "source": "not used (subsection not run)",
+        "rows": 0
+      },
+      "sens_table": {
+        "source": "XV4_SENS_TABLE",
+        "rows": 66
+      }
+    }
+  },
+  "figures": {
+    "fig_v4_confidence": "written",
+    "fig_v4_bootstrap": "not produced: II.9d switched off (xenv_v4_bootstrap = False)"
+  },
+  "tolerances": {
+    "value": 1e-09,
+    "p": 1e-12,
+    "boot_order": 4e-09
+  },
+  "elapsed_s": 0.9711206998908892
+}

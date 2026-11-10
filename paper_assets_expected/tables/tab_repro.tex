@@ -1,0 +1,20 @@
+\begin{tabular}{lrr}
+\toprule
+quantity & final run & earlier run \\
+\midrule
+\multicolumn{3}{l}{\emph{Part I, \icu{} (GPU-trained learners, 10 seeds)}} \\
+main table: largest $|\Delta J|$ over 19 policies & \multicolumn{2}{c}{0.0017} \\
+primary difference (diffusion $-$ projected IQL) & $-$0.0063 & $-$0.0053 \\
+\quad two-sided $p$ & 0.0020 & 0.0020 \\
+certified main-table pairs (NHB-free) & 129 (99) & 131 (99) \\
+\multicolumn{3}{l}{\emph{Part II, simulators (exact evaluation)}} \\
+Gumbel certified claims, true rows (wrong) & 152{,}237 (0) & 152{,}237 (0) \\
+Gumbel certified error, estimated rows & 10.56\% & 10.56\% \\
+Garnet certified error, estimated rows & 9.21\% & 9.19\% \\
+per cell, largest $|\Delta|$: Gumbel certified share / error / mean $\tau_b$ & \multicolumn{2}{c}{0.0002 / 0.0000 / 0.0002} \\
+\quad Garnet certified share / error / mean $\tau_b$ & \multicolumn{2}{c}{0.0007 / 0.0020 / 0.0037} \\
+H1 (six Gumbel cells): identical numbers & \multicolumn{2}{c}{54 of 54} \\
+bootstrap: certified error, point / bootstrap & 11.00\% / 2.43\% & 10.95\% / 2.41\% \\
+\icu{} median breakdown $\kappa^*$ & 0.0890 & 0.0886 \\
+\bottomrule
+\end{tabular}

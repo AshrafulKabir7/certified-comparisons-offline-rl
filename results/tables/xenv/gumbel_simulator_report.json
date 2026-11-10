@@ -1,0 +1,120 @@
+{
+  "structure": {
+    "master": {
+      "full_states": 1440,
+      "live_states": 606,
+      "groups": {
+        "0": {
+          "states": 720,
+          "death": 416,
+          "discharge": 1,
+          "live": 303,
+          "initial_support": 37
+        },
+        "1": {
+          "states": 720,
+          "death": 416,
+          "discharge": 1,
+          "live": 303,
+          "initial_support": 37
+        }
+      },
+      "expected_counts": {
+        "vital_patterns_by_abnormal": [
+          1,
+          9,
+          28,
+          36,
+          16
+        ],
+        "death_per_group": 416,
+        "discharge_per_group": 1,
+        "live_per_group": 303,
+        "initial_support_per_group": 37
+      },
+      "max_row_sum_deviation": 4.440892098500626e-16,
+      "initial": {
+        "acceptance_nondiabetic": 0.7100000000000002,
+        "acceptance_diabetic": 0.665,
+        "acceptance_overall": 0.7010000000000001,
+        "d0_diabetic_share": 0.1897289586305278,
+        "support_nondiabetic": 37,
+        "support_diabetic": 37
+      },
+      "max_branches_per_pair": 27,
+      "trap_states_without_timeout": 418
+    },
+    "sim-v2": {
+      "full_states": 1440,
+      "live_states": 606,
+      "groups": {
+        "0": {
+          "states": 720,
+          "death": 416,
+          "discharge": 1,
+          "live": 303,
+          "initial_support": 37
+        },
+        "1": {
+          "states": 720,
+          "death": 416,
+          "discharge": 1,
+          "live": 303,
+          "initial_support": 37
+        }
+      },
+      "expected_counts": {
+        "vital_patterns_by_abnormal": [
+          1,
+          9,
+          28,
+          36,
+          16
+        ],
+        "death_per_group": 416,
+        "discharge_per_group": 1,
+        "live_per_group": 303,
+        "initial_support_per_group": 37
+      },
+      "max_row_sum_deviation": 4.440892098500626e-16,
+      "initial": {
+        "acceptance_nondiabetic": 0.7100000000000002,
+        "acceptance_diabetic": 0.665,
+        "acceptance_overall": 0.7010000000000001,
+        "d0_diabetic_share": 0.1897289586305278,
+        "support_nondiabetic": 37,
+        "support_diabetic": 37
+      },
+      "max_branches_per_pair": 27,
+      "trap_states_without_timeout": 418
+    }
+  },
+  "variant_comparison": {
+    "rows_differing": 965,
+    "pairs_with_different_full_state_law": 1020,
+    "pairs_where_the_difference_is_absorbed": 55,
+    "max_abs_row_difference": 0.095,
+    "optimum_value[master]": 0.31597941589000855,
+    "uniform_random_value[master]": -0.5780681655890312,
+    "optimum_value[sim-v2]": 0.43652417755759587,
+    "uniform_random_value[sim-v2]": -0.55008374136572
+  },
+  "provenance": {
+    "status": "verified",
+    "sha256_matches": {
+      "master/Action.py": true,
+      "master/DataGenerator.py": true,
+      "master/MDP.py": true,
+      "master/State.py": true,
+      "sim-v2/Action.py": true,
+      "sim-v2/DataGenerator.py": true,
+      "sim-v2/MDP.py": true,
+      "sim-v2/State.py": true
+    },
+    "commits": {
+      "master": "d62995deb5cb51e3ecf2859f4cbbc13f651131a2",
+      "sim-v2": "f923f7747ef00103337fa1e88dfad92b98db2993"
+    }
+  },
+  "configured_variant": "sim-v2"
+}

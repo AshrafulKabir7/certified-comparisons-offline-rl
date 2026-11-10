@@ -1,0 +1,28 @@
+{
+  "policy": "Diffusion-AM-CQL [primary critic B]",
+  "seed": 5,
+  "guidance_scale": 1.5,
+  "T": 20,
+  "max_inadmissible_mass_each_reverse_step": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ]
+}

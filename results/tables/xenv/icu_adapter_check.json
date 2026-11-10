@@ -1,0 +1,256 @@
+{
+  "policy_rows": [
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "return",
+      "adapter": 0.7818448902556913,
+      "evaluator": 0.7818448902556913,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "avg_episode_length",
+      "adapter": 9.23794970482735,
+      "evaluator": 9.23794970482735,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "expected_violations",
+      "adapter": 1.1177692926186136,
+      "evaluator": 1.1177692926186136,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "prob_any_violation",
+      "adapter": 0.4761464716729363,
+      "evaluator": 0.4761464716729363,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "return",
+      "adapter": 0.4158089303283693,
+      "evaluator": 0.4158089303283693,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "avg_episode_length",
+      "adapter": 4.66284553545245,
+      "evaluator": 4.66284553545245,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "expected_violations",
+      "adapter": 0.4761464716729363,
+      "evaluator": 0.4761464716729363,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "clinician (EXPERT_ROWS)",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "prob_any_violation",
+      "adapter": 0.4761464716729363,
+      "evaluator": 0.4761464716729363,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "return",
+      "adapter": 0.7800709046121401,
+      "evaluator": 0.7800709046121401,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "avg_episode_length",
+      "adapter": 9.462296045075515,
+      "evaluator": 9.462296045075515,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "expected_violations",
+      "adapter": 0.0,
+      "evaluator": 0.0,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "prob_any_violation",
+      "adapter": 0.0,
+      "evaluator": 0.0,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "return",
+      "adapter": 0.7800709046121401,
+      "evaluator": 0.7800709046121401,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "avg_episode_length",
+      "adapter": 9.462296045075515,
+      "evaluator": 9.462296045075515,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "expected_violations",
+      "adapter": 0.0,
+      "evaluator": 0.0,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform admissible",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "prob_any_violation",
+      "adapter": 0.0,
+      "evaluator": 0.0,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "return",
+      "adapter": 0.7800709046121405,
+      "evaluator": 0.7800709046121405,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "avg_episode_length",
+      "adapter": 9.462296045075522,
+      "evaluator": 9.462296045075522,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "expected_violations",
+      "adapter": 8.124814971019122,
+      "evaluator": 8.124814971019122,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "given",
+      "rule": "mean",
+      "metric": "prob_any_violation",
+      "adapter": 0.9889239949759441,
+      "evaluator": 0.9889239949759441,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "return",
+      "adapter": 0.008360312000132382,
+      "evaluator": 0.008360312000132382,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "avg_episode_length",
+      "adapter": 1.0947254240347397,
+      "evaluator": 1.0947254240347397,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "expected_violations",
+      "adapter": 0.9889239949759441,
+      "evaluator": 0.9889239949759441,
+      "abs_diff": 0.0
+    },
+    {
+      "policy": "uniform random",
+      "semantics": "terminate",
+      "rule": "terminate",
+      "metric": "prob_any_violation",
+      "adapter": 0.9889239949759441,
+      "evaluator": 0.9889239949759441,
+      "abs_diff": 0.0
+    }
+  ],
+  "oracle_rows": [
+    {
+      "oracle": "mean_unconstrained",
+      "adapter": 0.875141699608639,
+      "section14": 0.875141699608639,
+      "abs_diff": 0.0
+    },
+    {
+      "oracle": "mean_constrained",
+      "adapter": 0.8751416996086383,
+      "section14": 0.8751416996086383,
+      "abs_diff": 0.0
+    },
+    {
+      "oracle": "terminate_unconstrained",
+      "adapter": 0.8751416996086383,
+      "section14": 0.8751416996086383,
+      "abs_diff": 0.0
+    }
+  ],
+  "tolerance": 1e-12,
+  "max_abs_diff_policies": 0.0,
+  "max_abs_diff_oracles": 0.0,
+  "max_abs_diff_expected_reward": 0.0,
+  "P_shared_with_EVALUATOR": true,
+  "d0_equal": true,
+  "mask_equal_operational": true,
+  "entry_rewards": {
+    "713": 0.0,
+    "714": 1.0,
+    "715": 0.0
+  },
+  "terminate_reward": 0.0,
+  "trap_states_given": 0,
+  "trap_states_terminate": 0,
+  "passes": true
+}

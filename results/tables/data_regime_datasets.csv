@@ -1,0 +1,7 @@
+regime,dataset_seed,behavior,n_episodes,transitions,episodes,terminated_episodes,survival_episodes,death_episodes,s_inf_episodes,truncated_episodes,cutoff_episodes,censored_episodes,mean_length,median_length,max_length,inadmissible_logged_transitions,inadmissible_logged_fraction
+n=1000 draw0,1360896882,clinician,1000,9275,1000,1000,767,233,0,0,0,0,9.275,6.0,73,1174,0.12657681940700807
+n=1000 draw1,632856700,clinician,1000,8881,1000,1000,794,206,0,0,0,0,8.881,6.0,67,1169,0.13162932102240738
+n=3000 draw0,248862414,clinician,3000,27874,3000,3000,2319,681,0,0,0,0,9.291333333333334,6.0,90,3455,0.12395063500035876
+n=3000 draw1,762038114,clinician,3000,27004,3000,3000,2325,675,0,0,0,0,9.001333333333333,6.0,89,3231,0.11964894089764479
+behaviour=clinician+uniform:0.25,2026,clinician+uniform:0.25,10000,91952,10000,9999,7818,2181,0,0,1,1,9.1952,6.0,100,28362,0.30844353575778666
+behaviour=clinician+uniform_admissible:0.25,2026,clinician+uniform_admissible:0.25,10000,93425,10000,10000,7820,2180,0,0,0,0,9.3425,6.0,94,8398,0.0898902863259299

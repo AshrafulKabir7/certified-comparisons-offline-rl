@@ -1,0 +1,26 @@
+perturbation,param,perturbation_seed,rule,kendall_tau_vs_unperturbed,top1_unchanged,top1_unperturbed,top1_perturbed,n_policies
+d0_sofa_tilt,-0.5,0,mean,0.8552779818617217,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+d0_sofa_tilt,-0.5,0,terminate,0.9094827586206897,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+d0_sofa_tilt,0.5,0,mean,0.9608695652173913,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+d0_sofa_tilt,0.5,0,terminate,0.9439655172413794,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_add_one,0.1,0,terminate,1.0,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_add_one,0.1,1,terminate,1.0,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_add_one,0.1,2,terminate,1.0,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_remove_one,0.2,0,mean,0.929271496831947,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_remove_one,0.2,0,terminate,0.6120689655172414,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_remove_one,0.2,1,mean,0.9597394147608632,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_remove_one,0.2,1,terminate,0.3405172413793104,False,Tabular BCQ (tau=0.3) [masked greedy],"AM-CQL (Hard, legacy)",31
+mask_remove_one,0.2,2,mean,0.9379766162402089,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+mask_remove_one,0.2,2,terminate,0.3663793103448276,False,Tabular BCQ (tau=0.3) [masked greedy],Neural BC (matched capacity) [masked greedy],31
+transition_lognormal,0.1,0,mean,0.9478260869565218,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.1,0,terminate,0.9612068965517243,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.1,1,mean,0.9368213954331599,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.1,1,terminate,0.9612068965517243,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.1,2,mean,0.9684445341691251,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.1,2,terminate,0.9612068965517243,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.3,0,mean,0.9075086983112925,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.3,0,terminate,0.9224137931034484,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.3,1,mean,0.9031561386071616,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.3,1,terminate,0.9310344827586208,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.3,2,mean,0.7290537504419257,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31
+transition_lognormal,0.3,2,terminate,0.8405172413793105,True,Tabular BCQ (tau=0.3) [masked greedy],Tabular BCQ (tau=0.3) [masked greedy],31

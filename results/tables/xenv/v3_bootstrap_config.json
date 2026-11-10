@@ -1,0 +1,17 @@
+{
+  "cells": [
+    "gumbel|best|n2000|tau5|eps0.05",
+    "gumbel|best|n10000|tau20|eps0.05",
+    "gumbel|best|n10000|tau20|eps0.05|phys-withhold-vaso",
+    "garnet|h-0.5|eps0.05",
+    "garnet|h0.0|eps0.05",
+    "garnet|h0.5|eps0.05",
+    "garnet|h1.0|eps0.05"
+  ],
+  "replicates": 10,
+  "quantiles": [
+    0.025,
+    0.975
+  ],
+  "resample_d0": true
+}

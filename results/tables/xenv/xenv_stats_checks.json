@@ -1,0 +1,559 @@
+{
+  "selftests": {
+    "iqm_equals_trim_mean_when_n_mod_4_is_0": 3.469446951953614e-17,
+    "iqm_interpolated_n9": 0.0,
+    "iqm_n1_n2": 0.0,
+    "poi_matches_probability_of_improvement": 0.0,
+    "stratified_bootstrap_keeps_strata": 0.0,
+    "shared_draw_bootstrap_resamples_draws_jointly": 4.440892098500626e-16,
+    "spearman_matches_scipy": 0.0,
+    "tie_snapping": 0.0
+  },
+  "design": {
+    "families_enabled": [
+      "icu",
+      "gumbel",
+      "garnet"
+    ],
+    "families_present": [
+      "icu",
+      "gumbel",
+      "garnet"
+    ],
+    "rows": 313770,
+    "cells": {
+      "icu|released": {
+        "family": "icu",
+        "draws": 50,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|best|n2000|tau5|eps0.05": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|best|n2000|tau20|eps0.05": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|best|n10000|tau5|eps0.05": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|best|n10000|tau20|eps0.05": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|best|n10000|tau20|eps0.2": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|best|n10000|tau20|eps0.05|phys-withhold-vaso": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "gumbel|oracle|n10000|tau20|eps0.05": {
+        "family": "gumbel",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h-0.5|eps0.05": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h-0.5|eps0.3": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h0.0|eps0.05": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h0.0|eps0.3": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h0.5|eps0.05": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h0.5|eps0.3": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h1.0|eps0.05": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      },
+      "garnet|h1.0|eps0.3": {
+        "family": "garnet",
+        "draws": 30,
+        "targets": [
+          "bench_mean",
+          "bench_terminate",
+          "fqe_dev",
+          "true",
+          "true_rows_mean",
+          "true_rows_terminate"
+        ],
+        "learned_policies": 110,
+        "default_policies": 50
+      }
+    }
+  },
+  "draw_meta": {
+    "rows": 500,
+    "columns": [
+      "cell",
+      "family",
+      "draw",
+      "deploy_target",
+      "identity_hash",
+      "code_hash",
+      "cache",
+      "learn_env.name",
+      "learn_env.S",
+      "learn_env.A",
+      "learn_env.live",
+      "learn_env.admissible_pairs",
+      "learn_env.mean_admissible_actions",
+      "data.train_transitions",
+      "data.train_episodes",
+      "data.dev_transitions",
+      "data.dev_episodes",
+      "targets",
+      "records.total",
+      "records.native",
+      "records.projected",
+      "records.masked",
+      "records.nonconverged",
+      "records.nonconverged_labels",
+      "evaluation.evaluations_unique",
+      "evaluation.evaluations_total",
+      "evaluation.ref_solver.vi",
+      "fqe_rows.rows_from_dev",
+      "fqe_rows.rows_from_train",
+      "fqe_rows.rows_state_pooled",
+      "fqe_rows.states_unobserved",
+      "checks.rows",
+      "checks.improper_rows",
+      "checks.improper_by_target.fqe_dev",
+      "checks.max_slack_vs_optimum",
+      "checks.max_slack_vs_admissible_optimum",
+      "checks.masked_projected_max_inadmissible_mass",
+      "checks.projection_identity.bench_mean.pairs",
+      "checks.projection_identity.bench_mean.status_mismatches",
+      "checks.projection_identity.bench_mean.max_abs_diff_return",
+      "checks.projection_identity.bench_mean.max_rel_diff_length",
+      "checks.projection_identity_worst",
+      "checks.projection_identity_strict",
+      "timing.build_s",
+      "timing.methods_s",
+      "timing.fqe_build_s",
+      "timing.eval_s",
+      "timing.check_s",
+      "timing.total_s",
+      "instance.spec.cell",
+      "instance.spec.family",
+      "instance.spec.draws",
+      "instance.spec.user_episodes",
+      "instance.user_data_source",
+      "instance.user_validation.transitions",
+      "instance.user_validation.episodes",
+      "instance.user_validation.terminated_episodes",
+      "instance.user_validation.cutoff_episodes",
+      "instance.user_validation.mean_return",
+      "instance.user_validation.inadmissible_logged_fraction",
+      "instance.user_validation.distinct_states",
+      "instance.user_validation.distinct_pairs",
+      "instance.hospital_validation",
+      "instance.construction",
+      "instance.train_transitions",
+      "instance.dev_transitions",
+      "instance.build_s",
+      "session_wall_s",
+      "checks.projection_identity.true_rows_mean.pairs",
+      "checks.projection_identity.true_rows_mean.status_mismatches",
+      "checks.projection_identity.true_rows_mean.max_abs_diff_return",
+      "checks.projection_identity.true_rows_mean.max_rel_diff_length",
+      "instance.spec.construction",
+      "instance.spec.n_hosp",
+      "instance.spec.tau",
+      "instance.spec.eps",
+      "instance.spec.physician",
+      "instance.spec.variant",
+      "instance.spec.timeout_hazard",
+      "instance.hospital_validation.transitions",
+      "instance.hospital_validation.episodes",
+      "instance.hospital_validation.terminated_episodes",
+      "instance.hospital_validation.cutoff_episodes",
+      "instance.hospital_validation.mean_return",
+      "instance.hospital_validation.inadmissible_logged_fraction",
+      "instance.hospital_validation.distinct_states",
+      "instance.hospital_validation.distinct_pairs",
+      "instance.construction.construction",
+      "instance.construction.tau",
+      "instance.construction.empty_rule",
+      "instance.construction.censoring_hazard",
+      "instance.construction.hospital_transitions",
+      "instance.construction.hospital_episodes",
+      "instance.construction.censored_steps_timeout",
+      "instance.construction.decision_states_logged",
+      "instance.construction.decision_states",
+      "instance.construction.uninformative_states",
+      "instance.construction.decision_states_without_supported_action",
+      "instance.construction.dead_states_removed",
+      "instance.construction.dead_state_rounds",
+      "instance.construction.transitions_into_dead_dropped",
+      "instance.construction.trap_states_censored",
+      "instance.construction.transitions_from_censored_states",
+      "instance.construction.transitions_into_censored_states",
+      "instance.construction.censored_d0_mass",
+      "instance.construction.true_live_states",
+      "instance.construction.coverage_true_live",
+      "instance.construction.true_d0_mass_on_decision_states",
+      "instance.construction.observed_pairs",
+      "instance.construction.admissible_pairs",
+      "instance.construction.mean_admissible_actions",
+      "instance.construction.single_admissible_fraction",
+      "instance.construction.empty_row_fallbacks",
+      "instance.construction.logged_pairs_below_tau_discarded",
+      "instance.construction.dangling_transitions",
+      "instance.construction.dangling_redirect",
+      "instance.construction.inadmissible_logged_fraction",
+      "instance.construction.fallback_action",
+      "instance.construction.trap_states_given",
+      "instance.construction.trap_states_terminate",
+      "instance.construction.true_optimum_in_mask_fraction",
+      "instance.spec.harm",
+      "instance.spec.n_states",
+      "instance.spec.n_actions",
+      "instance.spec.branching",
+      "instance.spec.hazard_range"
+    ],
+    "result_draws_without_meta": 0
+  },
+  "normalization": {
+    "rows": 306900,
+    "z_finite_rows": 251020,
+    "improper_rows": 10252,
+    "improper_rows_by_family_target": {
+      "garnet|fqe_dev": 1833,
+      "gumbel|fqe_dev": 3375,
+      "icu|fqe_dev": 5044
+    },
+    "groups": 2790,
+    "groups_denominator_below_1e-9": 8,
+    "rows_denominator_below_1e-9": 880,
+    "groups_denominator_below_1e-9_by_target": {
+      "bench_mean": 8
+    },
+    "groups_without_reference_by_target": {
+      "fqe_dev": 500
+    },
+    "groups_reference_behaviour_not_ok": 0
+  },
+  "references": {
+    "rows_checked": 251900,
+    "rows_without_expected_violations": 191734,
+    "max_excess_over_optimum": 3.885780586188048e-16,
+    "max_excess_over_admissible_optimum_zero_violation_policies": 3.3306690738754696e-16,
+    "max_excess_admissible_optimum_over_optimum": 0.0,
+    "max_excess_behaviour_over_optimum": 0.0,
+    "behaviour_record_max_abs_diff_to_ref_behaviour": 0.0,
+    "behaviour_record_max_abs_z": 0.0
+  },
+  "semantic_groups": {
+    "benchmark": {
+      "policy_rows_compared": 55000,
+      "admissible_policy_rows": 40506,
+      "max_prob_any_violation_spread": 0.0,
+      "max_admissible_value_spread": 0.0
+    },
+    "true system": {
+      "policy_rows_compared": 46200,
+      "admissible_policy_rows": 34451,
+      "max_prob_any_violation_spread": 0.0,
+      "max_admissible_value_spread": 0.0
+    }
+  },
+  "poi": {
+    "policies": 50,
+    "max_complementarity_error": 2.220446049250313e-16,
+    "max_diagonal_error": 0.0
+  },
+  "propositions": {
+    "status": "run",
+    "checks": 1451,
+    "passed": 1007,
+    "failed": 0,
+    "other": 444,
+    "per_proposition": {
+      "LP": {
+        "checks": 124,
+        "passed": 114,
+        "failed": 0
+      },
+      "P1": {
+        "checks": 251,
+        "passed": 208,
+        "failed": 0
+      },
+      "P2": {
+        "checks": 209,
+        "passed": 108,
+        "failed": 0
+      },
+      "P3": {
+        "checks": 284,
+        "passed": 159,
+        "failed": 0
+      },
+      "P4": {
+        "checks": 278,
+        "passed": 172,
+        "failed": 0
+      },
+      "P5": {
+        "checks": 157,
+        "passed": 157,
+        "failed": 0
+      },
+      "P6": {
+        "checks": 7,
+        "passed": 6,
+        "failed": 0
+      },
+      "P7": {
+        "checks": 141,
+        "passed": 83,
+        "failed": 0
+      }
+    },
+    "PROPOSITIONS_OK": true
+  },
+  "frontiers": {
+    "rows": 144,
+    "columns": [
+      "family",
+      "cell",
+      "draw",
+      "target",
+      "env",
+      "env_kind",
+      "semantics",
+      "kappa",
+      "objective",
+      "exact_return",
+      "lp_violations",
+      "exact_violations",
+      "prob_any_violation",
+      "avg_episode_length",
+      "expected_decisions",
+      "reachable_live_states",
+      "randomised_states",
+      "J_opt_admissible",
+      "J_opt_unconstrained",
+      "value_of_unsupported_actions",
+      "flat_expected",
+      "flat_reason",
+      "frontier_range",
+      "gap_eval",
+      "gap_vi",
+      "feasibility_excess",
+      "monotone_concave_violation",
+      "eval_status",
+      "vi_status",
+      "solve_s",
+      "passes"
+    ]
+  },
+  "figures": {
+    "fig_xenv_frontiers": "written",
+    "fig_xenv_rank_fidelity": "written",
+    "fig_xenv_harm_phase": "written",
+    "fig_xenv_iqm": "written",
+    "fig_xenv_profiles": "written",
+    "fig_xenv_poi": "written",
+    "fig_xenv_error_decomposition": "written"
+  },
+  "outputs": [
+    "xenv/xenv_normalized_scores.csv",
+    "xenv/table_xenv_main.csv",
+    "xenv/table_xenv_main_long.csv",
+    "xenv/table_rank_fidelity.csv",
+    "xenv/table_rank_fidelity_draws.csv",
+    "xenv/table_error_decomposition.csv",
+    "xenv/table_error_decomposition_draws.csv",
+    "xenv/xenv_prereg_tests.json",
+    "xenv/xenv_h2_family.csv",
+    "xenv/table_hp_selection.csv",
+    "xenv/table_performance_profiles.csv",
+    "xenv/xenv_poi_matrix.csv",
+    "figures/xenv/fig_xenv_frontiers.png",
+    "figures/xenv/fig_xenv_frontiers.pdf",
+    "figures/xenv/fig_xenv_rank_fidelity.png",
+    "figures/xenv/fig_xenv_rank_fidelity.pdf",
+    "figures/xenv/fig_xenv_harm_phase.png",
+    "figures/xenv/fig_xenv_harm_phase.pdf",
+    "figures/xenv/fig_xenv_iqm.png",
+    "figures/xenv/fig_xenv_iqm.pdf",
+    "figures/xenv/fig_xenv_profiles.png",
+    "figures/xenv/fig_xenv_profiles.pdf",
+    "figures/xenv/fig_xenv_poi.png",
+    "figures/xenv/fig_xenv_poi.pdf",
+    "figures/xenv/fig_xenv_error_decomposition.png",
+    "figures/xenv/fig_xenv_error_decomposition.pdf"
+  ],
+  "n_boot": 5000,
+  "ci_level": 0.95,
+  "deploy_targets": {
+    "icu": "bench_terminate",
+    "gumbel": "true",
+    "garnet": "true"
+  },
+  "xenv_done": true,
+  "elapsed_s": 107.51500660000602
+}

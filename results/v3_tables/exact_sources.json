@@ -1,0 +1,15 @@
+{
+ "source_dir": "tables/xenv (notebook v3, Section II.8)",
+ "files": {
+  "v3_bracketing.csv": "4520ec5cd8d692c8512f44f07cdb69c3d826109c87a1d2975d29fb6ac6044c80",
+  "v3_certified.csv": "e75d921f6225c6215748639e3445cb19191ebd63df60988bc7a0c6f552780899",
+  "v3_bootstrap_coverage.csv": "b59f7c79ce44353c9dd873feabd239d599b39f82c0b4a38d8ceb67abd7cd7a81",
+  "v3_icu_harm_summary.csv": "b6f38753dd63e53997d6c1edfa71c7b364e6869e67fefb5c5daf06ef250970eb"
+ },
+ "largest_deviation_from_displayed": {
+  "bracket_v3": 4.88479262672481e-05,
+  "certified_v3": 4.822213043970125e-05,
+  "bootstrap_v3": 4.907805784490349e-05,
+  "icu_harm": 4.672754946721813e-05
+ }
+}

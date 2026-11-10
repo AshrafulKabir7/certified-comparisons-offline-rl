@@ -1,0 +1,2501 @@
+policy_x,policy_y,poi,n_cells
+"Diffusion (exact, guided) [native]","Diffusion (exact, guided) [native]",0.5,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, guided) [projected]",0.5,16
+"Diffusion (exact, guided) [native]",BCQ [masked],0.48695416666666663,16
+"Diffusion (exact, guided) [native]",BCQ [projected],0.4956597222222222,16
+"Diffusion (exact, guided) [native]",VI-LCB [masked],0.5668625,16
+"Diffusion (exact, guided) [native]",IQL [masked],0.5517708333333333,16
+"Diffusion (exact, guided) [native]",IQL [projected],0.5531597222222222,16
+"Diffusion (exact, guided) [native]","SfBC (exact, argmax) [projected]",0.5531597222222222,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, final-only) [native]",0.5760763888888889,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, final-only) [projected]",0.5760763888888889,16
+"Diffusion (exact, guided) [native]",IQL [native],0.6079166666666667,16
+"Diffusion (exact, guided) [native]","SfBC (exact, argmax) [native]",0.6079166666666667,16
+"Diffusion (exact, guided) [native]",BC [projected],0.6139930555555556,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, unguided) [native]",0.6098958333333333,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, unguided) [projected]",0.6098958333333333,16
+"Diffusion (exact, guided) [native]",BC [masked],0.6128125000000001,16
+"Diffusion (exact, guided) [native]",VI-LCB [projected],0.7033972222222222,16
+"Diffusion (exact, guided) [native]",BC [native],0.6461458333333333,16
+"Diffusion (exact, guided) [native]",CQL [masked],0.6157638888888888,16
+"Diffusion (exact, guided) [native]",CQL [projected],0.6170833333333333,16
+"Diffusion (exact, guided) [native]",BCQ [native],0.5785416666666667,16
+"Diffusion (exact, guided) [native]",CQL [native],0.6578472222222222,16
+"Diffusion (exact, guided) [native]",MBS-QI [masked],0.7256708333333334,16
+"Diffusion (exact, guided) [native]",IDQL (exact) [masked],0.9038194444444445,16
+"Diffusion (exact, guided) [native]",MBS-QI [projected],0.7344444444444443,16
+"Diffusion (exact, guided) [native]",IDQL (exact) [projected],0.921875,16
+"Diffusion (exact, guided) [native]",FISOR-tab (exact) [native],0.9047916666666665,16
+"Diffusion (exact, guided) [native]",FISOR-tab (exact) [projected],0.9047916666666665,16
+"Diffusion (exact, guided) [native]",SfBC (exact) [masked],0.9052777777777777,16
+"Diffusion (exact, guided) [native]",Lagrangian-MB [projected],0.7884027777777778,16
+"Diffusion (exact, guided) [native]",Lagrangian-MB [native],0.7901388888888888,16
+"Diffusion (exact, guided) [native]",IQL (AW stochastic) [projected],0.9182638888888889,16
+"Diffusion (exact, guided) [native]",SfBC (exact) [projected],0.9182638888888889,16
+"Diffusion (exact, guided) [native]",SPIBB [projected],0.8977430555555554,16
+"Diffusion (exact, guided) [native]",CMDP-LP (model) [native],0.841636111111111,16
+"Diffusion (exact, guided) [native]",CMDP-LP (model) [projected],0.841636111111111,16
+"Diffusion (exact, guided) [native]",Behaviour (true) [projected],0.9601388888888889,16
+"Diffusion (exact, guided) [native]",BC (stochastic) [projected],0.9600694444444445,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, unmasked) [projected]",0.960486111111111,16
+"Diffusion (exact, guided) [native]",SfBC (exact) [native],0.9914583333333333,16
+"Diffusion (exact, guided) [native]",IQL (AW stochastic) [native],0.9914583333333333,16
+"Diffusion (exact, guided) [native]",IDQL (exact) [native],0.9925,16
+"Diffusion (exact, guided) [native]",SPIBB [native],0.944513888888889,16
+"Diffusion (exact, guided) [native]",Behaviour (true) [native],0.9958333333333333,16
+"Diffusion (exact, guided) [native]",BC (stochastic) [native],0.9964583333333333,16
+"Diffusion (exact, guided) [native]","Diffusion (exact, unmasked) [native]",0.9967361111111112,16
+"Diffusion (exact, guided) [native]",MBS-QI [native],0.8081944444444444,16
+"Diffusion (exact, guided) [native]",Uniform-admissible [native],0.9698611111111111,16
+"Diffusion (exact, guided) [native]",Uniform-admissible [projected],0.9698611111111111,16
+"Diffusion (exact, guided) [native]",VI-LCB [native],0.8111805555555556,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, guided) [native]",0.5,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, guided) [projected]",0.5,16
+"Diffusion (exact, guided) [projected]",BCQ [masked],0.48695416666666663,16
+"Diffusion (exact, guided) [projected]",BCQ [projected],0.4956597222222222,16
+"Diffusion (exact, guided) [projected]",VI-LCB [masked],0.5668625,16
+"Diffusion (exact, guided) [projected]",IQL [masked],0.5517708333333333,16
+"Diffusion (exact, guided) [projected]",IQL [projected],0.5531597222222222,16
+"Diffusion (exact, guided) [projected]","SfBC (exact, argmax) [projected]",0.5531597222222222,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, final-only) [native]",0.5760763888888889,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, final-only) [projected]",0.5760763888888889,16
+"Diffusion (exact, guided) [projected]",IQL [native],0.6079166666666667,16
+"Diffusion (exact, guided) [projected]","SfBC (exact, argmax) [native]",0.6079166666666667,16
+"Diffusion (exact, guided) [projected]",BC [projected],0.6139930555555556,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, unguided) [native]",0.6098958333333333,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, unguided) [projected]",0.6098958333333333,16
+"Diffusion (exact, guided) [projected]",BC [masked],0.6128125000000001,16
+"Diffusion (exact, guided) [projected]",VI-LCB [projected],0.7033972222222222,16
+"Diffusion (exact, guided) [projected]",BC [native],0.6461458333333333,16
+"Diffusion (exact, guided) [projected]",CQL [masked],0.6157638888888888,16
+"Diffusion (exact, guided) [projected]",CQL [projected],0.6170833333333333,16
+"Diffusion (exact, guided) [projected]",BCQ [native],0.5785416666666667,16
+"Diffusion (exact, guided) [projected]",CQL [native],0.6578472222222222,16
+"Diffusion (exact, guided) [projected]",MBS-QI [masked],0.7256708333333334,16
+"Diffusion (exact, guided) [projected]",IDQL (exact) [masked],0.9038194444444445,16
+"Diffusion (exact, guided) [projected]",MBS-QI [projected],0.7344444444444443,16
+"Diffusion (exact, guided) [projected]",IDQL (exact) [projected],0.921875,16
+"Diffusion (exact, guided) [projected]",FISOR-tab (exact) [native],0.9047916666666665,16
+"Diffusion (exact, guided) [projected]",FISOR-tab (exact) [projected],0.9047916666666665,16
+"Diffusion (exact, guided) [projected]",SfBC (exact) [masked],0.9052777777777777,16
+"Diffusion (exact, guided) [projected]",Lagrangian-MB [projected],0.7884027777777778,16
+"Diffusion (exact, guided) [projected]",Lagrangian-MB [native],0.7901388888888888,16
+"Diffusion (exact, guided) [projected]",IQL (AW stochastic) [projected],0.9182638888888889,16
+"Diffusion (exact, guided) [projected]",SfBC (exact) [projected],0.9182638888888889,16
+"Diffusion (exact, guided) [projected]",SPIBB [projected],0.8977430555555554,16
+"Diffusion (exact, guided) [projected]",CMDP-LP (model) [native],0.841636111111111,16
+"Diffusion (exact, guided) [projected]",CMDP-LP (model) [projected],0.841636111111111,16
+"Diffusion (exact, guided) [projected]",Behaviour (true) [projected],0.9601388888888889,16
+"Diffusion (exact, guided) [projected]",BC (stochastic) [projected],0.9600694444444445,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, unmasked) [projected]",0.960486111111111,16
+"Diffusion (exact, guided) [projected]",SfBC (exact) [native],0.9914583333333333,16
+"Diffusion (exact, guided) [projected]",IQL (AW stochastic) [native],0.9914583333333333,16
+"Diffusion (exact, guided) [projected]",IDQL (exact) [native],0.9925,16
+"Diffusion (exact, guided) [projected]",SPIBB [native],0.944513888888889,16
+"Diffusion (exact, guided) [projected]",Behaviour (true) [native],0.9958333333333333,16
+"Diffusion (exact, guided) [projected]",BC (stochastic) [native],0.9964583333333333,16
+"Diffusion (exact, guided) [projected]","Diffusion (exact, unmasked) [native]",0.9967361111111112,16
+"Diffusion (exact, guided) [projected]",MBS-QI [native],0.8081944444444444,16
+"Diffusion (exact, guided) [projected]",Uniform-admissible [native],0.9698611111111111,16
+"Diffusion (exact, guided) [projected]",Uniform-admissible [projected],0.9698611111111111,16
+"Diffusion (exact, guided) [projected]",VI-LCB [native],0.8111805555555556,16
+BCQ [masked],"Diffusion (exact, guided) [native]",0.5130458333333334,16
+BCQ [masked],"Diffusion (exact, guided) [projected]",0.5130458333333334,16
+BCQ [masked],BCQ [masked],0.5,16
+BCQ [masked],BCQ [projected],0.5169972222222222,16
+BCQ [masked],VI-LCB [masked],0.5521041666666667,16
+BCQ [masked],IQL [masked],0.641775,16
+BCQ [masked],IQL [projected],0.6434916666666667,16
+BCQ [masked],"SfBC (exact, argmax) [projected]",0.6434916666666667,16
+BCQ [masked],"Diffusion (exact, final-only) [native]",0.6737944444444444,16
+BCQ [masked],"Diffusion (exact, final-only) [projected]",0.6737944444444444,16
+BCQ [masked],IQL [native],0.7296874999999999,16
+BCQ [masked],"SfBC (exact, argmax) [native]",0.7296874999999999,16
+BCQ [masked],BC [projected],0.7223958333333335,16
+BCQ [masked],"Diffusion (exact, unguided) [native]",0.7196874999999999,16
+BCQ [masked],"Diffusion (exact, unguided) [projected]",0.7196874999999999,16
+BCQ [masked],BC [masked],0.7219791666666667,16
+BCQ [masked],VI-LCB [projected],0.6528166666666667,16
+BCQ [masked],BC [native],0.7820138888888888,16
+BCQ [masked],CQL [masked],0.72125,16
+BCQ [masked],CQL [projected],0.7234027777777778,16
+BCQ [masked],BCQ [native],0.6713888888888888,16
+BCQ [masked],CQL [native],0.8042361111111113,16
+BCQ [masked],MBS-QI [masked],0.6748305555555556,16
+BCQ [masked],IDQL (exact) [masked],0.8681888888888888,16
+BCQ [masked],MBS-QI [projected],0.6947333333333333,16
+BCQ [masked],IDQL (exact) [projected],0.868263888888889,16
+BCQ [masked],FISOR-tab (exact) [native],0.8522222222222223,16
+BCQ [masked],FISOR-tab (exact) [projected],0.8522222222222223,16
+BCQ [masked],SfBC (exact) [masked],0.8534722222222222,16
+BCQ [masked],Lagrangian-MB [projected],0.7435277777777778,16
+BCQ [masked],Lagrangian-MB [native],0.7463375,16
+BCQ [masked],IQL (AW stochastic) [projected],0.8520833333333333,16
+BCQ [masked],SfBC (exact) [projected],0.8520833333333333,16
+BCQ [masked],SPIBB [projected],0.7766069444444444,16
+BCQ [masked],CMDP-LP (model) [native],0.7522569444444445,16
+BCQ [masked],CMDP-LP (model) [projected],0.7522569444444445,16
+BCQ [masked],Behaviour (true) [projected],0.9295138888888889,16
+BCQ [masked],BC (stochastic) [projected],0.9293750000000001,16
+BCQ [masked],"Diffusion (exact, unmasked) [projected]",0.9285416666666666,16
+BCQ [masked],SfBC (exact) [native],0.8996527777777779,16
+BCQ [masked],IQL (AW stochastic) [native],0.8996527777777779,16
+BCQ [masked],IDQL (exact) [native],0.8694444444444445,16
+BCQ [masked],SPIBB [native],0.8286111111111111,16
+BCQ [masked],Behaviour (true) [native],0.9125,16
+BCQ [masked],BC (stochastic) [native],0.9132638888888889,16
+BCQ [masked],"Diffusion (exact, unmasked) [native]",0.9127777777777778,16
+BCQ [masked],MBS-QI [native],0.7795486111111112,16
+BCQ [masked],Uniform-admissible [native],0.8618055555555556,16
+BCQ [masked],Uniform-admissible [projected],0.8618055555555556,16
+BCQ [masked],VI-LCB [native],0.8176388888888889,16
+BCQ [projected],"Diffusion (exact, guided) [native]",0.5043402777777778,16
+BCQ [projected],"Diffusion (exact, guided) [projected]",0.5043402777777778,16
+BCQ [projected],BCQ [masked],0.4830027777777778,16
+BCQ [projected],BCQ [projected],0.5,16
+BCQ [projected],VI-LCB [masked],0.5451291666666668,16
+BCQ [projected],IQL [masked],0.6290972222222222,16
+BCQ [projected],IQL [projected],0.6309722222222223,16
+BCQ [projected],"SfBC (exact, argmax) [projected]",0.6309722222222223,16
+BCQ [projected],"Diffusion (exact, final-only) [native]",0.6603472222222222,16
+BCQ [projected],"Diffusion (exact, final-only) [projected]",0.6603472222222222,16
+BCQ [projected],IQL [native],0.7212847222222222,16
+BCQ [projected],"SfBC (exact, argmax) [native]",0.7212847222222222,16
+BCQ [projected],BC [projected],0.7105902777777778,16
+BCQ [projected],"Diffusion (exact, unguided) [native]",0.7076736111111112,16
+BCQ [projected],"Diffusion (exact, unguided) [projected]",0.7076736111111112,16
+BCQ [projected],BC [masked],0.7108680555555555,16
+BCQ [projected],VI-LCB [projected],0.6472194444444445,16
+BCQ [projected],BC [native],0.773125,16
+BCQ [projected],CQL [masked],0.7080555555555555,16
+BCQ [projected],CQL [projected],0.70875,16
+BCQ [projected],BCQ [native],0.6684375,16
+BCQ [projected],CQL [native],0.7934027777777778,16
+BCQ [projected],MBS-QI [masked],0.6602833333333333,16
+BCQ [projected],IDQL (exact) [masked],0.8678472222222222,16
+BCQ [projected],MBS-QI [projected],0.6816722222222222,16
+BCQ [projected],IDQL (exact) [projected],0.8677083333333333,16
+BCQ [projected],FISOR-tab (exact) [native],0.853263888888889,16
+BCQ [projected],FISOR-tab (exact) [projected],0.853263888888889,16
+BCQ [projected],SfBC (exact) [masked],0.8545833333333334,16
+BCQ [projected],Lagrangian-MB [projected],0.7349541666666668,16
+BCQ [projected],Lagrangian-MB [native],0.7372583333333335,16
+BCQ [projected],IQL (AW stochastic) [projected],0.8529166666666667,16
+BCQ [projected],SfBC (exact) [projected],0.8529166666666667,16
+BCQ [projected],SPIBB [projected],0.7723875,16
+BCQ [projected],CMDP-LP (model) [native],0.7462263888888888,16
+BCQ [projected],CMDP-LP (model) [projected],0.7462263888888888,16
+BCQ [projected],Behaviour (true) [projected],0.9298611111111111,16
+BCQ [projected],BC (stochastic) [projected],0.9295833333333334,16
+BCQ [projected],"Diffusion (exact, unmasked) [projected]",0.9290972222222222,16
+BCQ [projected],SfBC (exact) [native],0.8992361111111111,16
+BCQ [projected],IQL (AW stochastic) [native],0.8992361111111111,16
+BCQ [projected],IDQL (exact) [native],0.8693055555555556,16
+BCQ [projected],SPIBB [native],0.8280555555555555,16
+BCQ [projected],Behaviour (true) [native],0.9125,16
+BCQ [projected],BC (stochastic) [native],0.9134027777777778,16
+BCQ [projected],"Diffusion (exact, unmasked) [native]",0.9125694444444444,16
+BCQ [projected],MBS-QI [native],0.7710069444444445,16
+BCQ [projected],Uniform-admissible [native],0.8618055555555556,16
+BCQ [projected],Uniform-admissible [projected],0.8618055555555556,16
+BCQ [projected],VI-LCB [native],0.8176388888888889,16
+VI-LCB [masked],"Diffusion (exact, guided) [native]",0.43313750000000006,16
+VI-LCB [masked],"Diffusion (exact, guided) [projected]",0.43313750000000006,16
+VI-LCB [masked],BCQ [masked],0.4478958333333334,16
+VI-LCB [masked],BCQ [projected],0.4548708333333334,16
+VI-LCB [masked],VI-LCB [masked],0.5,16
+VI-LCB [masked],IQL [masked],0.5051041666666667,16
+VI-LCB [masked],IQL [projected],0.5063541666666667,16
+VI-LCB [masked],"SfBC (exact, argmax) [projected]",0.5063541666666667,16
+VI-LCB [masked],"Diffusion (exact, final-only) [native]",0.5188541666666666,16
+VI-LCB [masked],"Diffusion (exact, final-only) [projected]",0.5188541666666666,16
+VI-LCB [masked],IQL [native],0.5390972222222222,16
+VI-LCB [masked],"SfBC (exact, argmax) [native]",0.5390972222222222,16
+VI-LCB [masked],BC [projected],0.5480208333333334,16
+VI-LCB [masked],"Diffusion (exact, unguided) [native]",0.5450347222222223,16
+VI-LCB [masked],"Diffusion (exact, unguided) [projected]",0.5450347222222223,16
+VI-LCB [masked],BC [masked],0.5472569444444444,16
+VI-LCB [masked],VI-LCB [projected],0.6460347222222224,16
+VI-LCB [masked],BC [native],0.5612152777777778,16
+VI-LCB [masked],CQL [masked],0.5354861111111111,16
+VI-LCB [masked],CQL [projected],0.5361111111111112,16
+VI-LCB [masked],BCQ [native],0.49812500000000004,16
+VI-LCB [masked],CQL [native],0.5693402777777777,16
+VI-LCB [masked],MBS-QI [masked],0.7321333333333333,16
+VI-LCB [masked],IDQL (exact) [masked],0.8006944444444444,16
+VI-LCB [masked],MBS-QI [projected],0.7442708333333334,16
+VI-LCB [masked],IDQL (exact) [projected],0.8238888888888889,16
+VI-LCB [masked],FISOR-tab (exact) [native],0.8165277777777777,16
+VI-LCB [masked],FISOR-tab (exact) [projected],0.8165277777777777,16
+VI-LCB [masked],SfBC (exact) [masked],0.8175,16
+VI-LCB [masked],Lagrangian-MB [projected],0.815713888888889,16
+VI-LCB [masked],Lagrangian-MB [native],0.81745,16
+VI-LCB [masked],IQL (AW stochastic) [projected],0.8350694444444445,16
+VI-LCB [masked],SfBC (exact) [projected],0.8350694444444445,16
+VI-LCB [masked],SPIBB [projected],0.8252430555555557,16
+VI-LCB [masked],CMDP-LP (model) [native],0.8303166666666667,16
+VI-LCB [masked],CMDP-LP (model) [projected],0.8303166666666667,16
+VI-LCB [masked],Behaviour (true) [projected],0.9125694444444445,16
+VI-LCB [masked],BC (stochastic) [projected],0.9113194444444446,16
+VI-LCB [masked],"Diffusion (exact, unmasked) [projected]",0.9129166666666667,16
+VI-LCB [masked],SfBC (exact) [native],0.9497222222222222,16
+VI-LCB [masked],IQL (AW stochastic) [native],0.9497222222222222,16
+VI-LCB [masked],IDQL (exact) [native],0.9586111111111111,16
+VI-LCB [masked],SPIBB [native],0.9263888888888888,16
+VI-LCB [masked],Behaviour (true) [native],0.9750000000000001,16
+VI-LCB [masked],BC (stochastic) [native],0.9744444444444444,16
+VI-LCB [masked],"Diffusion (exact, unmasked) [native]",0.9748611111111112,16
+VI-LCB [masked],MBS-QI [native],0.8289583333333334,16
+VI-LCB [masked],Uniform-admissible [native],0.9905555555555555,16
+VI-LCB [masked],Uniform-admissible [projected],0.9905555555555555,16
+VI-LCB [masked],VI-LCB [native],0.8427777777777778,16
+IQL [masked],"Diffusion (exact, guided) [native]",0.4482291666666667,16
+IQL [masked],"Diffusion (exact, guided) [projected]",0.4482291666666667,16
+IQL [masked],BCQ [masked],0.358225,16
+IQL [masked],BCQ [projected],0.3709027777777778,16
+IQL [masked],VI-LCB [masked],0.4948958333333333,16
+IQL [masked],IQL [masked],0.5,16
+IQL [masked],IQL [projected],0.5040583333333334,16
+IQL [masked],"SfBC (exact, argmax) [projected]",0.5040583333333334,16
+IQL [masked],"Diffusion (exact, final-only) [native]",0.5622055555555556,16
+IQL [masked],"Diffusion (exact, final-only) [projected]",0.5622055555555556,16
+IQL [masked],IQL [native],0.6189930555555555,16
+IQL [masked],"SfBC (exact, argmax) [native]",0.6189930555555555,16
+IQL [masked],BC [projected],0.6882875,16
+IQL [masked],"Diffusion (exact, unguided) [native]",0.6852819444444446,16
+IQL [masked],"Diffusion (exact, unguided) [projected]",0.6852819444444446,16
+IQL [masked],BC [masked],0.6874736111111112,16
+IQL [masked],VI-LCB [projected],0.5875,16
+IQL [masked],BC [native],0.7434027777777777,16
+IQL [masked],CQL [masked],0.7001916666666665,16
+IQL [masked],CQL [projected],0.7024305555555554,16
+IQL [masked],BCQ [native],0.5566666666666666,16
+IQL [masked],CQL [native],0.7776388888888889,16
+IQL [masked],MBS-QI [masked],0.5682611111111111,16
+IQL [masked],IDQL (exact) [masked],0.773086111111111,16
+IQL [masked],MBS-QI [projected],0.5902958333333334,16
+IQL [masked],IDQL (exact) [projected],0.7959916666666667,16
+IQL [masked],FISOR-tab (exact) [native],0.7973611111111112,16
+IQL [masked],FISOR-tab (exact) [projected],0.7973611111111112,16
+IQL [masked],SfBC (exact) [masked],0.7977777777777778,16
+IQL [masked],Lagrangian-MB [projected],0.6713569444444445,16
+IQL [masked],Lagrangian-MB [native],0.6745875,16
+IQL [masked],IQL (AW stochastic) [projected],0.8076388888888889,16
+IQL [masked],SfBC (exact) [projected],0.8076388888888889,16
+IQL [masked],SPIBB [projected],0.6639930555555555,16
+IQL [masked],CMDP-LP (model) [native],0.7081597222222222,16
+IQL [masked],CMDP-LP (model) [projected],0.7081597222222222,16
+IQL [masked],Behaviour (true) [projected],0.8824305555555555,16
+IQL [masked],BC (stochastic) [projected],0.8815972222222221,16
+IQL [masked],"Diffusion (exact, unmasked) [projected]",0.881388888888889,16
+IQL [masked],SfBC (exact) [native],0.865625,16
+IQL [masked],IQL (AW stochastic) [native],0.865625,16
+IQL [masked],IDQL (exact) [native],0.8454166666666667,16
+IQL [masked],SPIBB [native],0.7819444444444444,16
+IQL [masked],Behaviour (true) [native],0.875,16
+IQL [masked],BC (stochastic) [native],0.8750694444444445,16
+IQL [masked],"Diffusion (exact, unmasked) [native]",0.875,16
+IQL [masked],MBS-QI [native],0.721111111111111,16
+IQL [masked],Uniform-admissible [native],0.8597222222222223,16
+IQL [masked],Uniform-admissible [projected],0.8597222222222223,16
+IQL [masked],VI-LCB [native],0.7715277777777778,16
+IQL [projected],"Diffusion (exact, guided) [native]",0.4468402777777778,16
+IQL [projected],"Diffusion (exact, guided) [projected]",0.4468402777777778,16
+IQL [projected],BCQ [masked],0.3565083333333333,16
+IQL [projected],BCQ [projected],0.3690277777777778,16
+IQL [projected],VI-LCB [masked],0.49364583333333334,16
+IQL [projected],IQL [masked],0.4959416666666667,16
+IQL [projected],IQL [projected],0.5,16
+IQL [projected],"SfBC (exact, argmax) [projected]",0.5,16
+IQL [projected],"Diffusion (exact, final-only) [native]",0.5586194444444444,16
+IQL [projected],"Diffusion (exact, final-only) [projected]",0.5586194444444444,16
+IQL [projected],IQL [native],0.617361111111111,16
+IQL [projected],"SfBC (exact, argmax) [native]",0.617361111111111,16
+IQL [projected],BC [projected],0.6862375,16
+IQL [projected],"Diffusion (exact, unguided) [native]",0.6832763888888889,16
+IQL [projected],"Diffusion (exact, unguided) [projected]",0.6832763888888889,16
+IQL [projected],BC [masked],0.6854930555555556,16
+IQL [projected],VI-LCB [projected],0.5870833333333333,16
+IQL [projected],BC [native],0.7427777777777778,16
+IQL [projected],CQL [masked],0.6977361111111111,16
+IQL [projected],CQL [projected],0.6998805555555556,16
+IQL [projected],BCQ [native],0.5565277777777777,16
+IQL [projected],CQL [native],0.7767361111111112,16
+IQL [projected],MBS-QI [masked],0.5661416666666667,16
+IQL [projected],IDQL (exact) [masked],0.7716916666666666,16
+IQL [projected],MBS-QI [projected],0.5881097222222222,16
+IQL [projected],IDQL (exact) [projected],0.7954222222222221,16
+IQL [projected],FISOR-tab (exact) [native],0.7973611111111112,16
+IQL [projected],FISOR-tab (exact) [projected],0.7973611111111112,16
+IQL [projected],SfBC (exact) [masked],0.7977777777777778,16
+IQL [projected],Lagrangian-MB [projected],0.6707402777777778,16
+IQL [projected],Lagrangian-MB [native],0.6733652777777778,16
+IQL [projected],IQL (AW stochastic) [projected],0.8076388888888889,16
+IQL [projected],SfBC (exact) [projected],0.8076388888888889,16
+IQL [projected],SPIBB [projected],0.6638430555555556,16
+IQL [projected],CMDP-LP (model) [native],0.7070069444444445,16
+IQL [projected],CMDP-LP (model) [projected],0.7070069444444445,16
+IQL [projected],Behaviour (true) [projected],0.8824305555555555,16
+IQL [projected],BC (stochastic) [projected],0.8815972222222221,16
+IQL [projected],"Diffusion (exact, unmasked) [projected]",0.881388888888889,16
+IQL [projected],SfBC (exact) [native],0.865625,16
+IQL [projected],IQL (AW stochastic) [native],0.865625,16
+IQL [projected],IDQL (exact) [native],0.8453472222222222,16
+IQL [projected],SPIBB [native],0.7819444444444444,16
+IQL [projected],Behaviour (true) [native],0.875,16
+IQL [projected],BC (stochastic) [native],0.8750694444444445,16
+IQL [projected],"Diffusion (exact, unmasked) [native]",0.875,16
+IQL [projected],MBS-QI [native],0.72,16
+IQL [projected],Uniform-admissible [native],0.8597222222222223,16
+IQL [projected],Uniform-admissible [projected],0.8597222222222223,16
+IQL [projected],VI-LCB [native],0.7715277777777778,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, guided) [native]",0.4468402777777778,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, guided) [projected]",0.4468402777777778,16
+"SfBC (exact, argmax) [projected]",BCQ [masked],0.3565083333333333,16
+"SfBC (exact, argmax) [projected]",BCQ [projected],0.3690277777777778,16
+"SfBC (exact, argmax) [projected]",VI-LCB [masked],0.49364583333333334,16
+"SfBC (exact, argmax) [projected]",IQL [masked],0.4959416666666667,16
+"SfBC (exact, argmax) [projected]",IQL [projected],0.5,16
+"SfBC (exact, argmax) [projected]","SfBC (exact, argmax) [projected]",0.5,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, final-only) [native]",0.5586194444444444,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, final-only) [projected]",0.5586194444444444,16
+"SfBC (exact, argmax) [projected]",IQL [native],0.617361111111111,16
+"SfBC (exact, argmax) [projected]","SfBC (exact, argmax) [native]",0.617361111111111,16
+"SfBC (exact, argmax) [projected]",BC [projected],0.6862375,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, unguided) [native]",0.6832763888888889,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, unguided) [projected]",0.6832763888888889,16
+"SfBC (exact, argmax) [projected]",BC [masked],0.6854930555555556,16
+"SfBC (exact, argmax) [projected]",VI-LCB [projected],0.5870833333333333,16
+"SfBC (exact, argmax) [projected]",BC [native],0.7427777777777778,16
+"SfBC (exact, argmax) [projected]",CQL [masked],0.6977361111111111,16
+"SfBC (exact, argmax) [projected]",CQL [projected],0.6998805555555556,16
+"SfBC (exact, argmax) [projected]",BCQ [native],0.5565277777777777,16
+"SfBC (exact, argmax) [projected]",CQL [native],0.7767361111111112,16
+"SfBC (exact, argmax) [projected]",MBS-QI [masked],0.5661416666666667,16
+"SfBC (exact, argmax) [projected]",IDQL (exact) [masked],0.7716916666666666,16
+"SfBC (exact, argmax) [projected]",MBS-QI [projected],0.5881097222222222,16
+"SfBC (exact, argmax) [projected]",IDQL (exact) [projected],0.7954222222222221,16
+"SfBC (exact, argmax) [projected]",FISOR-tab (exact) [native],0.7973611111111112,16
+"SfBC (exact, argmax) [projected]",FISOR-tab (exact) [projected],0.7973611111111112,16
+"SfBC (exact, argmax) [projected]",SfBC (exact) [masked],0.7977777777777778,16
+"SfBC (exact, argmax) [projected]",Lagrangian-MB [projected],0.6707402777777778,16
+"SfBC (exact, argmax) [projected]",Lagrangian-MB [native],0.6733652777777778,16
+"SfBC (exact, argmax) [projected]",IQL (AW stochastic) [projected],0.8076388888888889,16
+"SfBC (exact, argmax) [projected]",SfBC (exact) [projected],0.8076388888888889,16
+"SfBC (exact, argmax) [projected]",SPIBB [projected],0.6638430555555556,16
+"SfBC (exact, argmax) [projected]",CMDP-LP (model) [native],0.7070069444444445,16
+"SfBC (exact, argmax) [projected]",CMDP-LP (model) [projected],0.7070069444444445,16
+"SfBC (exact, argmax) [projected]",Behaviour (true) [projected],0.8824305555555555,16
+"SfBC (exact, argmax) [projected]",BC (stochastic) [projected],0.8815972222222221,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, unmasked) [projected]",0.881388888888889,16
+"SfBC (exact, argmax) [projected]",SfBC (exact) [native],0.865625,16
+"SfBC (exact, argmax) [projected]",IQL (AW stochastic) [native],0.865625,16
+"SfBC (exact, argmax) [projected]",IDQL (exact) [native],0.8453472222222222,16
+"SfBC (exact, argmax) [projected]",SPIBB [native],0.7819444444444444,16
+"SfBC (exact, argmax) [projected]",Behaviour (true) [native],0.875,16
+"SfBC (exact, argmax) [projected]",BC (stochastic) [native],0.8750694444444445,16
+"SfBC (exact, argmax) [projected]","Diffusion (exact, unmasked) [native]",0.875,16
+"SfBC (exact, argmax) [projected]",MBS-QI [native],0.72,16
+"SfBC (exact, argmax) [projected]",Uniform-admissible [native],0.8597222222222223,16
+"SfBC (exact, argmax) [projected]",Uniform-admissible [projected],0.8597222222222223,16
+"SfBC (exact, argmax) [projected]",VI-LCB [native],0.7715277777777778,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, guided) [native]",0.4239236111111111,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, guided) [projected]",0.4239236111111111,16
+"Diffusion (exact, final-only) [native]",BCQ [masked],0.3262055555555555,16
+"Diffusion (exact, final-only) [native]",BCQ [projected],0.3396527777777778,16
+"Diffusion (exact, final-only) [native]",VI-LCB [masked],0.4811458333333334,16
+"Diffusion (exact, final-only) [native]",IQL [masked],0.43779444444444443,16
+"Diffusion (exact, final-only) [native]",IQL [projected],0.44138055555555555,16
+"Diffusion (exact, final-only) [native]","SfBC (exact, argmax) [projected]",0.44138055555555555,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, final-only) [native]",0.5,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, final-only) [projected]",0.5,16
+"Diffusion (exact, final-only) [native]",IQL [native],0.5722069444444444,16
+"Diffusion (exact, final-only) [native]","SfBC (exact, argmax) [native]",0.5722069444444444,16
+"Diffusion (exact, final-only) [native]",BC [projected],0.6480347222222221,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, unguided) [native]",0.6451819444444444,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, unguided) [projected]",0.6451819444444444,16
+"Diffusion (exact, final-only) [native]",BC [masked],0.6477069444444445,16
+"Diffusion (exact, final-only) [native]",VI-LCB [projected],0.5804861111111111,16
+"Diffusion (exact, final-only) [native]",BC [native],0.7102777777777777,16
+"Diffusion (exact, final-only) [native]",CQL [masked],0.6590333333333332,16
+"Diffusion (exact, final-only) [native]",CQL [projected],0.6614861111111111,16
+"Diffusion (exact, final-only) [native]",BCQ [native],0.5365972222222222,16
+"Diffusion (exact, final-only) [native]",CQL [native],0.7427083333333334,16
+"Diffusion (exact, final-only) [native]",MBS-QI [masked],0.5421805555555556,16
+"Diffusion (exact, final-only) [native]",IDQL (exact) [masked],0.7544472222222222,16
+"Diffusion (exact, final-only) [native]",MBS-QI [projected],0.5636208333333333,16
+"Diffusion (exact, final-only) [native]",IDQL (exact) [projected],0.7818305555555556,16
+"Diffusion (exact, final-only) [native]",FISOR-tab (exact) [native],0.7824305555555555,16
+"Diffusion (exact, final-only) [native]",FISOR-tab (exact) [projected],0.7824305555555555,16
+"Diffusion (exact, final-only) [native]",SfBC (exact) [masked],0.7829861111111112,16
+"Diffusion (exact, final-only) [native]",Lagrangian-MB [projected],0.6486263888888889,16
+"Diffusion (exact, final-only) [native]",Lagrangian-MB [native],0.6511069444444444,16
+"Diffusion (exact, final-only) [native]",IQL (AW stochastic) [projected],0.793125,16
+"Diffusion (exact, final-only) [native]",SfBC (exact) [projected],0.793125,16
+"Diffusion (exact, final-only) [native]",SPIBB [projected],0.6627791666666667,16
+"Diffusion (exact, final-only) [native]",CMDP-LP (model) [native],0.6826319444444444,16
+"Diffusion (exact, final-only) [native]",CMDP-LP (model) [projected],0.6826319444444444,16
+"Diffusion (exact, final-only) [native]",Behaviour (true) [projected],0.8722916666666667,16
+"Diffusion (exact, final-only) [native]",BC (stochastic) [projected],0.8718055555555555,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, unmasked) [projected]",0.871736111111111,16
+"Diffusion (exact, final-only) [native]",SfBC (exact) [native],0.8644444444444445,16
+"Diffusion (exact, final-only) [native]",IQL (AW stochastic) [native],0.8644444444444445,16
+"Diffusion (exact, final-only) [native]",IDQL (exact) [native],0.8420138888888888,16
+"Diffusion (exact, final-only) [native]",SPIBB [native],0.7821527777777778,16
+"Diffusion (exact, final-only) [native]",Behaviour (true) [native],0.8666666666666667,16
+"Diffusion (exact, final-only) [native]",BC (stochastic) [native],0.8670833333333333,16
+"Diffusion (exact, final-only) [native]","Diffusion (exact, unmasked) [native]",0.8669444444444445,16
+"Diffusion (exact, final-only) [native]",MBS-QI [native],0.7029861111111111,16
+"Diffusion (exact, final-only) [native]",Uniform-admissible [native],0.857638888888889,16
+"Diffusion (exact, final-only) [native]",Uniform-admissible [projected],0.857638888888889,16
+"Diffusion (exact, final-only) [native]",VI-LCB [native],0.7711111111111111,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, guided) [native]",0.4239236111111111,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, guided) [projected]",0.4239236111111111,16
+"Diffusion (exact, final-only) [projected]",BCQ [masked],0.3262055555555555,16
+"Diffusion (exact, final-only) [projected]",BCQ [projected],0.3396527777777778,16
+"Diffusion (exact, final-only) [projected]",VI-LCB [masked],0.4811458333333334,16
+"Diffusion (exact, final-only) [projected]",IQL [masked],0.43779444444444443,16
+"Diffusion (exact, final-only) [projected]",IQL [projected],0.44138055555555555,16
+"Diffusion (exact, final-only) [projected]","SfBC (exact, argmax) [projected]",0.44138055555555555,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, final-only) [native]",0.5,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, final-only) [projected]",0.5,16
+"Diffusion (exact, final-only) [projected]",IQL [native],0.5722069444444444,16
+"Diffusion (exact, final-only) [projected]","SfBC (exact, argmax) [native]",0.5722069444444444,16
+"Diffusion (exact, final-only) [projected]",BC [projected],0.6480347222222221,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, unguided) [native]",0.6451819444444444,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, unguided) [projected]",0.6451819444444444,16
+"Diffusion (exact, final-only) [projected]",BC [masked],0.6477069444444445,16
+"Diffusion (exact, final-only) [projected]",VI-LCB [projected],0.5804861111111111,16
+"Diffusion (exact, final-only) [projected]",BC [native],0.7102777777777777,16
+"Diffusion (exact, final-only) [projected]",CQL [masked],0.6590333333333332,16
+"Diffusion (exact, final-only) [projected]",CQL [projected],0.6614861111111111,16
+"Diffusion (exact, final-only) [projected]",BCQ [native],0.5365972222222222,16
+"Diffusion (exact, final-only) [projected]",CQL [native],0.7427083333333334,16
+"Diffusion (exact, final-only) [projected]",MBS-QI [masked],0.5421805555555556,16
+"Diffusion (exact, final-only) [projected]",IDQL (exact) [masked],0.7544472222222222,16
+"Diffusion (exact, final-only) [projected]",MBS-QI [projected],0.5636208333333333,16
+"Diffusion (exact, final-only) [projected]",IDQL (exact) [projected],0.7818305555555556,16
+"Diffusion (exact, final-only) [projected]",FISOR-tab (exact) [native],0.7824305555555555,16
+"Diffusion (exact, final-only) [projected]",FISOR-tab (exact) [projected],0.7824305555555555,16
+"Diffusion (exact, final-only) [projected]",SfBC (exact) [masked],0.7829861111111112,16
+"Diffusion (exact, final-only) [projected]",Lagrangian-MB [projected],0.6486263888888889,16
+"Diffusion (exact, final-only) [projected]",Lagrangian-MB [native],0.6511069444444444,16
+"Diffusion (exact, final-only) [projected]",IQL (AW stochastic) [projected],0.793125,16
+"Diffusion (exact, final-only) [projected]",SfBC (exact) [projected],0.793125,16
+"Diffusion (exact, final-only) [projected]",SPIBB [projected],0.6627791666666667,16
+"Diffusion (exact, final-only) [projected]",CMDP-LP (model) [native],0.6826319444444444,16
+"Diffusion (exact, final-only) [projected]",CMDP-LP (model) [projected],0.6826319444444444,16
+"Diffusion (exact, final-only) [projected]",Behaviour (true) [projected],0.8722916666666667,16
+"Diffusion (exact, final-only) [projected]",BC (stochastic) [projected],0.8718055555555555,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, unmasked) [projected]",0.871736111111111,16
+"Diffusion (exact, final-only) [projected]",SfBC (exact) [native],0.8644444444444445,16
+"Diffusion (exact, final-only) [projected]",IQL (AW stochastic) [native],0.8644444444444445,16
+"Diffusion (exact, final-only) [projected]",IDQL (exact) [native],0.8420138888888888,16
+"Diffusion (exact, final-only) [projected]",SPIBB [native],0.7821527777777778,16
+"Diffusion (exact, final-only) [projected]",Behaviour (true) [native],0.8666666666666667,16
+"Diffusion (exact, final-only) [projected]",BC (stochastic) [native],0.8670833333333333,16
+"Diffusion (exact, final-only) [projected]","Diffusion (exact, unmasked) [native]",0.8669444444444445,16
+"Diffusion (exact, final-only) [projected]",MBS-QI [native],0.7029861111111111,16
+"Diffusion (exact, final-only) [projected]",Uniform-admissible [native],0.857638888888889,16
+"Diffusion (exact, final-only) [projected]",Uniform-admissible [projected],0.857638888888889,16
+"Diffusion (exact, final-only) [projected]",VI-LCB [native],0.7711111111111111,16
+IQL [native],"Diffusion (exact, guided) [native]",0.3920833333333334,16
+IQL [native],"Diffusion (exact, guided) [projected]",0.3920833333333334,16
+IQL [native],BCQ [masked],0.27031250000000007,16
+IQL [native],BCQ [projected],0.2787152777777778,16
+IQL [native],VI-LCB [masked],0.4609027777777778,16
+IQL [native],IQL [masked],0.3810069444444445,16
+IQL [native],IQL [projected],0.3826388888888889,16
+IQL [native],"SfBC (exact, argmax) [projected]",0.3826388888888889,16
+IQL [native],"Diffusion (exact, final-only) [native]",0.42779305555555563,16
+IQL [native],"Diffusion (exact, final-only) [projected]",0.42779305555555563,16
+IQL [native],IQL [native],0.5,16
+IQL [native],"SfBC (exact, argmax) [native]",0.5,16
+IQL [native],BC [projected],0.5342152777777779,16
+IQL [native],"Diffusion (exact, unguided) [native]",0.5340763888888889,16
+IQL [native],"Diffusion (exact, unguided) [projected]",0.5340763888888889,16
+IQL [native],BC [masked],0.535326388888889,16
+IQL [native],VI-LCB [projected],0.5581944444444444,16
+IQL [native],BC [native],0.6388541666666666,16
+IQL [native],CQL [masked],0.5551152777777779,16
+IQL [native],CQL [projected],0.5570180555555557,16
+IQL [native],BCQ [native],0.516875,16
+IQL [native],CQL [native],0.7075347222222224,16
+IQL [native],MBS-QI [masked],0.5227430555555556,16
+IQL [native],IDQL (exact) [masked],0.7574305555555555,16
+IQL [native],MBS-QI [projected],0.5340541666666667,16
+IQL [native],IDQL (exact) [projected],0.7609722222222222,16
+IQL [native],FISOR-tab (exact) [native],0.7361694444444444,16
+IQL [native],FISOR-tab (exact) [projected],0.7361694444444444,16
+IQL [native],SfBC (exact) [masked],0.7366611111111112,16
+IQL [native],Lagrangian-MB [projected],0.6383291666666666,16
+IQL [native],Lagrangian-MB [native],0.6409680555555556,16
+IQL [native],IQL (AW stochastic) [projected],0.7486277777777778,16
+IQL [native],SfBC (exact) [projected],0.7486277777777778,16
+IQL [native],SPIBB [projected],0.6632986111111111,16
+IQL [native],CMDP-LP (model) [native],0.6349069444444445,16
+IQL [native],CMDP-LP (model) [projected],0.6349069444444445,16
+IQL [native],Behaviour (true) [projected],0.8261805555555555,16
+IQL [native],BC (stochastic) [projected],0.8249972222222222,16
+IQL [native],"Diffusion (exact, unmasked) [projected]",0.824788888888889,16
+IQL [native],SfBC (exact) [native],0.865625,16
+IQL [native],IQL (AW stochastic) [native],0.865625,16
+IQL [native],IDQL (exact) [native],0.8453472222222222,16
+IQL [native],SPIBB [native],0.7819444444444444,16
+IQL [native],Behaviour (true) [native],0.875,16
+IQL [native],BC (stochastic) [native],0.8750694444444445,16
+IQL [native],"Diffusion (exact, unmasked) [native]",0.875,16
+IQL [native],MBS-QI [native],0.6847916666666667,16
+IQL [native],Uniform-admissible [native],0.8059722222222223,16
+IQL [native],Uniform-admissible [projected],0.8059722222222223,16
+IQL [native],VI-LCB [native],0.7715277777777778,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, guided) [native]",0.3920833333333334,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, guided) [projected]",0.3920833333333334,16
+"SfBC (exact, argmax) [native]",BCQ [masked],0.27031250000000007,16
+"SfBC (exact, argmax) [native]",BCQ [projected],0.2787152777777778,16
+"SfBC (exact, argmax) [native]",VI-LCB [masked],0.4609027777777778,16
+"SfBC (exact, argmax) [native]",IQL [masked],0.3810069444444445,16
+"SfBC (exact, argmax) [native]",IQL [projected],0.3826388888888889,16
+"SfBC (exact, argmax) [native]","SfBC (exact, argmax) [projected]",0.3826388888888889,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, final-only) [native]",0.42779305555555563,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, final-only) [projected]",0.42779305555555563,16
+"SfBC (exact, argmax) [native]",IQL [native],0.5,16
+"SfBC (exact, argmax) [native]","SfBC (exact, argmax) [native]",0.5,16
+"SfBC (exact, argmax) [native]",BC [projected],0.5342152777777779,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, unguided) [native]",0.5340763888888889,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, unguided) [projected]",0.5340763888888889,16
+"SfBC (exact, argmax) [native]",BC [masked],0.535326388888889,16
+"SfBC (exact, argmax) [native]",VI-LCB [projected],0.5581944444444444,16
+"SfBC (exact, argmax) [native]",BC [native],0.6388541666666666,16
+"SfBC (exact, argmax) [native]",CQL [masked],0.5551152777777779,16
+"SfBC (exact, argmax) [native]",CQL [projected],0.5570180555555557,16
+"SfBC (exact, argmax) [native]",BCQ [native],0.516875,16
+"SfBC (exact, argmax) [native]",CQL [native],0.7075347222222224,16
+"SfBC (exact, argmax) [native]",MBS-QI [masked],0.5227430555555556,16
+"SfBC (exact, argmax) [native]",IDQL (exact) [masked],0.7574305555555555,16
+"SfBC (exact, argmax) [native]",MBS-QI [projected],0.5340541666666667,16
+"SfBC (exact, argmax) [native]",IDQL (exact) [projected],0.7609722222222222,16
+"SfBC (exact, argmax) [native]",FISOR-tab (exact) [native],0.7361694444444444,16
+"SfBC (exact, argmax) [native]",FISOR-tab (exact) [projected],0.7361694444444444,16
+"SfBC (exact, argmax) [native]",SfBC (exact) [masked],0.7366611111111112,16
+"SfBC (exact, argmax) [native]",Lagrangian-MB [projected],0.6383291666666666,16
+"SfBC (exact, argmax) [native]",Lagrangian-MB [native],0.6409680555555556,16
+"SfBC (exact, argmax) [native]",IQL (AW stochastic) [projected],0.7486277777777778,16
+"SfBC (exact, argmax) [native]",SfBC (exact) [projected],0.7486277777777778,16
+"SfBC (exact, argmax) [native]",SPIBB [projected],0.6632986111111111,16
+"SfBC (exact, argmax) [native]",CMDP-LP (model) [native],0.6349069444444445,16
+"SfBC (exact, argmax) [native]",CMDP-LP (model) [projected],0.6349069444444445,16
+"SfBC (exact, argmax) [native]",Behaviour (true) [projected],0.8261805555555555,16
+"SfBC (exact, argmax) [native]",BC (stochastic) [projected],0.8249972222222222,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, unmasked) [projected]",0.824788888888889,16
+"SfBC (exact, argmax) [native]",SfBC (exact) [native],0.865625,16
+"SfBC (exact, argmax) [native]",IQL (AW stochastic) [native],0.865625,16
+"SfBC (exact, argmax) [native]",IDQL (exact) [native],0.8453472222222222,16
+"SfBC (exact, argmax) [native]",SPIBB [native],0.7819444444444444,16
+"SfBC (exact, argmax) [native]",Behaviour (true) [native],0.875,16
+"SfBC (exact, argmax) [native]",BC (stochastic) [native],0.8750694444444445,16
+"SfBC (exact, argmax) [native]","Diffusion (exact, unmasked) [native]",0.875,16
+"SfBC (exact, argmax) [native]",MBS-QI [native],0.6847916666666667,16
+"SfBC (exact, argmax) [native]",Uniform-admissible [native],0.8059722222222223,16
+"SfBC (exact, argmax) [native]",Uniform-admissible [projected],0.8059722222222223,16
+"SfBC (exact, argmax) [native]",VI-LCB [native],0.7715277777777778,16
+BC [projected],"Diffusion (exact, guided) [native]",0.3860069444444445,16
+BC [projected],"Diffusion (exact, guided) [projected]",0.3860069444444445,16
+BC [projected],BCQ [masked],0.27760416666666665,16
+BC [projected],BCQ [projected],0.28940972222222217,16
+BC [projected],VI-LCB [masked],0.45197916666666665,16
+BC [projected],IQL [masked],0.3117125,16
+BC [projected],IQL [projected],0.31376250000000006,16
+BC [projected],"SfBC (exact, argmax) [projected]",0.31376250000000006,16
+BC [projected],"Diffusion (exact, final-only) [native]",0.35196527777777775,16
+BC [projected],"Diffusion (exact, final-only) [projected]",0.35196527777777775,16
+BC [projected],IQL [native],0.46578472222222217,16
+BC [projected],"SfBC (exact, argmax) [native]",0.46578472222222217,16
+BC [projected],BC [projected],0.5,16
+BC [projected],"Diffusion (exact, unguided) [native]",0.49993055555555554,16
+BC [projected],"Diffusion (exact, unguided) [projected]",0.49993055555555554,16
+BC [projected],BC [masked],0.4999541666666667,16
+BC [projected],VI-LCB [projected],0.5513888888888889,16
+BC [projected],BC [native],0.5939263888888888,16
+BC [projected],CQL [masked],0.5519472222222223,16
+BC [projected],CQL [projected],0.5543777777777777,16
+BC [projected],BCQ [native],0.4988194444444444,16
+BC [projected],CQL [native],0.6441666666666666,16
+BC [projected],MBS-QI [masked],0.4866027777777778,16
+BC [projected],IDQL (exact) [masked],0.670625,16
+BC [projected],MBS-QI [projected],0.5016763888888889,16
+BC [projected],IDQL (exact) [projected],0.6785416666666666,16
+BC [projected],FISOR-tab (exact) [native],0.6655722222222222,16
+BC [projected],FISOR-tab (exact) [projected],0.6655722222222222,16
+BC [projected],SfBC (exact) [masked],0.6668472222222221,16
+BC [projected],Lagrangian-MB [projected],0.5684402777777777,16
+BC [projected],Lagrangian-MB [native],0.5715652777777778,16
+BC [projected],IQL (AW stochastic) [projected],0.6960527777777777,16
+BC [projected],SfBC (exact) [projected],0.6960527777777777,16
+BC [projected],SPIBB [projected],0.6326736111111111,16
+BC [projected],CMDP-LP (model) [native],0.593176388888889,16
+BC [projected],CMDP-LP (model) [projected],0.593176388888889,16
+BC [projected],Behaviour (true) [projected],0.79125,16
+BC [projected],BC (stochastic) [projected],0.7929222222222222,16
+BC [projected],"Diffusion (exact, unmasked) [projected]",0.7929972222222221,16
+BC [projected],SfBC (exact) [native],0.8019444444444445,16
+BC [projected],IQL (AW stochastic) [native],0.8019444444444445,16
+BC [projected],IDQL (exact) [native],0.7661805555555555,16
+BC [projected],SPIBB [native],0.7525694444444444,16
+BC [projected],Behaviour (true) [native],0.8125,16
+BC [projected],BC (stochastic) [native],0.8133333333333334,16
+BC [projected],"Diffusion (exact, unmasked) [native]",0.8133333333333334,16
+BC [projected],MBS-QI [native],0.6506944444444445,16
+BC [projected],Uniform-admissible [native],0.8037500000000001,16
+BC [projected],Uniform-admissible [projected],0.8037500000000001,16
+BC [projected],VI-LCB [native],0.7510416666666666,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, guided) [native]",0.3901041666666667,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, guided) [projected]",0.3901041666666667,16
+"Diffusion (exact, unguided) [native]",BCQ [masked],0.28031249999999996,16
+"Diffusion (exact, unguided) [native]",BCQ [projected],0.29232638888888884,16
+"Diffusion (exact, unguided) [native]",VI-LCB [masked],0.4549652777777778,16
+"Diffusion (exact, unguided) [native]",IQL [masked],0.3147180555555556,16
+"Diffusion (exact, unguided) [native]",IQL [projected],0.3167236111111111,16
+"Diffusion (exact, unguided) [native]","SfBC (exact, argmax) [projected]",0.3167236111111111,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, final-only) [native]",0.3548180555555555,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, final-only) [projected]",0.3548180555555555,16
+"Diffusion (exact, unguided) [native]",IQL [native],0.4659236111111111,16
+"Diffusion (exact, unguided) [native]","SfBC (exact, argmax) [native]",0.4659236111111111,16
+"Diffusion (exact, unguided) [native]",BC [projected],0.5000694444444445,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, unguided) [native]",0.5,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, unguided) [projected]",0.5,16
+"Diffusion (exact, unguided) [native]",BC [masked],0.5005208333333333,16
+"Diffusion (exact, unguided) [native]",VI-LCB [projected],0.553125,16
+"Diffusion (exact, unguided) [native]",BC [native],0.5912375,16
+"Diffusion (exact, unguided) [native]",CQL [masked],0.5525888888888889,16
+"Diffusion (exact, unguided) [native]",CQL [projected],0.5551555555555555,16
+"Diffusion (exact, unguided) [native]",BCQ [native],0.4984027777777778,16
+"Diffusion (exact, unguided) [native]",CQL [native],0.6434722222222221,16
+"Diffusion (exact, unguided) [native]",MBS-QI [masked],0.4893361111111111,16
+"Diffusion (exact, unguided) [native]",IDQL (exact) [masked],0.668611111111111,16
+"Diffusion (exact, unguided) [native]",MBS-QI [projected],0.5048347222222223,16
+"Diffusion (exact, unguided) [native]",IDQL (exact) [projected],0.6768972222222222,16
+"Diffusion (exact, unguided) [native]",FISOR-tab (exact) [native],0.6683055555555555,16
+"Diffusion (exact, unguided) [native]",FISOR-tab (exact) [projected],0.6683055555555555,16
+"Diffusion (exact, unguided) [native]",SfBC (exact) [masked],0.6698000000000001,16
+"Diffusion (exact, unguided) [native]",Lagrangian-MB [projected],0.5705736111111112,16
+"Diffusion (exact, unguided) [native]",Lagrangian-MB [native],0.5731680555555556,16
+"Diffusion (exact, unguided) [native]",IQL (AW stochastic) [projected],0.70135,16
+"Diffusion (exact, unguided) [native]",SfBC (exact) [projected],0.70135,16
+"Diffusion (exact, unguided) [native]",SPIBB [projected],0.6331597222222223,16
+"Diffusion (exact, unguided) [native]",CMDP-LP (model) [native],0.5956875,16
+"Diffusion (exact, unguided) [native]",CMDP-LP (model) [projected],0.5956875,16
+"Diffusion (exact, unguided) [native]",Behaviour (true) [projected],0.7983333333333333,16
+"Diffusion (exact, unguided) [native]",BC (stochastic) [projected],0.797236111111111,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, unmasked) [projected]",0.7973111111111111,16
+"Diffusion (exact, unguided) [native]",SfBC (exact) [native],0.8063194444444445,16
+"Diffusion (exact, unguided) [native]",IQL (AW stochastic) [native],0.8063194444444445,16
+"Diffusion (exact, unguided) [native]",IDQL (exact) [native],0.7642361111111111,16
+"Diffusion (exact, unguided) [native]",SPIBB [native],0.7530555555555556,16
+"Diffusion (exact, unguided) [native]",Behaviour (true) [native],0.8145833333333333,16
+"Diffusion (exact, unguided) [native]",BC (stochastic) [native],0.8146527777777778,16
+"Diffusion (exact, unguided) [native]","Diffusion (exact, unmasked) [native]",0.8147222222222222,16
+"Diffusion (exact, unguided) [native]",MBS-QI [native],0.6527777777777778,16
+"Diffusion (exact, unguided) [native]",Uniform-admissible [native],0.8044444444444445,16
+"Diffusion (exact, unguided) [native]",Uniform-admissible [projected],0.8044444444444445,16
+"Diffusion (exact, unguided) [native]",VI-LCB [native],0.7511805555555555,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, guided) [native]",0.3901041666666667,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, guided) [projected]",0.3901041666666667,16
+"Diffusion (exact, unguided) [projected]",BCQ [masked],0.28031249999999996,16
+"Diffusion (exact, unguided) [projected]",BCQ [projected],0.29232638888888884,16
+"Diffusion (exact, unguided) [projected]",VI-LCB [masked],0.4549652777777778,16
+"Diffusion (exact, unguided) [projected]",IQL [masked],0.3147180555555556,16
+"Diffusion (exact, unguided) [projected]",IQL [projected],0.3167236111111111,16
+"Diffusion (exact, unguided) [projected]","SfBC (exact, argmax) [projected]",0.3167236111111111,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, final-only) [native]",0.3548180555555555,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, final-only) [projected]",0.3548180555555555,16
+"Diffusion (exact, unguided) [projected]",IQL [native],0.4659236111111111,16
+"Diffusion (exact, unguided) [projected]","SfBC (exact, argmax) [native]",0.4659236111111111,16
+"Diffusion (exact, unguided) [projected]",BC [projected],0.5000694444444445,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, unguided) [native]",0.5,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, unguided) [projected]",0.5,16
+"Diffusion (exact, unguided) [projected]",BC [masked],0.5005208333333333,16
+"Diffusion (exact, unguided) [projected]",VI-LCB [projected],0.553125,16
+"Diffusion (exact, unguided) [projected]",BC [native],0.5912375,16
+"Diffusion (exact, unguided) [projected]",CQL [masked],0.5525888888888889,16
+"Diffusion (exact, unguided) [projected]",CQL [projected],0.5551555555555555,16
+"Diffusion (exact, unguided) [projected]",BCQ [native],0.4984027777777778,16
+"Diffusion (exact, unguided) [projected]",CQL [native],0.6434722222222221,16
+"Diffusion (exact, unguided) [projected]",MBS-QI [masked],0.4893361111111111,16
+"Diffusion (exact, unguided) [projected]",IDQL (exact) [masked],0.668611111111111,16
+"Diffusion (exact, unguided) [projected]",MBS-QI [projected],0.5048347222222223,16
+"Diffusion (exact, unguided) [projected]",IDQL (exact) [projected],0.6768972222222222,16
+"Diffusion (exact, unguided) [projected]",FISOR-tab (exact) [native],0.6683055555555555,16
+"Diffusion (exact, unguided) [projected]",FISOR-tab (exact) [projected],0.6683055555555555,16
+"Diffusion (exact, unguided) [projected]",SfBC (exact) [masked],0.6698000000000001,16
+"Diffusion (exact, unguided) [projected]",Lagrangian-MB [projected],0.5705736111111112,16
+"Diffusion (exact, unguided) [projected]",Lagrangian-MB [native],0.5731680555555556,16
+"Diffusion (exact, unguided) [projected]",IQL (AW stochastic) [projected],0.70135,16
+"Diffusion (exact, unguided) [projected]",SfBC (exact) [projected],0.70135,16
+"Diffusion (exact, unguided) [projected]",SPIBB [projected],0.6331597222222223,16
+"Diffusion (exact, unguided) [projected]",CMDP-LP (model) [native],0.5956875,16
+"Diffusion (exact, unguided) [projected]",CMDP-LP (model) [projected],0.5956875,16
+"Diffusion (exact, unguided) [projected]",Behaviour (true) [projected],0.7983333333333333,16
+"Diffusion (exact, unguided) [projected]",BC (stochastic) [projected],0.797236111111111,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, unmasked) [projected]",0.7973111111111111,16
+"Diffusion (exact, unguided) [projected]",SfBC (exact) [native],0.8063194444444445,16
+"Diffusion (exact, unguided) [projected]",IQL (AW stochastic) [native],0.8063194444444445,16
+"Diffusion (exact, unguided) [projected]",IDQL (exact) [native],0.7642361111111111,16
+"Diffusion (exact, unguided) [projected]",SPIBB [native],0.7530555555555556,16
+"Diffusion (exact, unguided) [projected]",Behaviour (true) [native],0.8145833333333333,16
+"Diffusion (exact, unguided) [projected]",BC (stochastic) [native],0.8146527777777778,16
+"Diffusion (exact, unguided) [projected]","Diffusion (exact, unmasked) [native]",0.8147222222222222,16
+"Diffusion (exact, unguided) [projected]",MBS-QI [native],0.6527777777777778,16
+"Diffusion (exact, unguided) [projected]",Uniform-admissible [native],0.8044444444444445,16
+"Diffusion (exact, unguided) [projected]",Uniform-admissible [projected],0.8044444444444445,16
+"Diffusion (exact, unguided) [projected]",VI-LCB [native],0.7511805555555555,16
+BC [masked],"Diffusion (exact, guided) [native]",0.3871875,16
+BC [masked],"Diffusion (exact, guided) [projected]",0.3871875,16
+BC [masked],BCQ [masked],0.27802083333333333,16
+BC [masked],BCQ [projected],0.28913194444444446,16
+BC [masked],VI-LCB [masked],0.4527430555555556,16
+BC [masked],IQL [masked],0.3125263888888889,16
+BC [masked],IQL [projected],0.3145069444444445,16
+BC [masked],"SfBC (exact, argmax) [projected]",0.3145069444444445,16
+BC [masked],"Diffusion (exact, final-only) [native]",0.35229305555555557,16
+BC [masked],"Diffusion (exact, final-only) [projected]",0.35229305555555557,16
+BC [masked],IQL [native],0.46467361111111105,16
+BC [masked],"SfBC (exact, argmax) [native]",0.46467361111111105,16
+BC [masked],BC [projected],0.5000458333333333,16
+BC [masked],"Diffusion (exact, unguided) [native]",0.4994791666666667,16
+BC [masked],"Diffusion (exact, unguided) [projected]",0.4994791666666667,16
+BC [masked],BC [masked],0.5,16
+BC [masked],VI-LCB [projected],0.5517361111111111,16
+BC [masked],BC [native],0.5934055555555555,16
+BC [masked],CQL [masked],0.552125,16
+BC [masked],CQL [projected],0.5551388888888888,16
+BC [masked],BCQ [native],0.4984027777777778,16
+BC [masked],CQL [native],0.6437499999999999,16
+BC [masked],MBS-QI [masked],0.4877138888888889,16
+BC [masked],IDQL (exact) [masked],0.670625,16
+BC [masked],MBS-QI [projected],0.5025736111111112,16
+BC [masked],IDQL (exact) [projected],0.6786666666666666,16
+BC [masked],FISOR-tab (exact) [native],0.6645722222222222,16
+BC [masked],FISOR-tab (exact) [projected],0.6645722222222222,16
+BC [masked],SfBC (exact) [masked],0.6658972222222223,16
+BC [masked],Lagrangian-MB [projected],0.5686291666666667,16
+BC [masked],Lagrangian-MB [native],0.5714069444444445,16
+BC [masked],IQL (AW stochastic) [projected],0.6955777777777777,16
+BC [masked],SfBC (exact) [projected],0.6955777777777777,16
+BC [masked],SPIBB [projected],0.6326736111111111,16
+BC [masked],CMDP-LP (model) [native],0.5935083333333334,16
+BC [masked],CMDP-LP (model) [projected],0.5935083333333334,16
+BC [masked],Behaviour (true) [projected],0.7949999999999999,16
+BC [masked],BC (stochastic) [projected],0.7942472222222221,16
+BC [masked],"Diffusion (exact, unmasked) [projected]",0.7943472222222221,16
+BC [masked],SfBC (exact) [native],0.8019444444444445,16
+BC [masked],IQL (AW stochastic) [native],0.8019444444444445,16
+BC [masked],IDQL (exact) [native],0.7661805555555555,16
+BC [masked],SPIBB [native],0.7525694444444444,16
+BC [masked],Behaviour (true) [native],0.8125,16
+BC [masked],BC (stochastic) [native],0.8133333333333334,16
+BC [masked],"Diffusion (exact, unmasked) [native]",0.8133333333333334,16
+BC [masked],MBS-QI [native],0.6504861111111111,16
+BC [masked],Uniform-admissible [native],0.8037500000000001,16
+BC [masked],Uniform-admissible [projected],0.8037500000000001,16
+BC [masked],VI-LCB [native],0.7510416666666666,16
+VI-LCB [projected],"Diffusion (exact, guided) [native]",0.2966027777777778,16
+VI-LCB [projected],"Diffusion (exact, guided) [projected]",0.2966027777777778,16
+VI-LCB [projected],BCQ [masked],0.3471833333333333,16
+VI-LCB [projected],BCQ [projected],0.35278055555555554,16
+VI-LCB [projected],VI-LCB [masked],0.3539652777777778,16
+VI-LCB [projected],IQL [masked],0.41250000000000003,16
+VI-LCB [projected],IQL [projected],0.4129166666666667,16
+VI-LCB [projected],"SfBC (exact, argmax) [projected]",0.4129166666666667,16
+VI-LCB [projected],"Diffusion (exact, final-only) [native]",0.41951388888888896,16
+VI-LCB [projected],"Diffusion (exact, final-only) [projected]",0.41951388888888896,16
+VI-LCB [projected],IQL [native],0.44180555555555556,16
+VI-LCB [projected],"SfBC (exact, argmax) [native]",0.44180555555555556,16
+VI-LCB [projected],BC [projected],0.4486111111111112,16
+VI-LCB [projected],"Diffusion (exact, unguided) [native]",0.446875,16
+VI-LCB [projected],"Diffusion (exact, unguided) [projected]",0.446875,16
+VI-LCB [projected],BC [masked],0.44826388888888896,16
+VI-LCB [projected],VI-LCB [projected],0.5,16
+VI-LCB [projected],BC [native],0.4663194444444445,16
+VI-LCB [projected],CQL [masked],0.4432291666666667,16
+VI-LCB [projected],CQL [projected],0.44329861111111113,16
+VI-LCB [projected],BCQ [native],0.4302777777777778,16
+VI-LCB [projected],CQL [native],0.47052083333333333,16
+VI-LCB [projected],MBS-QI [masked],0.6314347222222222,16
+VI-LCB [projected],IDQL (exact) [masked],0.7254166666666667,16
+VI-LCB [projected],MBS-QI [projected],0.6504055555555555,16
+VI-LCB [projected],IDQL (exact) [projected],0.7579166666666668,16
+VI-LCB [projected],FISOR-tab (exact) [native],0.7329861111111111,16
+VI-LCB [projected],FISOR-tab (exact) [projected],0.7329861111111111,16
+VI-LCB [projected],SfBC (exact) [masked],0.7345138888888888,16
+VI-LCB [projected],Lagrangian-MB [projected],0.7309347222222223,16
+VI-LCB [projected],Lagrangian-MB [native],0.7326680555555556,16
+VI-LCB [projected],IQL (AW stochastic) [projected],0.7522222222222225,16
+VI-LCB [projected],SfBC (exact) [projected],0.7522222222222225,16
+VI-LCB [projected],SPIBB [projected],0.7643986111111112,16
+VI-LCB [projected],CMDP-LP (model) [native],0.7569625000000001,16
+VI-LCB [projected],CMDP-LP (model) [projected],0.7569625000000001,16
+VI-LCB [projected],Behaviour (true) [projected],0.860625,16
+VI-LCB [projected],BC (stochastic) [projected],0.8609027777777778,16
+VI-LCB [projected],"Diffusion (exact, unmasked) [projected]",0.8625,16
+VI-LCB [projected],SfBC (exact) [native],0.9147222222222222,16
+VI-LCB [projected],IQL (AW stochastic) [native],0.9147222222222222,16
+VI-LCB [projected],IDQL (exact) [native],0.9268055555555557,16
+VI-LCB [projected],SPIBB [native],0.8967361111111112,16
+VI-LCB [projected],Behaviour (true) [native],0.9604166666666667,16
+VI-LCB [projected],BC (stochastic) [native],0.961388888888889,16
+VI-LCB [projected],"Diffusion (exact, unmasked) [native]",0.9625694444444445,16
+VI-LCB [projected],MBS-QI [native],0.7307638888888888,16
+VI-LCB [projected],Uniform-admissible [native],0.9902777777777777,16
+VI-LCB [projected],Uniform-admissible [projected],0.9902777777777777,16
+VI-LCB [projected],VI-LCB [native],0.8215277777777779,16
+BC [native],"Diffusion (exact, guided) [native]",0.3538541666666667,16
+BC [native],"Diffusion (exact, guided) [projected]",0.3538541666666667,16
+BC [native],BCQ [masked],0.21798611111111113,16
+BC [native],BCQ [projected],0.22687500000000002,16
+BC [native],VI-LCB [masked],0.4387847222222222,16
+BC [native],IQL [masked],0.2565972222222222,16
+BC [native],IQL [projected],0.2572222222222222,16
+BC [native],"SfBC (exact, argmax) [projected]",0.2572222222222222,16
+BC [native],"Diffusion (exact, final-only) [native]",0.2897222222222222,16
+BC [native],"Diffusion (exact, final-only) [projected]",0.2897222222222222,16
+BC [native],IQL [native],0.36114583333333333,16
+BC [native],"SfBC (exact, argmax) [native]",0.36114583333333333,16
+BC [native],BC [projected],0.4060736111111112,16
+BC [native],"Diffusion (exact, unguided) [native]",0.4087625000000001,16
+BC [native],"Diffusion (exact, unguided) [projected]",0.4087625000000001,16
+BC [native],BC [masked],0.4065944444444445,16
+BC [native],VI-LCB [projected],0.5336805555555555,16
+BC [native],BC [native],0.5,16
+BC [native],CQL [masked],0.4446805555555556,16
+BC [native],CQL [projected],0.44517500000000004,16
+BC [native],BCQ [native],0.46753472222222225,16
+BC [native],CQL [native],0.6074305555555555,16
+BC [native],MBS-QI [masked],0.4759375,16
+BC [native],IDQL (exact) [masked],0.6705555555555556,16
+BC [native],MBS-QI [projected],0.48790694444444443,16
+BC [native],IDQL (exact) [projected],0.6785416666666666,16
+BC [native],FISOR-tab (exact) [native],0.6315972222222223,16
+BC [native],FISOR-tab (exact) [projected],0.6315972222222223,16
+BC [native],SfBC (exact) [masked],0.6324305555555556,16
+BC [native],Lagrangian-MB [projected],0.5585319444444444,16
+BC [native],Lagrangian-MB [native],0.5603375,16
+BC [native],IQL (AW stochastic) [projected],0.6544444444444445,16
+BC [native],SfBC (exact) [projected],0.6544444444444445,16
+BC [native],SPIBB [projected],0.6326736111111111,16
+BC [native],CMDP-LP (model) [native],0.5591041666666666,16
+BC [native],CMDP-LP (model) [projected],0.5591041666666666,16
+BC [native],Behaviour (true) [projected],0.73625,16
+BC [native],BC (stochastic) [projected],0.7365972222222221,16
+BC [native],"Diffusion (exact, unmasked) [projected]",0.7365972222222221,16
+BC [native],SfBC (exact) [native],0.8019444444444445,16
+BC [native],IQL (AW stochastic) [native],0.8019444444444445,16
+BC [native],IDQL (exact) [native],0.7661805555555555,16
+BC [native],SPIBB [native],0.7525694444444444,16
+BC [native],Behaviour (true) [native],0.8125,16
+BC [native],BC (stochastic) [native],0.8133333333333334,16
+BC [native],"Diffusion (exact, unmasked) [native]",0.8133333333333334,16
+BC [native],MBS-QI [native],0.6345833333333333,16
+BC [native],Uniform-admissible [native],0.7425,16
+BC [native],Uniform-admissible [projected],0.7425,16
+BC [native],VI-LCB [native],0.7510416666666666,16
+CQL [masked],"Diffusion (exact, guided) [native]",0.3842361111111111,16
+CQL [masked],"Diffusion (exact, guided) [projected]",0.3842361111111111,16
+CQL [masked],BCQ [masked],0.27875,16
+CQL [masked],BCQ [projected],0.29194444444444445,16
+CQL [masked],VI-LCB [masked],0.46451388888888895,16
+CQL [masked],IQL [masked],0.2998083333333333,16
+CQL [masked],IQL [projected],0.3022638888888889,16
+CQL [masked],"SfBC (exact, argmax) [projected]",0.3022638888888889,16
+CQL [masked],"Diffusion (exact, final-only) [native]",0.3409666666666667,16
+CQL [masked],"Diffusion (exact, final-only) [projected]",0.3409666666666667,16
+CQL [masked],IQL [native],0.4448847222222222,16
+CQL [masked],"SfBC (exact, argmax) [native]",0.4448847222222222,16
+CQL [masked],BC [projected],0.44805277777777774,16
+CQL [masked],"Diffusion (exact, unguided) [native]",0.44741111111111104,16
+CQL [masked],"Diffusion (exact, unguided) [projected]",0.44741111111111104,16
+CQL [masked],BC [masked],0.447875,16
+CQL [masked],VI-LCB [projected],0.5567708333333333,16
+CQL [masked],BC [native],0.5553194444444445,16
+CQL [masked],CQL [masked],0.5,16
+CQL [masked],CQL [projected],0.5037166666666667,16
+CQL [masked],BCQ [native],0.48875,16
+CQL [masked],CQL [native],0.630798611111111,16
+CQL [masked],MBS-QI [masked],0.49809027777777776,16
+CQL [masked],IDQL (exact) [masked],0.6626388888888888,16
+CQL [masked],MBS-QI [projected],0.5109541666666667,16
+CQL [masked],IDQL (exact) [projected],0.6721527777777778,16
+CQL [masked],FISOR-tab (exact) [native],0.6118194444444445,16
+CQL [masked],FISOR-tab (exact) [projected],0.6118194444444445,16
+CQL [masked],SfBC (exact) [masked],0.6130055555555556,16
+CQL [masked],Lagrangian-MB [projected],0.5749430555555556,16
+CQL [masked],Lagrangian-MB [native],0.5775819444444444,16
+CQL [masked],IQL (AW stochastic) [projected],0.64475,16
+CQL [masked],SfBC (exact) [projected],0.64475,16
+CQL [masked],SPIBB [projected],0.6303819444444444,16
+CQL [masked],CMDP-LP (model) [native],0.5764486111111111,16
+CQL [masked],CMDP-LP (model) [projected],0.5764486111111111,16
+CQL [masked],Behaviour (true) [projected],0.7258333333333334,16
+CQL [masked],BC (stochastic) [projected],0.7264194444444444,16
+CQL [masked],"Diffusion (exact, unmasked) [projected]",0.7262611111111112,16
+CQL [masked],SfBC (exact) [native],0.7821527777777778,16
+CQL [masked],IQL (AW stochastic) [native],0.7821527777777778,16
+CQL [masked],IDQL (exact) [native],0.7596527777777777,16
+CQL [masked],SPIBB [native],0.7502777777777778,16
+CQL [masked],Behaviour (true) [native],0.7854166666666667,16
+CQL [masked],BC (stochastic) [native],0.7856944444444445,16
+CQL [masked],"Diffusion (exact, unmasked) [native]",0.7856944444444445,16
+CQL [masked],MBS-QI [native],0.6602083333333333,16
+CQL [masked],Uniform-admissible [native],0.7399305555555555,16
+CQL [masked],Uniform-admissible [projected],0.7399305555555555,16
+CQL [masked],VI-LCB [native],0.75,16
+CQL [projected],"Diffusion (exact, guided) [native]",0.3829166666666667,16
+CQL [projected],"Diffusion (exact, guided) [projected]",0.3829166666666667,16
+CQL [projected],BCQ [masked],0.2765972222222222,16
+CQL [projected],BCQ [projected],0.29125,16
+CQL [projected],VI-LCB [masked],0.4638888888888889,16
+CQL [projected],IQL [masked],0.29756944444444444,16
+CQL [projected],IQL [projected],0.30011944444444444,16
+CQL [projected],"SfBC (exact, argmax) [projected]",0.30011944444444444,16
+CQL [projected],"Diffusion (exact, final-only) [native]",0.3385138888888889,16
+CQL [projected],"Diffusion (exact, final-only) [projected]",0.3385138888888889,16
+CQL [projected],IQL [native],0.44298194444444444,16
+CQL [projected],"SfBC (exact, argmax) [native]",0.44298194444444444,16
+CQL [projected],BC [projected],0.4456222222222222,16
+CQL [projected],"Diffusion (exact, unguided) [native]",0.44484444444444443,16
+CQL [projected],"Diffusion (exact, unguided) [projected]",0.44484444444444443,16
+CQL [projected],BC [masked],0.44486111111111115,16
+CQL [projected],VI-LCB [projected],0.556701388888889,16
+CQL [projected],BC [native],0.554825,16
+CQL [projected],CQL [masked],0.4962833333333333,16
+CQL [projected],CQL [projected],0.5,16
+CQL [projected],BCQ [native],0.4888888888888889,16
+CQL [projected],CQL [native],0.6311458333333333,16
+CQL [projected],MBS-QI [masked],0.4966319444444444,16
+CQL [projected],IDQL (exact) [masked],0.6625694444444443,16
+CQL [projected],MBS-QI [projected],0.5090763888888888,16
+CQL [projected],IDQL (exact) [projected],0.6721527777777778,16
+CQL [projected],FISOR-tab (exact) [native],0.6105722222222223,16
+CQL [projected],FISOR-tab (exact) [projected],0.6105722222222223,16
+CQL [projected],SfBC (exact) [masked],0.611525,16
+CQL [projected],Lagrangian-MB [projected],0.5739402777777778,16
+CQL [projected],Lagrangian-MB [native],0.5761625,16
+CQL [projected],IQL (AW stochastic) [projected],0.6407805555555556,16
+CQL [projected],SfBC (exact) [projected],0.6407805555555556,16
+CQL [projected],SPIBB [projected],0.6303819444444444,16
+CQL [projected],CMDP-LP (model) [native],0.5738347222222222,16
+CQL [projected],CMDP-LP (model) [projected],0.5738347222222222,16
+CQL [projected],Behaviour (true) [projected],0.7245833333333334,16
+CQL [projected],BC (stochastic) [projected],0.7258944444444444,16
+CQL [projected],"Diffusion (exact, unmasked) [projected]",0.7257361111111112,16
+CQL [projected],SfBC (exact) [native],0.7820833333333334,16
+CQL [projected],IQL (AW stochastic) [native],0.7820833333333334,16
+CQL [projected],IDQL (exact) [native],0.7596527777777777,16
+CQL [projected],SPIBB [native],0.7502777777777778,16
+CQL [projected],Behaviour (true) [native],0.7854166666666667,16
+CQL [projected],BC (stochastic) [native],0.7856944444444445,16
+CQL [projected],"Diffusion (exact, unmasked) [native]",0.7856944444444445,16
+CQL [projected],MBS-QI [native],0.6593055555555556,16
+CQL [projected],Uniform-admissible [native],0.7424305555555555,16
+CQL [projected],Uniform-admissible [projected],0.7424305555555555,16
+CQL [projected],VI-LCB [native],0.75,16
+BCQ [native],"Diffusion (exact, guided) [native]",0.4214583333333333,16
+BCQ [native],"Diffusion (exact, guided) [projected]",0.4214583333333333,16
+BCQ [native],BCQ [masked],0.3286111111111111,16
+BCQ [native],BCQ [projected],0.33156250000000004,16
+BCQ [native],VI-LCB [masked],0.501875,16
+BCQ [native],IQL [masked],0.44333333333333336,16
+BCQ [native],IQL [projected],0.4434722222222222,16
+BCQ [native],"SfBC (exact, argmax) [projected]",0.4434722222222222,16
+BCQ [native],"Diffusion (exact, final-only) [native]",0.46340277777777783,16
+BCQ [native],"Diffusion (exact, final-only) [projected]",0.46340277777777783,16
+BCQ [native],IQL [native],0.483125,16
+BCQ [native],"SfBC (exact, argmax) [native]",0.483125,16
+BCQ [native],BC [projected],0.5011805555555556,16
+BCQ [native],"Diffusion (exact, unguided) [native]",0.5015972222222222,16
+BCQ [native],"Diffusion (exact, unguided) [projected]",0.5015972222222222,16
+BCQ [native],BC [masked],0.5015972222222222,16
+BCQ [native],VI-LCB [projected],0.5697222222222221,16
+BCQ [native],BC [native],0.5324652777777779,16
+BCQ [native],CQL [masked],0.51125,16
+BCQ [native],CQL [projected],0.5111111111111112,16
+BCQ [native],BCQ [native],0.5,16
+BCQ [native],CQL [native],0.5901444444444445,16
+BCQ [native],MBS-QI [masked],0.5645486111111112,16
+BCQ [native],IDQL (exact) [masked],0.8054861111111111,16
+BCQ [native],MBS-QI [projected],0.5734027777777778,16
+BCQ [native],IDQL (exact) [projected],0.8061805555555556,16
+BCQ [native],FISOR-tab (exact) [native],0.7546527777777778,16
+BCQ [native],FISOR-tab (exact) [projected],0.7546527777777778,16
+BCQ [native],SfBC (exact) [masked],0.7571527777777778,16
+BCQ [native],Lagrangian-MB [projected],0.6711805555555556,16
+BCQ [native],Lagrangian-MB [native],0.6718402777777779,16
+BCQ [native],IQL (AW stochastic) [projected],0.7751388888888888,16
+BCQ [native],SfBC (exact) [projected],0.7751388888888888,16
+BCQ [native],SPIBB [projected],0.7307291666666667,16
+BCQ [native],CMDP-LP (model) [native],0.6628472222222221,16
+BCQ [native],CMDP-LP (model) [projected],0.6628472222222221,16
+BCQ [native],Behaviour (true) [projected],0.8798611111111111,16
+BCQ [native],BC (stochastic) [projected],0.8786805555555557,16
+BCQ [native],"Diffusion (exact, unmasked) [projected]",0.8784722222222223,16
+BCQ [native],SfBC (exact) [native],0.9045138888888888,16
+BCQ [native],IQL (AW stochastic) [native],0.9045138888888888,16
+BCQ [native],IDQL (exact) [native],0.8692361111111111,16
+BCQ [native],SPIBB [native],0.8310416666666667,16
+BCQ [native],Behaviour (true) [native],0.9270833333333333,16
+BCQ [native],BC (stochastic) [native],0.9239583333333333,16
+BCQ [native],"Diffusion (exact, unmasked) [native]",0.9227083333333334,16
+BCQ [native],MBS-QI [native],0.6982986111111111,16
+BCQ [native],Uniform-admissible [native],0.7993055555555556,16
+BCQ [native],Uniform-admissible [projected],0.7993055555555556,16
+BCQ [native],VI-LCB [native],0.8170833333333334,16
+CQL [native],"Diffusion (exact, guided) [native]",0.34215277777777775,16
+CQL [native],"Diffusion (exact, guided) [projected]",0.34215277777777775,16
+CQL [native],BCQ [masked],0.19576388888888888,16
+CQL [native],BCQ [projected],0.20659722222222224,16
+CQL [native],VI-LCB [masked],0.4306597222222222,16
+CQL [native],IQL [masked],0.22236111111111112,16
+CQL [native],IQL [projected],0.2232638888888889,16
+CQL [native],"SfBC (exact, argmax) [projected]",0.2232638888888889,16
+CQL [native],"Diffusion (exact, final-only) [native]",0.25729166666666664,16
+CQL [native],"Diffusion (exact, final-only) [projected]",0.25729166666666664,16
+CQL [native],IQL [native],0.2924652777777778,16
+CQL [native],"SfBC (exact, argmax) [native]",0.2924652777777778,16
+CQL [native],BC [projected],0.3558333333333334,16
+CQL [native],"Diffusion (exact, unguided) [native]",0.3565277777777778,16
+CQL [native],"Diffusion (exact, unguided) [projected]",0.3565277777777778,16
+CQL [native],BC [masked],0.35625,16
+CQL [native],VI-LCB [projected],0.5294791666666666,16
+CQL [native],BC [native],0.3925694444444444,16
+CQL [native],CQL [masked],0.369201388888889,16
+CQL [native],CQL [projected],0.36885416666666676,16
+CQL [native],BCQ [native],0.40985555555555553,16
+CQL [native],CQL [native],0.5,16
+CQL [native],MBS-QI [masked],0.4660416666666667,16
+CQL [native],IDQL (exact) [masked],0.6623611111111111,16
+CQL [native],MBS-QI [projected],0.47711805555555553,16
+CQL [native],IDQL (exact) [projected],0.6719444444444445,16
+CQL [native],FISOR-tab (exact) [native],0.6052777777777778,16
+CQL [native],FISOR-tab (exact) [projected],0.6052777777777778,16
+CQL [native],SfBC (exact) [masked],0.6064583333333333,16
+CQL [native],Lagrangian-MB [projected],0.5525694444444444,16
+CQL [native],Lagrangian-MB [native],0.5539583333333333,16
+CQL [native],IQL (AW stochastic) [projected],0.6336805555555556,16
+CQL [native],SfBC (exact) [projected],0.6336805555555556,16
+CQL [native],SPIBB [projected],0.6303819444444445,16
+CQL [native],CMDP-LP (model) [native],0.5469444444444445,16
+CQL [native],CMDP-LP (model) [projected],0.5469444444444445,16
+CQL [native],Behaviour (true) [projected],0.7070833333333334,16
+CQL [native],BC (stochastic) [projected],0.7070833333333334,16
+CQL [native],"Diffusion (exact, unmasked) [projected]",0.7069444444444445,16
+CQL [native],SfBC (exact) [native],0.7821527777777778,16
+CQL [native],IQL (AW stochastic) [native],0.7821527777777778,16
+CQL [native],IDQL (exact) [native],0.7597222222222222,16
+CQL [native],SPIBB [native],0.7502777777777778,16
+CQL [native],Behaviour (true) [native],0.7854166666666667,16
+CQL [native],BC (stochastic) [native],0.7856944444444445,16
+CQL [native],"Diffusion (exact, unmasked) [native]",0.7856944444444445,16
+CQL [native],MBS-QI [native],0.6281944444444445,16
+CQL [native],Uniform-admissible [native],0.7148611111111111,16
+CQL [native],Uniform-admissible [projected],0.7148611111111111,16
+CQL [native],VI-LCB [native],0.75,16
+MBS-QI [masked],"Diffusion (exact, guided) [native]",0.2743291666666667,16
+MBS-QI [masked],"Diffusion (exact, guided) [projected]",0.2743291666666667,16
+MBS-QI [masked],BCQ [masked],0.3251694444444444,16
+MBS-QI [masked],BCQ [projected],0.33971666666666667,16
+MBS-QI [masked],VI-LCB [masked],0.26786666666666664,16
+MBS-QI [masked],IQL [masked],0.43173888888888895,16
+MBS-QI [masked],IQL [projected],0.43385833333333335,16
+MBS-QI [masked],"SfBC (exact, argmax) [projected]",0.43385833333333335,16
+MBS-QI [masked],"Diffusion (exact, final-only) [native]",0.45781944444444445,16
+MBS-QI [masked],"Diffusion (exact, final-only) [projected]",0.45781944444444445,16
+MBS-QI [masked],IQL [native],0.47725694444444444,16
+MBS-QI [masked],"SfBC (exact, argmax) [native]",0.47725694444444444,16
+MBS-QI [masked],BC [projected],0.5133972222222222,16
+MBS-QI [masked],"Diffusion (exact, unguided) [native]",0.5106638888888889,16
+MBS-QI [masked],"Diffusion (exact, unguided) [projected]",0.5106638888888889,16
+MBS-QI [masked],BC [masked],0.5122861111111111,16
+MBS-QI [masked],VI-LCB [projected],0.36856527777777776,16
+MBS-QI [masked],BC [native],0.5240625,16
+MBS-QI [masked],CQL [masked],0.5019097222222222,16
+MBS-QI [masked],CQL [projected],0.5033680555555555,16
+MBS-QI [masked],BCQ [native],0.43545138888888896,16
+MBS-QI [masked],CQL [native],0.5339583333333333,16
+MBS-QI [masked],MBS-QI [masked],0.5,16
+MBS-QI [masked],IDQL (exact) [masked],0.5843722222222222,16
+MBS-QI [masked],MBS-QI [projected],0.5329388888888889,16
+MBS-QI [masked],IDQL (exact) [projected],0.603625,16
+MBS-QI [masked],FISOR-tab (exact) [native],0.6224305555555556,16
+MBS-QI [masked],FISOR-tab (exact) [projected],0.6224305555555556,16
+MBS-QI [masked],SfBC (exact) [masked],0.6235416666666667,16
+MBS-QI [masked],Lagrangian-MB [projected],0.5452013888888888,16
+MBS-QI [masked],Lagrangian-MB [native],0.547623611111111,16
+MBS-QI [masked],IQL (AW stochastic) [projected],0.6340277777777779,16
+MBS-QI [masked],SfBC (exact) [projected],0.6340277777777779,16
+MBS-QI [masked],SPIBB [projected],0.5769347222222221,16
+MBS-QI [masked],CMDP-LP (model) [native],0.6273916666666666,16
+MBS-QI [masked],CMDP-LP (model) [projected],0.6273916666666666,16
+MBS-QI [masked],Behaviour (true) [projected],0.7325694444444445,16
+MBS-QI [masked],BC (stochastic) [projected],0.7318055555555555,16
+MBS-QI [masked],"Diffusion (exact, unmasked) [projected]",0.7329166666666665,16
+MBS-QI [masked],SfBC (exact) [native],0.8257638888888887,16
+MBS-QI [masked],IQL (AW stochastic) [native],0.8257638888888887,16
+MBS-QI [masked],IDQL (exact) [native],0.8215277777777777,16
+MBS-QI [masked],SPIBB [native],0.7884722222222224,16
+MBS-QI [masked],Behaviour (true) [native],0.8708333333333335,16
+MBS-QI [masked],BC (stochastic) [native],0.8706944444444443,16
+MBS-QI [masked],"Diffusion (exact, unmasked) [native]",0.8745138888888889,16
+MBS-QI [masked],MBS-QI [native],0.7472222222222222,16
+MBS-QI [masked],Uniform-admissible [native],0.9010416666666666,16
+MBS-QI [masked],Uniform-admissible [projected],0.9010416666666666,16
+MBS-QI [masked],VI-LCB [native],0.7458333333333335,16
+IDQL (exact) [masked],"Diffusion (exact, guided) [native]",0.09618055555555555,16
+IDQL (exact) [masked],"Diffusion (exact, guided) [projected]",0.09618055555555555,16
+IDQL (exact) [masked],BCQ [masked],0.1318111111111111,16
+IDQL (exact) [masked],BCQ [projected],0.13215277777777779,16
+IDQL (exact) [masked],VI-LCB [masked],0.19930555555555557,16
+IDQL (exact) [masked],IQL [masked],0.22691388888888891,16
+IDQL (exact) [masked],IQL [projected],0.2283083333333333,16
+IDQL (exact) [masked],"SfBC (exact, argmax) [projected]",0.2283083333333333,16
+IDQL (exact) [masked],"Diffusion (exact, final-only) [native]",0.24555277777777773,16
+IDQL (exact) [masked],"Diffusion (exact, final-only) [projected]",0.24555277777777773,16
+IDQL (exact) [masked],IQL [native],0.24256944444444445,16
+IDQL (exact) [masked],"SfBC (exact, argmax) [native]",0.24256944444444445,16
+IDQL (exact) [masked],BC [projected],0.329375,16
+IDQL (exact) [masked],"Diffusion (exact, unguided) [native]",0.3313888888888889,16
+IDQL (exact) [masked],"Diffusion (exact, unguided) [projected]",0.3313888888888889,16
+IDQL (exact) [masked],BC [masked],0.329375,16
+IDQL (exact) [masked],VI-LCB [projected],0.27458333333333335,16
+IDQL (exact) [masked],BC [native],0.32944444444444443,16
+IDQL (exact) [masked],CQL [masked],0.3373611111111111,16
+IDQL (exact) [masked],CQL [projected],0.33743055555555557,16
+IDQL (exact) [masked],BCQ [native],0.19451388888888888,16
+IDQL (exact) [masked],CQL [native],0.33763888888888893,16
+IDQL (exact) [masked],MBS-QI [masked],0.4156277777777777,16
+IDQL (exact) [masked],IDQL (exact) [masked],0.5,16
+IDQL (exact) [masked],MBS-QI [projected],0.43828611111111115,16
+IDQL (exact) [masked],IDQL (exact) [projected],0.7125013888888889,16
+IDQL (exact) [masked],FISOR-tab (exact) [native],0.6427083333333333,16
+IDQL (exact) [masked],FISOR-tab (exact) [projected],0.6427083333333333,16
+IDQL (exact) [masked],SfBC (exact) [masked],0.6481944444444445,16
+IDQL (exact) [masked],Lagrangian-MB [projected],0.5691638888888889,16
+IDQL (exact) [masked],Lagrangian-MB [native],0.5692333333333334,16
+IDQL (exact) [masked],IQL (AW stochastic) [projected],0.7438888888888888,16
+IDQL (exact) [masked],SfBC (exact) [projected],0.7438888888888888,16
+IDQL (exact) [masked],SPIBB [projected],0.6149611111111111,16
+IDQL (exact) [masked],CMDP-LP (model) [native],0.6392666666666666,16
+IDQL (exact) [masked],CMDP-LP (model) [projected],0.6392666666666666,16
+IDQL (exact) [masked],Behaviour (true) [projected],0.9789583333333334,16
+IDQL (exact) [masked],BC (stochastic) [projected],0.97875,16
+IDQL (exact) [masked],"Diffusion (exact, unmasked) [projected]",0.9788888888888889,16
+IDQL (exact) [masked],SfBC (exact) [native],0.9500694444444444,16
+IDQL (exact) [masked],IQL (AW stochastic) [native],0.9500694444444444,16
+IDQL (exact) [masked],IDQL (exact) [native],0.8166666666666667,16
+IDQL (exact) [masked],SPIBB [native],0.8002083333333333,16
+IDQL (exact) [masked],Behaviour (true) [native],0.9666666666666667,16
+IDQL (exact) [masked],BC (stochastic) [native],0.969375,16
+IDQL (exact) [masked],"Diffusion (exact, unmasked) [native]",0.9678472222222222,16
+IDQL (exact) [masked],MBS-QI [native],0.5538888888888889,16
+IDQL (exact) [masked],Uniform-admissible [native],0.8654166666666667,16
+IDQL (exact) [masked],Uniform-admissible [projected],0.8654166666666667,16
+IDQL (exact) [masked],VI-LCB [native],0.6906944444444445,16
+MBS-QI [projected],"Diffusion (exact, guided) [native]",0.26555555555555554,16
+MBS-QI [projected],"Diffusion (exact, guided) [projected]",0.26555555555555554,16
+MBS-QI [projected],BCQ [masked],0.3052666666666667,16
+MBS-QI [projected],BCQ [projected],0.3183277777777778,16
+MBS-QI [projected],VI-LCB [masked],0.2557291666666666,16
+MBS-QI [projected],IQL [masked],0.40970416666666665,16
+MBS-QI [projected],IQL [projected],0.4118902777777778,16
+MBS-QI [projected],"SfBC (exact, argmax) [projected]",0.4118902777777778,16
+MBS-QI [projected],"Diffusion (exact, final-only) [native]",0.4363791666666667,16
+MBS-QI [projected],"Diffusion (exact, final-only) [projected]",0.4363791666666667,16
+MBS-QI [projected],IQL [native],0.4659458333333334,16
+MBS-QI [projected],"SfBC (exact, argmax) [native]",0.4659458333333334,16
+MBS-QI [projected],BC [projected],0.49832361111111123,16
+MBS-QI [projected],"Diffusion (exact, unguided) [native]",0.4951652777777778,16
+MBS-QI [projected],"Diffusion (exact, unguided) [projected]",0.4951652777777778,16
+MBS-QI [projected],BC [masked],0.49742638888888885,16
+MBS-QI [projected],VI-LCB [projected],0.3495944444444444,16
+MBS-QI [projected],BC [native],0.5120930555555556,16
+MBS-QI [projected],CQL [masked],0.4890458333333334,16
+MBS-QI [projected],CQL [projected],0.4909236111111111,16
+MBS-QI [projected],BCQ [native],0.4265972222222223,16
+MBS-QI [projected],CQL [native],0.5228819444444445,16
+MBS-QI [projected],MBS-QI [masked],0.4670611111111111,16
+MBS-QI [projected],IDQL (exact) [masked],0.561713888888889,16
+MBS-QI [projected],MBS-QI [projected],0.5,16
+MBS-QI [projected],IDQL (exact) [projected],0.5804694444444445,16
+MBS-QI [projected],FISOR-tab (exact) [native],0.6031694444444444,16
+MBS-QI [projected],FISOR-tab (exact) [projected],0.6031694444444444,16
+MBS-QI [projected],SfBC (exact) [masked],0.6036805555555556,16
+MBS-QI [projected],Lagrangian-MB [projected],0.5146263888888889,16
+MBS-QI [projected],Lagrangian-MB [native],0.5173263888888889,16
+MBS-QI [projected],IQL (AW stochastic) [projected],0.6124027777777779,16
+MBS-QI [projected],SfBC (exact) [projected],0.6124027777777779,16
+MBS-QI [projected],SPIBB [projected],0.5413250000000001,16
+MBS-QI [projected],CMDP-LP (model) [native],0.6038680555555557,16
+MBS-QI [projected],CMDP-LP (model) [projected],0.6038680555555557,16
+MBS-QI [projected],Behaviour (true) [projected],0.699513888888889,16
+MBS-QI [projected],BC (stochastic) [projected],0.6990972222222221,16
+MBS-QI [projected],"Diffusion (exact, unmasked) [projected]",0.7001388888888889,16
+MBS-QI [projected],SfBC (exact) [native],0.8150694444444445,16
+MBS-QI [projected],IQL (AW stochastic) [native],0.8150694444444445,16
+MBS-QI [projected],IDQL (exact) [native],0.8117361111111111,16
+MBS-QI [projected],SPIBB [native],0.7779166666666666,16
+MBS-QI [projected],Behaviour (true) [native],0.8541666666666667,16
+MBS-QI [projected],BC (stochastic) [native],0.8558333333333332,16
+MBS-QI [projected],"Diffusion (exact, unmasked) [native]",0.858888888888889,16
+MBS-QI [projected],MBS-QI [native],0.7463194444444444,16
+MBS-QI [projected],Uniform-admissible [native],0.9028125,16
+MBS-QI [projected],Uniform-admissible [projected],0.9028125,16
+MBS-QI [projected],VI-LCB [native],0.7463888888888889,16
+IDQL (exact) [projected],"Diffusion (exact, guided) [native]",0.07812499999999999,16
+IDQL (exact) [projected],"Diffusion (exact, guided) [projected]",0.07812499999999999,16
+IDQL (exact) [projected],BCQ [masked],0.1317361111111111,16
+IDQL (exact) [projected],BCQ [projected],0.13229166666666664,16
+IDQL (exact) [projected],VI-LCB [masked],0.1761111111111111,16
+IDQL (exact) [projected],IQL [masked],0.20400833333333332,16
+IDQL (exact) [projected],IQL [projected],0.20457777777777778,16
+IDQL (exact) [projected],"SfBC (exact, argmax) [projected]",0.20457777777777778,16
+IDQL (exact) [projected],"Diffusion (exact, final-only) [native]",0.21816944444444444,16
+IDQL (exact) [projected],"Diffusion (exact, final-only) [projected]",0.21816944444444444,16
+IDQL (exact) [projected],IQL [native],0.23902777777777778,16
+IDQL (exact) [projected],"SfBC (exact, argmax) [native]",0.23902777777777778,16
+IDQL (exact) [projected],BC [projected],0.32145833333333335,16
+IDQL (exact) [projected],"Diffusion (exact, unguided) [native]",0.3231027777777778,16
+IDQL (exact) [projected],"Diffusion (exact, unguided) [projected]",0.3231027777777778,16
+IDQL (exact) [projected],BC [masked],0.32133333333333336,16
+IDQL (exact) [projected],VI-LCB [projected],0.2420833333333333,16
+IDQL (exact) [projected],BC [native],0.32145833333333335,16
+IDQL (exact) [projected],CQL [masked],0.32784722222222223,16
+IDQL (exact) [projected],CQL [projected],0.32784722222222223,16
+IDQL (exact) [projected],BCQ [native],0.19381944444444446,16
+IDQL (exact) [projected],CQL [native],0.32805555555555554,16
+IDQL (exact) [projected],MBS-QI [masked],0.396375,16
+IDQL (exact) [projected],IDQL (exact) [masked],0.2874986111111111,16
+IDQL (exact) [projected],MBS-QI [projected],0.41953055555555546,16
+IDQL (exact) [projected],IDQL (exact) [projected],0.5,16
+IDQL (exact) [projected],FISOR-tab (exact) [native],0.5736111111111111,16
+IDQL (exact) [projected],FISOR-tab (exact) [projected],0.5736111111111111,16
+IDQL (exact) [projected],SfBC (exact) [masked],0.5769444444444445,16
+IDQL (exact) [projected],Lagrangian-MB [projected],0.5528361111111111,16
+IDQL (exact) [projected],Lagrangian-MB [native],0.5533111111111111,16
+IDQL (exact) [projected],IQL (AW stochastic) [projected],0.6459722222222222,16
+IDQL (exact) [projected],SfBC (exact) [projected],0.6459722222222222,16
+IDQL (exact) [projected],SPIBB [projected],0.5871527777777779,16
+IDQL (exact) [projected],CMDP-LP (model) [native],0.6262055555555556,16
+IDQL (exact) [projected],CMDP-LP (model) [projected],0.6262055555555556,16
+IDQL (exact) [projected],Behaviour (true) [projected],0.9751388888888889,16
+IDQL (exact) [projected],BC (stochastic) [projected],0.9749305555555555,16
+IDQL (exact) [projected],"Diffusion (exact, unmasked) [projected]",0.9750694444444444,16
+IDQL (exact) [projected],SfBC (exact) [native],0.9591666666666667,16
+IDQL (exact) [projected],IQL (AW stochastic) [native],0.9591666666666667,16
+IDQL (exact) [projected],IDQL (exact) [native],0.813125,16
+IDQL (exact) [projected],SPIBB [native],0.8036805555555555,16
+IDQL (exact) [projected],Behaviour (true) [native],0.9875,16
+IDQL (exact) [projected],BC (stochastic) [native],0.9886111111111111,16
+IDQL (exact) [projected],"Diffusion (exact, unmasked) [native]",0.9875,16
+IDQL (exact) [projected],MBS-QI [native],0.5428472222222223,16
+IDQL (exact) [projected],Uniform-admissible [native],0.8633333333333333,16
+IDQL (exact) [projected],Uniform-admissible [projected],0.8633333333333333,16
+IDQL (exact) [projected],VI-LCB [native],0.6697916666666667,16
+FISOR-tab (exact) [native],"Diffusion (exact, guided) [native]",0.09520833333333334,16
+FISOR-tab (exact) [native],"Diffusion (exact, guided) [projected]",0.09520833333333334,16
+FISOR-tab (exact) [native],BCQ [masked],0.14777777777777779,16
+FISOR-tab (exact) [native],BCQ [projected],0.14673611111111112,16
+FISOR-tab (exact) [native],VI-LCB [masked],0.18347222222222223,16
+FISOR-tab (exact) [native],IQL [masked],0.2026388888888889,16
+FISOR-tab (exact) [native],IQL [projected],0.2026388888888889,16
+FISOR-tab (exact) [native],"SfBC (exact, argmax) [projected]",0.2026388888888889,16
+FISOR-tab (exact) [native],"Diffusion (exact, final-only) [native]",0.21756944444444445,16
+FISOR-tab (exact) [native],"Diffusion (exact, final-only) [projected]",0.21756944444444445,16
+FISOR-tab (exact) [native],IQL [native],0.26383055555555557,16
+FISOR-tab (exact) [native],"SfBC (exact, argmax) [native]",0.26383055555555557,16
+FISOR-tab (exact) [native],BC [projected],0.33442777777777777,16
+FISOR-tab (exact) [native],"Diffusion (exact, unguided) [native]",0.3316944444444444,16
+FISOR-tab (exact) [native],"Diffusion (exact, unguided) [projected]",0.3316944444444444,16
+FISOR-tab (exact) [native],BC [masked],0.33542777777777777,16
+FISOR-tab (exact) [native],VI-LCB [projected],0.26701388888888894,16
+FISOR-tab (exact) [native],BC [native],0.36840277777777775,16
+FISOR-tab (exact) [native],CQL [masked],0.38818055555555553,16
+FISOR-tab (exact) [native],CQL [projected],0.38942777777777776,16
+FISOR-tab (exact) [native],BCQ [native],0.24534722222222224,16
+FISOR-tab (exact) [native],CQL [native],0.39472222222222225,16
+FISOR-tab (exact) [native],MBS-QI [masked],0.3775694444444444,16
+FISOR-tab (exact) [native],IDQL (exact) [masked],0.3572916666666666,16
+FISOR-tab (exact) [native],MBS-QI [projected],0.3968305555555555,16
+FISOR-tab (exact) [native],IDQL (exact) [projected],0.42638888888888893,16
+FISOR-tab (exact) [native],FISOR-tab (exact) [native],0.5,16
+FISOR-tab (exact) [native],FISOR-tab (exact) [projected],0.5,16
+FISOR-tab (exact) [native],SfBC (exact) [masked],0.5372777777777776,16
+FISOR-tab (exact) [native],Lagrangian-MB [projected],0.47291666666666665,16
+FISOR-tab (exact) [native],Lagrangian-MB [native],0.4741666666666667,16
+FISOR-tab (exact) [native],IQL (AW stochastic) [projected],0.7005805555555557,16
+FISOR-tab (exact) [native],SfBC (exact) [projected],0.7005805555555557,16
+FISOR-tab (exact) [native],SPIBB [projected],0.5557638888888888,16
+FISOR-tab (exact) [native],CMDP-LP (model) [native],0.5210527777777777,16
+FISOR-tab (exact) [native],CMDP-LP (model) [projected],0.5210527777777777,16
+FISOR-tab (exact) [native],Behaviour (true) [projected],0.9586805555555555,16
+FISOR-tab (exact) [native],BC (stochastic) [projected],0.95375,16
+FISOR-tab (exact) [native],"Diffusion (exact, unmasked) [projected]",0.9508333333333334,16
+FISOR-tab (exact) [native],SfBC (exact) [native],0.8154861111111111,16
+FISOR-tab (exact) [native],IQL (AW stochastic) [native],0.8154861111111111,16
+FISOR-tab (exact) [native],IDQL (exact) [native],0.75,16
+FISOR-tab (exact) [native],SPIBB [native],0.7502777777777778,16
+FISOR-tab (exact) [native],Behaviour (true) [native],0.875,16
+FISOR-tab (exact) [native],BC (stochastic) [native],0.8740277777777778,16
+FISOR-tab (exact) [native],"Diffusion (exact, unmasked) [native]",0.8739583333333334,16
+FISOR-tab (exact) [native],MBS-QI [native],0.5493055555555555,16
+FISOR-tab (exact) [native],Uniform-admissible [native],0.8646527777777778,16
+FISOR-tab (exact) [native],Uniform-admissible [projected],0.8646527777777778,16
+FISOR-tab (exact) [native],VI-LCB [native],0.723125,16
+FISOR-tab (exact) [projected],"Diffusion (exact, guided) [native]",0.09520833333333334,16
+FISOR-tab (exact) [projected],"Diffusion (exact, guided) [projected]",0.09520833333333334,16
+FISOR-tab (exact) [projected],BCQ [masked],0.14777777777777779,16
+FISOR-tab (exact) [projected],BCQ [projected],0.14673611111111112,16
+FISOR-tab (exact) [projected],VI-LCB [masked],0.18347222222222223,16
+FISOR-tab (exact) [projected],IQL [masked],0.2026388888888889,16
+FISOR-tab (exact) [projected],IQL [projected],0.2026388888888889,16
+FISOR-tab (exact) [projected],"SfBC (exact, argmax) [projected]",0.2026388888888889,16
+FISOR-tab (exact) [projected],"Diffusion (exact, final-only) [native]",0.21756944444444445,16
+FISOR-tab (exact) [projected],"Diffusion (exact, final-only) [projected]",0.21756944444444445,16
+FISOR-tab (exact) [projected],IQL [native],0.26383055555555557,16
+FISOR-tab (exact) [projected],"SfBC (exact, argmax) [native]",0.26383055555555557,16
+FISOR-tab (exact) [projected],BC [projected],0.33442777777777777,16
+FISOR-tab (exact) [projected],"Diffusion (exact, unguided) [native]",0.3316944444444444,16
+FISOR-tab (exact) [projected],"Diffusion (exact, unguided) [projected]",0.3316944444444444,16
+FISOR-tab (exact) [projected],BC [masked],0.33542777777777777,16
+FISOR-tab (exact) [projected],VI-LCB [projected],0.26701388888888894,16
+FISOR-tab (exact) [projected],BC [native],0.36840277777777775,16
+FISOR-tab (exact) [projected],CQL [masked],0.38818055555555553,16
+FISOR-tab (exact) [projected],CQL [projected],0.38942777777777776,16
+FISOR-tab (exact) [projected],BCQ [native],0.24534722222222224,16
+FISOR-tab (exact) [projected],CQL [native],0.39472222222222225,16
+FISOR-tab (exact) [projected],MBS-QI [masked],0.3775694444444444,16
+FISOR-tab (exact) [projected],IDQL (exact) [masked],0.3572916666666666,16
+FISOR-tab (exact) [projected],MBS-QI [projected],0.3968305555555555,16
+FISOR-tab (exact) [projected],IDQL (exact) [projected],0.42638888888888893,16
+FISOR-tab (exact) [projected],FISOR-tab (exact) [native],0.5,16
+FISOR-tab (exact) [projected],FISOR-tab (exact) [projected],0.5,16
+FISOR-tab (exact) [projected],SfBC (exact) [masked],0.5372777777777776,16
+FISOR-tab (exact) [projected],Lagrangian-MB [projected],0.47291666666666665,16
+FISOR-tab (exact) [projected],Lagrangian-MB [native],0.4741666666666667,16
+FISOR-tab (exact) [projected],IQL (AW stochastic) [projected],0.7005805555555557,16
+FISOR-tab (exact) [projected],SfBC (exact) [projected],0.7005805555555557,16
+FISOR-tab (exact) [projected],SPIBB [projected],0.5557638888888888,16
+FISOR-tab (exact) [projected],CMDP-LP (model) [native],0.5210527777777777,16
+FISOR-tab (exact) [projected],CMDP-LP (model) [projected],0.5210527777777777,16
+FISOR-tab (exact) [projected],Behaviour (true) [projected],0.9586805555555555,16
+FISOR-tab (exact) [projected],BC (stochastic) [projected],0.95375,16
+FISOR-tab (exact) [projected],"Diffusion (exact, unmasked) [projected]",0.9508333333333334,16
+FISOR-tab (exact) [projected],SfBC (exact) [native],0.8154861111111111,16
+FISOR-tab (exact) [projected],IQL (AW stochastic) [native],0.8154861111111111,16
+FISOR-tab (exact) [projected],IDQL (exact) [native],0.75,16
+FISOR-tab (exact) [projected],SPIBB [native],0.7502777777777778,16
+FISOR-tab (exact) [projected],Behaviour (true) [native],0.875,16
+FISOR-tab (exact) [projected],BC (stochastic) [native],0.8740277777777778,16
+FISOR-tab (exact) [projected],"Diffusion (exact, unmasked) [native]",0.8739583333333334,16
+FISOR-tab (exact) [projected],MBS-QI [native],0.5493055555555555,16
+FISOR-tab (exact) [projected],Uniform-admissible [native],0.8646527777777778,16
+FISOR-tab (exact) [projected],Uniform-admissible [projected],0.8646527777777778,16
+FISOR-tab (exact) [projected],VI-LCB [native],0.723125,16
+SfBC (exact) [masked],"Diffusion (exact, guided) [native]",0.09472222222222222,16
+SfBC (exact) [masked],"Diffusion (exact, guided) [projected]",0.09472222222222222,16
+SfBC (exact) [masked],BCQ [masked],0.14652777777777778,16
+SfBC (exact) [masked],BCQ [projected],0.14541666666666667,16
+SfBC (exact) [masked],VI-LCB [masked],0.1825,16
+SfBC (exact) [masked],IQL [masked],0.20222222222222225,16
+SfBC (exact) [masked],IQL [projected],0.20222222222222225,16
+SfBC (exact) [masked],"SfBC (exact, argmax) [projected]",0.20222222222222225,16
+SfBC (exact) [masked],"Diffusion (exact, final-only) [native]",0.2170138888888889,16
+SfBC (exact) [masked],"Diffusion (exact, final-only) [projected]",0.2170138888888889,16
+SfBC (exact) [masked],IQL [native],0.2633388888888889,16
+SfBC (exact) [masked],"SfBC (exact, argmax) [native]",0.2633388888888889,16
+SfBC (exact) [masked],BC [projected],0.33315277777777774,16
+SfBC (exact) [masked],"Diffusion (exact, unguided) [native]",0.3302,16
+SfBC (exact) [masked],"Diffusion (exact, unguided) [projected]",0.3302,16
+SfBC (exact) [masked],BC [masked],0.33410277777777775,16
+SfBC (exact) [masked],VI-LCB [projected],0.26548611111111114,16
+SfBC (exact) [masked],BC [native],0.3675694444444444,16
+SfBC (exact) [masked],CQL [masked],0.3869944444444444,16
+SfBC (exact) [masked],CQL [projected],0.3884749999999999,16
+SfBC (exact) [masked],BCQ [native],0.24284722222222224,16
+SfBC (exact) [masked],CQL [native],0.3935416666666667,16
+SfBC (exact) [masked],MBS-QI [masked],0.3764583333333333,16
+SfBC (exact) [masked],IDQL (exact) [masked],0.35180555555555554,16
+SfBC (exact) [masked],MBS-QI [projected],0.3963194444444445,16
+SfBC (exact) [masked],IDQL (exact) [projected],0.4230555555555556,16
+SfBC (exact) [masked],FISOR-tab (exact) [native],0.46272222222222226,16
+SfBC (exact) [masked],FISOR-tab (exact) [projected],0.46272222222222226,16
+SfBC (exact) [masked],SfBC (exact) [masked],0.5,16
+SfBC (exact) [masked],Lagrangian-MB [projected],0.4709027777777778,16
+SfBC (exact) [masked],Lagrangian-MB [native],0.4722916666666667,16
+SfBC (exact) [masked],IQL (AW stochastic) [projected],0.6883430555555554,16
+SfBC (exact) [masked],SfBC (exact) [projected],0.6883430555555554,16
+SfBC (exact) [masked],SPIBB [projected],0.5543055555555555,16
+SfBC (exact) [masked],CMDP-LP (model) [native],0.5186972222222223,16
+SfBC (exact) [masked],CMDP-LP (model) [projected],0.5186972222222223,16
+SfBC (exact) [masked],Behaviour (true) [projected],0.9546527777777778,16
+SfBC (exact) [masked],BC (stochastic) [projected],0.9507638888888889,16
+SfBC (exact) [masked],"Diffusion (exact, unmasked) [projected]",0.946875,16
+SfBC (exact) [masked],SfBC (exact) [native],0.8152083333333333,16
+SfBC (exact) [masked],IQL (AW stochastic) [native],0.8152083333333333,16
+SfBC (exact) [masked],IDQL (exact) [native],0.75,16
+SfBC (exact) [masked],SPIBB [native],0.7502083333333334,16
+SfBC (exact) [masked],Behaviour (true) [native],0.875,16
+SfBC (exact) [masked],BC (stochastic) [native],0.8738194444444445,16
+SfBC (exact) [masked],"Diffusion (exact, unmasked) [native]",0.87375,16
+SfBC (exact) [masked],MBS-QI [native],0.5490277777777778,16
+SfBC (exact) [masked],Uniform-admissible [native],0.8646527777777778,16
+SfBC (exact) [masked],Uniform-admissible [projected],0.8646527777777778,16
+SfBC (exact) [masked],VI-LCB [native],0.7223611111111111,16
+Lagrangian-MB [projected],"Diffusion (exact, guided) [native]",0.21159722222222224,16
+Lagrangian-MB [projected],"Diffusion (exact, guided) [projected]",0.21159722222222224,16
+Lagrangian-MB [projected],BCQ [masked],0.2564722222222222,16
+Lagrangian-MB [projected],BCQ [projected],0.2650458333333333,16
+Lagrangian-MB [projected],VI-LCB [masked],0.18428611111111112,16
+Lagrangian-MB [projected],IQL [masked],0.3286430555555555,16
+Lagrangian-MB [projected],IQL [projected],0.3292597222222222,16
+Lagrangian-MB [projected],"SfBC (exact, argmax) [projected]",0.3292597222222222,16
+Lagrangian-MB [projected],"Diffusion (exact, final-only) [native]",0.3513736111111111,16
+Lagrangian-MB [projected],"Diffusion (exact, final-only) [projected]",0.3513736111111111,16
+Lagrangian-MB [projected],IQL [native],0.36167083333333333,16
+Lagrangian-MB [projected],"SfBC (exact, argmax) [native]",0.36167083333333333,16
+Lagrangian-MB [projected],BC [projected],0.4315597222222222,16
+Lagrangian-MB [projected],"Diffusion (exact, unguided) [native]",0.42942638888888884,16
+Lagrangian-MB [projected],"Diffusion (exact, unguided) [projected]",0.42942638888888884,16
+Lagrangian-MB [projected],BC [masked],0.4313708333333333,16
+Lagrangian-MB [projected],VI-LCB [projected],0.2690652777777778,16
+Lagrangian-MB [projected],BC [native],0.44146805555555557,16
+Lagrangian-MB [projected],CQL [masked],0.4250569444444444,16
+Lagrangian-MB [projected],CQL [projected],0.4260597222222222,16
+Lagrangian-MB [projected],BCQ [native],0.32881944444444444,16
+Lagrangian-MB [projected],CQL [native],0.44743055555555555,16
+Lagrangian-MB [projected],MBS-QI [masked],0.4547986111111111,16
+Lagrangian-MB [projected],IDQL (exact) [masked],0.4308361111111111,16
+Lagrangian-MB [projected],MBS-QI [projected],0.48537361111111116,16
+Lagrangian-MB [projected],IDQL (exact) [projected],0.4471638888888889,16
+Lagrangian-MB [projected],FISOR-tab (exact) [native],0.5270833333333333,16
+Lagrangian-MB [projected],FISOR-tab (exact) [projected],0.5270833333333333,16
+Lagrangian-MB [projected],SfBC (exact) [masked],0.5290972222222222,16
+Lagrangian-MB [projected],Lagrangian-MB [projected],0.5,16
+Lagrangian-MB [projected],Lagrangian-MB [native],0.5003513888888889,16
+Lagrangian-MB [projected],IQL (AW stochastic) [projected],0.5411805555555556,16
+Lagrangian-MB [projected],SfBC (exact) [projected],0.5411805555555556,16
+Lagrangian-MB [projected],SPIBB [projected],0.4550430555555556,16
+Lagrangian-MB [projected],CMDP-LP (model) [native],0.5760263888888888,16
+Lagrangian-MB [projected],CMDP-LP (model) [projected],0.5760263888888888,16
+Lagrangian-MB [projected],Behaviour (true) [projected],0.6803472222222223,16
+Lagrangian-MB [projected],BC (stochastic) [projected],0.6808333333333334,16
+Lagrangian-MB [projected],"Diffusion (exact, unmasked) [projected]",0.6819444444444446,16
+Lagrangian-MB [projected],SfBC (exact) [native],0.7174305555555556,16
+Lagrangian-MB [projected],IQL (AW stochastic) [native],0.7174305555555556,16
+Lagrangian-MB [projected],IDQL (exact) [native],0.6649305555555556,16
+Lagrangian-MB [projected],SPIBB [native],0.6740972222222222,16
+Lagrangian-MB [projected],Behaviour (true) [native],0.7979166666666666,16
+Lagrangian-MB [projected],BC (stochastic) [native],0.8011805555555556,16
+Lagrangian-MB [projected],"Diffusion (exact, unmasked) [native]",0.80375,16
+Lagrangian-MB [projected],MBS-QI [native],0.658611111111111,16
+Lagrangian-MB [projected],Uniform-admissible [native],0.9811111111111112,16
+Lagrangian-MB [projected],Uniform-admissible [projected],0.9811111111111112,16
+Lagrangian-MB [projected],VI-LCB [native],0.6270833333333333,16
+Lagrangian-MB [native],"Diffusion (exact, guided) [native]",0.20986111111111116,16
+Lagrangian-MB [native],"Diffusion (exact, guided) [projected]",0.20986111111111116,16
+Lagrangian-MB [native],BCQ [masked],0.2536625,16
+Lagrangian-MB [native],BCQ [projected],0.26274166666666665,16
+Lagrangian-MB [native],VI-LCB [masked],0.18255,16
+Lagrangian-MB [native],IQL [masked],0.3254125,16
+Lagrangian-MB [native],IQL [projected],0.32663472222222223,16
+Lagrangian-MB [native],"SfBC (exact, argmax) [projected]",0.32663472222222223,16
+Lagrangian-MB [native],"Diffusion (exact, final-only) [native]",0.34889305555555555,16
+Lagrangian-MB [native],"Diffusion (exact, final-only) [projected]",0.34889305555555555,16
+Lagrangian-MB [native],IQL [native],0.3590319444444444,16
+Lagrangian-MB [native],"SfBC (exact, argmax) [native]",0.3590319444444444,16
+Lagrangian-MB [native],BC [projected],0.42843472222222223,16
+Lagrangian-MB [native],"Diffusion (exact, unguided) [native]",0.4268319444444444,16
+Lagrangian-MB [native],"Diffusion (exact, unguided) [projected]",0.4268319444444444,16
+Lagrangian-MB [native],BC [masked],0.42859305555555555,16
+Lagrangian-MB [native],VI-LCB [projected],0.2673319444444445,16
+Lagrangian-MB [native],BC [native],0.4396625,16
+Lagrangian-MB [native],CQL [masked],0.4224180555555555,16
+Lagrangian-MB [native],CQL [projected],0.4238375,16
+Lagrangian-MB [native],BCQ [native],0.32815972222222217,16
+Lagrangian-MB [native],CQL [native],0.44604166666666667,16
+Lagrangian-MB [native],MBS-QI [masked],0.45237638888888887,16
+Lagrangian-MB [native],IDQL (exact) [masked],0.43076666666666663,16
+Lagrangian-MB [native],MBS-QI [projected],0.4826736111111111,16
+Lagrangian-MB [native],IDQL (exact) [projected],0.4466888888888889,16
+Lagrangian-MB [native],FISOR-tab (exact) [native],0.5258333333333333,16
+Lagrangian-MB [native],FISOR-tab (exact) [projected],0.5258333333333333,16
+Lagrangian-MB [native],SfBC (exact) [masked],0.5277083333333333,16
+Lagrangian-MB [native],Lagrangian-MB [projected],0.4996486111111111,16
+Lagrangian-MB [native],Lagrangian-MB [native],0.5,16
+Lagrangian-MB [native],IQL (AW stochastic) [projected],0.5397916666666667,16
+Lagrangian-MB [native],SfBC (exact) [projected],0.5397916666666667,16
+Lagrangian-MB [native],SPIBB [projected],0.45340972222222226,16
+Lagrangian-MB [native],CMDP-LP (model) [native],0.5722486111111111,16
+Lagrangian-MB [native],CMDP-LP (model) [projected],0.5722486111111111,16
+Lagrangian-MB [native],Behaviour (true) [projected],0.6785416666666668,16
+Lagrangian-MB [native],BC (stochastic) [projected],0.6798611111111112,16
+Lagrangian-MB [native],"Diffusion (exact, unmasked) [projected]",0.68125,16
+Lagrangian-MB [native],SfBC (exact) [native],0.7173611111111111,16
+Lagrangian-MB [native],IQL (AW stochastic) [native],0.7173611111111111,16
+Lagrangian-MB [native],IDQL (exact) [native],0.6649305555555556,16
+Lagrangian-MB [native],SPIBB [native],0.6737500000000001,16
+Lagrangian-MB [native],Behaviour (true) [native],0.7958333333333333,16
+Lagrangian-MB [native],BC (stochastic) [native],0.800625,16
+Lagrangian-MB [native],"Diffusion (exact, unmasked) [native]",0.8033333333333333,16
+Lagrangian-MB [native],MBS-QI [native],0.6559722222222222,16
+Lagrangian-MB [native],Uniform-admissible [native],0.9810416666666667,16
+Lagrangian-MB [native],Uniform-admissible [projected],0.9810416666666667,16
+Lagrangian-MB [native],VI-LCB [native],0.6280555555555555,16
+IQL (AW stochastic) [projected],"Diffusion (exact, guided) [native]",0.0817361111111111,16
+IQL (AW stochastic) [projected],"Diffusion (exact, guided) [projected]",0.0817361111111111,16
+IQL (AW stochastic) [projected],BCQ [masked],0.14791666666666667,16
+IQL (AW stochastic) [projected],BCQ [projected],0.14708333333333334,16
+IQL (AW stochastic) [projected],VI-LCB [masked],0.16493055555555558,16
+IQL (AW stochastic) [projected],IQL [masked],0.1923611111111111,16
+IQL (AW stochastic) [projected],IQL [projected],0.1923611111111111,16
+IQL (AW stochastic) [projected],"SfBC (exact, argmax) [projected]",0.1923611111111111,16
+IQL (AW stochastic) [projected],"Diffusion (exact, final-only) [native]",0.206875,16
+IQL (AW stochastic) [projected],"Diffusion (exact, final-only) [projected]",0.206875,16
+IQL (AW stochastic) [projected],IQL [native],0.2513722222222222,16
+IQL (AW stochastic) [projected],"SfBC (exact, argmax) [native]",0.2513722222222222,16
+IQL (AW stochastic) [projected],BC [projected],0.30394722222222226,16
+IQL (AW stochastic) [projected],"Diffusion (exact, unguided) [native]",0.29864999999999997,16
+IQL (AW stochastic) [projected],"Diffusion (exact, unguided) [projected]",0.29864999999999997,16
+IQL (AW stochastic) [projected],BC [masked],0.30442222222222226,16
+IQL (AW stochastic) [projected],VI-LCB [projected],0.2477777777777778,16
+IQL (AW stochastic) [projected],BC [native],0.3455555555555556,16
+IQL (AW stochastic) [projected],CQL [masked],0.35525,16
+IQL (AW stochastic) [projected],CQL [projected],0.3592194444444445,16
+IQL (AW stochastic) [projected],BCQ [native],0.2248611111111111,16
+IQL (AW stochastic) [projected],CQL [native],0.3663194444444444,16
+IQL (AW stochastic) [projected],MBS-QI [masked],0.36597222222222225,16
+IQL (AW stochastic) [projected],IDQL (exact) [masked],0.2561111111111111,16
+IQL (AW stochastic) [projected],MBS-QI [projected],0.38759722222222226,16
+IQL (AW stochastic) [projected],IDQL (exact) [projected],0.35402777777777783,16
+IQL (AW stochastic) [projected],FISOR-tab (exact) [native],0.29941944444444446,16
+IQL (AW stochastic) [projected],FISOR-tab (exact) [projected],0.29941944444444446,16
+IQL (AW stochastic) [projected],SfBC (exact) [masked],0.3116569444444444,16
+IQL (AW stochastic) [projected],Lagrangian-MB [projected],0.4588194444444444,16
+IQL (AW stochastic) [projected],Lagrangian-MB [native],0.4602083333333333,16
+IQL (AW stochastic) [projected],IQL (AW stochastic) [projected],0.5,16
+IQL (AW stochastic) [projected],SfBC (exact) [projected],0.5,16
+IQL (AW stochastic) [projected],SPIBB [projected],0.5445833333333333,16
+IQL (AW stochastic) [projected],CMDP-LP (model) [native],0.49997777777777774,16
+IQL (AW stochastic) [projected],CMDP-LP (model) [projected],0.49997777777777774,16
+IQL (AW stochastic) [projected],Behaviour (true) [projected],0.9772222222222222,16
+IQL (AW stochastic) [projected],BC (stochastic) [projected],0.9728472222222222,16
+IQL (AW stochastic) [projected],"Diffusion (exact, unmasked) [projected]",0.9719444444444444,16
+IQL (AW stochastic) [projected],SfBC (exact) [native],0.8122222222222222,16
+IQL (AW stochastic) [projected],IQL (AW stochastic) [native],0.8122222222222222,16
+IQL (AW stochastic) [projected],IDQL (exact) [native],0.75,16
+IQL (AW stochastic) [projected],SPIBB [native],0.7508333333333334,16
+IQL (AW stochastic) [projected],Behaviour (true) [native],0.8770833333333333,16
+IQL (AW stochastic) [projected],BC (stochastic) [native],0.8775,16
+IQL (AW stochastic) [projected],"Diffusion (exact, unmasked) [native]",0.8764583333333333,16
+IQL (AW stochastic) [projected],MBS-QI [native],0.5344444444444445,16
+IQL (AW stochastic) [projected],Uniform-admissible [native],0.8640277777777777,16
+IQL (AW stochastic) [projected],Uniform-admissible [projected],0.8640277777777777,16
+IQL (AW stochastic) [projected],VI-LCB [native],0.7113888888888888,16
+SfBC (exact) [projected],"Diffusion (exact, guided) [native]",0.0817361111111111,16
+SfBC (exact) [projected],"Diffusion (exact, guided) [projected]",0.0817361111111111,16
+SfBC (exact) [projected],BCQ [masked],0.14791666666666667,16
+SfBC (exact) [projected],BCQ [projected],0.14708333333333334,16
+SfBC (exact) [projected],VI-LCB [masked],0.16493055555555558,16
+SfBC (exact) [projected],IQL [masked],0.1923611111111111,16
+SfBC (exact) [projected],IQL [projected],0.1923611111111111,16
+SfBC (exact) [projected],"SfBC (exact, argmax) [projected]",0.1923611111111111,16
+SfBC (exact) [projected],"Diffusion (exact, final-only) [native]",0.206875,16
+SfBC (exact) [projected],"Diffusion (exact, final-only) [projected]",0.206875,16
+SfBC (exact) [projected],IQL [native],0.2513722222222222,16
+SfBC (exact) [projected],"SfBC (exact, argmax) [native]",0.2513722222222222,16
+SfBC (exact) [projected],BC [projected],0.30394722222222226,16
+SfBC (exact) [projected],"Diffusion (exact, unguided) [native]",0.29864999999999997,16
+SfBC (exact) [projected],"Diffusion (exact, unguided) [projected]",0.29864999999999997,16
+SfBC (exact) [projected],BC [masked],0.30442222222222226,16
+SfBC (exact) [projected],VI-LCB [projected],0.2477777777777778,16
+SfBC (exact) [projected],BC [native],0.3455555555555556,16
+SfBC (exact) [projected],CQL [masked],0.35525,16
+SfBC (exact) [projected],CQL [projected],0.3592194444444445,16
+SfBC (exact) [projected],BCQ [native],0.2248611111111111,16
+SfBC (exact) [projected],CQL [native],0.3663194444444444,16
+SfBC (exact) [projected],MBS-QI [masked],0.36597222222222225,16
+SfBC (exact) [projected],IDQL (exact) [masked],0.2561111111111111,16
+SfBC (exact) [projected],MBS-QI [projected],0.38759722222222226,16
+SfBC (exact) [projected],IDQL (exact) [projected],0.35402777777777783,16
+SfBC (exact) [projected],FISOR-tab (exact) [native],0.29941944444444446,16
+SfBC (exact) [projected],FISOR-tab (exact) [projected],0.29941944444444446,16
+SfBC (exact) [projected],SfBC (exact) [masked],0.3116569444444444,16
+SfBC (exact) [projected],Lagrangian-MB [projected],0.4588194444444444,16
+SfBC (exact) [projected],Lagrangian-MB [native],0.4602083333333333,16
+SfBC (exact) [projected],IQL (AW stochastic) [projected],0.5,16
+SfBC (exact) [projected],SfBC (exact) [projected],0.5,16
+SfBC (exact) [projected],SPIBB [projected],0.5445833333333333,16
+SfBC (exact) [projected],CMDP-LP (model) [native],0.49997777777777774,16
+SfBC (exact) [projected],CMDP-LP (model) [projected],0.49997777777777774,16
+SfBC (exact) [projected],Behaviour (true) [projected],0.9772222222222222,16
+SfBC (exact) [projected],BC (stochastic) [projected],0.9728472222222222,16
+SfBC (exact) [projected],"Diffusion (exact, unmasked) [projected]",0.9719444444444444,16
+SfBC (exact) [projected],SfBC (exact) [native],0.8122222222222222,16
+SfBC (exact) [projected],IQL (AW stochastic) [native],0.8122222222222222,16
+SfBC (exact) [projected],IDQL (exact) [native],0.75,16
+SfBC (exact) [projected],SPIBB [native],0.7508333333333334,16
+SfBC (exact) [projected],Behaviour (true) [native],0.8770833333333333,16
+SfBC (exact) [projected],BC (stochastic) [native],0.8775,16
+SfBC (exact) [projected],"Diffusion (exact, unmasked) [native]",0.8764583333333333,16
+SfBC (exact) [projected],MBS-QI [native],0.5344444444444445,16
+SfBC (exact) [projected],Uniform-admissible [native],0.8640277777777777,16
+SfBC (exact) [projected],Uniform-admissible [projected],0.8640277777777777,16
+SfBC (exact) [projected],VI-LCB [native],0.7113888888888888,16
+SPIBB [projected],"Diffusion (exact, guided) [native]",0.10225694444444446,16
+SPIBB [projected],"Diffusion (exact, guided) [projected]",0.10225694444444446,16
+SPIBB [projected],BCQ [masked],0.22339305555555553,16
+SPIBB [projected],BCQ [projected],0.22761249999999997,16
+SPIBB [projected],VI-LCB [masked],0.17475694444444445,16
+SPIBB [projected],IQL [masked],0.33600694444444446,16
+SPIBB [projected],IQL [projected],0.33615694444444444,16
+SPIBB [projected],"SfBC (exact, argmax) [projected]",0.33615694444444444,16
+SPIBB [projected],"Diffusion (exact, final-only) [native]",0.33722083333333336,16
+SPIBB [projected],"Diffusion (exact, final-only) [projected]",0.33722083333333336,16
+SPIBB [projected],IQL [native],0.3367013888888889,16
+SPIBB [projected],"SfBC (exact, argmax) [native]",0.3367013888888889,16
+SPIBB [projected],BC [projected],0.36732638888888886,16
+SPIBB [projected],"Diffusion (exact, unguided) [native]",0.3668402777777778,16
+SPIBB [projected],"Diffusion (exact, unguided) [projected]",0.3668402777777778,16
+SPIBB [projected],BC [masked],0.36732638888888886,16
+SPIBB [projected],VI-LCB [projected],0.23560138888888887,16
+SPIBB [projected],BC [native],0.36732638888888886,16
+SPIBB [projected],CQL [masked],0.36961805555555555,16
+SPIBB [projected],CQL [projected],0.36961805555555555,16
+SPIBB [projected],BCQ [native],0.26927083333333335,16
+SPIBB [projected],CQL [native],0.36961805555555555,16
+SPIBB [projected],MBS-QI [masked],0.42306527777777775,16
+SPIBB [projected],IDQL (exact) [masked],0.3850388888888888,16
+SPIBB [projected],MBS-QI [projected],0.458675,16
+SPIBB [projected],IDQL (exact) [projected],0.4128472222222222,16
+SPIBB [projected],FISOR-tab (exact) [native],0.4442361111111111,16
+SPIBB [projected],FISOR-tab (exact) [projected],0.4442361111111111,16
+SPIBB [projected],SfBC (exact) [masked],0.44569444444444445,16
+SPIBB [projected],Lagrangian-MB [projected],0.5449569444444444,16
+SPIBB [projected],Lagrangian-MB [native],0.5465902777777778,16
+SPIBB [projected],IQL (AW stochastic) [projected],0.4554166666666667,16
+SPIBB [projected],SfBC (exact) [projected],0.4554166666666667,16
+SPIBB [projected],SPIBB [projected],0.5,16
+SPIBB [projected],CMDP-LP (model) [native],0.5701625,16
+SPIBB [projected],CMDP-LP (model) [projected],0.5701625,16
+SPIBB [projected],Behaviour (true) [projected],0.8196527777777778,16
+SPIBB [projected],BC (stochastic) [projected],0.8134027777777778,16
+SPIBB [projected],"Diffusion (exact, unmasked) [projected]",0.8185416666666665,16
+SPIBB [projected],SfBC (exact) [native],0.7463194444444445,16
+SPIBB [projected],IQL (AW stochastic) [native],0.7463194444444445,16
+SPIBB [projected],IDQL (exact) [native],0.7102083333333333,16
+SPIBB [projected],SPIBB [native],0.803611111111111,16
+SPIBB [projected],Behaviour (true) [native],0.9229166666666667,16
+SPIBB [projected],BC (stochastic) [native],0.9247222222222222,16
+SPIBB [projected],"Diffusion (exact, unmasked) [native]",0.924236111111111,16
+SPIBB [projected],MBS-QI [native],0.5789583333333334,16
+SPIBB [projected],Uniform-admissible [native],0.8628819444444444,16
+SPIBB [projected],Uniform-admissible [projected],0.8628819444444444,16
+SPIBB [projected],VI-LCB [native],0.6671527777777778,16
+CMDP-LP (model) [native],"Diffusion (exact, guided) [native]",0.1583638888888889,16
+CMDP-LP (model) [native],"Diffusion (exact, guided) [projected]",0.1583638888888889,16
+CMDP-LP (model) [native],BCQ [masked],0.24774305555555554,16
+CMDP-LP (model) [native],BCQ [projected],0.25377361111111113,16
+CMDP-LP (model) [native],VI-LCB [masked],0.1696833333333333,16
+CMDP-LP (model) [native],IQL [masked],0.29184027777777777,16
+CMDP-LP (model) [native],IQL [projected],0.29299305555555555,16
+CMDP-LP (model) [native],"SfBC (exact, argmax) [projected]",0.29299305555555555,16
+CMDP-LP (model) [native],"Diffusion (exact, final-only) [native]",0.3173680555555556,16
+CMDP-LP (model) [native],"Diffusion (exact, final-only) [projected]",0.3173680555555556,16
+CMDP-LP (model) [native],IQL [native],0.36509305555555555,16
+CMDP-LP (model) [native],"SfBC (exact, argmax) [native]",0.36509305555555555,16
+CMDP-LP (model) [native],BC [projected],0.40682361111111115,16
+CMDP-LP (model) [native],"Diffusion (exact, unguided) [native]",0.40431249999999996,16
+CMDP-LP (model) [native],"Diffusion (exact, unguided) [projected]",0.40431249999999996,16
+CMDP-LP (model) [native],BC [masked],0.4064916666666667,16
+CMDP-LP (model) [native],VI-LCB [projected],0.24303750000000002,16
+CMDP-LP (model) [native],BC [native],0.4408958333333334,16
+CMDP-LP (model) [native],CQL [masked],0.42355138888888894,16
+CMDP-LP (model) [native],CQL [projected],0.4261652777777778,16
+CMDP-LP (model) [native],BCQ [native],0.33715277777777775,16
+CMDP-LP (model) [native],CQL [native],0.4530555555555556,16
+CMDP-LP (model) [native],MBS-QI [masked],0.37260833333333326,16
+CMDP-LP (model) [native],IDQL (exact) [masked],0.3607333333333334,16
+CMDP-LP (model) [native],MBS-QI [projected],0.39613194444444444,16
+CMDP-LP (model) [native],IDQL (exact) [projected],0.3737944444444444,16
+CMDP-LP (model) [native],FISOR-tab (exact) [native],0.4789472222222223,16
+CMDP-LP (model) [native],FISOR-tab (exact) [projected],0.4789472222222223,16
+CMDP-LP (model) [native],SfBC (exact) [masked],0.4813027777777778,16
+CMDP-LP (model) [native],Lagrangian-MB [projected],0.42397361111111104,16
+CMDP-LP (model) [native],Lagrangian-MB [native],0.42775138888888886,16
+CMDP-LP (model) [native],IQL (AW stochastic) [projected],0.5000222222222223,16
+CMDP-LP (model) [native],SfBC (exact) [projected],0.5000222222222223,16
+CMDP-LP (model) [native],SPIBB [projected],0.42983750000000004,16
+CMDP-LP (model) [native],CMDP-LP (model) [native],0.5,16
+CMDP-LP (model) [native],CMDP-LP (model) [projected],0.5,16
+CMDP-LP (model) [native],Behaviour (true) [projected],0.6440277777777779,16
+CMDP-LP (model) [native],BC (stochastic) [projected],0.6432027777777777,16
+CMDP-LP (model) [native],"Diffusion (exact, unmasked) [projected]",0.6452472222222222,16
+CMDP-LP (model) [native],SfBC (exact) [native],0.6821527777777777,16
+CMDP-LP (model) [native],IQL (AW stochastic) [native],0.6821527777777777,16
+CMDP-LP (model) [native],IDQL (exact) [native],0.6102777777777778,16
+CMDP-LP (model) [native],SPIBB [native],0.6672222222222223,16
+CMDP-LP (model) [native],Behaviour (true) [native],0.7625,16
+CMDP-LP (model) [native],BC (stochastic) [native],0.7652777777777777,16
+CMDP-LP (model) [native],"Diffusion (exact, unmasked) [native]",0.7679166666666667,16
+CMDP-LP (model) [native],MBS-QI [native],0.5993055555555555,16
+CMDP-LP (model) [native],Uniform-admissible [native],0.8805555555555555,16
+CMDP-LP (model) [native],Uniform-admissible [projected],0.8805555555555555,16
+CMDP-LP (model) [native],VI-LCB [native],0.6138888888888889,16
+CMDP-LP (model) [projected],"Diffusion (exact, guided) [native]",0.1583638888888889,16
+CMDP-LP (model) [projected],"Diffusion (exact, guided) [projected]",0.1583638888888889,16
+CMDP-LP (model) [projected],BCQ [masked],0.24774305555555554,16
+CMDP-LP (model) [projected],BCQ [projected],0.25377361111111113,16
+CMDP-LP (model) [projected],VI-LCB [masked],0.1696833333333333,16
+CMDP-LP (model) [projected],IQL [masked],0.29184027777777777,16
+CMDP-LP (model) [projected],IQL [projected],0.29299305555555555,16
+CMDP-LP (model) [projected],"SfBC (exact, argmax) [projected]",0.29299305555555555,16
+CMDP-LP (model) [projected],"Diffusion (exact, final-only) [native]",0.3173680555555556,16
+CMDP-LP (model) [projected],"Diffusion (exact, final-only) [projected]",0.3173680555555556,16
+CMDP-LP (model) [projected],IQL [native],0.36509305555555555,16
+CMDP-LP (model) [projected],"SfBC (exact, argmax) [native]",0.36509305555555555,16
+CMDP-LP (model) [projected],BC [projected],0.40682361111111115,16
+CMDP-LP (model) [projected],"Diffusion (exact, unguided) [native]",0.40431249999999996,16
+CMDP-LP (model) [projected],"Diffusion (exact, unguided) [projected]",0.40431249999999996,16
+CMDP-LP (model) [projected],BC [masked],0.4064916666666667,16
+CMDP-LP (model) [projected],VI-LCB [projected],0.24303750000000002,16
+CMDP-LP (model) [projected],BC [native],0.4408958333333334,16
+CMDP-LP (model) [projected],CQL [masked],0.42355138888888894,16
+CMDP-LP (model) [projected],CQL [projected],0.4261652777777778,16
+CMDP-LP (model) [projected],BCQ [native],0.33715277777777775,16
+CMDP-LP (model) [projected],CQL [native],0.4530555555555556,16
+CMDP-LP (model) [projected],MBS-QI [masked],0.37260833333333326,16
+CMDP-LP (model) [projected],IDQL (exact) [masked],0.3607333333333334,16
+CMDP-LP (model) [projected],MBS-QI [projected],0.39613194444444444,16
+CMDP-LP (model) [projected],IDQL (exact) [projected],0.3737944444444444,16
+CMDP-LP (model) [projected],FISOR-tab (exact) [native],0.4789472222222223,16
+CMDP-LP (model) [projected],FISOR-tab (exact) [projected],0.4789472222222223,16
+CMDP-LP (model) [projected],SfBC (exact) [masked],0.4813027777777778,16
+CMDP-LP (model) [projected],Lagrangian-MB [projected],0.42397361111111104,16
+CMDP-LP (model) [projected],Lagrangian-MB [native],0.42775138888888886,16
+CMDP-LP (model) [projected],IQL (AW stochastic) [projected],0.5000222222222223,16
+CMDP-LP (model) [projected],SfBC (exact) [projected],0.5000222222222223,16
+CMDP-LP (model) [projected],SPIBB [projected],0.42983750000000004,16
+CMDP-LP (model) [projected],CMDP-LP (model) [native],0.5,16
+CMDP-LP (model) [projected],CMDP-LP (model) [projected],0.5,16
+CMDP-LP (model) [projected],Behaviour (true) [projected],0.6440277777777779,16
+CMDP-LP (model) [projected],BC (stochastic) [projected],0.6432027777777777,16
+CMDP-LP (model) [projected],"Diffusion (exact, unmasked) [projected]",0.6452472222222222,16
+CMDP-LP (model) [projected],SfBC (exact) [native],0.6821527777777777,16
+CMDP-LP (model) [projected],IQL (AW stochastic) [native],0.6821527777777777,16
+CMDP-LP (model) [projected],IDQL (exact) [native],0.6102777777777778,16
+CMDP-LP (model) [projected],SPIBB [native],0.6672222222222223,16
+CMDP-LP (model) [projected],Behaviour (true) [native],0.7625,16
+CMDP-LP (model) [projected],BC (stochastic) [native],0.7652777777777777,16
+CMDP-LP (model) [projected],"Diffusion (exact, unmasked) [native]",0.7679166666666667,16
+CMDP-LP (model) [projected],MBS-QI [native],0.5993055555555555,16
+CMDP-LP (model) [projected],Uniform-admissible [native],0.8805555555555555,16
+CMDP-LP (model) [projected],Uniform-admissible [projected],0.8805555555555555,16
+CMDP-LP (model) [projected],VI-LCB [native],0.6138888888888889,16
+Behaviour (true) [projected],"Diffusion (exact, guided) [native]",0.03986111111111111,16
+Behaviour (true) [projected],"Diffusion (exact, guided) [projected]",0.03986111111111111,16
+Behaviour (true) [projected],BCQ [masked],0.07048611111111111,16
+Behaviour (true) [projected],BCQ [projected],0.07013888888888889,16
+Behaviour (true) [projected],VI-LCB [masked],0.08743055555555555,16
+Behaviour (true) [projected],IQL [masked],0.11756944444444445,16
+Behaviour (true) [projected],IQL [projected],0.11756944444444445,16
+Behaviour (true) [projected],"SfBC (exact, argmax) [projected]",0.11756944444444445,16
+Behaviour (true) [projected],"Diffusion (exact, final-only) [native]",0.12770833333333334,16
+Behaviour (true) [projected],"Diffusion (exact, final-only) [projected]",0.12770833333333334,16
+Behaviour (true) [projected],IQL [native],0.17381944444444444,16
+Behaviour (true) [projected],"SfBC (exact, argmax) [native]",0.17381944444444444,16
+Behaviour (true) [projected],BC [projected],0.20875,16
+Behaviour (true) [projected],"Diffusion (exact, unguided) [native]",0.20166666666666666,16
+Behaviour (true) [projected],"Diffusion (exact, unguided) [projected]",0.20166666666666666,16
+Behaviour (true) [projected],BC [masked],0.205,16
+Behaviour (true) [projected],VI-LCB [projected],0.13937500000000003,16
+Behaviour (true) [projected],BC [native],0.26375,16
+Behaviour (true) [projected],CQL [masked],0.27416666666666667,16
+Behaviour (true) [projected],CQL [projected],0.27541666666666664,16
+Behaviour (true) [projected],BCQ [native],0.12013888888888888,16
+Behaviour (true) [projected],CQL [native],0.29291666666666666,16
+Behaviour (true) [projected],MBS-QI [masked],0.2674305555555556,16
+Behaviour (true) [projected],IDQL (exact) [masked],0.021041666666666667,16
+Behaviour (true) [projected],MBS-QI [projected],0.3004861111111111,16
+Behaviour (true) [projected],IDQL (exact) [projected],0.02486111111111111,16
+Behaviour (true) [projected],FISOR-tab (exact) [native],0.04131944444444445,16
+Behaviour (true) [projected],FISOR-tab (exact) [projected],0.04131944444444445,16
+Behaviour (true) [projected],SfBC (exact) [masked],0.04534722222222222,16
+Behaviour (true) [projected],Lagrangian-MB [projected],0.3196527777777778,16
+Behaviour (true) [projected],Lagrangian-MB [native],0.32145833333333335,16
+Behaviour (true) [projected],IQL (AW stochastic) [projected],0.02277777777777778,16
+Behaviour (true) [projected],SfBC (exact) [projected],0.02277777777777778,16
+Behaviour (true) [projected],SPIBB [projected],0.18034722222222224,16
+Behaviour (true) [projected],CMDP-LP (model) [native],0.3559722222222223,16
+Behaviour (true) [projected],CMDP-LP (model) [projected],0.3559722222222223,16
+Behaviour (true) [projected],Behaviour (true) [projected],0.5,16
+Behaviour (true) [projected],BC (stochastic) [projected],0.5334027777777778,16
+Behaviour (true) [projected],"Diffusion (exact, unmasked) [projected]",0.5654166666666667,16
+Behaviour (true) [projected],SfBC (exact) [native],0.5036805555555556,16
+Behaviour (true) [projected],IQL (AW stochastic) [native],0.5036805555555556,16
+Behaviour (true) [projected],IDQL (exact) [native],0.5502083333333334,16
+Behaviour (true) [projected],SPIBB [native],0.6975694444444445,16
+Behaviour (true) [projected],Behaviour (true) [native],0.8135416666666666,16
+Behaviour (true) [projected],BC (stochastic) [native],0.8154861111111111,16
+Behaviour (true) [projected],"Diffusion (exact, unmasked) [native]",0.8154861111111111,16
+Behaviour (true) [projected],MBS-QI [native],0.5009722222222222,16
+Behaviour (true) [projected],Uniform-admissible [native],0.7984027777777777,16
+Behaviour (true) [projected],Uniform-admissible [projected],0.7984027777777777,16
+Behaviour (true) [projected],VI-LCB [native],0.6165972222222222,16
+BC (stochastic) [projected],"Diffusion (exact, guided) [native]",0.03993055555555555,16
+BC (stochastic) [projected],"Diffusion (exact, guided) [projected]",0.03993055555555555,16
+BC (stochastic) [projected],BCQ [masked],0.070625,16
+BC (stochastic) [projected],BCQ [projected],0.07041666666666667,16
+BC (stochastic) [projected],VI-LCB [masked],0.08868055555555555,16
+BC (stochastic) [projected],IQL [masked],0.11840277777777777,16
+BC (stochastic) [projected],IQL [projected],0.11840277777777777,16
+BC (stochastic) [projected],"SfBC (exact, argmax) [projected]",0.11840277777777777,16
+BC (stochastic) [projected],"Diffusion (exact, final-only) [native]",0.12819444444444444,16
+BC (stochastic) [projected],"Diffusion (exact, final-only) [projected]",0.12819444444444444,16
+BC (stochastic) [projected],IQL [native],0.17500277777777778,16
+BC (stochastic) [projected],"SfBC (exact, argmax) [native]",0.17500277777777778,16
+BC (stochastic) [projected],BC [projected],0.2070777777777778,16
+BC (stochastic) [projected],"Diffusion (exact, unguided) [native]",0.20276388888888888,16
+BC (stochastic) [projected],"Diffusion (exact, unguided) [projected]",0.20276388888888888,16
+BC (stochastic) [projected],BC [masked],0.20575277777777778,16
+BC (stochastic) [projected],VI-LCB [projected],0.13909722222222223,16
+BC (stochastic) [projected],BC [native],0.26340277777777776,16
+BC (stochastic) [projected],CQL [masked],0.27358055555555555,16
+BC (stochastic) [projected],CQL [projected],0.27410555555555555,16
+BC (stochastic) [projected],BCQ [native],0.12131944444444444,16
+BC (stochastic) [projected],CQL [native],0.29291666666666666,16
+BC (stochastic) [projected],MBS-QI [masked],0.2681944444444444,16
+BC (stochastic) [projected],IDQL (exact) [masked],0.02125,16
+BC (stochastic) [projected],MBS-QI [projected],0.30090277777777774,16
+BC (stochastic) [projected],IDQL (exact) [projected],0.025069444444444443,16
+BC (stochastic) [projected],FISOR-tab (exact) [native],0.04625,16
+BC (stochastic) [projected],FISOR-tab (exact) [projected],0.04625,16
+BC (stochastic) [projected],SfBC (exact) [masked],0.049236111111111105,16
+BC (stochastic) [projected],Lagrangian-MB [projected],0.3191666666666667,16
+BC (stochastic) [projected],Lagrangian-MB [native],0.32013888888888886,16
+BC (stochastic) [projected],IQL (AW stochastic) [projected],0.02715277777777778,16
+BC (stochastic) [projected],SfBC (exact) [projected],0.02715277777777778,16
+BC (stochastic) [projected],SPIBB [projected],0.18659722222222222,16
+BC (stochastic) [projected],CMDP-LP (model) [native],0.35679722222222215,16
+BC (stochastic) [projected],CMDP-LP (model) [projected],0.35679722222222215,16
+BC (stochastic) [projected],Behaviour (true) [projected],0.4665972222222222,16
+BC (stochastic) [projected],BC (stochastic) [projected],0.5,16
+BC (stochastic) [projected],"Diffusion (exact, unmasked) [projected]",0.5392138888888889,16
+BC (stochastic) [projected],SfBC (exact) [native],0.5050694444444443,16
+BC (stochastic) [projected],IQL (AW stochastic) [native],0.5050694444444443,16
+BC (stochastic) [projected],IDQL (exact) [native],0.5448611111111111,16
+BC (stochastic) [projected],SPIBB [native],0.6949305555555556,16
+BC (stochastic) [projected],Behaviour (true) [native],0.8104166666666667,16
+BC (stochastic) [projected],BC (stochastic) [native],0.8120833333333333,16
+BC (stochastic) [projected],"Diffusion (exact, unmasked) [native]",0.8120138888888889,16
+BC (stochastic) [projected],MBS-QI [native],0.5009027777777778,16
+BC (stochastic) [projected],Uniform-admissible [native],0.7969444444444445,16
+BC (stochastic) [projected],Uniform-admissible [projected],0.7969444444444445,16
+BC (stochastic) [projected],VI-LCB [native],0.6152777777777778,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, guided) [native]",0.03951388888888889,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, guided) [projected]",0.03951388888888889,16
+"Diffusion (exact, unmasked) [projected]",BCQ [masked],0.07145833333333333,16
+"Diffusion (exact, unmasked) [projected]",BCQ [projected],0.07090277777777777,16
+"Diffusion (exact, unmasked) [projected]",VI-LCB [masked],0.08708333333333333,16
+"Diffusion (exact, unmasked) [projected]",IQL [masked],0.11861111111111111,16
+"Diffusion (exact, unmasked) [projected]",IQL [projected],0.11861111111111111,16
+"Diffusion (exact, unmasked) [projected]","SfBC (exact, argmax) [projected]",0.11861111111111111,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, final-only) [native]",0.1282638888888889,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, final-only) [projected]",0.1282638888888889,16
+"Diffusion (exact, unmasked) [projected]",IQL [native],0.1752111111111111,16
+"Diffusion (exact, unmasked) [projected]","SfBC (exact, argmax) [native]",0.1752111111111111,16
+"Diffusion (exact, unmasked) [projected]",BC [projected],0.20700277777777779,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, unguided) [native]",0.20268888888888892,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, unguided) [projected]",0.20268888888888892,16
+"Diffusion (exact, unmasked) [projected]",BC [masked],0.2056527777777778,16
+"Diffusion (exact, unmasked) [projected]",VI-LCB [projected],0.13750000000000004,16
+"Diffusion (exact, unmasked) [projected]",BC [native],0.26340277777777776,16
+"Diffusion (exact, unmasked) [projected]",CQL [masked],0.27373888888888886,16
+"Diffusion (exact, unmasked) [projected]",CQL [projected],0.27426388888888886,16
+"Diffusion (exact, unmasked) [projected]",BCQ [native],0.12152777777777778,16
+"Diffusion (exact, unmasked) [projected]",CQL [native],0.29305555555555557,16
+"Diffusion (exact, unmasked) [projected]",MBS-QI [masked],0.26708333333333334,16
+"Diffusion (exact, unmasked) [projected]",IDQL (exact) [masked],0.021111111111111112,16
+"Diffusion (exact, unmasked) [projected]",MBS-QI [projected],0.2998611111111111,16
+"Diffusion (exact, unmasked) [projected]",IDQL (exact) [projected],0.024930555555555556,16
+"Diffusion (exact, unmasked) [projected]",FISOR-tab (exact) [native],0.049166666666666664,16
+"Diffusion (exact, unmasked) [projected]",FISOR-tab (exact) [projected],0.049166666666666664,16
+"Diffusion (exact, unmasked) [projected]",SfBC (exact) [masked],0.053125000000000006,16
+"Diffusion (exact, unmasked) [projected]",Lagrangian-MB [projected],0.31805555555555554,16
+"Diffusion (exact, unmasked) [projected]",Lagrangian-MB [native],0.31875,16
+"Diffusion (exact, unmasked) [projected]",IQL (AW stochastic) [projected],0.028055555555555556,16
+"Diffusion (exact, unmasked) [projected]",SfBC (exact) [projected],0.028055555555555556,16
+"Diffusion (exact, unmasked) [projected]",SPIBB [projected],0.18145833333333333,16
+"Diffusion (exact, unmasked) [projected]",CMDP-LP (model) [native],0.35475277777777775,16
+"Diffusion (exact, unmasked) [projected]",CMDP-LP (model) [projected],0.35475277777777775,16
+"Diffusion (exact, unmasked) [projected]",Behaviour (true) [projected],0.4345833333333333,16
+"Diffusion (exact, unmasked) [projected]",BC (stochastic) [projected],0.46078611111111106,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, unmasked) [projected]",0.5,16
+"Diffusion (exact, unmasked) [projected]",SfBC (exact) [native],0.5033333333333333,16
+"Diffusion (exact, unmasked) [projected]",IQL (AW stochastic) [native],0.5033333333333333,16
+"Diffusion (exact, unmasked) [projected]",IDQL (exact) [native],0.5386805555555556,16
+"Diffusion (exact, unmasked) [projected]",SPIBB [native],0.6927083333333334,16
+"Diffusion (exact, unmasked) [projected]",Behaviour (true) [native],0.8104166666666667,16
+"Diffusion (exact, unmasked) [projected]",BC (stochastic) [native],0.8121527777777777,16
+"Diffusion (exact, unmasked) [projected]","Diffusion (exact, unmasked) [native]",0.811875,16
+"Diffusion (exact, unmasked) [projected]",MBS-QI [native],0.5002777777777778,16
+"Diffusion (exact, unmasked) [projected]",Uniform-admissible [native],0.7969444444444445,16
+"Diffusion (exact, unmasked) [projected]",Uniform-admissible [projected],0.7969444444444445,16
+"Diffusion (exact, unmasked) [projected]",VI-LCB [native],0.6147222222222222,16
+SfBC (exact) [native],"Diffusion (exact, guided) [native]",0.008541666666666666,16
+SfBC (exact) [native],"Diffusion (exact, guided) [projected]",0.008541666666666666,16
+SfBC (exact) [native],BCQ [masked],0.10034722222222223,16
+SfBC (exact) [native],BCQ [projected],0.10076388888888889,16
+SfBC (exact) [native],VI-LCB [masked],0.05027777777777778,16
+SfBC (exact) [native],IQL [masked],0.134375,16
+SfBC (exact) [native],IQL [projected],0.134375,16
+SfBC (exact) [native],"SfBC (exact, argmax) [projected]",0.134375,16
+SfBC (exact) [native],"Diffusion (exact, final-only) [native]",0.13555555555555557,16
+SfBC (exact) [native],"Diffusion (exact, final-only) [projected]",0.13555555555555557,16
+SfBC (exact) [native],IQL [native],0.134375,16
+SfBC (exact) [native],"SfBC (exact, argmax) [native]",0.134375,16
+SfBC (exact) [native],BC [projected],0.19805555555555557,16
+SfBC (exact) [native],"Diffusion (exact, unguided) [native]",0.19368055555555555,16
+SfBC (exact) [native],"Diffusion (exact, unguided) [projected]",0.19368055555555555,16
+SfBC (exact) [native],BC [masked],0.19805555555555557,16
+SfBC (exact) [native],VI-LCB [projected],0.08527777777777779,16
+SfBC (exact) [native],BC [native],0.19805555555555557,16
+SfBC (exact) [native],CQL [masked],0.21784722222222222,16
+SfBC (exact) [native],CQL [projected],0.21791666666666668,16
+SfBC (exact) [native],BCQ [native],0.09548611111111112,16
+SfBC (exact) [native],CQL [native],0.21784722222222222,16
+SfBC (exact) [native],MBS-QI [masked],0.17423611111111112,16
+SfBC (exact) [native],IDQL (exact) [masked],0.049930555555555554,16
+SfBC (exact) [native],MBS-QI [projected],0.18493055555555557,16
+SfBC (exact) [native],IDQL (exact) [projected],0.040833333333333326,16
+SfBC (exact) [native],FISOR-tab (exact) [native],0.1845138888888889,16
+SfBC (exact) [native],FISOR-tab (exact) [projected],0.1845138888888889,16
+SfBC (exact) [native],SfBC (exact) [masked],0.18479166666666666,16
+SfBC (exact) [native],Lagrangian-MB [projected],0.28256944444444443,16
+SfBC (exact) [native],Lagrangian-MB [native],0.2826388888888889,16
+SfBC (exact) [native],IQL (AW stochastic) [projected],0.18777777777777782,16
+SfBC (exact) [native],SfBC (exact) [projected],0.18777777777777782,16
+SfBC (exact) [native],SPIBB [projected],0.2536805555555556,16
+SfBC (exact) [native],CMDP-LP (model) [native],0.31784722222222217,16
+SfBC (exact) [native],CMDP-LP (model) [projected],0.31784722222222217,16
+SfBC (exact) [native],Behaviour (true) [projected],0.4963194444444444,16
+SfBC (exact) [native],BC (stochastic) [projected],0.4949305555555556,16
+SfBC (exact) [native],"Diffusion (exact, unmasked) [projected]",0.4966666666666667,16
+SfBC (exact) [native],SfBC (exact) [native],0.5,16
+SfBC (exact) [native],IQL (AW stochastic) [native],0.5,16
+SfBC (exact) [native],IDQL (exact) [native],0.654236111111111,16
+SfBC (exact) [native],SPIBB [native],0.5859722222222222,16
+SfBC (exact) [native],Behaviour (true) [native],0.90375,16
+SfBC (exact) [native],BC (stochastic) [native],0.9176500000000001,16
+SfBC (exact) [native],"Diffusion (exact, unmasked) [native]",0.9384083333333334,16
+SfBC (exact) [native],MBS-QI [native],0.5003416666666667,16
+SfBC (exact) [native],Uniform-admissible [native],0.7602083333333334,16
+SfBC (exact) [native],Uniform-admissible [projected],0.7602083333333334,16
+SfBC (exact) [native],VI-LCB [native],0.6277777777777778,16
+IQL (AW stochastic) [native],"Diffusion (exact, guided) [native]",0.008541666666666666,16
+IQL (AW stochastic) [native],"Diffusion (exact, guided) [projected]",0.008541666666666666,16
+IQL (AW stochastic) [native],BCQ [masked],0.10034722222222223,16
+IQL (AW stochastic) [native],BCQ [projected],0.10076388888888889,16
+IQL (AW stochastic) [native],VI-LCB [masked],0.05027777777777778,16
+IQL (AW stochastic) [native],IQL [masked],0.134375,16
+IQL (AW stochastic) [native],IQL [projected],0.134375,16
+IQL (AW stochastic) [native],"SfBC (exact, argmax) [projected]",0.134375,16
+IQL (AW stochastic) [native],"Diffusion (exact, final-only) [native]",0.13555555555555557,16
+IQL (AW stochastic) [native],"Diffusion (exact, final-only) [projected]",0.13555555555555557,16
+IQL (AW stochastic) [native],IQL [native],0.134375,16
+IQL (AW stochastic) [native],"SfBC (exact, argmax) [native]",0.134375,16
+IQL (AW stochastic) [native],BC [projected],0.19805555555555557,16
+IQL (AW stochastic) [native],"Diffusion (exact, unguided) [native]",0.19368055555555555,16
+IQL (AW stochastic) [native],"Diffusion (exact, unguided) [projected]",0.19368055555555555,16
+IQL (AW stochastic) [native],BC [masked],0.19805555555555557,16
+IQL (AW stochastic) [native],VI-LCB [projected],0.08527777777777779,16
+IQL (AW stochastic) [native],BC [native],0.19805555555555557,16
+IQL (AW stochastic) [native],CQL [masked],0.21784722222222222,16
+IQL (AW stochastic) [native],CQL [projected],0.21791666666666668,16
+IQL (AW stochastic) [native],BCQ [native],0.09548611111111112,16
+IQL (AW stochastic) [native],CQL [native],0.21784722222222222,16
+IQL (AW stochastic) [native],MBS-QI [masked],0.17423611111111112,16
+IQL (AW stochastic) [native],IDQL (exact) [masked],0.049930555555555554,16
+IQL (AW stochastic) [native],MBS-QI [projected],0.18493055555555557,16
+IQL (AW stochastic) [native],IDQL (exact) [projected],0.040833333333333326,16
+IQL (AW stochastic) [native],FISOR-tab (exact) [native],0.1845138888888889,16
+IQL (AW stochastic) [native],FISOR-tab (exact) [projected],0.1845138888888889,16
+IQL (AW stochastic) [native],SfBC (exact) [masked],0.18479166666666666,16
+IQL (AW stochastic) [native],Lagrangian-MB [projected],0.28256944444444443,16
+IQL (AW stochastic) [native],Lagrangian-MB [native],0.2826388888888889,16
+IQL (AW stochastic) [native],IQL (AW stochastic) [projected],0.18777777777777782,16
+IQL (AW stochastic) [native],SfBC (exact) [projected],0.18777777777777782,16
+IQL (AW stochastic) [native],SPIBB [projected],0.2536805555555556,16
+IQL (AW stochastic) [native],CMDP-LP (model) [native],0.31784722222222217,16
+IQL (AW stochastic) [native],CMDP-LP (model) [projected],0.31784722222222217,16
+IQL (AW stochastic) [native],Behaviour (true) [projected],0.4963194444444444,16
+IQL (AW stochastic) [native],BC (stochastic) [projected],0.4949305555555556,16
+IQL (AW stochastic) [native],"Diffusion (exact, unmasked) [projected]",0.4966666666666667,16
+IQL (AW stochastic) [native],SfBC (exact) [native],0.5,16
+IQL (AW stochastic) [native],IQL (AW stochastic) [native],0.5,16
+IQL (AW stochastic) [native],IDQL (exact) [native],0.654236111111111,16
+IQL (AW stochastic) [native],SPIBB [native],0.5859722222222222,16
+IQL (AW stochastic) [native],Behaviour (true) [native],0.90375,16
+IQL (AW stochastic) [native],BC (stochastic) [native],0.9176500000000001,16
+IQL (AW stochastic) [native],"Diffusion (exact, unmasked) [native]",0.9384083333333334,16
+IQL (AW stochastic) [native],MBS-QI [native],0.5003416666666667,16
+IQL (AW stochastic) [native],Uniform-admissible [native],0.7602083333333334,16
+IQL (AW stochastic) [native],Uniform-admissible [projected],0.7602083333333334,16
+IQL (AW stochastic) [native],VI-LCB [native],0.6277777777777778,16
+IDQL (exact) [native],"Diffusion (exact, guided) [native]",0.0075,16
+IDQL (exact) [native],"Diffusion (exact, guided) [projected]",0.0075,16
+IDQL (exact) [native],BCQ [masked],0.13055555555555556,16
+IDQL (exact) [native],BCQ [projected],0.13069444444444445,16
+IDQL (exact) [native],VI-LCB [masked],0.04138888888888889,16
+IDQL (exact) [native],IQL [masked],0.15458333333333335,16
+IDQL (exact) [native],IQL [projected],0.15465277777777778,16
+IDQL (exact) [native],"SfBC (exact, argmax) [projected]",0.15465277777777778,16
+IDQL (exact) [native],"Diffusion (exact, final-only) [native]",0.1579861111111111,16
+IDQL (exact) [native],"Diffusion (exact, final-only) [projected]",0.1579861111111111,16
+IDQL (exact) [native],IQL [native],0.15465277777777778,16
+IDQL (exact) [native],"SfBC (exact, argmax) [native]",0.15465277777777778,16
+IDQL (exact) [native],BC [projected],0.23381944444444447,16
+IDQL (exact) [native],"Diffusion (exact, unguided) [native]",0.2357638888888889,16
+IDQL (exact) [native],"Diffusion (exact, unguided) [projected]",0.2357638888888889,16
+IDQL (exact) [native],BC [masked],0.23381944444444447,16
+IDQL (exact) [native],VI-LCB [projected],0.07319444444444445,16
+IDQL (exact) [native],BC [native],0.23381944444444447,16
+IDQL (exact) [native],CQL [masked],0.2403472222222222,16
+IDQL (exact) [native],CQL [projected],0.2403472222222222,16
+IDQL (exact) [native],BCQ [native],0.1307638888888889,16
+IDQL (exact) [native],CQL [native],0.24027777777777778,16
+IDQL (exact) [native],MBS-QI [masked],0.17847222222222223,16
+IDQL (exact) [native],IDQL (exact) [masked],0.18333333333333335,16
+IDQL (exact) [native],MBS-QI [projected],0.18826388888888887,16
+IDQL (exact) [native],IDQL (exact) [projected],0.186875,16
+IDQL (exact) [native],FISOR-tab (exact) [native],0.25,16
+IDQL (exact) [native],FISOR-tab (exact) [projected],0.25,16
+IDQL (exact) [native],SfBC (exact) [masked],0.25,16
+IDQL (exact) [native],Lagrangian-MB [projected],0.3350694444444444,16
+IDQL (exact) [native],Lagrangian-MB [native],0.3350694444444444,16
+IDQL (exact) [native],IQL (AW stochastic) [projected],0.25,16
+IDQL (exact) [native],SfBC (exact) [projected],0.25,16
+IDQL (exact) [native],SPIBB [projected],0.2897916666666667,16
+IDQL (exact) [native],CMDP-LP (model) [native],0.3897222222222223,16
+IDQL (exact) [native],CMDP-LP (model) [projected],0.3897222222222223,16
+IDQL (exact) [native],Behaviour (true) [projected],0.44979166666666665,16
+IDQL (exact) [native],BC (stochastic) [projected],0.45513888888888887,16
+IDQL (exact) [native],"Diffusion (exact, unmasked) [projected]",0.46131944444444445,16
+IDQL (exact) [native],SfBC (exact) [native],0.3457638888888888,16
+IDQL (exact) [native],IQL (AW stochastic) [native],0.3457638888888888,16
+IDQL (exact) [native],IDQL (exact) [native],0.5,16
+IDQL (exact) [native],SPIBB [native],0.5788194444444444,16
+IDQL (exact) [native],Behaviour (true) [native],0.7916666666666666,16
+IDQL (exact) [native],BC (stochastic) [native],0.81875,16
+IDQL (exact) [native],"Diffusion (exact, unmasked) [native]",0.8346527777777778,16
+IDQL (exact) [native],MBS-QI [native],0.5008888888888889,16
+IDQL (exact) [native],Uniform-admissible [native],0.7561111111111111,16
+IDQL (exact) [native],Uniform-admissible [projected],0.7561111111111111,16
+IDQL (exact) [native],VI-LCB [native],0.6163194444444444,16
+SPIBB [native],"Diffusion (exact, guided) [native]",0.05548611111111111,16
+SPIBB [native],"Diffusion (exact, guided) [projected]",0.05548611111111111,16
+SPIBB [native],BCQ [masked],0.17138888888888887,16
+SPIBB [native],BCQ [projected],0.17194444444444446,16
+SPIBB [native],VI-LCB [masked],0.07361111111111111,16
+SPIBB [native],IQL [masked],0.21805555555555556,16
+SPIBB [native],IQL [projected],0.21805555555555556,16
+SPIBB [native],"SfBC (exact, argmax) [projected]",0.21805555555555556,16
+SPIBB [native],"Diffusion (exact, final-only) [native]",0.21784722222222222,16
+SPIBB [native],"Diffusion (exact, final-only) [projected]",0.21784722222222222,16
+SPIBB [native],IQL [native],0.21805555555555556,16
+SPIBB [native],"SfBC (exact, argmax) [native]",0.21805555555555556,16
+SPIBB [native],BC [projected],0.24743055555555554,16
+SPIBB [native],"Diffusion (exact, unguided) [native]",0.24694444444444444,16
+SPIBB [native],"Diffusion (exact, unguided) [projected]",0.24694444444444444,16
+SPIBB [native],BC [masked],0.24743055555555554,16
+SPIBB [native],VI-LCB [projected],0.1032638888888889,16
+SPIBB [native],BC [native],0.24743055555555554,16
+SPIBB [native],CQL [masked],0.24972222222222223,16
+SPIBB [native],CQL [projected],0.24972222222222223,16
+SPIBB [native],BCQ [native],0.16895833333333332,16
+SPIBB [native],CQL [native],0.24972222222222223,16
+SPIBB [native],MBS-QI [masked],0.21152777777777776,16
+SPIBB [native],IDQL (exact) [masked],0.19979166666666667,16
+SPIBB [native],MBS-QI [projected],0.22208333333333333,16
+SPIBB [native],IDQL (exact) [projected],0.19631944444444446,16
+SPIBB [native],FISOR-tab (exact) [native],0.24972222222222223,16
+SPIBB [native],FISOR-tab (exact) [projected],0.24972222222222223,16
+SPIBB [native],SfBC (exact) [masked],0.24979166666666666,16
+SPIBB [native],Lagrangian-MB [projected],0.32590277777777776,16
+SPIBB [native],Lagrangian-MB [native],0.32625,16
+SPIBB [native],IQL (AW stochastic) [projected],0.24916666666666668,16
+SPIBB [native],SfBC (exact) [projected],0.24916666666666668,16
+SPIBB [native],SPIBB [projected],0.19638888888888892,16
+SPIBB [native],CMDP-LP (model) [native],0.3327777777777778,16
+SPIBB [native],CMDP-LP (model) [projected],0.3327777777777778,16
+SPIBB [native],Behaviour (true) [projected],0.3024305555555556,16
+SPIBB [native],BC (stochastic) [projected],0.30506944444444445,16
+SPIBB [native],"Diffusion (exact, unmasked) [projected]",0.3072916666666667,16
+SPIBB [native],SfBC (exact) [native],0.41402777777777783,16
+SPIBB [native],IQL (AW stochastic) [native],0.41402777777777783,16
+SPIBB [native],IDQL (exact) [native],0.42118055555555556,16
+SPIBB [native],SPIBB [native],0.5,16
+SPIBB [native],Behaviour (true) [native],0.7229166666666665,16
+SPIBB [native],BC (stochastic) [native],0.72395,16
+SPIBB [native],"Diffusion (exact, unmasked) [native]",0.7332388888888888,16
+SPIBB [native],MBS-QI [native],0.5413861111111111,16
+SPIBB [native],Uniform-admissible [native],0.75,16
+SPIBB [native],Uniform-admissible [projected],0.75,16
+SPIBB [native],VI-LCB [native],0.6226388888888889,16
+Behaviour (true) [native],"Diffusion (exact, guided) [native]",0.004166666666666667,16
+Behaviour (true) [native],"Diffusion (exact, guided) [projected]",0.004166666666666667,16
+Behaviour (true) [native],BCQ [masked],0.08750000000000001,16
+Behaviour (true) [native],BCQ [projected],0.08750000000000001,16
+Behaviour (true) [native],VI-LCB [masked],0.025,16
+Behaviour (true) [native],IQL [masked],0.125,16
+Behaviour (true) [native],IQL [projected],0.125,16
+Behaviour (true) [native],"SfBC (exact, argmax) [projected]",0.125,16
+Behaviour (true) [native],"Diffusion (exact, final-only) [native]",0.13333333333333336,16
+Behaviour (true) [native],"Diffusion (exact, final-only) [projected]",0.13333333333333336,16
+Behaviour (true) [native],IQL [native],0.125,16
+Behaviour (true) [native],"SfBC (exact, argmax) [native]",0.125,16
+Behaviour (true) [native],BC [projected],0.1875,16
+Behaviour (true) [native],"Diffusion (exact, unguided) [native]",0.18541666666666667,16
+Behaviour (true) [native],"Diffusion (exact, unguided) [projected]",0.18541666666666667,16
+Behaviour (true) [native],BC [masked],0.1875,16
+Behaviour (true) [native],VI-LCB [projected],0.03958333333333333,16
+Behaviour (true) [native],BC [native],0.1875,16
+Behaviour (true) [native],CQL [masked],0.21458333333333332,16
+Behaviour (true) [native],CQL [projected],0.21458333333333332,16
+Behaviour (true) [native],BCQ [native],0.07291666666666667,16
+Behaviour (true) [native],CQL [native],0.21458333333333332,16
+Behaviour (true) [native],MBS-QI [masked],0.12916666666666665,16
+Behaviour (true) [native],IDQL (exact) [masked],0.03333333333333333,16
+Behaviour (true) [native],MBS-QI [projected],0.14583333333333331,16
+Behaviour (true) [native],IDQL (exact) [projected],0.0125,16
+Behaviour (true) [native],FISOR-tab (exact) [native],0.125,16
+Behaviour (true) [native],FISOR-tab (exact) [projected],0.125,16
+Behaviour (true) [native],SfBC (exact) [masked],0.125,16
+Behaviour (true) [native],Lagrangian-MB [projected],0.20208333333333336,16
+Behaviour (true) [native],Lagrangian-MB [native],0.2041666666666667,16
+Behaviour (true) [native],IQL (AW stochastic) [projected],0.12291666666666667,16
+Behaviour (true) [native],SfBC (exact) [projected],0.12291666666666667,16
+Behaviour (true) [native],SPIBB [projected],0.07708333333333334,16
+Behaviour (true) [native],CMDP-LP (model) [native],0.23750000000000002,16
+Behaviour (true) [native],CMDP-LP (model) [projected],0.23750000000000002,16
+Behaviour (true) [native],Behaviour (true) [projected],0.18645833333333334,16
+Behaviour (true) [native],BC (stochastic) [projected],0.18958333333333333,16
+Behaviour (true) [native],"Diffusion (exact, unmasked) [projected]",0.18958333333333333,16
+Behaviour (true) [native],SfBC (exact) [native],0.09625,16
+Behaviour (true) [native],IQL (AW stochastic) [native],0.09625,16
+Behaviour (true) [native],IDQL (exact) [native],0.20833333333333334,16
+Behaviour (true) [native],SPIBB [native],0.27708333333333335,16
+Behaviour (true) [native],Behaviour (true) [native],0.5,16
+Behaviour (true) [native],BC (stochastic) [native],0.5341666666666667,16
+Behaviour (true) [native],"Diffusion (exact, unmasked) [native]",0.6516666666666666,16
+Behaviour (true) [native],MBS-QI [native],0.47958333333333336,16
+Behaviour (true) [native],Uniform-admissible [native],0.6979166666666666,16
+Behaviour (true) [native],Uniform-admissible [projected],0.6979166666666666,16
+Behaviour (true) [native],VI-LCB [native],0.5833333333333333,16
+BC (stochastic) [native],"Diffusion (exact, guided) [native]",0.003541666666666667,16
+BC (stochastic) [native],"Diffusion (exact, guided) [projected]",0.003541666666666667,16
+BC (stochastic) [native],BCQ [masked],0.08673611111111111,16
+BC (stochastic) [native],BCQ [projected],0.08659722222222223,16
+BC (stochastic) [native],VI-LCB [masked],0.025555555555555554,16
+BC (stochastic) [native],IQL [masked],0.12493055555555556,16
+BC (stochastic) [native],IQL [projected],0.12493055555555556,16
+BC (stochastic) [native],"SfBC (exact, argmax) [projected]",0.12493055555555556,16
+BC (stochastic) [native],"Diffusion (exact, final-only) [native]",0.13291666666666668,16
+BC (stochastic) [native],"Diffusion (exact, final-only) [projected]",0.13291666666666668,16
+BC (stochastic) [native],IQL [native],0.12493055555555556,16
+BC (stochastic) [native],"SfBC (exact, argmax) [native]",0.12493055555555556,16
+BC (stochastic) [native],BC [projected],0.18666666666666668,16
+BC (stochastic) [native],"Diffusion (exact, unguided) [native]",0.18534722222222222,16
+BC (stochastic) [native],"Diffusion (exact, unguided) [projected]",0.18534722222222222,16
+BC (stochastic) [native],BC [masked],0.18666666666666668,16
+BC (stochastic) [native],VI-LCB [projected],0.03861111111111111,16
+BC (stochastic) [native],BC [native],0.18666666666666668,16
+BC (stochastic) [native],CQL [masked],0.21430555555555555,16
+BC (stochastic) [native],CQL [projected],0.21430555555555555,16
+BC (stochastic) [native],BCQ [native],0.07604166666666667,16
+BC (stochastic) [native],CQL [native],0.21430555555555555,16
+BC (stochastic) [native],MBS-QI [masked],0.12930555555555553,16
+BC (stochastic) [native],IDQL (exact) [masked],0.030625,16
+BC (stochastic) [native],MBS-QI [projected],0.14416666666666667,16
+BC (stochastic) [native],IDQL (exact) [projected],0.01138888888888889,16
+BC (stochastic) [native],FISOR-tab (exact) [native],0.1259722222222222,16
+BC (stochastic) [native],FISOR-tab (exact) [projected],0.1259722222222222,16
+BC (stochastic) [native],SfBC (exact) [masked],0.12618055555555557,16
+BC (stochastic) [native],Lagrangian-MB [projected],0.19881944444444447,16
+BC (stochastic) [native],Lagrangian-MB [native],0.199375,16
+BC (stochastic) [native],IQL (AW stochastic) [projected],0.1225,16
+BC (stochastic) [native],SfBC (exact) [projected],0.1225,16
+BC (stochastic) [native],SPIBB [projected],0.07527777777777778,16
+BC (stochastic) [native],CMDP-LP (model) [native],0.23472222222222222,16
+BC (stochastic) [native],CMDP-LP (model) [projected],0.23472222222222222,16
+BC (stochastic) [native],Behaviour (true) [projected],0.1845138888888889,16
+BC (stochastic) [native],BC (stochastic) [projected],0.18791666666666668,16
+BC (stochastic) [native],"Diffusion (exact, unmasked) [projected]",0.18784722222222225,16
+BC (stochastic) [native],SfBC (exact) [native],0.08235,16
+BC (stochastic) [native],IQL (AW stochastic) [native],0.08235,16
+BC (stochastic) [native],IDQL (exact) [native],0.18125000000000002,16
+BC (stochastic) [native],SPIBB [native],0.27605,16
+BC (stochastic) [native],Behaviour (true) [native],0.4658333333333333,16
+BC (stochastic) [native],BC (stochastic) [native],0.5,16
+BC (stochastic) [native],"Diffusion (exact, unmasked) [native]",0.5937611111111111,16
+BC (stochastic) [native],MBS-QI [native],0.4779916666666667,16
+BC (stochastic) [native],Uniform-admissible [native],0.6955555555555556,16
+BC (stochastic) [native],Uniform-admissible [projected],0.6955555555555556,16
+BC (stochastic) [native],VI-LCB [native],0.5836111111111111,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, guided) [native]",0.003263888888888889,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, guided) [projected]",0.003263888888888889,16
+"Diffusion (exact, unmasked) [native]",BCQ [masked],0.08722222222222221,16
+"Diffusion (exact, unmasked) [native]",BCQ [projected],0.08743055555555555,16
+"Diffusion (exact, unmasked) [native]",VI-LCB [masked],0.02513888888888889,16
+"Diffusion (exact, unmasked) [native]",IQL [masked],0.125,16
+"Diffusion (exact, unmasked) [native]",IQL [projected],0.125,16
+"Diffusion (exact, unmasked) [native]","SfBC (exact, argmax) [projected]",0.125,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, final-only) [native]",0.13305555555555557,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, final-only) [projected]",0.13305555555555557,16
+"Diffusion (exact, unmasked) [native]",IQL [native],0.125,16
+"Diffusion (exact, unmasked) [native]","SfBC (exact, argmax) [native]",0.125,16
+"Diffusion (exact, unmasked) [native]",BC [projected],0.18666666666666668,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, unguided) [native]",0.18527777777777776,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, unguided) [projected]",0.18527777777777776,16
+"Diffusion (exact, unmasked) [native]",BC [masked],0.18666666666666668,16
+"Diffusion (exact, unmasked) [native]",VI-LCB [projected],0.03743055555555555,16
+"Diffusion (exact, unmasked) [native]",BC [native],0.18666666666666668,16
+"Diffusion (exact, unmasked) [native]",CQL [masked],0.21430555555555555,16
+"Diffusion (exact, unmasked) [native]",CQL [projected],0.21430555555555555,16
+"Diffusion (exact, unmasked) [native]",BCQ [native],0.07729166666666666,16
+"Diffusion (exact, unmasked) [native]",CQL [native],0.21430555555555555,16
+"Diffusion (exact, unmasked) [native]",MBS-QI [masked],0.1254861111111111,16
+"Diffusion (exact, unmasked) [native]",IDQL (exact) [masked],0.03215277777777778,16
+"Diffusion (exact, unmasked) [native]",MBS-QI [projected],0.14111111111111113,16
+"Diffusion (exact, unmasked) [native]",IDQL (exact) [projected],0.0125,16
+"Diffusion (exact, unmasked) [native]",FISOR-tab (exact) [native],0.12604166666666666,16
+"Diffusion (exact, unmasked) [native]",FISOR-tab (exact) [projected],0.12604166666666666,16
+"Diffusion (exact, unmasked) [native]",SfBC (exact) [masked],0.12625,16
+"Diffusion (exact, unmasked) [native]",Lagrangian-MB [projected],0.19625,16
+"Diffusion (exact, unmasked) [native]",Lagrangian-MB [native],0.19666666666666668,16
+"Diffusion (exact, unmasked) [native]",IQL (AW stochastic) [projected],0.12354166666666667,16
+"Diffusion (exact, unmasked) [native]",SfBC (exact) [projected],0.12354166666666667,16
+"Diffusion (exact, unmasked) [native]",SPIBB [projected],0.0757638888888889,16
+"Diffusion (exact, unmasked) [native]",CMDP-LP (model) [native],0.23208333333333334,16
+"Diffusion (exact, unmasked) [native]",CMDP-LP (model) [projected],0.23208333333333334,16
+"Diffusion (exact, unmasked) [native]",Behaviour (true) [projected],0.1845138888888889,16
+"Diffusion (exact, unmasked) [native]",BC (stochastic) [projected],0.1879861111111111,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, unmasked) [projected]",0.18812500000000001,16
+"Diffusion (exact, unmasked) [native]",SfBC (exact) [native],0.06159166666666667,16
+"Diffusion (exact, unmasked) [native]",IQL (AW stochastic) [native],0.06159166666666667,16
+"Diffusion (exact, unmasked) [native]",IDQL (exact) [native],0.1653472222222222,16
+"Diffusion (exact, unmasked) [native]",SPIBB [native],0.2667611111111111,16
+"Diffusion (exact, unmasked) [native]",Behaviour (true) [native],0.34833333333333333,16
+"Diffusion (exact, unmasked) [native]",BC (stochastic) [native],0.4062388888888888,16
+"Diffusion (exact, unmasked) [native]","Diffusion (exact, unmasked) [native]",0.5,16
+"Diffusion (exact, unmasked) [native]",MBS-QI [native],0.4770833333333333,16
+"Diffusion (exact, unmasked) [native]",Uniform-admissible [native],0.6955555555555556,16
+"Diffusion (exact, unmasked) [native]",Uniform-admissible [projected],0.6955555555555556,16
+"Diffusion (exact, unmasked) [native]",VI-LCB [native],0.5818055555555556,16
+MBS-QI [native],"Diffusion (exact, guided) [native]",0.19180555555555556,16
+MBS-QI [native],"Diffusion (exact, guided) [projected]",0.19180555555555556,16
+MBS-QI [native],BCQ [masked],0.22045138888888885,16
+MBS-QI [native],BCQ [projected],0.22899305555555557,16
+MBS-QI [native],VI-LCB [masked],0.17104166666666668,16
+MBS-QI [native],IQL [masked],0.2788888888888889,16
+MBS-QI [native],IQL [projected],0.28,16
+MBS-QI [native],"SfBC (exact, argmax) [projected]",0.28,16
+MBS-QI [native],"Diffusion (exact, final-only) [native]",0.2970138888888889,16
+MBS-QI [native],"Diffusion (exact, final-only) [projected]",0.2970138888888889,16
+MBS-QI [native],IQL [native],0.3152083333333333,16
+MBS-QI [native],"SfBC (exact, argmax) [native]",0.3152083333333333,16
+MBS-QI [native],BC [projected],0.34930555555555554,16
+MBS-QI [native],"Diffusion (exact, unguided) [native]",0.3472222222222222,16
+MBS-QI [native],"Diffusion (exact, unguided) [projected]",0.3472222222222222,16
+MBS-QI [native],BC [masked],0.34951388888888885,16
+MBS-QI [native],VI-LCB [projected],0.2692361111111112,16
+MBS-QI [native],BC [native],0.36541666666666667,16
+MBS-QI [native],CQL [masked],0.3397916666666667,16
+MBS-QI [native],CQL [projected],0.34069444444444447,16
+MBS-QI [native],BCQ [native],0.3017013888888889,16
+MBS-QI [native],CQL [native],0.3718055555555556,16
+MBS-QI [native],MBS-QI [masked],0.25277777777777777,16
+MBS-QI [native],IDQL (exact) [masked],0.4461111111111111,16
+MBS-QI [native],MBS-QI [projected],0.2536805555555555,16
+MBS-QI [native],IDQL (exact) [projected],0.45715277777777774,16
+MBS-QI [native],FISOR-tab (exact) [native],0.45069444444444445,16
+MBS-QI [native],FISOR-tab (exact) [projected],0.45069444444444445,16
+MBS-QI [native],SfBC (exact) [masked],0.4509722222222222,16
+MBS-QI [native],Lagrangian-MB [projected],0.3413888888888889,16
+MBS-QI [native],Lagrangian-MB [native],0.34402777777777777,16
+MBS-QI [native],IQL (AW stochastic) [projected],0.46555555555555556,16
+MBS-QI [native],SfBC (exact) [projected],0.46555555555555556,16
+MBS-QI [native],SPIBB [projected],0.42104166666666665,16
+MBS-QI [native],CMDP-LP (model) [native],0.4006944444444444,16
+MBS-QI [native],CMDP-LP (model) [projected],0.4006944444444444,16
+MBS-QI [native],Behaviour (true) [projected],0.4990277777777778,16
+MBS-QI [native],BC (stochastic) [projected],0.4990972222222222,16
+MBS-QI [native],"Diffusion (exact, unmasked) [projected]",0.49972222222222223,16
+MBS-QI [native],SfBC (exact) [native],0.49965833333333337,16
+MBS-QI [native],IQL (AW stochastic) [native],0.49965833333333337,16
+MBS-QI [native],IDQL (exact) [native],0.4991111111111111,16
+MBS-QI [native],SPIBB [native],0.4586138888888888,16
+MBS-QI [native],Behaviour (true) [native],0.5204166666666667,16
+MBS-QI [native],BC (stochastic) [native],0.5220083333333334,16
+MBS-QI [native],"Diffusion (exact, unmasked) [native]",0.5229166666666667,16
+MBS-QI [native],MBS-QI [native],0.5,16
+MBS-QI [native],Uniform-admissible [native],0.6958333333333334,16
+MBS-QI [native],Uniform-admissible [projected],0.6958333333333334,16
+MBS-QI [native],VI-LCB [native],0.5366666666666666,16
+Uniform-admissible [native],"Diffusion (exact, guided) [native]",0.03013888888888889,16
+Uniform-admissible [native],"Diffusion (exact, guided) [projected]",0.03013888888888889,16
+Uniform-admissible [native],BCQ [masked],0.13819444444444445,16
+Uniform-admissible [native],BCQ [projected],0.13819444444444445,16
+Uniform-admissible [native],VI-LCB [masked],0.009444444444444443,16
+Uniform-admissible [native],IQL [masked],0.14027777777777778,16
+Uniform-admissible [native],IQL [projected],0.14027777777777778,16
+Uniform-admissible [native],"SfBC (exact, argmax) [projected]",0.14027777777777778,16
+Uniform-admissible [native],"Diffusion (exact, final-only) [native]",0.14236111111111113,16
+Uniform-admissible [native],"Diffusion (exact, final-only) [projected]",0.14236111111111113,16
+Uniform-admissible [native],IQL [native],0.19402777777777777,16
+Uniform-admissible [native],"SfBC (exact, argmax) [native]",0.19402777777777777,16
+Uniform-admissible [native],BC [projected],0.19625,16
+Uniform-admissible [native],"Diffusion (exact, unguided) [native]",0.19555555555555554,16
+Uniform-admissible [native],"Diffusion (exact, unguided) [projected]",0.19555555555555554,16
+Uniform-admissible [native],BC [masked],0.19625,16
+Uniform-admissible [native],VI-LCB [projected],0.009722222222222222,16
+Uniform-admissible [native],BC [native],0.2575,16
+Uniform-admissible [native],CQL [masked],0.2600694444444444,16
+Uniform-admissible [native],CQL [projected],0.2575694444444444,16
+Uniform-admissible [native],BCQ [native],0.20069444444444445,16
+Uniform-admissible [native],CQL [native],0.2851388888888889,16
+Uniform-admissible [native],MBS-QI [masked],0.09895833333333336,16
+Uniform-admissible [native],IDQL (exact) [masked],0.13458333333333333,16
+Uniform-admissible [native],MBS-QI [projected],0.0971875,16
+Uniform-admissible [native],IDQL (exact) [projected],0.13666666666666666,16
+Uniform-admissible [native],FISOR-tab (exact) [native],0.13534722222222223,16
+Uniform-admissible [native],FISOR-tab (exact) [projected],0.13534722222222223,16
+Uniform-admissible [native],SfBC (exact) [masked],0.13534722222222223,16
+Uniform-admissible [native],Lagrangian-MB [projected],0.01888888888888889,16
+Uniform-admissible [native],Lagrangian-MB [native],0.018958333333333334,16
+Uniform-admissible [native],IQL (AW stochastic) [projected],0.13597222222222222,16
+Uniform-admissible [native],SfBC (exact) [projected],0.13597222222222222,16
+Uniform-admissible [native],SPIBB [projected],0.13711805555555556,16
+Uniform-admissible [native],CMDP-LP (model) [native],0.11944444444444445,16
+Uniform-admissible [native],CMDP-LP (model) [projected],0.11944444444444445,16
+Uniform-admissible [native],Behaviour (true) [projected],0.20159722222222223,16
+Uniform-admissible [native],BC (stochastic) [projected],0.20305555555555554,16
+Uniform-admissible [native],"Diffusion (exact, unmasked) [projected]",0.20305555555555554,16
+Uniform-admissible [native],SfBC (exact) [native],0.23979166666666668,16
+Uniform-admissible [native],IQL (AW stochastic) [native],0.23979166666666668,16
+Uniform-admissible [native],IDQL (exact) [native],0.24388888888888888,16
+Uniform-admissible [native],SPIBB [native],0.25,16
+Uniform-admissible [native],Behaviour (true) [native],0.30208333333333337,16
+Uniform-admissible [native],BC (stochastic) [native],0.3044444444444444,16
+Uniform-admissible [native],"Diffusion (exact, unmasked) [native]",0.3044444444444444,16
+Uniform-admissible [native],MBS-QI [native],0.3041666666666667,16
+Uniform-admissible [native],Uniform-admissible [native],0.5,16
+Uniform-admissible [native],Uniform-admissible [projected],0.5,16
+Uniform-admissible [native],VI-LCB [native],0.16652777777777777,16
+Uniform-admissible [projected],"Diffusion (exact, guided) [native]",0.03013888888888889,16
+Uniform-admissible [projected],"Diffusion (exact, guided) [projected]",0.03013888888888889,16
+Uniform-admissible [projected],BCQ [masked],0.13819444444444445,16
+Uniform-admissible [projected],BCQ [projected],0.13819444444444445,16
+Uniform-admissible [projected],VI-LCB [masked],0.009444444444444443,16
+Uniform-admissible [projected],IQL [masked],0.14027777777777778,16
+Uniform-admissible [projected],IQL [projected],0.14027777777777778,16
+Uniform-admissible [projected],"SfBC (exact, argmax) [projected]",0.14027777777777778,16
+Uniform-admissible [projected],"Diffusion (exact, final-only) [native]",0.14236111111111113,16
+Uniform-admissible [projected],"Diffusion (exact, final-only) [projected]",0.14236111111111113,16
+Uniform-admissible [projected],IQL [native],0.19402777777777777,16
+Uniform-admissible [projected],"SfBC (exact, argmax) [native]",0.19402777777777777,16
+Uniform-admissible [projected],BC [projected],0.19625,16
+Uniform-admissible [projected],"Diffusion (exact, unguided) [native]",0.19555555555555554,16
+Uniform-admissible [projected],"Diffusion (exact, unguided) [projected]",0.19555555555555554,16
+Uniform-admissible [projected],BC [masked],0.19625,16
+Uniform-admissible [projected],VI-LCB [projected],0.009722222222222222,16
+Uniform-admissible [projected],BC [native],0.2575,16
+Uniform-admissible [projected],CQL [masked],0.2600694444444444,16
+Uniform-admissible [projected],CQL [projected],0.2575694444444444,16
+Uniform-admissible [projected],BCQ [native],0.20069444444444445,16
+Uniform-admissible [projected],CQL [native],0.2851388888888889,16
+Uniform-admissible [projected],MBS-QI [masked],0.09895833333333336,16
+Uniform-admissible [projected],IDQL (exact) [masked],0.13458333333333333,16
+Uniform-admissible [projected],MBS-QI [projected],0.0971875,16
+Uniform-admissible [projected],IDQL (exact) [projected],0.13666666666666666,16
+Uniform-admissible [projected],FISOR-tab (exact) [native],0.13534722222222223,16
+Uniform-admissible [projected],FISOR-tab (exact) [projected],0.13534722222222223,16
+Uniform-admissible [projected],SfBC (exact) [masked],0.13534722222222223,16
+Uniform-admissible [projected],Lagrangian-MB [projected],0.01888888888888889,16
+Uniform-admissible [projected],Lagrangian-MB [native],0.018958333333333334,16
+Uniform-admissible [projected],IQL (AW stochastic) [projected],0.13597222222222222,16
+Uniform-admissible [projected],SfBC (exact) [projected],0.13597222222222222,16
+Uniform-admissible [projected],SPIBB [projected],0.13711805555555556,16
+Uniform-admissible [projected],CMDP-LP (model) [native],0.11944444444444445,16
+Uniform-admissible [projected],CMDP-LP (model) [projected],0.11944444444444445,16
+Uniform-admissible [projected],Behaviour (true) [projected],0.20159722222222223,16
+Uniform-admissible [projected],BC (stochastic) [projected],0.20305555555555554,16
+Uniform-admissible [projected],"Diffusion (exact, unmasked) [projected]",0.20305555555555554,16
+Uniform-admissible [projected],SfBC (exact) [native],0.23979166666666668,16
+Uniform-admissible [projected],IQL (AW stochastic) [native],0.23979166666666668,16
+Uniform-admissible [projected],IDQL (exact) [native],0.24388888888888888,16
+Uniform-admissible [projected],SPIBB [native],0.25,16
+Uniform-admissible [projected],Behaviour (true) [native],0.30208333333333337,16
+Uniform-admissible [projected],BC (stochastic) [native],0.3044444444444444,16
+Uniform-admissible [projected],"Diffusion (exact, unmasked) [native]",0.3044444444444444,16
+Uniform-admissible [projected],MBS-QI [native],0.3041666666666667,16
+Uniform-admissible [projected],Uniform-admissible [native],0.5,16
+Uniform-admissible [projected],Uniform-admissible [projected],0.5,16
+Uniform-admissible [projected],VI-LCB [native],0.16652777777777777,16
+VI-LCB [native],"Diffusion (exact, guided) [native]",0.18881944444444443,16
+VI-LCB [native],"Diffusion (exact, guided) [projected]",0.18881944444444443,16
+VI-LCB [native],BCQ [masked],0.18236111111111108,16
+VI-LCB [native],BCQ [projected],0.18236111111111108,16
+VI-LCB [native],VI-LCB [masked],0.15722222222222226,16
+VI-LCB [native],IQL [masked],0.2284722222222222,16
+VI-LCB [native],IQL [projected],0.2284722222222222,16
+VI-LCB [native],"SfBC (exact, argmax) [projected]",0.2284722222222222,16
+VI-LCB [native],"Diffusion (exact, final-only) [native]",0.22888888888888886,16
+VI-LCB [native],"Diffusion (exact, final-only) [projected]",0.22888888888888886,16
+VI-LCB [native],IQL [native],0.2284722222222222,16
+VI-LCB [native],"SfBC (exact, argmax) [native]",0.2284722222222222,16
+VI-LCB [native],BC [projected],0.24895833333333334,16
+VI-LCB [native],"Diffusion (exact, unguided) [native]",0.24881944444444443,16
+VI-LCB [native],"Diffusion (exact, unguided) [projected]",0.24881944444444443,16
+VI-LCB [native],BC [masked],0.24895833333333334,16
+VI-LCB [native],VI-LCB [projected],0.17847222222222225,16
+VI-LCB [native],BC [native],0.24895833333333334,16
+VI-LCB [native],CQL [masked],0.25,16
+VI-LCB [native],CQL [projected],0.25,16
+VI-LCB [native],BCQ [native],0.18291666666666667,16
+VI-LCB [native],CQL [native],0.25,16
+VI-LCB [native],MBS-QI [masked],0.25416666666666665,16
+VI-LCB [native],IDQL (exact) [masked],0.3093055555555555,16
+VI-LCB [native],MBS-QI [projected],0.2536111111111111,16
+VI-LCB [native],IDQL (exact) [projected],0.3302083333333333,16
+VI-LCB [native],FISOR-tab (exact) [native],0.276875,16
+VI-LCB [native],FISOR-tab (exact) [projected],0.276875,16
+VI-LCB [native],SfBC (exact) [masked],0.2776388888888889,16
+VI-LCB [native],Lagrangian-MB [projected],0.3729166666666667,16
+VI-LCB [native],Lagrangian-MB [native],0.37194444444444447,16
+VI-LCB [native],IQL (AW stochastic) [projected],0.28861111111111115,16
+VI-LCB [native],SfBC (exact) [projected],0.28861111111111115,16
+VI-LCB [native],SPIBB [projected],0.33284722222222224,16
+VI-LCB [native],CMDP-LP (model) [native],0.38611111111111107,16
+VI-LCB [native],CMDP-LP (model) [projected],0.38611111111111107,16
+VI-LCB [native],Behaviour (true) [projected],0.38340277777777776,16
+VI-LCB [native],BC (stochastic) [projected],0.38472222222222224,16
+VI-LCB [native],"Diffusion (exact, unmasked) [projected]",0.3852777777777778,16
+VI-LCB [native],SfBC (exact) [native],0.37222222222222223,16
+VI-LCB [native],IQL (AW stochastic) [native],0.37222222222222223,16
+VI-LCB [native],IDQL (exact) [native],0.3836805555555555,16
+VI-LCB [native],SPIBB [native],0.37736111111111115,16
+VI-LCB [native],Behaviour (true) [native],0.4166666666666667,16
+VI-LCB [native],BC (stochastic) [native],0.4163888888888889,16
+VI-LCB [native],"Diffusion (exact, unmasked) [native]",0.4181944444444445,16
+VI-LCB [native],MBS-QI [native],0.4633333333333333,16
+VI-LCB [native],Uniform-admissible [native],0.8334722222222223,16
+VI-LCB [native],Uniform-admissible [projected],0.8334722222222223,16
+VI-LCB [native],VI-LCB [native],0.5,16

@@ -1,0 +1,9 @@
+{
+  "T": 20,
+  "beta_start": 0.02,
+  "beta_end": 0.25,
+  "alpha_bar_T_initial_token_coefficient": 0.05150798720948041,
+  "max_abs_dev_Qbar_T_from_closed_form": 2.914335439641036e-16,
+  "max_prob_of_initial_token_at_T": 0.08944766772110119,
+  "terminal_forward_exactly_uniform": false
+}

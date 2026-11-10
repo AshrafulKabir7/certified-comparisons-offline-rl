@@ -1,0 +1,7 @@
+cell,S,live_states,mean_admissible_actions,behaviour_value[true],optimum_value[true],value_of_unsupported_actions,construction_single_admissible_fraction,construction_true_optimum_in_mask_fraction,construction_aggregated_live_cells,construction_full_d0_mass_in_decision_cells,construction_rows_nonpreferred_beneficial_share,non_ok_statuses
+gumbel|best|n10000|tau20|eps0.05|phys-confounded,192,189,1.296296,0.325396,0.436524,0.034489,0.94709,0.957672,,,,
+gumbel|best|n10000|tau20|eps0.05|phys-withhold...,183,180,1.116667,-0.25891,0.436524,0.499278,0.983333,0.166667,,,,
+gumbel|agg-obs|n10000|tau20|eps0.05,136,133,1.368421,0.32003,0.436524,0.000312,0.902256,0.94636,303.0,1.0,,
+gumbel|agg-proj|n10000|tau20|eps0.05,56,53,1.943396,0.094526,0.436524,0.000959,0.716981,0.94864,112.0,1.0,,
+garnet|hrand|eps0.05,152,150,3.0,0.820914,0.945339,0.020879,0.226667,,,,0.157895,
+garnet|hrand|eps0.3,152,150,7.586667,0.726817,0.945339,0.001384,0.0,,,,0.157895,

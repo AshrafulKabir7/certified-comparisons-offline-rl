@@ -1,0 +1,16 @@
+cell,targets,draws,certified_share,certified_error_rate,point_mean_error_rate,point_terminate_error_rate
+gumbel|best|n10000|tau20|eps0.05|phys-confounded,true_rows,30,0.726,0.0,0.069,0.0262
+gumbel|best|n10000|tau20|eps0.05|phys-withhold...,true_rows,30,0.6879,0.0,0.0846,0.0688
+garnet|hrand|eps0.05,true_rows,30,0.8318,0.0001,0.0452,0.0778
+garnet|hrand|eps0.3,true_rows,30,0.923,0.0001,0.0017,0.0307
+pooled:physician,true_rows,60,0.707,0.0,0.0768,0.0476
+pooled:garnet-random,true_rows,60,0.8774,0.0001,0.0235,0.0543
+gumbel|best|n10000|tau20|eps0.05|phys-confounded,bench,30,0.7248,0.0663,0.1349,0.0803
+gumbel|best|n10000|tau20|eps0.05|phys-withhold...,bench,30,0.6641,0.0793,0.1757,0.1301
+gumbel|agg-obs|n10000|tau20|eps0.05,bench,30,0.7247,0.4371,0.5162,0.3663
+gumbel|agg-proj|n10000|tau20|eps0.05,bench,30,0.8552,0.0983,0.1282,0.1225
+garnet|hrand|eps0.05,bench,30,0.8281,0.1431,0.1826,0.1897
+garnet|hrand|eps0.3,bench,30,0.9359,0.1188,0.1248,0.1301
+pooled:physician,bench,60,0.6945,0.0725,0.1553,0.1056
+pooled:aggregated,bench,60,0.79,0.2537,0.3173,0.2414
+pooled:garnet-random,bench,60,0.882,0.1302,0.1537,0.1599

@@ -1,0 +1,7 @@
+source,policy_set,lambda,n_policies,kendall_tau_b_vs_lambda0,reversals_vs_lambda0,certified_share,lambda_robust_share
+part1,all,0.5,73,0.6463,454,0.7549,0.7926
+part1,all,1.0,73,0.6048,508,0.7549,0.7926
+part1,main_table,0.5,33,0.7687,59,0.8314,0.8523
+part1,main_table,1.0,33,0.7266,70,0.8314,0.8523
+part2,default,0.5,50,0.5453,269,0.7249,0.7535
+part2,default,1.0,50,0.542,271,0.7249,0.7535

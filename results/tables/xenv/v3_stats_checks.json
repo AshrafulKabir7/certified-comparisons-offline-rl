@@ -1,0 +1,84 @@
+{
+  "bracket_frame": {
+    "rows": 19800,
+    "nonok_rows": 0,
+    "policy_rows_with_true_rows": 13200,
+    "policy_rows_with_bench": 19800,
+    "values_outside_value_range": 0,
+    "lower_bound_violations_true_rows": 0,
+    "negative_width_true_rows": 0,
+    "negative_width_bench": 0,
+    "nonzero_width_admissible": 0,
+    "width_above_bound": 0
+  },
+  "hidden_benefit_spearman": {
+    "garnet|hrand|eps0.05": {
+      "draws": 30,
+      "spearman_rho": -0.151746587311631
+    },
+    "garnet|hrand|eps0.3": {
+      "draws": 30,
+      "spearman_rho": 0.2469298404526554
+    }
+  },
+  "bootstrap": {
+    "policy_rows": 10500,
+    "undefined_bootstrap_intervals": 0,
+    "negative_point_width": 0,
+    "quantiles": [
+      0.025,
+      0.975
+    ],
+    "replicates": 10
+  },
+  "theorem_counts": {
+    "values_outside_value_range": 0,
+    "lower_bound_violations_true_rows": 0,
+    "negative_width_true_rows": 0,
+    "negative_width_bench": 0,
+    "nonzero_width_admissible": 0,
+    "width_above_bound": 0,
+    "negative_point_width_bootstrap": 0
+  },
+  "passes": true,
+  "done": {
+    "cells": true,
+    "bootstrap": true
+  },
+  "figures": {
+    "fig_v3_bracketing": "written",
+    "fig_v3_bootstrap": "written"
+  },
+  "outputs": [
+    "xenv/v3_bracketing.csv",
+    "xenv/v3_bracketing_draws.csv",
+    "xenv/v3_certified.csv",
+    "xenv/v3_certified_draws.csv",
+    "xenv/v3_rank_fidelity.csv",
+    "xenv/v3_rank_fidelity_draws.csv",
+    "xenv/v3_bootstrap_intervals.csv",
+    "xenv/v3_bootstrap_coverage.csv",
+    "figures/xenv/fig_v3_bracketing.png",
+    "figures/xenv/fig_v3_bracketing.pdf",
+    "figures/xenv/fig_v3_bootstrap.png",
+    "figures/xenv/fig_v3_bootstrap.pdf"
+  ],
+  "n_boot": 5000,
+  "tolerance": 1e-09,
+  "violating_threshold": 1e-12,
+  "value_ranges": {
+    "gumbel": [
+      -1.0,
+      1.0
+    ],
+    "garnet": [
+      0.0,
+      1.0
+    ],
+    "icu": [
+      0.0,
+      1.0
+    ]
+  },
+  "elapsed_s": 3.9657015000120737
+}

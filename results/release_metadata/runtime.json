@@ -1,0 +1,17 @@
+{
+  "python": "3.13.17 (tags/v3.13.17:64e080d, Oct 21 2026, 14:08:53) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "torch": "2.11.0+cu130",
+  "cuda": "13.0",
+  "gpu": "NVIDIA GeForce RTX 4070 Ti SUPER",
+  "numpy": "2.1.3",
+  "pandas": "2.2.3",
+  "scipy": "1.16.3",
+  "matplotlib": "3.10.0",
+  "gymnasium": "1.3.0",
+  "icu_sepsis": "2.0.1",
+  "in_colab": false,
+  "session_start_utc": "2026-11-05T20:35:28+00:00",
+  "run_mode": "paper",
+  "compute_profile": "full"
+}

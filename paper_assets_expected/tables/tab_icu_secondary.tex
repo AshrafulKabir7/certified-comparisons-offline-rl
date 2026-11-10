@@ -1,0 +1,15 @@
+\begin{tabular}{lrrrr}
+\toprule
+Comparator (treatment: diffusion, critic B) & $\Delta J$ & 95\% CI & $p$ & Holm $p$ \\
+\midrule
+Tabular IQL, masked greedy & $-$0.0066 & [$-$0.0082, $-$0.0053] & 0.0020 & 0.018 \\
+BC, masked greedy & 0.0000 & [$-$0.0007, $+$0.0006] & 0.967 & 1.000 \\
+Tabular CQL, masked greedy & $-$0.0012 & [$-$0.0023, $-$0.0002] & 0.068 & 0.342 \\
+Masked critic ensemble (no diffusion) & 0.0000 & [$-$0.0008, $+$0.0010] & 0.963 & 1.000 \\
+Neural BC prior $\times$ critic & $-$0.0006 & [$-$0.0011, $-$0.0001] & 0.068 & 0.342 \\
+Hard AM-CQL, design B & $+$0.0022 & [$+$0.0008, $+$0.0034] & 0.012 & 0.070 \\
+Hard AM-CQL, design A & $+$0.0060 & [$+$0.0045, $+$0.0076] & 0.0020 & 0.018 \\
+Deep CQL, masked greedy & $+$0.0054 & [$+$0.0034, $+$0.0074] & 0.0020 & 0.018 \\
+Diffusion, legacy critic & $-$0.0007 & [$-$0.0024, $+$0.0007] & 0.473 & 1.000 \\
+\bottomrule
+\end{tabular}

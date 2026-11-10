@@ -1,0 +1,1354 @@
+source,policy,seed,draw,group,main_table,method,variant,lambda,status,return,prob_any_violation,expected_violations
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.0,ok,0.7841751153608378,0.010479122669778037,0.02074103020418554
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.0,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.0,ok,0.7820462603789966,0.4735339154944575,1.105063352328669
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.0,ok,0.7800709046121405,0.9889239949759441,8.124814971019122
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.0,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.0,ok,0.7818448902556913,0.4761464716729363,1.1177692926186136
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.0,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.0,ok,0.8751416996099332,0.52626198963332,1.102841451157595
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.0,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.0,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.0,ok,0.7824176282517885,0.026877667136962415,0.05610650291202615
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.0,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.0,ok,0.7912642321270867,0.010862919594664056,0.02169741093246702
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.0,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.0,ok,0.784465660440737,0.4790046747591279,1.1297588705474586
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.0,ok,0.8040494511063668,0.1518572381970979,0.39223709408759416
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.0,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.0,ok,0.7783666112035513,0.019919135133279336,0.03964603292529981
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.0,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.0,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.0,ok,0.7807933035053417,0.9999241827809338,9.378872561701598
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.0,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.0,ok,0.7806024843401684,0.021114891888725014,0.04180557215525107
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.0,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.0,ok,0.7824328785481458,0.9890801736192724,7.61706094776895
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.0,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.0,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.0,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.0,ok,0.7798952127309853,0.1829520916017252,0.23696602568425165
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.0,ok,0.782257964664057,0.4912552441202796,1.1564191677252056
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.0,ok,0.7843598274474526,0.008242325963350693,0.0165527515880321
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.0,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.0,ok,0.7845307383357162,0.49861898624506523,1.186419161662888
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.0,ok,0.790270277092657,0.010308375117315947,0.021094568918262974
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.0,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.0,ok,0.7845470922140959,0.012776707262945407,0.017390524345248383
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.0,ok,0.7846049184446297,0.005704951199578876,0.010882758482505658
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.0,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.0,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.0,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.0,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.0,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.0,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.0,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.0,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.0,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.0,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.0,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.0,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.0,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.0,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.0,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.0,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.0,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.0,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.0,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.0,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.0,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.0,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.0,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.0,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.0,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.0,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.0,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.0,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.0,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.0,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.0,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.0,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.0,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.0,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.0,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.0,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.1,ok,0.7828381113804566,0.010479122669778037,0.018731259975061674
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.1,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.1,ok,0.7089683958727102,0.4735339154944575,0.9664301909755197
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.1,ok,0.4205401087698981,0.9889239949759441,4.572209673192812
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.1,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.1,ok,0.7080890656371056,0.4761464716729363,0.976263547931503
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.1,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.1,ok,0.7913956451100769,0.52626198963332,0.9816221242355341
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.1,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.1,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.1,ok,0.7792751070160496,0.026877667136962415,0.04964255370325743
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.1,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.1,ok,0.7898493031388949,0.010862919594664056,0.01955005241551801
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.1,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.1,ok,0.7096530464452404,0.4790046747591279,0.9854812723184422
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.1,ok,0.7808351694678834,0.1518572381970979,0.33054645932776894
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.1,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.1,ok,0.7759713484118314,0.019919135133279336,0.035802513653890325
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.1,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.1,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.1,ok,0.3949914493834278,0.9999241827809338,4.903891457912545
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.1,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.1,ok,0.7780887585885294,0.021114891888725014,0.03777008727380557
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.1,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.1,ok,0.43313821415044396,0.9890801736192724,4.426126672178474
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.1,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.1,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.1,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.1,ok,0.7625422779025777,0.1829520916017252,0.23003995127469243
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.1,ok,0.7057216435503809,0.4912552441202796,1.009550090419472
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.1,ok,0.7833193672261966,0.008242325963350693,0.014852057521130606
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.1,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.1,ok,0.7059045308170793,0.49861898624506523,1.03296265494201
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.1,ok,0.7889942517600745,0.010308375117315947,0.01893932153269602
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.1,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.1,ok,0.783408980383658,0.012776707262945407,0.016558380954840864
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.1,ok,0.7838722294893301,0.005704951199578876,0.009762454695219268
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.1,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.1,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.1,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.1,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.1,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.1,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.1,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.1,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.1,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.1,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.1,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.1,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.1,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.1,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.1,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.1,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.1,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.1,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.1,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.1,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.1,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.1,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.1,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.1,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.1,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.1,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.1,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.1,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.1,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.1,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.1,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.1,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.1,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.1,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.1,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.1,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.2,ok,0.7817222901581945,0.010479122669778037,0.017135738296158984
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.2,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.2,ok,0.6512331551668623,0.4735339154944575,0.8615225886127552
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.2,ok,0.2776452832049435,0.9889239949759441,3.2001293148937604
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.2,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.2,ok,0.6499526800477463,0.4761464716729363,0.8694273167940674
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.2,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.2,ok,0.7232476493787462,0.52626198963332,0.8888283957713383
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.2,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.2,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.2,ok,0.7766853820049237,0.026877667136962415,0.04493732432830108
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.2,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.2,ok,0.788672620262373,0.010862919594664056,0.017855687183331012
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.2,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.2,ok,0.6507840315381743,0.4790046747591279,0.8768953285791866
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.2,ok,0.7631467852777419,0.1518572381970979,0.28852417891540405
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.2,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.2,ok,0.7739707389678245,0.019919135133279336,0.03272060257299457
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.2,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.2,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.2,ok,0.25527537875446893,0.9999241827809338,3.345714770139055
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.2,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.2,ok,0.7759828485664683,0.021114891888725014,0.034546648978759704
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.2,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.2,ok,0.28806967786273596,0.9890801736192724,3.1375673082548823
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.2,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.2,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.2,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.2,ok,0.7461401316933731,0.1829520916017252,0.22354066046500656
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.2,ok,0.6454858260006102,0.4912552441202796,0.8986525434530735
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.2,ok,0.7824550416824162,0.008242325963350693,0.013536260796123103
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.2,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.2,ok,0.6442799058951046,0.49861898624506523,0.9177590919442187
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.2,ok,0.7879391196940945,0.010308375117315947,0.01723853747716729
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.2,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.2,ok,0.7823692696438549,0.012776707262945407,0.015887589116791778
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.2,ok,0.7832641365882679,0.005704951199578876,0.008957087769342231
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.2,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.2,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.2,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.2,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.2,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.2,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.2,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.2,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.2,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.2,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.2,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.2,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.2,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.2,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.2,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.2,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.2,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.2,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.2,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.2,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.2,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.2,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.2,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.2,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.2,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.2,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.2,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.2,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.2,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.2,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.2,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.2,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.2,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.2,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.2,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.2,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.3,ok,0.7807708501476751,0.010479122669778037,0.01582347869521095
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.3,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.3,ok,0.6041531335221726,0.4735339154944575,0.7787052352487861
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.3,ok,0.19864578944253905,0.9889239949759441,2.4721550962203014
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.3,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.3,ok,0.6026269943184591,0.4761464716729363,0.78523610421976
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.3,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.3,ok,0.6662064772770244,0.52626198963332,0.8143259680208037
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.3,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.3,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.3,ok,0.774484277861658,0.026877667136962415,0.04122430177058923
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.3,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.3,ok,0.7876716591027246,0.010862919594664056,0.016468252700224176
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.3,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.3,ok,0.6029198389059912,0.4790046747591279,0.7914960945461
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.3,ok,0.7489627192606199,0.1518572381970979,0.25733673301815546
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.3,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.3,ok,0.7722635424157098,0.019919135133279336,0.030180504286767818
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.3,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.3,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.3,ok,0.1801974019026073,0.9999241827809338,2.5525316024240623
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.3,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.3,ok,0.7741811189715184,0.021114891888725014,0.03189086287938339
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.3,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.3,ok,0.2064448289767243,0.9890801736192724,2.44043969119829
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.3,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.3,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.3,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.3,ok,0.7306065635888607,0.1829520916017252,0.21742746739650975
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.3,ok,0.5965154311250309,0.4912552441202796,0.811299472890815
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.3,ok,0.7817187179376446,0.008242325963350693,0.012472108710051789
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.3,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.3,ok,0.5943294157993678,0.49861898624506523,0.8273738699464813
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.3,ok,0.7870460127152246,0.010308375117315947,0.0158494023077527
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.3,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.3,ok,0.7814033634845713,0.012776707262945407,0.015321470131571325
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.3,ok,0.782740920456232,0.005704951199578876,0.008315280140619427
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.3,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.3,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.3,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.3,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.3,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.3,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.3,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.3,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.3,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.3,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.3,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.3,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.3,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.3,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.3,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.3,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.3,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.3,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.3,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.3,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.3,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.3,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.3,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.3,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.3,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.3,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.3,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.3,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.3,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.3,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.3,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.3,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.3,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.3,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.3,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.3,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.4,ok,0.7799467526290212,0.010479122669778037,0.014717755539592668
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.4,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.4,ok,0.5648528056725566,0.4735339154944575,0.7113596502739225
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.4,ok,0.1471237523005761,0.9889239949759441,2.020571096438711
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.4,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.4,ok,0.5631746078328144,0.4761464716729363,0.7168704548663775
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.4,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.4,ok,0.6174781474473594,0.52626198963332,0.7527411720814219
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.4,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.4,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.4,ok,0.7725772482774376,0.026877667136962415,0.03817177244020215
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.4,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.4,ok,0.7868061320838565,0.010862919594664056,0.015303022176203123
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.4,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.4,ok,0.5630551098637571,0.4790046747591279,0.7222466868092987
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.4,ok,0.7372162104060115,0.1518572381970979,0.2329743513180722
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.4,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.4,ok,0.7707827166572608,0.019919135133279336,0.028042752002900434
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.4,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.4,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.4,ok,0.131655558680042,0.9999241827809338,2.0713093821377893
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.4,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.4,ok,0.7726152092781888,0.021114891888725014,0.029653640611694246
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.4,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.4,ok,0.15278443325168048,0.9890801736192724,2.0031035541597135
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.4,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.4,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.4,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.4,ok,0.7158691104872047,0.1829520916017252,0.21166498473259496
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.4,ok,0.5557345695701161,0.4912552441202796,0.7404099052188462
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.4,ok,0.7810803841052265,0.008242325963350693,0.011585566758259983
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.4,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.4,ok,0.5528263780925661,0.49861898624506523,0.7542403813987694
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.4,ok,0.7862769678523244,0.010308375117315947,0.014686924500690625
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.4,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.4,ok,0.7804962993087613,0.012776707262945407,0.014830668129988287
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.4,ok,0.7822822643900865,0.005704951199578876,0.007779459680361597
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.4,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.4,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.4,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.4,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.4,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.4,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.4,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.4,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.4,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.4,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.4,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.4,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.4,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.4,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.4,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.4,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.4,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.4,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.4,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.4,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.4,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.4,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.4,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.4,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.4,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.4,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.4,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.4,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.4,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.4,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.4,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.4,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.4,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.4,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.4,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.4,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.5,ok,0.7792241756072813,0.010479122669778037,0.013769281178450887
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.5,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.5,ok,0.5314416447830571,0.4735339154944575,0.655361219222352
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.5,ok,0.10999746063193903,0.9889239949759441,1.7127663811879263
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.5,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.5,ok,0.5296703693173339,0.4761464716729363,0.6600904717734172
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.5,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.5,ok,0.5751847051553381,0.52626198963332,0.7007611463877779
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.5,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.5,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.5,ok,0.7709020245127491,0.026877667136962415,0.03559603345947038
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.5,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.5,ok,0.7860481878297487,0.010862919594664056,0.014306031039073512
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.5,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.5,ok,0.5292251973606998,0.4790046747591279,0.664793208231339
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.5,ok,0.727264106398564,0.1518572381970979,0.2132724751641759
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.5,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.5,ok,0.769481502687413,0.019919135133279336,0.026213662288446876
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.5,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.5,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.5,ok,0.09670057820045741,0.9999241827809338,1.7477702369576258
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.5,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.5,ok,0.7712372869043164,0.021114891888725014,0.027736774463304425
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.5,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.5,ok,0.11399817959190087,0.9890801736192724,1.702787132881107
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.5,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.5,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.5,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.5,ok,0.7018635797418076,0.1829520916017252,0.20622224461114216
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.5,ok,0.5211299224031722,0.4912552441202796,0.6815718570568405
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.5,ok,0.7805196993208443,0.008242325963350693,0.010831064155950065
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.5,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.5,ok,0.5176714769987358,0.49861898624506523,0.6936804615736257
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.5,ok,0.7856058480106181,0.010308375117315947,0.013696152829561105
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.5,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.5,ok,0.7796378510737263,0.012776707262945407,0.01439738790921245
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.5,ok,0.7818751625607289,0.005704951199578876,0.007320037401595864
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.5,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.5,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.5,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.5,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.5,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.5,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.5,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.5,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.5,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.5,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.5,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.5,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.5,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.5,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.5,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.5,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.5,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.5,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.5,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.5,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.5,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.5,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.5,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.5,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.5,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.5,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.5,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.5,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.5,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.5,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.5,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.5,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.5,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.5,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.5,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.5,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.6,ok,0.7785842896369649,0.010479122669778037,0.012944329929009225
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.6,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.6,ok,0.5026142428745131,0.4735339154944575,0.6079741300527055
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.6,ok,0.08141659402452275,0.9889239949759441,1.4892634765679384
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.6,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.6,ok,0.5007882253999586,0.4761464716729363,0.6120894947255333
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.6,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.6,ok,0.5380020156323987,0.52626198963332,0.6561749883938433
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.6,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.6,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.6,ok,0.769414576538738,0.026877667136962415,0.033381960237884034
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.6,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.6,ok,0.7853776402395883,0.010862919594664056,0.013440617360849848
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.6,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.6,ok,0.5000794386218559,0.4790046747591279,0.6162629487781424
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.6,ok,0.71868573918802,0.1518572381970979,0.1969318238086319
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.6,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.6,ok,0.768325982214904,0.019919135133279336,0.024627520595947954
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.6,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.6,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.6,ok,0.06971704227522034,0.9999241827809338,1.5149929303944172
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.6,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.6,ok,0.7700124689744072,0.021114891888725014,0.026072037351380847
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.6,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.6,ok,0.08413263478992974,0.9890801736192724,1.4835555586348648
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.6,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.6,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.6,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.6,ok,0.6885328456493035,0.1829520916017252,0.20107199698622
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.6,ok,0.49131705121841457,0.4912552441202796,0.6318621071819657
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.6,ok,0.7800220919341954,0.008242325963350693,0.010178460740850962
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.6,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.6,ok,0.4874277665911003,0.49861898624506523,0.6426119997251536
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.6,ok,0.7850138225227211,0.010308375117315947,0.012839452274166137
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.6,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.6,ok,0.7788205510279899,0.012776707262945407,0.014009774932904683
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.6,ok,0.7815104105459898,0.005704951199578876,0.006919087628510281
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.6,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.6,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.6,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.6,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.6,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.6,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.6,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.6,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.6,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.6,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.6,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.6,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.6,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.6,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.6,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.6,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.6,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.6,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.6,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.6,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.6,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.6,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.6,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.6,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.6,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.6,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.6,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.6,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.6,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.6,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.6,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.6,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.6,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.6,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.6,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.6,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.7,ok,0.7780129079077586,0.010479122669778037,0.01221874479418192
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.7,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.7,ok,0.4774349715483393,0.4735339154944575,0.567298515397125
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.7,ok,0.058370590796975416,0.9889239949759441,1.3194224383411315
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.7,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.7,ok,0.4755796533696099,0.4761464716729363,0.570921809640808
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.7,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.7,ok,0.5049631222292877,0.52626198963332,0.6174300351957762
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.7,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.7,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.7,ok,0.7680823201688647,0.026877667136962415,0.031451730163477375
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.7,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.7,ok,0.7847793488563407,0.010862919594664056,0.012680676749025892
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.7,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.7,ok,0.474653174717485,0.4790046747591279,0.574669125690016
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.7,ok,0.7111901402580465,0.1518572381970979,0.18311369927107277
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.7,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.7,ok,0.7672907788017782,0.019919135133279336,0.023236628096518917
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.7,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.7,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.7,ok,0.04786906498727483,0.9999241827809338,1.3392540661185999
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.7,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.7,ok,0.7689145102201334,0.021114891888725014,0.024610125563462634
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.7,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.7,ok,0.06008687015912211,0.9890801736192724,1.3162865746303358
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.7,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.7,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.7,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.7,ok,0.6758258594998864,0.1829520916017252,0.1961901432611451
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.7,ok,0.4653073893873261,0.4912552441202796,0.5892536690761743
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.7,ok,0.779576704016447,0.008242325963350693,0.009606742129796573
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.7,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.7,ok,0.4610729549416907,0.49861898624506523,0.5989071572393647
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.7,ok,0.7844868584546745,0.010308375117315947,0.012089927286596079
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.7,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.7,ok,0.7780387048250685,0.012776707262945407,0.01365942894949359
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.7,ok,0.7811811270795139,0.005704951199578876,0.006564625227032063
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.7,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.7,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.7,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.7,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.7,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.7,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.7,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.7,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.7,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.7,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.7,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.7,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.7,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.7,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.7,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.7,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.7,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.7,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.7,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.7,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.7,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.7,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.7,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.7,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.7,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.7,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.7,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.7,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.7,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.7,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.7,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.7,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.7,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.7,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.7,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.7,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.8,ok,0.777499068920447,0.010479122669778037,0.011574612494166546
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.8,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.8,ok,0.4552130433016228,0.4735339154944575,0.5319672761802944
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.8,ok,0.03914900855472447,0.9889239949759441,1.185856571163228
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.8,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.8,ok,0.45334552516805937,0.4761464716729363,0.5351894152966717
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.8,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.8,ok,0.4753420435645609,0.52626198963332,0.5833951209767979
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.8,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.8,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.8,ok,0.7668803500550463,0.026877667136962415,0.029749944713319064
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.8,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.8,ok,0.7842416555350189,0.010862919594664056,0.01200694709805171
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.8,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.8,ok,0.452236264460633,0.4790046747591279,0.5385868241086511
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.8,ok,0.704567580172774,0.1518572381970979,0.17124711876287005
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.8,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.8,ok,0.7663564245489887,0.019919135133279336,0.022005387657591677
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.8,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.8,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.8,ok,0.02956435078875229,0.9999241827809338,1.2017138636965732
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.8,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.8,ok,0.7679231704768826,0.021114891888725014,0.023314302737471045
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.8,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.8,ok,0.040082442606261245,0.9890801736192724,1.1843262294880579
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.8,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.8,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.8,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.8,ok,0.6636968284303173,0.1829520916017252,0.1915552745637249
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.8,ok,0.44237349011179916,0.4912552441202796,0.5522903582730341
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.8,ok,0.7791752025528473,0.008242325963350693,0.00910065586848059
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.8,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.8,ok,0.4378570560313029,0.49861898624506523,0.5610426676750742
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.8,ok,0.784014218235643,0.010308375117315947,0.011427714665227231
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.8,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.8,ok,0.7772878337039294,0.012776707262945407,0.013340133003759289
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.8,ok,0.7808819847357364,0.005704951199578876,0.006248109692199046
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.8,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.8,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.8,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.8,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.8,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.8,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.8,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.8,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.8,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.8,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.8,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.8,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.8,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.8,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.8,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.8,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.8,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.8,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.8,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.8,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.8,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.8,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.8,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.8,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.8,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.8,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.8,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.8,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.8,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.8,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.8,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.8,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.8,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.8,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.8,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.8,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,0.9,ok,0.7770341302819207,0.010479122669778037,0.010998282915793113
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,0.9,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,0.9,ok,0.43542586885509504,0.4735339154944575,0.5009681878604209
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,0.9,ok,0.02270517761917566,0.9889239949759441,1.0779668179609532
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,0.9,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,0.9,ok,0.4335577086354191,0.4761464716729363,0.5038585552763136
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,0.9,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,0.9,ok,0.44858111987016175,0.52626198963332,0.5532224698203314
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,0.9,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,0.9,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,0.9,ok,0.7657891588459088,0.026877667136962415,0.028235647617247395
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,0.9,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,0.9,ok,0.7837553933077079,0.010862919594664056,0.011404810683765226
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,0.9,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,0.9,ok,0.43229280800161746,0.4790046747591279,0.5069639142352641
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,0.9,ok,0.6986619802493573,0.1518572381970979,0.16092716585319128
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,0.9,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,0.9,ok,0.7655076702991039,0.019919135133279336,0.02090661358790864
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,0.9,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,0.9,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),0.9,ok,0.013835603595448972,0.9999241827809338,1.0910202555752435
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,0.9,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),0.9,ok,0.7670225219453791,0.021114891888725014,0.022156513670088886
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,0.9,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),0.9,ok,0.023022748915243647,0.9890801736192724,1.077461430823289
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,0.9,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,0.9,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.9,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,0.9,ok,0.6521045291287401,0.1829520916017252,0.18714829196783314
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,0.9,ok,0.4219666534392791,0.4912552441202796,0.519895773829535
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,0.9,ok,0.7788110430526227,0.008242325963350693,0.008648776701303342
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,0.9,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,0.9,ok,0.4172158119510738,0.49861898624506523,0.5278958203492646
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,0.9,ok,0.7835875080836964,0.010308375117315947,0.010837753655052481
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,0.9,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,0.9,ok,0.7765643305703301,0.012776707262945407,0.013047134474088664
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,0.9,ok,0.7806087554748351,0.005704951199578876,0.005963181587457685
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,0.9,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.9,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.9,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),0.9,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,0.9,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,0.9,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,0.9,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,0.9,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,0.9,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,0.9,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,0.9,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,0.9,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,0.9,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,0.9,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,0.9,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,0.9,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,0.9,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,0.9,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,0.9,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,0.9,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,0.9,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,0.9,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,0.9,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,0.9,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,0.9,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,0.9,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,0.9,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.9,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.9,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.9,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.9,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.9,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.9,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,0.9,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,0.9,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,0.9,ok,0.7846049184446297,0.0,0.0
+part1,Behavior Cloning,-1.0,,reference,True,BC,none,1.0,ok,0.7766111631604725,0.010479122669778037,0.010479122669778037
+part1,Behavior Cloning [masked greedy],-1.0,,reference,True,BC,extraction,1.0,ok,0.7843060308811581,0.0,0.0
+part1,Behavior Cloning [stochastic empirical],-1.0,,reference,False,BC,none,1.0,ok,0.4176699367491643,0.4735339154944575,0.4735339154944575
+part1,Random (uniform over 25),-1.0,,reference,True,Random,none,1.0,ok,0.008360312000132382,0.9889239949759441,0.9889239949759441
+part1,Random (uniform admissible),-1.0,,reference,True,Random,construction,1.0,ok,0.7800709046121401,0.0,0.0
+part1,Clinician,-1.0,,reference,True,Clinician,none,1.0,ok,0.4158089303283693,0.4761464716729363,0.4761464716729363
+part1,Optimal Oracle (mean-optimal),-1.0,,reference,True,Oracle,none,1.0,ok,0.8751416996099325,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties)",-1.0,,reference,False,Oracle,none,1.0,ok,0.42424363161792045,0.52626198963332,0.52626198963332
+part1,Constrained Optimal Oracle,-1.0,,reference,True,Oracle,construction,1.0,ok,0.8751416996099325,0.0,0.0
+part1,Optimal Oracle (terminate-optimal),-1.0,,reference,False,Oracle,none,1.0,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL,0.0,,main,True,Tabular CQL,none,1.0,ok,0.7647931681954205,0.026877667136962415,0.026877667136962415
+part1,Tabular CQL [masked greedy],0.0,,main,True,Tabular CQL,extraction,1.0,ok,0.7826635466245334,0.0,0.0
+part1,Tabular IQL,0.0,,main,True,Tabular IQL,none,1.0,ok,0.7833132285397674,0.010862919594664056,0.010862919594664056
+part1,Tabular IQL [masked greedy],0.0,,main,True,Tabular IQL,extraction,1.0,ok,0.7914557991945803,0.0,0.0
+part1,Tabular IQL [stochastic AW],0.0,,main,False,Tabular IQL,none,1.0,ok,0.4144098996127179,0.4790046747591279,0.4790046747591279
+part1,Tabular BCQ (tau=0.3),0.0,,main,True,Tabular BCQ,training+extraction,1.0,ok,0.6933541725588505,0.1518572381970979,0.1518572381970979
+part1,Tabular BCQ (tau=0.3) [masked greedy],0.0,,main,True,Tabular BCQ,training+extraction,1.0,ok,0.8052529852366944,0.0,0.0
+part1,Deep CQL,0.0,,main,True,Neural critic (deep),none,1.0,ok,0.7647323595119478,0.019919135133279336,0.019919135133279336
+part1,Deep CQL [masked greedy],0.0,,main,True,Neural critic (deep),extraction,1.0,ok,0.7780993788808578,0.0,0.0
+part1,"AM-CQL (Hard, legacy)",0.0,,main,True,Neural critic (hard_legacy),training+extraction,1.0,ok,0.782885064877156,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy]",0.0,,main,False,Neural critic (hard_legacy),training (backup+regulariser),1.0,ok,5.812489986093928e-05,0.9999241827809338,0.9999241827809338
+part1,"AM-CQL (Hard, design A: full-action CQL)",0.0,,main,True,Neural critic (hard_fullcql),training+extraction,1.0,ok,0.780837577639755,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_fullcql),training (backup),1.0,ok,0.7661998160444777,0.021114891888725014,0.021114891888725014
+part1,"AM-CQL (Hard, design B: admissible-row CQL)",0.0,,main,True,Neural critic (hard_admrows),training+extraction,1.0,ok,0.781963607911468,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy]",0.0,,main,False,Neural critic (hard_admrows),training (backup+regulariser),1.0,ok,0.008192154241569785,0.9890801736192724,0.9890801736192724
+part1,"AM-CQL (Soft, legacy)",0.0,,main,True,Neural critic (soft_legacy),training penalty,1.0,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [masked greedy]",0.0,,main,True,Neural critic (soft_legacy),training penalty + extraction,1.0,ok,0.778918135050648,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned greedy: mean critic]",0.0,,main,False,Neural critic (soft_legacy),training penalty,1.0,ok,0.7758559509742787,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax]",0.0,,main,False,Neural critic (soft_legacy),training penalty,1.0,ok,0.6410117303016232,0.1829520916017252,0.1829520916017252
+part1,Neural BC (matched capacity) [stochastic],0.0,,main,False,Direct categorical,none,1.0,ok,0.40366431602314384,0.4912552441202796,0.4912552441202796
+part1,Neural BC (matched capacity) [greedy],0.0,,main,False,Direct categorical,none,1.0,ok,0.7784789889995721,0.008242325963350693,0.008242325963350693
+part1,Neural BC (matched capacity) [masked greedy],0.0,,main,True,Direct categorical,extraction,1.0,ok,0.7843810091015682,0.0,0.0
+part1,AW categorical imitation [stochastic],0.0,,main,False,Direct categorical,none,1.0,ok,0.39871562674101213,0.49861898624506523,0.49861898624506523
+part1,AW categorical imitation [greedy],0.0,,main,False,Direct categorical,none,1.0,ok,0.7832000486247629,0.010308375117315947,0.010308375117315947
+part1,AW categorical imitation [masked greedy],0.0,,main,True,Direct categorical,extraction,1.0,ok,0.7904916897911972,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic],0.0,,main,False,Direct categorical,none,1.0,ok,0.7758652349459372,0.012776707262945407,0.012776707262945407
+part1,AW categorical imitation [critic B + tabular CQL] [greedy],0.0,,main,False,Direct categorical,none,1.0,ok,0.7803580196353346,0.005704951199578876,0.005704951199578876
+part1,AW categorical imitation [critic B + tabular CQL] [masked greedy],0.0,,main,False,Direct categorical,extraction,1.0,ok,0.7846049184446297,0.0,0.0
+part1,Diffusion-AM-CQL [primary critic B],0.0,,main,True,Categorical diffusion,inference (every reverse step),1.0,ok,0.7841292773379572,0.0,0.0
+part1,Diffusion-AM-CQL [legacy critic],0.0,,main,True,Categorical diffusion,inference (every reverse step),1.0,ok,0.7874338215117509,0.0,0.0
+part1,Diffusion-AM-CQL [critic A],0.0,,main,True,Categorical diffusion,inference (every reverse step),1.0,ok,0.783255057121535,0.0,0.0
+part1,Masked critic ensemble [critic B + tabular CQL],0.0,,main,True,Critic only,extraction,1.0,ok,0.7842218671331289,0.0,0.0
+part1,Neural BC prior x critic [critic B + tabular CQL],0.0,,main,True,Prior x critic,extraction,1.0,ok,0.7843964961138076,0.0,0.0
+part1,Tabular BC prior x critic [critic B + tabular CQL],0.0,,main,False,Prior x critic,extraction,1.0,ok,0.7840547427059601,0.0,0.0
+part1,Masked critic ensemble [legacy critic + tabular CQL],0.0,,main,False,Critic only,extraction,1.0,ok,0.7894031782181594,0.0,0.0
+part1,Behavior Cloning [projected],-1.0,,reference,True,BC,projection,1.0,ok,0.7841751153608378,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [projected],-1.0,,reference,False,BC,projection,1.0,ok,0.7820462603789965,0.0,0.0
+part1,Behavior Cloning [stochastic empirical] [mask-renormalized],-1.0,,reference,False,BC,extraction,1.0,ok,0.7821659531048883,0.0,0.0
+part1,Random (uniform over 25) [projected],-1.0,,reference,False,Random,projection,1.0,ok,0.7800709046121401,0.0,0.0
+part1,Random (uniform over 25) [mask-renormalized],-1.0,,reference,False,Random,extraction,1.0,ok,0.7800709046121401,0.0,0.0
+part1,Clinician [projected],-1.0,,reference,True,Clinician,projection,1.0,ok,0.7818448902556911,0.0,0.0
+part1,Clinician [mask-renormalized],-1.0,,reference,False,Clinician,extraction,1.0,ok,0.7820137550316947,0.0,0.0
+part1,"Optimal Oracle (mean-optimal, lowest-index ties) [projected]",-1.0,,reference,False,Oracle,projection,1.0,ok,0.8751416996099325,0.0,0.0
+part1,Tabular CQL [projected],0.0,,main,True,Tabular CQL,projection,1.0,ok,0.7824176282517885,0.0,0.0
+part1,Tabular IQL [projected],0.0,,main,True,Tabular IQL,projection,1.0,ok,0.7912642321270867,0.0,0.0
+part1,Tabular IQL [stochastic AW] [projected],0.0,,main,True,Tabular IQL,projection,1.0,ok,0.784465660440737,0.0,0.0
+part1,Tabular IQL [stochastic AW] [mask-renormalized],0.0,,main,False,Tabular IQL,extraction,1.0,ok,0.7854369310007827,0.0,0.0
+part1,Tabular BCQ (tau=0.3) [projected],0.0,,main,False,Tabular BCQ,projection,1.0,ok,0.8040494511063668,0.0,0.0
+part1,Deep CQL [projected],0.0,,main,True,Neural critic (deep),projection,1.0,ok,0.7783666112035513,0.0,0.0
+part1,"AM-CQL (Hard, legacy) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_legacy),projection,1.0,ok,0.7807933035053413,0.0,0.0
+part1,"AM-CQL (Hard, design A: full-action CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_fullcql),projection,1.0,ok,0.7806024843401685,0.0,0.0
+part1,"AM-CQL (Hard, design B: admissible-row CQL) [unmasked greedy] [projected]",0.0,,main,False,Neural critic (hard_admrows),projection,1.0,ok,0.7824328785481454,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [projected]",0.0,,main,False,Neural critic (soft_legacy),projection,1.0,ok,0.7798952127309853,0.0,0.0
+part1,"AM-CQL (Soft, legacy) [aligned stochastic: training softmax] [mask-renormalized]",0.0,,main,False,Neural critic (soft_legacy),extraction,1.0,ok,0.7797937953163331,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [projected],0.0,,main,False,Direct categorical,projection,1.0,ok,0.7822579646640568,0.0,0.0
+part1,Neural BC (matched capacity) [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,1.0,ok,0.7823823140677443,0.0,0.0
+part1,Neural BC (matched capacity) [greedy] [projected],0.0,,main,False,Direct categorical,projection,1.0,ok,0.7843598274474526,0.0,0.0
+part1,AW categorical imitation [stochastic] [projected],0.0,,main,False,Direct categorical,projection,1.0,ok,0.7845307383357162,0.0,0.0
+part1,AW categorical imitation [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,1.0,ok,0.7854418162540924,0.0,0.0
+part1,AW categorical imitation [greedy] [projected],0.0,,main,False,Direct categorical,projection,1.0,ok,0.790270277092657,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [projected],0.0,,main,False,Direct categorical,projection,1.0,ok,0.7845470922140959,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [stochastic] [mask-renormalized],0.0,,main,False,Direct categorical,extraction,1.0,ok,0.7845443221512547,0.0,0.0
+part1,AW categorical imitation [critic B + tabular CQL] [greedy] [projected],0.0,,main,False,Direct categorical,projection,1.0,ok,0.7846049184446297,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.0,ok,0.7822914407750798,0.4746893716687396,1.1124932959013885
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.0,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.0,ok,0.7823184142743692,0.01622376591107784,0.03021561072388052
+part2,BC [projected],,0.0,default,False,BC,projected,0.0,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.0,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.0,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.0,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.0,ok,0.7801512279084958,0.08393745750815192,0.20401238300879115
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.0,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.0,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.0,ok,0.7887334864595936,0.02259511447053015,0.041806789282304524
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.0,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.0,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.0,ok,0.7846219979899451,0.4791631736071745,1.1324050431416564
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.0,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.0,ok,0.7959198842186374,0.12231198137392522,0.2937166241085477
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.0,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.0,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.0,ok,0.8002016140463148,0.7336823894922678,2.942042368131149
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.0,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.0,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.0,ok,0.7909215270803681,0.5620719856643326,2.094992665227845
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.0,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.0,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.0,ok,0.7966669117304593,0.4706805066890309,1.092682577679752
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.0,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.0,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.0,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.0,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.0,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.0,ok,0.7846219979899451,0.4791631736071745,1.1324050431416564
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.0,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.0,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.0,ok,0.7887334864595936,0.02259511447053015,0.041806789282304524
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.0,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.0,ok,0.7909867242799064,0.4976979780538144,1.1935737491599043
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.0,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.0,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.0,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.0,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.0,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.0,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.0,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.0,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.0,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.0,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.0,ok,0.782279837289908,0.4773730142524975,1.1231475949471064
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.0,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.0,ok,0.7818448902556913,0.4761464716729363,1.1177692926186136
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.0,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.1,ok,0.7087914323599697,0.4746893716687396,0.971902002373185
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.1,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.1,ok,0.7804725985600274,0.01622376591107784,0.02754317608589069
+part2,BC [projected],,0.0,default,False,BC,projected,0.1,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.1,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.1,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.1,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.1,ok,0.7694038275534071,0.08393745750815192,0.1745218893895012
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.1,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.1,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.1,ok,0.7861536240667646,0.02259511447053015,0.038217209818190614
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.1,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.1,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.1,ok,0.709633001867039,0.4791631736071745,0.9873570264215452
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.1,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.1,ok,0.7786064577543532,0.12231198137392522,0.2522117966239965
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.1,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.1,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.1,ok,0.6235528970094689,0.7336823894922678,2.2270087989603864
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.1,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.1,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.1,ok,0.6613476006974196,0.5620719856643326,1.6360860008874523
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.1,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.1,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.1,ok,0.7227455002558671,0.4706805066890309,0.9563940419858892
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.1,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.1,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.1,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.1,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.1,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.1,ok,0.709633001867039,0.4791631736071745,0.9873570264215454
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.1,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.1,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.1,ok,0.7861536240667646,0.02259511447053015,0.038217209818190614
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.1,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.1,ok,0.711225193817682,0.4976979780538144,1.0372754547390814
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.1,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.1,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.1,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.1,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.1,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.1,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.1,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.1,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.1,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.1,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.1,ok,0.708111932516076,0.4773730142524975,0.9804271408840292
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.1,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.1,ok,0.7080890656371056,0.4761464716729363,0.976263547931503
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.1,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.2,ok,0.6508168887057463,0.4746893716687396,0.8657516731733382
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.2,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.2,ok,0.778912200354147,0.01622376591107784,0.02539424740050961
+part2,BC [projected],,0.0,default,False,BC,projected,0.2,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.2,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.2,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.2,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.2,ok,0.760994277607407,0.08393745750815192,0.15403923065317623
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.2,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.2,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.2,ok,0.7839632763467127,0.02259511447053015,0.035294650107216656
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.2,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.2,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.2,ok,0.6506770680471808,0.4791631736071745,0.878259407606839
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.2,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.2,ok,0.7650287253424375,0.12231198137392522,0.22292695033482116
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.2,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.2,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.2,ok,0.5143065717940627,0.7336823894922678,1.7995243769149847
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.2,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.2,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.2,ok,0.5775582804333379,0.5620719856643326,1.3450128632871994
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.2,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.2,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.2,ok,0.6642467902497697,0.4706805066890309,0.8532188858146863
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.2,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.2,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.2,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.2,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.2,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.2,ok,0.6506770680471808,0.4791631736071745,0.878259407606839
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.2,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.2,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.2,ok,0.7839632763467127,0.02259511447053015,0.035294650107216656
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.2,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.2,ok,0.6488829993870685,0.4976979780538144,0.9204078416224294
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.2,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.2,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.2,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.2,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.2,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.2,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.2,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.2,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.2,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.2,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.2,ok,0.6496955049670586,0.4773730142524975,0.8728009611165319
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.2,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.2,ok,0.6499526800477463,0.4761464716729363,0.8694273167940674
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.2,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.3,ok,0.6035962928438356,0.4746893716687396,0.7820865100817608
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.3,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.3,ok,0.7775659271917505,0.01622376591107784,0.02361154485804313
+part2,BC [projected],,0.0,default,False,BC,projected,0.3,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.3,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.3,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.3,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.3,ok,0.7541108666322195,0.08393745750815192,0.13852012222382437
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.3,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.3,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.3,ok,0.7820686997283925,0.02259511447053015,0.032850734112092106
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.3,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.3,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.3,ok,0.6027729377843198,0.4791631736071745,0.7925098258539911
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.3,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.3,ok,0.7539300490110094,0.12231198137392522,0.20067109286823442
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.3,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.3,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.3,ok,0.4391552053823785,0.7336823894922678,1.513847581265335
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.3,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.3,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.3,ok,0.5186524062457372,0.5620719856643326,1.143161287344807
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.3,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.3,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.3,ok,0.616474872112088,0.4706805066890309,0.7717140121932278
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.3,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.3,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.3,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.3,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.3,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.3,ok,0.6027729377843198,0.4791631736071745,0.792509825853991
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.3,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.3,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.3,ok,0.7820686997283925,0.02259511447053015,0.032850734112092106
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.3,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.3,ok,0.5984562050280348,0.4976979780538144,0.8289471849510209
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.3,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.3,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.3,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.3,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.3,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.3,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.3,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.3,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.3,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.3,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.3,ok,0.6021700938259871,0.4773730142524975,0.7880559625201965
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.3,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.3,ok,0.6026269943184591,0.4761464716729363,0.78523610421976
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.3,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.4,ok,0.564212762674022,0.4746893716687396,0.7141327910701781
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.4,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.4,ok,0.7763865756125059,0.01622376591107784,0.022099793914827217
+part2,BC [projected],,0.0,default,False,BC,projected,0.4,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.4,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.4,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.4,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.4,ok,0.748320095829743,0.08393745750815192,0.12619785296090463
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.4,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.4,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.4,ok,0.7804064617534588,0.02259511447053015,0.030766880181694205
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.4,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.4,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.4,ok,0.562893865970322,0.4791631736071745,0.7230128208118256
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.4,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.4,ok,0.7446049256948644,0.12231198137392522,0.1829887625368879
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.4,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.4,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.4,ok,0.38378372345969014,0.7336823894922678,1.3089423830392357
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.4,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.4,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.4,ok,0.47484654802211934,0.5620719856643326,0.9946979018024745
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.4,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.4,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.4,ok,0.5765470907854717,0.4706805066890309,0.7053867554674309
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.4,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.4,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.4,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.4,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.4,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.4,ok,0.562893865970322,0.4791631736071745,0.7230128208118257
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.4,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.4,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.4,ok,0.7804064617534588,0.02259511447053015,0.030766880181694205
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.4,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.4,ok,0.5566288747142858,0.4976979780538144,0.755075329008208
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.4,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.4,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.4,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.4,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.4,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.4,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.4,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.4,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.4,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.4,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.4,ok,0.562569995980967,0.4773730142524975,0.7192814031617241
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.4,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.4,ok,0.5631746078328144,0.4761464716729363,0.7168704548663775
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.4,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.5,ok,0.5307534568955521,0.4746893716687396,0.6576814706470503
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.5,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.5,ok,0.7753409755722881,0.01622376591107784,0.020796334713717814
+part2,BC [projected],,0.0,default,False,BC,projected,0.5,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.5,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.5,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.5,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.5,ok,0.7433528930578731,0.08393745750815192,0.11610550591567671
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.5,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.5,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.5,ok,0.7789313752583118,0.02259511447053015,0.028963024619905103
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.5,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.5,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.5,ok,0.5290638891544154,0.4791631736071745,0.6653793422079436
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.5,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.5,ok,0.7366114002021789,0.12231198137392522,0.16850421874264615
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.5,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.5,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.5,ok,0.3409718998845999,0.7336823894922678,1.1545404808408255
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.5,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.5,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.5,ok,0.4409167870293073,0.5620719856643326,0.8808049673789342
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.5,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.5,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.5,ok,0.5425659618638579,0.4706805066890309,0.650195087373047
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.5,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.5,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.5,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.5,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.5,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.5,ok,0.5290638891544154,0.4791631736071745,0.6653793422079436
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.5,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.5,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.5,ok,0.7789313752583118,0.02259511447053015,0.028963024619905103
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.5,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.5,ok,0.5212509735218934,0.4976979780538144,0.6939869983266455
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.5,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.5,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.5,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.5,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.5,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.5,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.5,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.5,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.5,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.5,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.5,ok,0.5289534363074424,0.4773730142524975,0.662187759963783
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.5,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.5,ok,0.5296703693173339,0.4761464716729363,0.6600904717734172
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.5,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.6,ok,0.5019001381522035,0.4746893716687396,0.6099470111421982
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.6,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.6,ok,0.7744048381891065,0.01622376591107784,0.01965758256870686
+part2,BC [projected],,0.0,default,False,BC,projected,0.6,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.6,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.6,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.6,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.6,ok,0.7390284113617691,0.08393745750815192,0.10765004366466938
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.6,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.6,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.6,ok,0.7776100443533572,0.02259511447053015,0.027382433200814016
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.6,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.6,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.6,ok,0.49992611372277646,0.4791631736071745,0.6167149672677281
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.6,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.6,ok,0.7296528431820695,0.12231198137392522,0.15636755204728187
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.6,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.6,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.6,ok,0.30666755845611005,0.7336823894922678,1.0338715047967597
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.6,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.6,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.6,ok,0.4138102430670548,0.5620719856643326,0.7906125570683364
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.6,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.6,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.6,ok,0.5132195482487074,0.4706805066890309,0.6034587059004832
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.6,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.6,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.6,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.6,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.6,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.6,ok,0.4999261137227765,0.4791631736071745,0.6167149672677281
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.6,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.6,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.6,ok,0.7776100443533572,0.02259511447053015,0.027382433200814016
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.6,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.6,ok,0.49085456686140266,0.4976979780538144,0.6425286753236091
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.6,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.6,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.6,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.6,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.6,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.6,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.6,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.6,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.6,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.6,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.6,ok,0.49998406438915644,0.4773730142524975,0.6139389647915043
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.6,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.6,ok,0.5007882253999586,0.4761464716729363,0.6120894947255333
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.6,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.7,ok,0.4767094443335897,0.4746893716687396,0.5689984932664843
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.7,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.7,ok,0.773559820553619,0.01622376591107784,0.018651958060413507
+part2,BC [projected],,0.0,default,False,BC,projected,0.7,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.7,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.7,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.7,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.7,ok,0.7352186250316092,0.08393745750815192,0.10044078959062945
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.7,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.7,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.7,ok,0.7764170798140828,0.02259511447053015,0.025983436996652332
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.7,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.7,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.7,ok,0.47451234303842527,0.4791631736071745,0.5750190619134132
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.7,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.7,ok,0.7235201735011334,0.12231198137392522,0.14601779363083855
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.7,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.7,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.7,ok,0.2784139196431808,0.7336823894922678,0.9368758693138393
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.7,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.7,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.7,ok,0.39162008323556896,0.5620719856643326,0.7173899809469398
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.7,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.7,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.7,ok,0.4875663228048722,0.4706805066890309,0.5633160713192988
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.7,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.7,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.7,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.7,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.7,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.7,ok,0.47451234303842527,0.4791631736071745,0.5750190619134132
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.7,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.7,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.7,ok,0.7764170798140828,0.02259511447053015,0.025983436996652332
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.7,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.7,ok,0.4643974224526224,0.4976979780538144,0.5985293796599835
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.7,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.7,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.7,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.7,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.7,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.7,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.7,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.7,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.7,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.7,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.7,ok,0.47470669309864255,0.4773730142524975,0.5725707611277189
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.7,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.7,ok,0.4755796533696099,0.4761464716729363,0.570921809640808
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.7,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.8,ok,0.45448574954579235,0.4746893716687396,0.5334485267914886
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.8,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.8,ok,0.7727917285669974,0.01622376591107784,0.017755853182419616
+part2,BC [projected],,0.0,default,False,BC,projected,0.8,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.8,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.8,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.8,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.8,ok,0.7318294244985105,0.08393745750815192,0.09420708018915933
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.8,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.8,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.8,ok,0.7753327352655542,0.02259511447053015,0.024734564770018515
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.8,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.8,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.8,ok,0.4521103814769889,0.4791631736071745,0.538857602257296
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.8,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.8,ok,0.718060452845725,0.12231198137392522,0.13706626915048103
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.8,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.8,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.8,ok,0.25463127501259775,0.7336823894922678,0.8571461107228293
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.8,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.8,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.8,ok,0.37309254126587704,0.5620719856643326,0.656741611903545
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.8,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.8,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.8,ok,0.4649102882036622,0.4706805066890309,0.5284272314147269
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.8,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.8,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.8,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.8,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.8,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.8,ok,0.4521103814769889,0.4791631736071745,0.5388576022572962
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.8,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.8,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.8,ok,0.7753327352655542,0.02259511447053015,0.024734564770018515
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.8,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.8,ok,0.4411161986480856,0.4976979780538144,0.5604383480892396
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.8,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.8,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.8,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.8,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.8,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.8,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.8,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.8,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.8,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.8,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.8,ok,0.45241771339530545,0.4773730142524975,0.5366728961789232
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.8,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.8,ok,0.45334552516805937,0.4761464716729363,0.5351894152966717
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.8,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,0.9,ok,0.4347033452566281,0.4746893716687396,0.5022711340428568
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,0.9,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,0.9,ok,0.7720893573350752,0.01622376591107784,0.016951173905701607
+part2,BC [projected],,0.0,default,False,BC,projected,0.9,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,0.9,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,0.9,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,0.9,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,0.9,ok,0.7287895917612354,0.08393745750815192,0.08875412497225116
+part2,CQL [projected],,0.0,default,False,CQL,projected,0.9,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,0.9,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,0.9,ok,0.7743413602337397,0.02259511447053015,0.023611503684794578
+part2,IQL [projected],,0.0,default,False,IQL,projected,0.9,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,0.9,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,0.9,ok,0.43218311843164375,0.4791631736071745,0.5071723015100322
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,0.9,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,0.9,ok,0.7131584864746989,0.12231198137392522,0.12923340255529095
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,0.9,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,0.9,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,0.9,ok,0.23425561895528935,0.7336823894922678,0.7904040486647094
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,0.9,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,0.9,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,0.9,ok,0.35736876657023814,0.5620719856643326,0.6056728318828316
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,0.9,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,0.9,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,0.9,ok,0.4447243088424884,0.4706805066890309,0.49779963668069926
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,0.9,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,0.9,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,0.9,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,0.9,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,0.9,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,0.9,ok,0.43218311843164375,0.4791631736071745,0.5071723015100323
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,0.9,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,0.9,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,0.9,ok,0.7743413602337397,0.02259511447053015,0.023611503684794578
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,0.9,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,0.9,ok,0.4204373970153527,0.4976979780538144,0.5271146047172409
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,0.9,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,0.9,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,0.9,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,0.9,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,0.9,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,0.9,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,0.9,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,0.9,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,0.9,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,0.9,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,0.9,ok,0.4325858767173759,0.4773730142524975,0.5052032127991751
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,0.9,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,0.9,ok,0.4335577086354191,0.4761464716729363,0.5038585552763136
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,0.9,ok,0.7818448902556911,0.0,0.0
+part2,BC (stochastic) [native],,0.0,default,False,BC (stochastic),native,1.0,ok,0.41695665880085986,0.4746893716687396,0.4746893716687396
+part2,BC (stochastic) [projected],,0.0,default,False,BC (stochastic),projected,1.0,ok,0.7822914407750797,0.0,0.0
+part2,BC [native],,0.0,default,False,BC,native,1.0,ok,0.7714437122330361,0.01622376591107784,0.01622376591107784
+part2,BC [projected],,0.0,default,False,BC,projected,1.0,ok,0.7823184142743692,0.0,0.0
+part2,BC [masked],,0.0,default,False,BC,masked,1.0,ok,0.7823318976912478,0.0,0.0
+part2,Uniform-admissible [native],,0.0,default,False,Uniform-admissible,native,1.0,ok,0.7800709046121401,0.0,0.0
+part2,Uniform-admissible [projected],,0.0,default,False,Uniform-admissible,projected,1.0,ok,0.7800709046121401,0.0,0.0
+part2,CQL [native],,0.0,default,False,CQL,native,1.0,ok,0.7260439588270154,0.08393745750815192,0.08393745750815192
+part2,CQL [projected],,0.0,default,False,CQL,projected,1.0,ok,0.7801512279084958,0.0,0.0
+part2,CQL [masked],,0.0,default,False,CQL,masked,1.0,ok,0.7798596802629129,0.0,0.0
+part2,IQL [native],,0.0,default,False,IQL,native,1.0,ok,0.7734303501841561,0.02259511447053015,0.02259511447053015
+part2,IQL [projected],,0.0,default,False,IQL,projected,1.0,ok,0.7887334864595936,0.0,0.0
+part2,IQL [masked],,0.0,default,False,IQL,masked,1.0,ok,0.7889673867249615,0.0,0.0
+part2,IQL (AW stochastic) [native],,0.0,default,False,IQL (AW stochastic),native,1.0,ok,0.41431693001555236,0.4791631736071745,0.4791631736071745
+part2,IQL (AW stochastic) [projected],,0.0,default,False,IQL (AW stochastic),projected,1.0,ok,0.7846219979899451,0.0,0.0
+part2,BCQ [native],,0.0,default,False,BCQ,native,1.0,ok,0.7087254161690264,0.12231198137392522,0.12231198137392522
+part2,BCQ [projected],,0.0,default,False,BCQ,projected,1.0,ok,0.7959198842186374,0.0,0.0
+part2,BCQ [masked],,0.0,default,False,BCQ,masked,1.0,ok,0.7982204333454288,0.0,0.0
+part2,VI-LCB [native],,0.0,default,False,VI-LCB,native,1.0,ok,0.21654279727822598,0.7336823894922678,0.7336823894922678
+part2,VI-LCB [projected],,0.0,default,False,VI-LCB,projected,1.0,ok,0.8002016140463146,0.0,0.0
+part2,VI-LCB [masked],,0.0,default,False,VI-LCB,masked,1.0,ok,0.8131873980384093,0.0,0.0
+part2,MBS-QI [native],,0.0,default,False,MBS-QI,native,1.0,ok,0.34384036687823777,0.5620719856643326,0.5620719856643326
+part2,MBS-QI [projected],,0.0,default,False,MBS-QI,projected,1.0,ok,0.790921527080368,0.0,0.0
+part2,MBS-QI [masked],,0.0,default,False,MBS-QI,masked,1.0,ok,0.7954104800794893,0.0,0.0
+part2,SPIBB [native],,0.0,default,False,SPIBB,native,1.0,ok,0.4266009281823667,0.4706805066890309,0.4706805066890309
+part2,SPIBB [projected],,0.0,default,False,SPIBB,projected,1.0,ok,0.7966669117304593,0.0,0.0
+part2,Lagrangian-MB [native],,0.0,default,False,Lagrangian-MB,native,1.0,ok,0.7993138246786465,0.0,0.0
+part2,Lagrangian-MB [projected],,0.0,default,False,Lagrangian-MB,projected,1.0,ok,0.7993138246786465,0.0,0.0
+part2,CMDP-LP (model) [native],,0.0,default,False,CMDP-LP (model),native,1.0,ok,0.7823318976912478,0.0,0.0
+part2,CMDP-LP (model) [projected],,0.0,default,False,CMDP-LP (model),projected,1.0,ok,0.7823318976912478,0.0,0.0
+part2,SfBC (exact) [native],,0.0,default,False,SfBC (exact),native,1.0,ok,0.4143169300155524,0.4791631736071745,0.4791631736071745
+part2,SfBC (exact) [projected],,0.0,default,False,SfBC (exact),projected,1.0,ok,0.7846219979899451,0.0,0.0
+part2,SfBC (exact) [masked],,0.0,default,False,SfBC (exact),masked,1.0,ok,0.7856533407621853,0.0,0.0
+part2,"SfBC (exact, argmax) [native]",,0.0,default,False,"SfBC (exact, argmax)",native,1.0,ok,0.7734303501841561,0.02259511447053015,0.02259511447053015
+part2,"SfBC (exact, argmax) [projected]",,0.0,default,False,"SfBC (exact, argmax)",projected,1.0,ok,0.7887334864595936,0.0,0.0
+part2,IDQL (exact) [native],,0.0,default,False,IDQL (exact),native,1.0,ok,0.4019208526220262,0.4976979780538144,0.4976979780538144
+part2,IDQL (exact) [projected],,0.0,default,False,IDQL (exact),projected,1.0,ok,0.7909867242799062,0.0,0.0
+part2,IDQL (exact) [masked],,0.0,default,False,IDQL (exact),masked,1.0,ok,0.7930238851826003,0.0,0.0
+part2,FISOR-tab (exact) [native],,0.0,default,False,FISOR-tab (exact),native,1.0,ok,0.7857341310402581,0.0,0.0
+part2,FISOR-tab (exact) [projected],,0.0,default,False,FISOR-tab (exact),projected,1.0,ok,0.7857341310402581,0.0,0.0
+part2,"Diffusion (exact, unguided) [native]",,0.0,default,False,"Diffusion (exact, unguided)",native,1.0,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, unguided) [projected]",,0.0,default,False,"Diffusion (exact, unguided)",projected,1.0,ok,0.7847575600989688,0.0,0.0
+part2,"Diffusion (exact, guided) [native]",,0.0,default,False,"Diffusion (exact, guided)",native,1.0,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, guided) [projected]",,0.0,default,False,"Diffusion (exact, guided)",projected,1.0,ok,0.8152885470126205,0.0,0.0
+part2,"Diffusion (exact, final-only) [native]",,0.0,default,False,"Diffusion (exact, final-only)",native,1.0,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, final-only) [projected]",,0.0,default,False,"Diffusion (exact, final-only)",projected,1.0,ok,0.7900526243327258,0.0,0.0
+part2,"Diffusion (exact, unmasked) [native]",,0.0,default,False,"Diffusion (exact, unmasked)",native,1.0,ok,0.4148016759973468,0.4773730142524975,0.4773730142524975
+part2,"Diffusion (exact, unmasked) [projected]",,0.0,default,False,"Diffusion (exact, unmasked)",projected,1.0,ok,0.7822798372899079,0.0,0.0
+part2,Behaviour (true) [native],,0.0,default,False,Behaviour (true),native,1.0,ok,0.4158089303283693,0.4761464716729363,0.4761464716729363
+part2,Behaviour (true) [projected],,0.0,default,False,Behaviour (true),projected,1.0,ok,0.7818448902556911,0.0,0.0

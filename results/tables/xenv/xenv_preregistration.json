@@ -1,0 +1,202 @@
+{
+  "status": "DRAFT - lock (set status to LOCKED with a date) before the confirmatory Part II run",
+  "unit": "dataset draw: a full benchmark-construction replicate (hospital data, mask, estimated benchmark, user data) for Gumbel / Garnet; a user-dataset replicate for ICU-Sepsis. Learners are deterministic given data.",
+  "deployment_target": "true dynamics where available (Gumbel, Garnet); terminate rule for ICU-Sepsis (no ground truth)",
+  "normalized_score": "(J - J_behaviour) / (J*_target - J_behaviour) per (cell, draw, target); J* is the target's optimum",
+  "default_policy_set": "every method at its *_default hyper-parameters, variants native / masked / projected",
+  "H1_benchmark_fidelity": {
+    "question": "Does the completion rule for unsupported actions (mean imputation vs termination) change how faithfully ICU-style benchmark rankings reproduce true-system rankings?",
+    "metric": "Kendall tau-b between benchmark values and true values over the default policy set, per draw; a benchmark that assigns every policy the same value scores tau = 0 (no ranking information); such draws are counted and reported",
+    "test": "two-sided sign-flip on per-draw differences tau(mean) - tau(terminate) within each Gumbel estimated-benchmark cell (construction 'best'); Holm across cells",
+    "alpha": 0.05
+  },
+  "H2_projection_sufficiency": {
+    "question": "Does any learned constraint-aware method improve the deployment value over the admissible projection of tabular IQL?",
+    "comparator": "IQL [projected]",
+    "treatments": [
+      "BC [masked]",
+      "CQL [masked]",
+      "IQL [masked]",
+      "BCQ [masked]",
+      "VI-LCB [masked]",
+      "MBS-QI [masked]",
+      "SPIBB [projected]",
+      "Lagrangian-MB [native]",
+      "CMDP-LP (model) [native]",
+      "SfBC (exact) [masked]",
+      "FISOR-tab (exact) [native]",
+      "Diffusion (exact, guided) [native]"
+    ],
+    "metric": "normalized deployment score",
+    "test": "two-sided sign-flip on paired differences within each environment family (ICU, Gumbel, Garnet; ICU/Gumbel: (cell, draw) units pooled across cells (independent streams); Garnet: one unit per base-MDP draw (mean over the harm x eps cells that share it); intervals resample Garnet draws jointly across cells); Holm over treatments x families; TOST with the declared margin on the same units",
+    "equivalence_margin_normalized": 0.05,
+    "alpha": 0.05
+  },
+  "H3_harm_moderates_error": {
+    "question": "Does the benchmark error of mean imputation grow with the harm |h| of unsupported actions (Garnet)?",
+    "metric": "mean |J_true - J_bench_mean| over the default policy set, per draw",
+    "test": "Spearman correlation between |h| and the per-draw error, two-sided permutation p-value: permutation of |h| within (eps, draw) blocks, 10 000 permutations (h = -0.5 kept as a beneficial-unsupported control)",
+    "alpha": 0.05
+  },
+  "exploratory": [
+    "error decomposition (semantics vs estimation/coverage)",
+    "exact constrained frontiers",
+    "performance profiles",
+    "FQE vs oracle hyper-parameter selection",
+    "exact tabular vs SGD (Part I) agreement"
+  ],
+  "design": {
+    "icu_draws": 50,
+    "gumbel_draws": 30,
+    "garnet_draws": 30,
+    "icu_user_episodes": 10000,
+    "gumbel_user_episodes": 5000,
+    "garnet_user_episodes": 2000,
+    "max_steps": 100,
+    "dev_fraction": 0.2,
+    "gumbel_variant": "sim-v2",
+    "gumbel_timeout_hazard": 0.05,
+    "gumbel_cells": [
+      [
+        "best",
+        2000,
+        5,
+        0.05
+      ],
+      [
+        "best",
+        2000,
+        20,
+        0.05
+      ],
+      [
+        "best",
+        10000,
+        5,
+        0.05
+      ],
+      [
+        "best",
+        10000,
+        20,
+        0.05
+      ],
+      [
+        "best",
+        10000,
+        20,
+        0.2
+      ],
+      [
+        "best",
+        10000,
+        20,
+        0.05,
+        "withhold-vaso"
+      ],
+      [
+        "oracle",
+        10000,
+        20,
+        0.05
+      ]
+    ],
+    "garnet_states": 150,
+    "garnet_actions": 8,
+    "garnet_branching": 4,
+    "garnet_hazard": [
+      0.05,
+      0.2
+    ],
+    "garnet_harm": [
+      -0.5,
+      0.0,
+      0.5,
+      1.0
+    ],
+    "garnet_behavior_eps": [
+      0.05,
+      0.3
+    ],
+    "garnet_hosp_episodes": 5000,
+    "garnet_tau": 5,
+    "benchmark_empty_rule": "icu",
+    "cql_alpha_grid": [
+      0.3,
+      1.0,
+      3.0
+    ],
+    "cql_alpha_default": 1.0,
+    "cql_steps": 10000,
+    "cql_lr": 0.02,
+    "cql_target_every": 25,
+    "cql_converged_tol": 0.005,
+    "iql_expectile_grid": [
+      0.6,
+      0.7,
+      0.9
+    ],
+    "iql_expectile_default": 0.7,
+    "iql_beta": 3.0,
+    "iql_max_weight": 100.0,
+    "bcq_tau_grid": [
+      0.1,
+      0.3,
+      0.5
+    ],
+    "bcq_tau_default": 0.3,
+    "lcb_c_grid": [
+      0.03,
+      0.1,
+      0.3
+    ],
+    "lcb_c_default": 0.1,
+    "mbsqi_b_grid": [
+      1,
+      5,
+      20
+    ],
+    "mbsqi_b_default": 5,
+    "spibb_n_grid": [
+      5,
+      20,
+      50
+    ],
+    "spibb_n_default": 20,
+    "lagrange_kappa_grid": [
+      0.0,
+      0.01,
+      0.05
+    ],
+    "lagrange_kappa_default": 0.0,
+    "mblp_kappa_grid": [
+      0.0,
+      0.01,
+      0.05
+    ],
+    "mblp_kappa_default": 0.0,
+    "sfbc_alpha_grid": [
+      1.0,
+      3.0,
+      10.0
+    ],
+    "sfbc_alpha_default": 3.0,
+    "diffusion_guidance_grid": [
+      0.5,
+      1.5,
+      3.0
+    ],
+    "diffusion_guidance_default": 1.5,
+    "max_iterations": 20000,
+    "tol": 1e-10,
+    "bootstrap": 5000,
+    "equivalence_margin_normalized": 0.05
+  },
+  "analysis": {
+    "H1": "sign-flip per cell on all draws (constant-benchmark draws score tau = 0); Holm across cells",
+    "H2": "ICU / Gumbel: (cell, draw) units pooled; Garnet: blocked by draw (mean over its cells), bootstrap resamples Garnet draws jointly across cells",
+    "H3": "permutation of |h| within (eps, draw) blocks, 10 000 permutations",
+    "sign_flip": "exact enumeration for n <= 16; Monte Carlo with 200 000 sign patterns (+1 correction) otherwise",
+    "bootstrap": "stratified percentile bootstrap, XCFG.bootstrap replicates"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "run_mode": "paper",
+  "compute_profile": "full",
+  "main_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "ablation_seeds": [
+    0,
+    1,
+    2
+  ],
+  "replication_dataset_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033
+  ],
+  "replication_train_seeds": [
+    0,
+    1
+  ],
+  "min_two_sided_signflip_p_main_seeds": 0.001953125,
+  "min_two_sided_signflip_p_dataset_level": 0.0078125,
+  "paper_scale": true
+}

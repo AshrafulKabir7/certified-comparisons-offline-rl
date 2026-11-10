@@ -1,0 +1,61 @@
+model,seed,status,trained_on,replayed_on,normalizer_matches_bundle,max_abs_q_diff_cpu_vs_session,action_agreement_live_states
+Deep CQL,0,ok,cuda,cpu,True,2.288818359375e-05,1.0
+"AM-CQL (Hard, legacy)",0,ok,cuda,cpu,True,0.09375,1.0
+"AM-CQL (Hard, design A: full-action CQL)",0,ok,cuda,cpu,True,1.1444091796875e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",0,ok,cuda,cpu,True,9.5367431640625e-06,1.0
+"AM-CQL (Soft, legacy)",0,ok,cuda,cpu,True,6.103515625e-05,1.0
+Deep CQL,1,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, legacy)",1,ok,cuda,cpu,True,0.09375,1.0
+"AM-CQL (Hard, design A: full-action CQL)",1,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",1,ok,cuda,cpu,True,5.7220458984375e-06,1.0
+"AM-CQL (Soft, legacy)",1,ok,cuda,cpu,True,6.103515625e-05,1.0
+Deep CQL,2,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, legacy)",2,ok,cuda,cpu,True,0.09375,1.0
+"AM-CQL (Hard, design A: full-action CQL)",2,ok,cuda,cpu,True,2.288818359375e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",2,ok,cuda,cpu,True,5.7220458984375e-06,1.0
+"AM-CQL (Soft, legacy)",2,ok,cuda,cpu,True,6.103515625e-05,1.0
+Deep CQL,3,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, legacy)",3,ok,cuda,cpu,True,0.1015625,1.0
+"AM-CQL (Hard, design A: full-action CQL)",3,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",3,ok,cuda,cpu,True,7.62939453125e-06,1.0
+"AM-CQL (Soft, legacy)",3,ok,cuda,cpu,True,9.1552734375e-05,1.0
+Deep CQL,4,ok,cuda,cpu,True,1.1444091796875e-05,1.0
+"AM-CQL (Hard, legacy)",4,ok,cuda,cpu,True,0.125,1.0
+"AM-CQL (Hard, design A: full-action CQL)",4,ok,cuda,cpu,True,3.0517578125e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",4,ok,cuda,cpu,True,5.7220458984375e-06,1.0
+"AM-CQL (Soft, legacy)",4,ok,cuda,cpu,True,9.1552734375e-05,1.0
+Deep CQL,5,ok,cuda,cpu,True,1.1444091796875e-05,1.0
+"AM-CQL (Hard, legacy)",5,ok,cuda,cpu,True,0.09375,1.0
+"AM-CQL (Hard, design A: full-action CQL)",5,ok,cuda,cpu,True,1.1444091796875e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",5,ok,cuda,cpu,True,7.62939453125e-06,1.0
+"AM-CQL (Soft, legacy)",5,ok,cuda,cpu,True,9.1552734375e-05,1.0
+Deep CQL,6,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, legacy)",6,ok,cuda,cpu,True,0.125,1.0
+"AM-CQL (Hard, design A: full-action CQL)",6,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",6,ok,cuda,cpu,True,5.7220458984375e-06,1.0
+"AM-CQL (Soft, legacy)",6,ok,cuda,cpu,True,0.0001220703125,1.0
+Deep CQL,7,ok,cuda,cpu,True,1.1444091796875e-05,1.0
+"AM-CQL (Hard, legacy)",7,ok,cuda,cpu,True,0.125,1.0
+"AM-CQL (Hard, design A: full-action CQL)",7,ok,cuda,cpu,True,1.1444091796875e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",7,ok,cuda,cpu,True,5.7220458984375e-06,1.0
+"AM-CQL (Soft, legacy)",7,ok,cuda,cpu,True,0.0001220703125,1.0
+Deep CQL,8,ok,cuda,cpu,True,2.288818359375e-05,1.0
+"AM-CQL (Hard, legacy)",8,ok,cuda,cpu,True,0.125,1.0
+"AM-CQL (Hard, design A: full-action CQL)",8,ok,cuda,cpu,True,2.288818359375e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",8,ok,cuda,cpu,True,5.7220458984375e-06,1.0
+"AM-CQL (Soft, legacy)",8,ok,cuda,cpu,True,9.1552734375e-05,1.0
+Deep CQL,9,ok,cuda,cpu,True,2.288818359375e-05,1.0
+"AM-CQL (Hard, legacy)",9,ok,cuda,cpu,True,0.125,1.0
+"AM-CQL (Hard, design A: full-action CQL)",9,ok,cuda,cpu,True,1.52587890625e-05,1.0
+"AM-CQL (Hard, design B: admissible-row CQL)",9,ok,cuda,cpu,True,7.62939453125e-06,1.0
+"AM-CQL (Soft, legacy)",9,ok,cuda,cpu,True,3.0517578125e-05,1.0
+Diffusion-AM-CQL [primary critic B],0,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],1,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],2,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],3,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],4,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],5,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],6,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],7,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],8,ok,cuda,cpu,True,,1.0
+Diffusion-AM-CQL [primary critic B],9,ok,cuda,cpu,True,,1.0

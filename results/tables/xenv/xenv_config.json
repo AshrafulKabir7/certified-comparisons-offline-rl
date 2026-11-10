@@ -1,0 +1,159 @@
+{
+  "icu_draws": 50,
+  "gumbel_draws": 30,
+  "garnet_draws": 30,
+  "icu_user_episodes": 10000,
+  "gumbel_user_episodes": 5000,
+  "garnet_user_episodes": 2000,
+  "max_steps": 100,
+  "dev_fraction": 0.2,
+  "gumbel_variant": "sim-v2",
+  "gumbel_timeout_hazard": 0.05,
+  "gumbel_cells": [
+    [
+      "best",
+      2000,
+      5,
+      0.05
+    ],
+    [
+      "best",
+      2000,
+      20,
+      0.05
+    ],
+    [
+      "best",
+      10000,
+      5,
+      0.05
+    ],
+    [
+      "best",
+      10000,
+      20,
+      0.05
+    ],
+    [
+      "best",
+      10000,
+      20,
+      0.2
+    ],
+    [
+      "best",
+      10000,
+      20,
+      0.05,
+      "withhold-vaso"
+    ],
+    [
+      "oracle",
+      10000,
+      20,
+      0.05
+    ]
+  ],
+  "gumbel_mc_pairs": 300,
+  "gumbel_mc_draws": 4000,
+  "garnet_states": 150,
+  "garnet_actions": 8,
+  "garnet_branching": 4,
+  "garnet_hazard": [
+    0.05,
+    0.2
+  ],
+  "garnet_harm": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+  ],
+  "garnet_behavior_eps": [
+    0.05,
+    0.3
+  ],
+  "garnet_hosp_episodes": 5000,
+  "garnet_tau": 5,
+  "benchmark_empty_rule": "icu",
+  "cql_alpha_grid": [
+    0.3,
+    1.0,
+    3.0
+  ],
+  "cql_alpha_default": 1.0,
+  "cql_steps": 10000,
+  "cql_lr": 0.02,
+  "cql_target_every": 25,
+  "cql_converged_tol": 0.005,
+  "iql_expectile_grid": [
+    0.6,
+    0.7,
+    0.9
+  ],
+  "iql_expectile_default": 0.7,
+  "iql_beta": 3.0,
+  "iql_max_weight": 100.0,
+  "bcq_tau_grid": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "bcq_tau_default": 0.3,
+  "lcb_c_grid": [
+    0.03,
+    0.1,
+    0.3
+  ],
+  "lcb_c_default": 0.1,
+  "mbsqi_b_grid": [
+    1,
+    5,
+    20
+  ],
+  "mbsqi_b_default": 5,
+  "spibb_n_grid": [
+    5,
+    20,
+    50
+  ],
+  "spibb_n_default": 20,
+  "lagrange_kappa_grid": [
+    0.0,
+    0.01,
+    0.05
+  ],
+  "lagrange_kappa_default": 0.0,
+  "mblp_kappa_grid": [
+    0.0,
+    0.01,
+    0.05
+  ],
+  "mblp_kappa_default": 0.0,
+  "sfbc_alpha_grid": [
+    1.0,
+    3.0,
+    10.0
+  ],
+  "sfbc_alpha_default": 3.0,
+  "diffusion_guidance_grid": [
+    0.5,
+    1.5,
+    3.0
+  ],
+  "diffusion_guidance_default": 1.5,
+  "max_iterations": 20000,
+  "tol": 1e-10,
+  "frontier_kappas": [
+    0.0,
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0,
+    null
+  ],
+  "bootstrap": 5000,
+  "equivalence_margin_normalized": 0.05
+}

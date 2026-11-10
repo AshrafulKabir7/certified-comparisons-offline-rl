@@ -1,0 +1,165 @@
+{
+ "definition": "Agreement between the final run (the source of every number in the paper) and the earlier Colab run.",
+ "rows": {
+  "part1_main_table": {
+   "policies": 19,
+   "max_abs_diff_J": 0.0017253535396095643,
+   "mean_abs_diff_J": 0.0003225565378068197,
+   "same_ranking": false,
+   "top_policy_new": "Optimal (= constrained optimal)",
+   "top_policy_old": "Optimal (= constrained optimal)"
+  },
+  "primary_test": {
+   "mean_difference": {
+    "new": -0.0062919902208735225,
+    "old": -0.005263078796152243
+   },
+   "p_value": {
+    "new": 0.001953125,
+    "old": 0.001953125
+   },
+   "tost_p": {
+    "new": 0.935546875,
+    "old": 0.6689453125
+   }
+  },
+  "icu_main_table_certified": {
+   "certified": {
+    "new": 129,
+    "old": 131
+   },
+   "certified_free": {
+    "new": 99,
+    "old": 99
+   }
+  },
+  "icu_part2_certified_share": {
+   "new": 0.7291591836734694,
+   "old": 0.7292897959183674
+  },
+  "true_rows|pooled:gumbel_estimated": {
+   "certified": {
+    "new": 152237,
+    "old": 152237
+   },
+   "certified_errors": {
+    "new": 0,
+    "old": 0
+   },
+   "certified_error_rate": {
+    "new": 0.0,
+    "old": 0.0
+   }
+  },
+  "true_rows|pooled:garnet_all": {
+   "certified": {
+    "new": 249928,
+    "old": 249930
+   },
+   "certified_errors": {
+    "new": 2387,
+    "old": 2396
+   },
+   "certified_error_rate": {
+    "new": 0.00955075061617746,
+    "old": 0.009586684271596048
+   }
+  },
+  "bench|pooled:gumbel_estimated": {
+   "certified": {
+    "new": 151338,
+    "old": 151338
+   },
+   "certified_errors": {
+    "new": 15981,
+    "old": 15981
+   },
+   "certified_error_rate": {
+    "new": 0.10559806525789954,
+    "old": 0.10559806525789954
+   }
+  },
+  "bench|pooled:garnet_all": {
+   "certified": {
+    "new": 253604,
+    "old": 253620
+   },
+   "certified_errors": {
+    "new": 23350,
+    "old": 23310
+   },
+   "certified_error_rate": {
+    "new": 0.09207268024163656,
+    "old": 0.09190915542938254
+   }
+  },
+  "gumbel_certified_comparisons_all_cells": {
+   "leaves": 308,
+   "identical": 280,
+   "max_abs_diff": 8.0
+  },
+  "garnet_certified_comparisons_all_cells": {
+   "leaves": 352,
+   "identical": 99,
+   "max_abs_diff": 65.0
+  },
+  "gumbel_cell_rates": {
+   "certified_share": 0.00021768707482994198,
+   "certified_error_rate": 0.0,
+   "cells": 14
+  },
+  "garnet_cell_rates": {
+   "certified_share": 0.000653061224489826,
+   "certified_error_rate": 0.001980192294393307,
+   "cells": 16
+  },
+  "gumbel_rank_fidelity": {
+   "rows": 21,
+   "max_abs_diff": 0.00023866165963759567
+  },
+  "garnet_rank_fidelity": {
+   "rows": 24,
+   "max_abs_diff": 0.003706543927347261
+  },
+  "H1": {
+   "leaves": 54,
+   "identical": 54,
+   "max_abs_diff": 0.0
+  },
+  "H3_rho": {
+   "new": 0.5650885806878393,
+   "old": 0.5648334232913819
+  },
+  "kappa_icu_median": {
+   "new": 0.08904303710268545,
+   "old": 0.088568060309342
+  },
+  "bootstrap_pooled": {
+   "cert_error_point": {
+    "new": 0.1099590696591724,
+    "old": 0.1095
+   },
+   "cert_error_boot": {
+    "new": 0.0242901343359573,
+    "old": 0.0241
+   }
+  },
+  "whole_files": {
+   "facts": {
+    "leaves": 4222,
+    "identical": 2995,
+    "max_abs_diff": 28460.55685975304
+   },
+   "facts_v3": {
+    "leaves": 550,
+    "identical": 307,
+    "max_abs_diff": 6420.902881184983
+   },
+   "facts_robust": {
+    "leaves": 9478,
+    "identical": 4403,
+    "max_abs_diff": 151.0
+   }
+  }
+ }
+}

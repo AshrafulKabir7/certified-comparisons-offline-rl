@@ -1,0 +1,13 @@
+method,configurations_tried_main_study,selection_criterion,exact_results_visible_during_development
+Behavior Cloning,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+Tabular CQL,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+Tabular IQL,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+Tabular BCQ,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+Deep CQL,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+"AM-CQL (Hard, legacy)",1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+"AM-CQL (Hard, design A)",1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+"AM-CQL (Hard, design B)",1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+AM-CQL (Soft),1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+Neural BC,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+AW imitation,1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper
+Diffusion prior + guidance (g=1.5 fixed; sweep exploratory),1,fixed a priori (Table 3 settings),yes (previous run); disclose in paper

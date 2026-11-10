@@ -1,0 +1,9 @@
+guidance_g,critic,mask_source,mask_use,return_mean,return_sd,inadmissible_occupancy_pct
+0.0,legacy critic,released benchmark mask,inference (every reverse step),0.7841063151091383,0.0038250482812681795,0.0
+0.0,critic B,released benchmark mask,inference (every reverse step),0.7841063151091383,0.0038250482812681795,0.0
+0.5,legacy critic,released benchmark mask,inference (every reverse step),0.7846833268802176,0.0029677823520418973,0.0
+0.5,critic B,released benchmark mask,inference (every reverse step),0.7856984664414989,0.0015695622374777016,0.0
+1.5,legacy critic,released benchmark mask,inference (every reverse step),0.7850013445417223,0.003066525483647129,0.0
+1.5,critic B,released benchmark mask,inference (every reverse step),0.784292130159695,0.0011090624483639463,0.0
+3.0,legacy critic,released benchmark mask,inference (every reverse step),0.785470022195468,0.003627864864692274,0.0
+3.0,critic B,released benchmark mask,inference (every reverse step),0.7839414133799146,0.001042660413803365,0.0

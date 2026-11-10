@@ -1,0 +1,8 @@
+policy,total_train_s,total_params,policy_construction_s,deployed,deployed_lookup_latency_us,on_demand_full_reverse_chain_ms_per_state,peak_gpu_mb_max_component,policy_construction_memory_mb
+Tabular IQL [projected],67.76037009999854,18616,0.0,lookup table,0.14063989999704063,,,0.0
+Masked critic ensemble [critic B + tabular CQL],648.173414549994,314400,0.0,lookup table,0.14063989999704063,,103.1201171875,0.0
+Neural BC prior x critic [critic B + tabular CQL],722.6078657399979,531513,0.0,lookup table,0.14063989999704063,,103.1201171875,0.0
+Neural BC (matched capacity) [masked greedy],74.4344511900039,217113,0.0,lookup table,0.14063989999704063,,76.9970703125,0.0
+AW categorical imitation [masked greedy],146.4159043200023,235729,0.0,lookup table,0.14063989999704063,,77.0673828125,0.0
+AW categorical imitation [critic B + tabular CQL] [masked greedy],726.7334164300061,531513,0.0,lookup table,0.14063989999704063,,103.1201171875,0.0
+Diffusion-AM-CQL [primary critic B],747.8518323999946,556409,0.5723978900059592,lookup table,0.14063989999704063,28.272999974433333,103.1201171875,68.2830810546875

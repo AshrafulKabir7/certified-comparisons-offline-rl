@@ -1,0 +1,14 @@
+\begin{tabular}{lrrrrrrrr}
+\toprule
+ & \multicolumn{5}{c}{benchmark of draw 0} & \multicolumn{3}{c}{true value (30 draws)} \\
+\cmidrule(lr){2-6}\cmidrule(lr){7-9}
+Cell & live & mean $|\M|$ & $|\M|{=}1$ & opt.\ $\in\M$ & $V_{\mathrm{unsupp}}$ & $\pibhat$ & proj.\ IQL & $J^*_{\M}$ \\
+\midrule
+Gumbel, confounded physician & 189 & 1.30 & 94.7 & 95.8 & 0.0345 & 0.3239 & 0.3963 & 0.4112 \\
+Gumbel, withhold-abx physician & 180 & 1.12 & 98.3 & 16.7 & 0.4993 & $-$0.2579 & $-$0.2099 & $-$0.0665 \\
+Gumbel, aggregated (diabetes hidden) & 133 & 1.37 & 90.2 & 94.6 & 0.0003 & 0.3208 & 0.4008 & 0.4359 \\
+Gumbel, aggregated (projected) & 53 & 1.94 & 71.7 & 94.9 & 0.0010 & 0.0908 & $-$0.0057 & 0.4361 \\
+Garnet, random rows, $\epsilon{=}0.05$ & 150 & 3.00 & 22.7 & -- & 0.0209 & 0.8298 & 0.8642 & 0.9202 \\
+Garnet, random rows, $\epsilon{=}0.3$ & 150 & 7.59 & 0 & -- & 0.0014 & 0.7353 & 0.8603 & 0.9429 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,50 @@
+{
+  "regularizer_unit_tests": {
+    "batch_rows": 8,
+    "admissible_logged_rows": 4,
+    "legacy_excluded_logged_action_derivative": -0.125,
+    "passed": true
+  },
+  "initialisation": {
+    "twin_critic": {
+      "same_after_other_seeds_and_draws": true,
+      "same_in_reverse_order": true,
+      "different_seed_differs": true
+    },
+    "denoiser": {
+      "same_after_other_seeds_and_draws": true,
+      "same_in_reverse_order": true,
+      "different_seed_differs": true
+    },
+    "policy_net": {
+      "same_after_other_seeds_and_draws": true,
+      "same_in_reverse_order": true,
+      "different_seed_differs": true
+    }
+  },
+  "critic_training": {
+    "max_abs_diff_rerun_after_unrelated_draws_and_other_seed": 0.0,
+    "max_abs_diff_resumed_vs_uninterrupted": 0.0,
+    "resumed_flag": true,
+    "soft_max_abs_q_diff_resumed_vs_uninterrupted": 0.0,
+    "soft_abs_lambda_diff_resumed_vs_uninterrupted": 0.0,
+    "soft_resumed_flag": true,
+    "passes_declared_tolerance": true
+  },
+  "diffusion_training": {
+    "max_abs_param_diff_rerun": 0.0,
+    "max_abs_param_diff_resumed": 0.0,
+    "passes_declared_tolerance": true
+  },
+  "cache_invalidation": {
+    "identity_changes_with_dataset": true,
+    "identity_changes_with_objective": true,
+    "identity_changes_with_run_mode": true,
+    "identity_changes_with_code_hash_value": true,
+    "identity_changes_with_seed": true,
+    "identity_changes_with_actual_class_code_edit": true,
+    "foreign_identity_checkpoint_rejected": true
+  },
+  "hardware_tolerance": 0.0001,
+  "device": "cuda"
+}

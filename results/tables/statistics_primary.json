@@ -1,0 +1,93 @@
+{
+  "prereg_hash": "68724ea59579d58bdf32d2512ed019c4fc2d48593386aa8f6988352d1c1d56b5",
+  "prereg": {
+    "status": "DRAFT - lock (set status to LOCKED with a date) before the confirmatory Phase-4 run",
+    "primary_question": "Does critic-guided categorical diffusion improve exact return over the mean-equivalent admissible projection of tabular IQL when both use the same released benchmark-support mask?",
+    "primary_treatment": "Diffusion-AM-CQL [primary critic B]",
+    "primary_comparator": "Tabular IQL [projected]",
+    "primary_endpoint": {
+      "metric": "return",
+      "rule": "terminate"
+    },
+    "alternative": "two-sided",
+    "alpha": 0.05,
+    "practical_effect": 0.005,
+    "equivalence_margin": 0.005,
+    "primary_hard_critic": "hard_admrows",
+    "secondary_comparators": [
+      "Tabular IQL [masked greedy]",
+      "Behavior Cloning [masked greedy]",
+      "Tabular CQL [masked greedy]",
+      "Masked critic ensemble [critic B + tabular CQL]",
+      "Neural BC prior x critic [critic B + tabular CQL]",
+      "AM-CQL (Hard, design B: admissible-row CQL)",
+      "AM-CQL (Hard, design A: full-action CQL)",
+      "Deep CQL [masked greedy]",
+      "Diffusion-AM-CQL [legacy critic]"
+    ],
+    "secondary_rules": [
+      "mean",
+      "terminate"
+    ],
+    "multiplicity": "Holm over the distinct hypotheses of the secondary family (comparator x rule). When the treatment and a comparator both have zero inadmissible mass, their mean- and terminate-rule returns coincide by construction, so that comparison is counted once.",
+    "experimental_unit_main": "training seed, conditional on one frozen dataset; 10 seeds [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] (compute profile 'full', run mode 'paper'; the full paper profile uses seeds 0-9, so the smallest two-sided exact sign-flip p is 2/2^10)",
+    "experimental_unit_hierarchical": "dataset-generation seed, training seeds nested within dataset; 8 datasets [2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033] x 2 training seeds [0, 1] (full profile: 8 x 2, smallest dataset-level two-sided p 2/2^8)",
+    "selection": "Main-study configurations are fixed a priori (Table 3 settings). Inference sweeps are exploratory and never replace the declared configuration."
+  },
+  "primary": {
+    "treatment": "Diffusion-AM-CQL [primary critic B]",
+    "comparator": "Tabular IQL [projected]",
+    "rule": "terminate",
+    "metric": "return",
+    "alternative": "two-sided",
+    "treatment_mask_source": "released benchmark mask",
+    "treatment_mask_use": "inference (every reverse step)",
+    "comparator_mask_source": "released benchmark mask",
+    "comparator_mask_use": "projection",
+    "signflip_confidence_unbounded": false,
+    "n_pairs": 10,
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "mean_difference": -0.0062919902208735225,
+    "sd_difference": 0.0025122450101802423,
+    "bootstrap_ci_low": -0.00782766239257847,
+    "bootstrap_ci_high": -0.004903886389550693,
+    "bootstrap_fragile_small_n": false,
+    "signflip_confidence_low": -0.008139985851084523,
+    "signflip_confidence_high": -0.004564835356319186,
+    "p_value": 0.001953125,
+    "test_method": "exact enumeration",
+    "min_attainable_p": 0.001953125,
+    "rejection_attainable_at_alpha": true,
+    "tost_p": 0.935546875,
+    "equivalence_margin": 0.005,
+    "prob_improvement": 0.0
+  },
+  "family_attainability": {
+    "family_size": 9,
+    "pairs_needed_for_first_holm_rejection": 9,
+    "pairs_available": 10,
+    "rule_collapsed_comparators": [
+      "Tabular IQL [masked greedy]",
+      "Behavior Cloning [masked greedy]",
+      "Tabular CQL [masked greedy]",
+      "Masked critic ensemble [critic B + tabular CQL]",
+      "Neural BC prior x critic [critic B + tabular CQL]",
+      "AM-CQL (Hard, design B: admissible-row CQL)",
+      "AM-CQL (Hard, design A: full-action CQL)",
+      "Deep CQL [masked greedy]",
+      "Diffusion-AM-CQL [legacy critic]"
+    ]
+  },
+  "hierarchical_available": true
+}

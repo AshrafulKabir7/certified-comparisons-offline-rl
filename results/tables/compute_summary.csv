@@ -1,0 +1,133 @@
+level,session_start,section,part,gpu,compute_profile,cells,failed_cells,cells_without_timing,elapsed_s,elapsed_h
+session x section,2026-11-05T20:35:28+00:00,startup,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,1,0.0,0.0
+session x section,2026-11-05T20:35:28+00:00,2. Provenance utilities,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.010908399999607354,3.030111111002043e-06
+session x section,2026-11-05T20:35:28+00:00,3. Benchmark adapter,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1.289012199966237,0.0003580589444350658
+session x section,2026-11-05T20:35:28+00:00,4. Benchmark audit and provenance,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1.401698799978476,0.0003893607777717989
+session x section,2026-11-05T20:35:28+00:00,5. Offline dataset,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,8.341646099986974,0.0023171239166630483
+session x section,2026-11-05T20:35:28+00:00,6. EDA,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,10.016794499999378,0.002782442916666494
+session x section,2026-11-05T20:35:28+00:00,7. Shared utilities,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.053611100011039525,1.4891972225288757e-05
+session x section,2026-11-05T20:35:28+00:00,8. Exact evaluator,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.31195419997675344,8.665394443798707e-05
+session x section,2026-11-05T20:35:28+00:00,9. Tabular learners,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.009240899991709739,2.5669166643638166e-06
+session x section,2026-11-05T20:35:28+00:00,10. Neural critics,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.019751100044231862,5.486416678953295e-06
+session x section,2026-11-05T20:35:28+00:00,11. Direct categorical policies,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.006038399995304644,1.6773333320290679e-06
+session x section,2026-11-05T20:35:28+00:00,12. Categorical diffusion,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.013841999985743314,3.84499999603981e-06
+session x section,2026-11-05T20:35:28+00:00,13. Reproducibility tests,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,30.075586599996313,0.008354329611110087
+session x section,2026-11-05T20:35:28+00:00,14. Reference policies,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,9.38701140001649,0.0026075031666712473
+session x section,2026-11-05T20:35:28+00:00,15. Main study: tabular,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1780.560447499971,0.49460012430554745
+session x section,2026-11-05T20:35:28+00:00,16. Main study: neural critics,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,26029.817373699974,7.2305048260277704
+session x section,2026-11-05T20:35:28+00:00,17. Main study: direct categorical policies,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,2316.996084499988,0.6436100234722189
+session x section,2026-11-05T20:35:28+00:00,18. Main study: diffusion,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1051.7596992999897,0.2921554720277749
+session x section,2026-11-05T20:35:28+00:00,19. Projection controls,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,6.657337600016035,0.0018492604444488986
+session x section,2026-11-05T20:35:28+00:00,20. Exact evaluation,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,895.5220275999745,0.2487561187777707
+session x section,2026-11-05T20:35:28+00:00,21. Legacy artifact replay,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,82.26419049996184,0.022851164027767178
+session x section,2026-11-05T20:35:28+00:00,22. Inference ablations and M06,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,607.2577900000033,0.16868271944444535
+session x section,2026-11-05T20:35:28+00:00,23. Critic stability ablations (C02),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,18389.7193464,5.1082553740000005
+session x section,2026-11-05T20:35:28+00:00,24. Soft constraint analysis (M05),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,4774.793714299973,1.326331587305548
+session x section,2026-11-05T20:35:28+00:00,25. Support estimation (M02),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,237.5736316999537,0.06599267547220936
+session x section,2026-11-05T20:35:28+00:00,26. Selection protocol (M04),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,579.6207298000227,0.16100575827778407
+session x section,2026-11-05T20:35:28+00:00,27. Replication and data regimes (M03/M07),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,15689.370004400029,4.358158334555563
+session x section,2026-11-05T20:35:28+00:00,28. Stress tests and subgroups (M07),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,3268.5534600000246,0.9079315166666735
+session x section,2026-11-05T20:35:28+00:00,29. Representation ablation (M08),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,4635.277215000009,1.2875770041666692
+session x section,2026-11-05T20:35:28+00:00,30. Statistics (M03),Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1.7946014999761246,0.0004985004166600346
+session x section,2026-11-05T20:35:28+00:00,31. Figures,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,7.592455699981656,0.0021090154722171266
+session x section,2026-11-05T20:35:28+00:00,II.1 Cross-environment setup,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.009641000011470169,2.6780555587417135e-06
+session x section,2026-11-05T20:35:28+00:00,II.2 Cross-environment core,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.019778600020799786,5.494055561333274e-06
+session x section,2026-11-05T20:35:28+00:00,II.3 Environments and benchmark construction,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,11.070300999970641,0.0030750836111029557
+session x section,2026-11-05T20:35:28+00:00,II.3b Gumbel-max simulator,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,42.149796599987894,0.011708276833329971
+session x section,2026-11-05T20:35:28+00:00,II.3c Garnet family,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.003683699993416667,1.0232499981712964e-06
+session x section,2026-11-05T20:35:28+00:00,II.3d Benchmark construction and cells,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,51.15617179998662,0.014210047722218507
+session x section,2026-11-05T20:35:28+00:00,II.4 Method suite,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,3,0,0,1.010118699981831,0.00028058852777273086
+session x section,2026-11-05T20:35:28+00:00,II.5 Propositions and exact frontiers,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,4,0,0,1010.0055393999792,0.280557094277772
+session x section,2026-11-05T20:35:28+00:00,II.6 Cross-environment driver,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.045677300018724054,1.2688138894090015e-05
+session x section,2026-11-05T20:35:28+00:00,II.6 Driver: all cells and draws,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,30111.525546299992,8.364312651749998
+session x section,2026-11-05T20:35:28+00:00,II.6 Exact-tabular cross-check,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,133.24621899996419,0.03701283861110116
+session x section,2026-11-05T20:35:28+00:00,II.7 Cross-environment statistics,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,2,0,0,107.60934050002834,0.029891483472230095
+session x section,2026-11-05T20:35:28+00:00,II.8 Revision experiments: environments and cells,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,5,0,0,28.22757379995892,0.00784099272221081
+session x section,2026-11-05T20:35:28+00:00,II.8 Revision experiments: driver,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,7835.484852200025,2.1765235700555623
+session x section,2026-11-05T20:35:28+00:00,II.8 Revision experiments: bootstrap intervals,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,2692.9031140000443,0.7480286427777901
+session x section,2026-11-05T20:35:28+00:00,II.8 Revision experiments: ICU-Sepsis harm curves,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,703.1048332999926,0.19530689813888683
+session x section,2026-11-05T20:35:28+00:00,II.8 Revision analyses,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,4.00982480001403,0.0011138402222261195
+session x section,2026-11-05T20:35:28+00:00,II.9 Second-revision experiments: setup,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.017634299991186708,4.89841666421853e-06
+session x section,2026-11-05T20:35:28+00:00,II.9 Second-revision experiments: robustness of certified comparisons,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,16.624672100006137,0.004617964472223927
+session x section,2026-11-05T20:35:28+00:00,II.9c Confidence-set certificates: definitions,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.0301208000164479,8.36688889345775e-06
+session x section,2026-11-05T20:35:28+00:00,II.9c Confidence-set certificates: run,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,2678.3817251000437,0.7439949236389011
+session x section,2026-11-05T20:35:28+00:00,II.9 Second-revision experiments: bootstrap with re-estimated construction,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.02956390002509579,8.212194451415497e-06
+session x section,2026-11-05T20:35:28+00:00,II.9 Second-revision experiments: bootstrap analyses,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.2233558000298217,6.204327778606158e-05
+session x section,2026-11-05T20:35:28+00:00,II.9e Sensitivity cells: definitions and self-test,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,2.907028099987656,0.0008075078055521266
+session x section,2026-11-05T20:35:28+00:00,II.9e Sensitivity cells: run and analyses,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,50048.33467239997,13.90231518677777
+session x section,2026-11-05T20:35:28+00:00,II.9f Lift sensitivity,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.028055200004018843,7.793111112227456e-06
+session x section,2026-11-05T20:35:28+00:00,II.9 Second-revision experiments: clean rerun,Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,0.023336500045843422,6.482361123845395e-06
+session x section,2026-11-05T20:35:28+00:00,"II.9h Second-revision experiments: overview, checks and figures",Part II,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1.024236899917014,0.0002845102499769483
+session x section,2026-11-05T20:35:28+00:00,32. Artifact replay,Part I,NVIDIA GeForce RTX 4070 Ti SUPER,full,1,0,0,1009.4451461000135,0.28040142947222596
+section,,startup,Part I,,,1,0,1,0.0,0.0
+section,,2. Provenance utilities,Part I,,,1,0,0,0.010908399999607354,3.030111111002043e-06
+section,,3. Benchmark adapter,Part I,,,1,0,0,1.289012199966237,0.0003580589444350658
+section,,4. Benchmark audit and provenance,Part I,,,1,0,0,1.401698799978476,0.0003893607777717989
+section,,5. Offline dataset,Part I,,,1,0,0,8.341646099986974,0.0023171239166630483
+section,,6. EDA,Part I,,,1,0,0,10.016794499999378,0.002782442916666494
+section,,7. Shared utilities,Part I,,,1,0,0,0.053611100011039525,1.4891972225288757e-05
+section,,8. Exact evaluator,Part I,,,1,0,0,0.31195419997675344,8.665394443798707e-05
+section,,9. Tabular learners,Part I,,,1,0,0,0.009240899991709739,2.5669166643638166e-06
+section,,10. Neural critics,Part I,,,1,0,0,0.019751100044231862,5.486416678953295e-06
+section,,11. Direct categorical policies,Part I,,,1,0,0,0.006038399995304644,1.6773333320290679e-06
+section,,12. Categorical diffusion,Part I,,,1,0,0,0.013841999985743314,3.84499999603981e-06
+section,,13. Reproducibility tests,Part I,,,1,0,0,30.075586599996313,0.008354329611110087
+section,,14. Reference policies,Part I,,,1,0,0,9.38701140001649,0.0026075031666712473
+section,,15. Main study: tabular,Part I,,,1,0,0,1780.560447499971,0.49460012430554745
+section,,16. Main study: neural critics,Part I,,,1,0,0,26029.817373699974,7.2305048260277704
+section,,17. Main study: direct categorical policies,Part I,,,1,0,0,2316.996084499988,0.6436100234722189
+section,,18. Main study: diffusion,Part I,,,1,0,0,1051.7596992999897,0.2921554720277749
+section,,19. Projection controls,Part I,,,1,0,0,6.657337600016035,0.0018492604444488986
+section,,20. Exact evaluation,Part I,,,1,0,0,895.5220275999745,0.2487561187777707
+section,,21. Legacy artifact replay,Part I,,,1,0,0,82.26419049996184,0.022851164027767178
+section,,22. Inference ablations and M06,Part I,,,1,0,0,607.2577900000033,0.16868271944444535
+section,,23. Critic stability ablations (C02),Part I,,,1,0,0,18389.7193464,5.1082553740000005
+section,,24. Soft constraint analysis (M05),Part I,,,1,0,0,4774.793714299973,1.326331587305548
+section,,25. Support estimation (M02),Part I,,,1,0,0,237.5736316999537,0.06599267547220936
+section,,26. Selection protocol (M04),Part I,,,1,0,0,579.6207298000227,0.16100575827778407
+section,,27. Replication and data regimes (M03/M07),Part I,,,1,0,0,15689.370004400029,4.358158334555563
+section,,28. Stress tests and subgroups (M07),Part I,,,1,0,0,3268.5534600000246,0.9079315166666735
+section,,29. Representation ablation (M08),Part I,,,1,0,0,4635.277215000009,1.2875770041666692
+section,,30. Statistics (M03),Part I,,,1,0,0,1.7946014999761246,0.0004985004166600346
+section,,31. Figures,Part I,,,1,0,0,7.592455699981656,0.0021090154722171266
+section,,II.1 Cross-environment setup,Part II,,,1,0,0,0.009641000011470169,2.6780555587417135e-06
+section,,II.2 Cross-environment core,Part II,,,1,0,0,0.019778600020799786,5.494055561333274e-06
+section,,II.3 Environments and benchmark construction,Part II,,,1,0,0,11.070300999970641,0.0030750836111029557
+section,,II.3b Gumbel-max simulator,Part II,,,1,0,0,42.149796599987894,0.011708276833329971
+section,,II.3c Garnet family,Part II,,,1,0,0,0.003683699993416667,1.0232499981712964e-06
+section,,II.3d Benchmark construction and cells,Part II,,,1,0,0,51.15617179998662,0.014210047722218507
+section,,II.4 Method suite,Part II,,,3,0,0,1.010118699981831,0.00028058852777273086
+section,,II.5 Propositions and exact frontiers,Part II,,,4,0,0,1010.0055393999792,0.280557094277772
+section,,II.6 Cross-environment driver,Part II,,,1,0,0,0.045677300018724054,1.2688138894090015e-05
+section,,II.6 Driver: all cells and draws,Part II,,,1,0,0,30111.525546299992,8.364312651749998
+section,,II.6 Exact-tabular cross-check,Part II,,,1,0,0,133.24621899996419,0.03701283861110116
+section,,II.7 Cross-environment statistics,Part II,,,2,0,0,107.60934050002834,0.029891483472230095
+section,,II.8 Revision experiments: environments and cells,Part II,,,5,0,0,28.22757379995892,0.00784099272221081
+section,,II.8 Revision experiments: driver,Part II,,,1,0,0,7835.484852200025,2.1765235700555623
+section,,II.8 Revision experiments: bootstrap intervals,Part II,,,1,0,0,2692.9031140000443,0.7480286427777901
+section,,II.8 Revision experiments: ICU-Sepsis harm curves,Part II,,,1,0,0,703.1048332999926,0.19530689813888683
+section,,II.8 Revision analyses,Part II,,,1,0,0,4.00982480001403,0.0011138402222261195
+section,,II.9 Second-revision experiments: setup,Part II,,,1,0,0,0.017634299991186708,4.89841666421853e-06
+section,,II.9 Second-revision experiments: robustness of certified comparisons,Part II,,,1,0,0,16.624672100006137,0.004617964472223927
+section,,II.9c Confidence-set certificates: definitions,Part II,,,1,0,0,0.0301208000164479,8.36688889345775e-06
+section,,II.9c Confidence-set certificates: run,Part II,,,1,0,0,2678.3817251000437,0.7439949236389011
+section,,II.9 Second-revision experiments: bootstrap with re-estimated construction,Part II,,,1,0,0,0.02956390002509579,8.212194451415497e-06
+section,,II.9 Second-revision experiments: bootstrap analyses,Part II,,,1,0,0,0.2233558000298217,6.204327778606158e-05
+section,,II.9e Sensitivity cells: definitions and self-test,Part II,,,1,0,0,2.907028099987656,0.0008075078055521266
+section,,II.9e Sensitivity cells: run and analyses,Part II,,,1,0,0,50048.33467239997,13.90231518677777
+section,,II.9f Lift sensitivity,Part II,,,1,0,0,0.028055200004018843,7.793111112227456e-06
+section,,II.9 Second-revision experiments: clean rerun,Part II,,,1,0,0,0.023336500045843422,6.482361123845395e-06
+section,,"II.9h Second-revision experiments: overview, checks and figures",Part II,,,1,0,0,1.024236899917014,0.0002845102499769483
+section,,32. Artifact replay,Part I,,,1,0,0,1009.4451461000135,0.28040142947222596
+session,2026-11-05T20:35:28+00:00,,,NVIDIA GeForce RTX 4070 Ti SUPER,full,70,0,1,176904.71876439982,49.140199656777725
+part,,,Part I,,,32,0,1,81425.51235129981,22.61819787536106
+part,,,Part II,,,38,0,0,95479.20641310001,26.52200178141667
+total,,,,NVIDIA GeForce RTX 4070 Ti SUPER,,70,0,1,176904.71876439982,49.140199656777725
+part II draws,,,Part II,,,500,0,0,29981.399043499958,8.32816640097221
+part II v3 draws,,,Part II,,,180,0,0,7790.417939299659,2.164004983138794
+part II v3 bootstrap draws,,,Part II,,,210,0,0,2641.380438799737,0.7337167885554825
+part II v4 confidence-set draws,,,Part II,,,210,0,0,2627.6112837996916,0.7298920232776921
+part II v4 bootstrap draws,,,Part II,,,0,0,0,0.0,0.0
+part II v4 sensitivity draws,,,Part II,,,510,0,0,49898.632623599784,13.860731284333273
+part II v4 lift draws,,,Part II,,,0,0,0,0.0,0.0
+part II v4 clean-rerun draws,,,Part II,,,0,0,0,0.0,0.0

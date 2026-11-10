@@ -1,0 +1,4 @@
+policy,measured_return,reference_return_rounded,measured_length,reference_length_rounded,condition_number
+Random (uniform over 25),0.7800709046121405,0.78,9.462296045075522,9.45,14.384816136930063
+Clinician,0.7818448902556913,0.78,9.23794970482735,9.22,14.094836888965752
+Optimal Oracle (mean-optimal),0.8751416996099325,0.88,10.991744000676922,10.99,18.708508205784224

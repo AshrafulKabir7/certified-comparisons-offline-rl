@@ -1,0 +1,21 @@
+metric,value
+Transitions,93563.0
+Episodes,10000.0
+Mean episode length,9.3563
+Median episode length,6.0
+Maximum episode length,81.0
+Survival episodes,7916.0
+Death episodes,2084.0
+s_inf terminal episodes,0.0
+Censored episodes (cutoff or time limit),0.0
+Observed live states,713.0
+Live-state coverage (%),100.0
+Unique observed state-action pairs (all),6738.0
+Observed admissible pairs,2238.0
+Observed inadmissible pairs,4500.0
+Admissible pairs (released mask),2238.0
+Admissible-pair coverage (%),100.0
+Median logged count per admissible pair,27.0
+Admissible pairs with < 21 logged transitions,874.0
+Logged inadmissible transitions,11106.0
+Logged inadmissible fraction (%),11.870076846616719

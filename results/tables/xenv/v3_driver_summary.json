@@ -1,0 +1,56 @@
+{
+  "status": "run",
+  "code_hash": "7d1999de9fa3ea966bfd5e6eeb20c8934842631ca6fa5cf6dd35c9cd598ed95b",
+  "cells": 6,
+  "draws": 180,
+  "draws_computed": 180,
+  "draws_loaded": 0,
+  "elapsed_s": 7832.486153899983,
+  "rows": 107940,
+  "cell_draws": 180,
+  "policies_per_family": {
+    "garnet": 110,
+    "gumbel": 110
+  },
+  "improper_rows": 1291,
+  "improper_by_family_target": {
+    "garnet|fqe_dev": 415,
+    "gumbel|fqe_dev": 876
+  },
+  "reference_solver_counts": {
+    "vi": 1560
+  },
+  "normalisation_denominator_below_1e-9": 0,
+  "normalisation_denominator_missing": 0,
+  "draws_per_cell": {
+    "gumbel|best|n10000|tau20|eps0.05|phys-confounded": {
+      "draws": 30,
+      "configured_draws": 30
+    },
+    "gumbel|best|n10000|tau20|eps0.05|phys-withhold-abx": {
+      "draws": 30,
+      "configured_draws": 30
+    },
+    "gumbel|agg-obs|n10000|tau20|eps0.05": {
+      "draws": 30,
+      "configured_draws": 30
+    },
+    "gumbel|agg-proj|n10000|tau20|eps0.05": {
+      "draws": 30,
+      "configured_draws": 30
+    },
+    "garnet|hrand|eps0.05": {
+      "draws": 30,
+      "configured_draws": 30
+    },
+    "garnet|hrand|eps0.3": {
+      "draws": 30,
+      "configured_draws": 30
+    }
+  },
+  "draws_complete": true,
+  "max_max_slack_vs_optimum": 6.938893903907228e-17,
+  "max_max_slack_vs_admissible_optimum": 4.163336342344337e-17,
+  "max_projection_identity_worst": 1.3211193108899268e-15,
+  "nonconverged_records": 0
+}

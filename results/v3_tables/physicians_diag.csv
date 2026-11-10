@@ -1,0 +1,5 @@
+kind,eps,value_true,value_deterministic_core,optimum_value,disagree_live_fraction,disagree_occupancy_weighted,disagree_diabetic_live_fraction,disagree_nondiabetic_live_fraction,antibiotic_share_live,ventilation_share_live,vasopressor_share_live
+optimal,0.05,0.3581,0.4365,0.4365,0.0,0.0,0.0,0.0,0.8762,0.9653,0.264
+withhold-vaso,0.05,0.1595,0.2336,0.4365,0.2657,0.3314,0.2112,0.3201,0.901,0.967,0.0
+confounded,0.05,0.3301,0.3998,0.4365,0.0677,0.0504,0.1353,0.0,0.8647,0.9769,0.3168
+withhold-abx,0.05,-0.2346,-0.2014,0.4365,0.8795,0.7277,0.8944,0.8647,0.0,0.9076,0.297

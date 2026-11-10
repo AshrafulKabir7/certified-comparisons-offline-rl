@@ -1,0 +1,37 @@
+{
+  "spec": {
+    "n_episodes": 1000,
+    "seed": 632856700,
+    "max_steps": 100,
+    "behavior": "clinician",
+    "strategy": "mean",
+    "env_id": "Sepsis/ICU-Sepsis-v2",
+    "benchmark": {
+      "env_id": "Sepsis/ICU-Sepsis-v2",
+      "icu_sepsis": "2.0.1",
+      "assets_hash": "c65cfbb32db1356a5dbc0e12045328cf42eadd3973c7f637144d58789c24c9cd"
+    },
+    "generator_code": "3d0abe0d6dae0f2d43c3154b04573dd9d649b660537516fb10ce86b4b68c4e77"
+  },
+  "spec_hash": "6a2526b5598dd90f61557c14eb099c445953ab732d1c8b5f22163d01cbe9ac49",
+  "content_sha256": "2f54a95066dcbeffa88a995777aaf7e4e6ef46d33cf07ebb33b1e89cff6daa7a",
+  "file": "offline_clinician_1000eps_seed632856700_max100_6a2526b559.npz",
+  "created_utc": "2026-11-06T15:56:41+00:00",
+  "report": {
+    "transitions": 8881,
+    "episodes": 1000,
+    "terminated_episodes": 1000,
+    "survival_episodes": 794,
+    "death_episodes": 206,
+    "s_inf_episodes": 0,
+    "truncated_episodes": 0,
+    "cutoff_episodes": 0,
+    "censored_episodes": 0,
+    "mean_length": 8.881,
+    "median_length": 6.0,
+    "max_length": 67,
+    "inadmissible_logged_transitions": 1169,
+    "inadmissible_logged_fraction": 0.13162932102240738
+  },
+  "file_sha256": "99556aeafae79a493aadc23ab320b289b5c5f60e517038d04a5f7eee220fe636"
+}

@@ -1,0 +1,25 @@
+{
+  "dev_episodes": 2000,
+  "train_episodes": 8000,
+  "normalizer_fit_on": "training episodes only",
+  "normalizer_hash": "85b052bd3ac2b2eadb0cc5e82e49c8a5bbb9b767b13b9bc7116649cba61f9e71",
+  "fqe": "tabular empirical-model evaluation on dev episodes; (s,a) unseen in dev use training-split counts, else the state's pooled dev distribution; states unseen in both are absorbing-death rows",
+  "fqe_model_rows": {
+    "rows_from_dev": 3801,
+    "rows_from_train": 2937,
+    "rows_state_pooled": 11087,
+    "states_unobserved": 0
+  },
+  "n_candidate_evaluations_improper_in_fqe_model": 54,
+  "note": "the training-only normaliser fit is recorded for protocol completeness; tabular candidates do not use features",
+  "stages": [
+    "episode split (seeded, 80/20, complete episodes)",
+    "normaliser fit on training episodes",
+    "train 3 configurations per tabular family on the training split (equal budget)",
+    "tabular FQE on dev episodes selects one configuration + extraction per family",
+    "lock the selected configuration",
+    "retrain on fresh dataset seed 3030 and evaluate exactly (untouched)"
+  ],
+  "endpoint_rule": "terminate",
+  "fresh_dataset": "offline_clinician_10000eps_seed3030_max100_1586804e63.npz"
+}

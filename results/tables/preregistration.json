@@ -1,0 +1,34 @@
+{
+  "status": "DRAFT - lock (set status to LOCKED with a date) before the confirmatory Phase-4 run",
+  "primary_question": "Does critic-guided categorical diffusion improve exact return over the mean-equivalent admissible projection of tabular IQL when both use the same released benchmark-support mask?",
+  "primary_treatment": "Diffusion-AM-CQL [primary critic B]",
+  "primary_comparator": "Tabular IQL [projected]",
+  "primary_endpoint": {
+    "metric": "return",
+    "rule": "terminate"
+  },
+  "alternative": "two-sided",
+  "alpha": 0.05,
+  "practical_effect": 0.005,
+  "equivalence_margin": 0.005,
+  "primary_hard_critic": "hard_admrows",
+  "secondary_comparators": [
+    "Tabular IQL [masked greedy]",
+    "Behavior Cloning [masked greedy]",
+    "Tabular CQL [masked greedy]",
+    "Masked critic ensemble [critic B + tabular CQL]",
+    "Neural BC prior x critic [critic B + tabular CQL]",
+    "AM-CQL (Hard, design B: admissible-row CQL)",
+    "AM-CQL (Hard, design A: full-action CQL)",
+    "Deep CQL [masked greedy]",
+    "Diffusion-AM-CQL [legacy critic]"
+  ],
+  "secondary_rules": [
+    "mean",
+    "terminate"
+  ],
+  "multiplicity": "Holm over the distinct hypotheses of the secondary family (comparator x rule). When the treatment and a comparator both have zero inadmissible mass, their mean- and terminate-rule returns coincide by construction, so that comparison is counted once.",
+  "experimental_unit_main": "training seed, conditional on one frozen dataset; 10 seeds [0, 1, 2, 3, 4, 5, 6, 7, 8, 9] (compute profile 'full', run mode 'paper'; the full paper profile uses seeds 0-9, so the smallest two-sided exact sign-flip p is 2/2^10)",
+  "experimental_unit_hierarchical": "dataset-generation seed, training seeds nested within dataset; 8 datasets [2026, 2027, 2028, 2029, 2030, 2031, 2032, 2033] x 2 training seeds [0, 1] (full profile: 8 x 2, smallest dataset-level two-sided p 2/2^8)",
+  "selection": "Main-study configurations are fixed a priori (Table 3 settings). Inference sweeps are exploratory and never replace the declared configuration."
+}

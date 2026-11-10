@@ -1,0 +1,7 @@
+quantity,regenerated,manuscript_or_original,difference
+logged_transitions,93563.0,93563.0,0.0
+episodes,10000.0,10000.0,0.0
+total_unique_observed_pairs,6738.0,6738.0,0.0
+admissible_pairs,2238.0,2238.0,0.0
+inadmissible_logged_transitions,11106.0,11106.0,0.0
+admissible_pair_coverage,1.0,1.0,0.0

@@ -1,0 +1,48 @@
+{
+  "reference": {
+    "repository": "icu-sepsis/icu-sepsis",
+    "commit": "c9a6d19b85d34883304afaf7cbe1ff02ede9e12b",
+    "path": "packages/icu_sepsis_helpers/icu_sepsis_helpers/mdp_creation",
+    "sha256": {
+      "create_rl_table.py": "7f3c83b4845cec29dcc123d4cc8321223283a8827449b6e894357cc6aebea305",
+      "create_matrices.py": "cb4db6738c70a245cbffe90cc792be0e03d89ca8954be0442ad2a5083564d4cd",
+      "parse_matrices.py": "6bd716ab2bf502656d85c8292588f4e7999dde69fe3fbce3f2baf1ecb75f8a73"
+    },
+    "note": "The helper package is not shipped in the icu-sepsis 2.0.1 wheel. The commit is the repository HEAD at audit time (2024-10-23); confirm it corresponds to the released 2.0.1 assets."
+  },
+  "source": "fetched at runtime from the pinned commit",
+  "checks": {
+    "feature_lists_match_embedded": true,
+    "threshold_rule_count_le_threshold_removed": true,
+    "fluid_level_from_input_4hourly": true,
+    "vaso_level_from_max_dose_vaso": true,
+    "action_is_fluid_major": true,
+    "states_clustered_on_all_47_features": true,
+    "uniform_unweighted_mapping_implemented": true,
+    "readmission_plus_0.6_quirk": true,
+    "input_4hourly_times_2_quirk": true
+  },
+  "fetched_sha256": {
+    "create_rl_table.py": "7f3c83b4845cec29dcc123d4cc8321223283a8827449b6e894357cc6aebea305",
+    "create_matrices.py": "cb4db6738c70a245cbffe90cc792be0e03d89ca8954be0442ad2a5083564d4cd",
+    "parse_matrices.py": "6bd716ab2bf502656d85c8292588f4e7999dde69fe3fbce3f2baf1ecb75f8a73"
+  },
+  "sha256_matches_reference": {
+    "create_rl_table.py": true,
+    "create_matrices.py": true,
+    "parse_matrices.py": true
+  },
+  "embedded_facts": {
+    "threshold_rule_in_code": "s_a_mat <= transition_threshold  -> zeroed (admissible iff count > threshold)",
+    "action_definition": "action = n_action_levels * level(input_4hourly) + level(max_dose_vaso)",
+    "treatment_columns_are_clustering_features": true,
+    "inadmissible_row_method": "uniform_unweighted (mean of admissible rows)",
+    "feature_transforms": "binary: x-0.5; normal: z-score; log: z-score(log(x+0.1))",
+    "construction_quirks": [
+      "all_cols[3] ('re_admission') receives +0.6 after normalisation (code comment says 'max dose?')",
+      "all_cols[44] ('input_4hourly') is multiplied by 2 after normalisation ('increase weight')"
+    ]
+  },
+  "metadata_threshold": 20,
+  "metadata_action_map_method": "uniform_unweighted"
+}

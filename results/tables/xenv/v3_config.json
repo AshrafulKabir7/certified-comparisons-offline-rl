@@ -1,0 +1,38 @@
+{
+  "physician_cells": [
+    [
+      "best",
+      10000,
+      20,
+      0.05,
+      "confounded"
+    ],
+    [
+      "best",
+      10000,
+      20,
+      0.05,
+      "withhold-abx"
+    ]
+  ],
+  "aggregated_cells": [
+    [
+      "agg-obs",
+      10000,
+      20,
+      0.05,
+      "optimal"
+    ],
+    [
+      "agg-proj",
+      10000,
+      20,
+      0.05,
+      "optimal"
+    ]
+  ],
+  "garnet_random_eps": [
+    0.05,
+    0.3
+  ]
+}

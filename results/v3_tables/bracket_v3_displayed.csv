@@ -1,0 +1,10 @@
+cell,sem_n_violating,sem_lower_violations,sem_upper_coverage_violating,bench_n_violating,bench_coverage_violating
+gumbel|best|n10000|tau20|eps0.05|phys-confounded,665.0,0.0,0.9639,665,0.803
+gumbel|best|n10000|tau20|eps0.05|phys-withhold...,730.0,0.0,0.9753,730,0.7384
+gumbel|agg-obs|n10000|tau20|eps0.05,,,,608,0.7632
+gumbel|agg-proj|n10000|tau20|eps0.05,,,,557,0.2334
+garnet|hrand|eps0.05,651.0,0.0,0.977,651,0.8618
+garnet|hrand|eps0.3,525.0,0.0,0.8476,525,0.4762
+pooled:physician,1395.0,0.0,0.9699,1395,0.7692
+pooled:aggregated,,,,1165,0.5099
+pooled:garnet-random,1176.0,0.0,0.9192,1176,0.6896

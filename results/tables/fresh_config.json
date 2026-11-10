@@ -1,0 +1,113 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "ablation_seeds": [
+    0,
+    1,
+    2
+  ],
+  "dataset_seed": 2026,
+  "dataset_episodes": 10000,
+  "max_episode_steps": 100,
+  "behavior": "clinician",
+  "gamma": 1.0,
+  "batch_size": 256,
+  "hidden_dim": 256,
+  "lr": 0.0003,
+  "weight_decay": 1e-05,
+  "grad_clip": 10.0,
+  "target_tau": 0.005,
+  "log_every": 500,
+  "diag_every": 5000,
+  "resume_every": 5000,
+  "tab_cql_steps": 25000,
+  "tab_cql_lr": 0.003,
+  "tab_cql_alpha": 1.0,
+  "iql_steps": 25000,
+  "iql_lr": 0.003,
+  "iql_expectile": 0.7,
+  "iql_beta": 3.0,
+  "iql_max_weight": 100.0,
+  "bcq_steps": 25000,
+  "bcq_lr": 0.003,
+  "bcq_threshold": 0.3,
+  "deep_steps": 30000,
+  "cql_alpha": 1.0,
+  "cql_temperature": 1.0,
+  "soft_initial_lambda": 1.0,
+  "soft_dual_lr": 0.01,
+  "soft_target_inadmissible_mass": 0.0,
+  "soft_lambda_max": 100.0,
+  "soft_policy_temperature": 1.0,
+  "diffusion_steps": 20000,
+  "diffusion_lr": 0.0003,
+  "diffusion_T": 20,
+  "diffusion_beta_start": 0.02,
+  "diffusion_beta_end": 0.25,
+  "diffusion_action_embed_dim": 32,
+  "diffusion_time_embed_dim": 32,
+  "diffusion_guidance_scale": 1.5,
+  "diffusion_deterministic_policy": true,
+  "guidance_grid": [
+    0.0,
+    0.5,
+    1.5,
+    3.0
+  ],
+  "diffusion_T_grid": [
+    5,
+    50
+  ],
+  "policy_net_steps": 20000,
+  "policy_net_lr": 0.0003,
+  "aw_beta": 3.0,
+  "aw_max_weight": 100.0,
+  "bootstrap_samples": 10000,
+  "significance_alpha": 0.05,
+  "replication_dataset_seeds": [
+    2026,
+    2027,
+    2028,
+    2029,
+    2030,
+    2031,
+    2032,
+    2033
+  ],
+  "replication_train_seeds": [
+    0,
+    1
+  ],
+  "data_size_regimes": [
+    1000,
+    3000
+  ],
+  "behavior_mixtures": [
+    "clinician+uniform:0.25",
+    "clinician+uniform_admissible:0.25"
+  ],
+  "regime_train_seeds": [
+    0,
+    1,
+    2
+  ],
+  "regime_dataset_draws": 2,
+  "stress_seeds": [
+    0,
+    1,
+    2
+  ],
+  "mc_episodes": 10000,
+  "dev_fraction": 0.2,
+  "fresh_eval_dataset_seed": 3030
+}

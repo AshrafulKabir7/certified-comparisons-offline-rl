@@ -1,0 +1,148 @@
+{
+  "oracles": {
+    "mean_unconstrained": {
+      "iterations": 320,
+      "dp_value": 0.875141699608639,
+      "exact_return_of_greedy": 0.8751416996099325,
+      "abs_gap": 1.2935208459907699e-12,
+      "near_tie_live_states": 237,
+      "inadmissible_live_states_in_greedy": 0
+    },
+    "mean_constrained": {
+      "iterations": 320,
+      "dp_value": 0.8751416996086383,
+      "exact_return_of_greedy": 0.8751416996099325,
+      "abs_gap": 1.294186979805545e-12,
+      "near_tie_live_states": 0,
+      "inadmissible_live_states_in_greedy": 0
+    },
+    "terminate_unconstrained": {
+      "iterations": 320,
+      "dp_value": 0.8751416996086383,
+      "exact_return_of_greedy": 0.8751416996099325,
+      "abs_gap": 1.294186979805545e-12,
+      "near_tie_live_states": 0,
+      "inadmissible_live_states_in_greedy": 0
+    },
+    "mean_unconstrained_lowest_index_ties": {
+      "iterations": 320,
+      "dp_value": 0.875141699608639,
+      "exact_return_of_greedy": 0.8751416996099332,
+      "abs_gap": 1.294186979805545e-12,
+      "near_tie_live_states": 237,
+      "inadmissible_live_states_in_greedy": 117
+    },
+    "terminate_optimum_equals_constrained_optimum": true,
+    "mean_optimum_equals_constrained_optimum": true
+  },
+  "env_semantics": {
+    "terminate_pairs_tested": 40,
+    "terminate_all_consistent": true,
+    "mean_rule_rows": [
+      {
+        "state": 451,
+        "action": 2,
+        "max_abs_dev": 0.011643596169912118,
+        "within_bounds": true
+      },
+      {
+        "state": 477,
+        "action": 13,
+        "max_abs_dev": 0.007248322147650921,
+        "within_bounds": true
+      },
+      {
+        "state": 297,
+        "action": 8,
+        "max_abs_dev": 0.010145299145299061,
+        "within_bounds": true
+      },
+      {
+        "state": 450,
+        "action": 21,
+        "max_abs_dev": 0.007244019138756053,
+        "within_bounds": true
+      },
+      {
+        "state": 311,
+        "action": 4,
+        "max_abs_dev": 0.013604486600421573,
+        "within_bounds": true
+      }
+    ],
+    "mean_rule_all_within_bounds": true
+  },
+  "codec": {
+    "wrapper_found": true,
+    "action_space": "Discrete(25)",
+    "all_25_actions_consistent": true,
+    "convention": "flat = levels * fluid_level + vasopressor_level (fluid-major)"
+  },
+  "evaluator_toy_tests": {
+    "mean_return_error": 5.551115123125783e-17,
+    "mean_length_error": 4.440892098500626e-16,
+    "terminate_return_error": 5.551115123125783e-17,
+    "prob_any_violation_error_mean_rule": 5.551115123125783e-17,
+    "prob_any_violation_error_terminate_rule": 5.551115123125783e-17,
+    "projected_equals_original_mean_rule": 0.0,
+    "projected_equal_across_rules": 0.0,
+    "projected_violations": 0.0,
+    "closed_form_mean_return": 0.4829931972789115,
+    "closed_form_terminate_return": 0.2659176029962547,
+    "improper_policy_rejected": true,
+    "malformed_nan_rejected": true,
+    "malformed_nan_opt_in_repair_report": {
+      "nonfinite_entries": 1,
+      "negative_entries": 0,
+      "empty_rows_replaced": 0
+    },
+    "malformed_negative_rejected": true,
+    "malformed_negative_opt_in_repair_report": {
+      "nonfinite_entries": 0,
+      "negative_entries": 1,
+      "empty_rows_replaced": 0
+    },
+    "malformed_empty_row_rejected": true,
+    "malformed_empty_row_opt_in_repair_report": {
+      "nonfinite_entries": 0,
+      "negative_entries": 0,
+      "empty_rows_replaced": 1
+    }
+  },
+  "policy_replay": {
+    "file_round_trip_rows": 2068,
+    "all_file_hashes_match": true,
+    "max_abs_discrepancy": 0.0,
+    "cross_session_rows": 0,
+    "cross_session_policy_hash_mismatches": null,
+    "cross_session_max_abs_diff": null,
+    "cross_session_ok": null,
+    "force_retrain": false,
+    "checkpoint_replays": 60,
+    "min_action_agreement": 1.0
+  },
+  "projection_identity_verified": true,
+  "mean_rule_identity": {
+    "inadmissible_live_pairs": 15587,
+    "max_abs_dev_inadmissible_row_vs_mean_admissible_rows": 7.216449660063518e-16,
+    "max_abs_dev_expected_reward": 5.273559366969494e-16,
+    "reward_depends_only_on_destination_state": false,
+    "reward_values": [
+      0.0,
+      1.0
+    ],
+    "rewarding_destinations": [
+      714
+    ],
+    "benchmark_metadata": {
+      "n_states": 750,
+      "n_actions": 25,
+      "r_survive": 1.0,
+      "r_death": 0.0,
+      "threshold": 20,
+      "seed": 0,
+      "action_map_method": "uniform_unweighted"
+    },
+    "identity_holds_to_1e-12": true
+  }
+}
