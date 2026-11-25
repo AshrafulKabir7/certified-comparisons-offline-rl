@@ -124,4 +124,4 @@ the corrected cross-check (App. G.1, Table 16) come from the final run.
 - **Python stack:** NumPy, pandas, SciPy, Matplotlib and PyTorch. Exact versions are in
   `results/release_metadata/environment_lock.txt` and `runtime.json`.
 
-A licence for this code has not been chosen yet; please contact the authors before reusing it.
+The code and results in this repository are released under the MIT License (see `LICENSE`). The external assets above keep their own licences.
